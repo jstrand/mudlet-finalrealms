@@ -260,9 +260,11 @@ end
 				<regexCodeList>
 					<string>^.* dealt the death blow to (.*).$</string>
 					<string>^.* dies\.$</string>
+					<string>^.* dies, and </string>
 				</regexCodeList>
 				<regexCodePropertyList>
 					<integer>0</integer>
+					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
@@ -326,7 +328,8 @@ local splitted = string.split(comma_separated, ",")
 for i = 1,#splitted do
 	addFight(splitted[i]:trim())
 end
-</script>
+
+display(fighting)</script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
 				<mStayOpen>0</mStayOpen>
@@ -380,7 +383,8 @@ end
 			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>No targets</name>
-				<script>visitRoom()
+				<script>fighting = 0
+visitRoom()
 stepXp()</script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
@@ -1277,6 +1281,50 @@ autoProtect()
 						<integer>0</integer>
 					</regexCodePropertyList>
 				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Song begins</name>
+					<script>singing = true
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>You begin to play the</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>0</integer>
+					</regexCodePropertyList>
+				</Trigger>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>Song ends</name>
+					<script>singing = false
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>Your song ends.</string>
+						<string>You stop singing.</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>3</integer>
+						<integer>3</integer>
+					</regexCodePropertyList>
+				</Trigger>
 			</TriggerGroup>
 			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Vanguard</name>
@@ -1346,7 +1394,7 @@ checkGuildPoints()
 			<command></command>
 			<packageName></packageName>
 			<time>00:00:00.000</time>
-			<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 				<name>MarkRooms</name>
 				<script>highlightRepopped()
 </script>
@@ -1366,6 +1414,16 @@ checkGuildPoints()
 		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 			<name>score</name>
 			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<time>00:01:00.000</time>
+		</Timer>
+		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<name>Singing</name>
+			<script>if not singing and auto_cast and gp &gt; 10 then
+  send("play")
+end
+</script>
 			<command></command>
 			<packageName></packageName>
 			<time>00:01:00.000</time>
@@ -1918,7 +1976,7 @@ echo("Auto buff: " .. tostring(auto_buff) .. ", blessed now: " .. tostring(bless
 				<name>test</name>
 				<packageName></packageName>
 				<script>for id,name in pairs(getRooms()) do
-  if string.match(name, "asdf") then
+  if string.match(name, "Peaceful Trail") then
     print(id, name)
   end
 end
