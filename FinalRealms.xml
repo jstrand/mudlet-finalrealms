@@ -584,6 +584,10 @@ updateGauges()
 
 checkHealth()
 --checkGuildPoints()
+
+if xp_helper or xp_health_pause then
+  send("party report")
+end
 </script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
@@ -1397,7 +1401,7 @@ checkGuildPoints()
 			<command></command>
 			<packageName></packageName>
 			<time>00:00:00.000</time>
-			<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 				<name>MarkRooms</name>
 				<script>highlightRepopped()
 </script>
@@ -1418,8 +1422,9 @@ checkGuildPoints()
 			<name>score</name>
 			<script>auto_cast = auto_cast or false
 xp_helper = xp_helper or false
+xp_health_pause = xp_health_pause or false
 
-if auto_cast or xp_helper then
+if auto_cast or xp_helper or xp_health_pause then
   send("sc")
 end
 </script>
@@ -1436,6 +1441,14 @@ end
 			<command></command>
 			<packageName></packageName>
 			<time>00:01:00.000</time>
+		</Timer>
+		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<name>Auto buff</name>
+			<script>autoBuff()
+</script>
+			<command></command>
+			<packageName></packageName>
+			<time>00:00:10.000</time>
 		</Timer>
 	</TimerPackage>
 	<AliasPackage>
@@ -2032,6 +2045,9 @@ auto_bless = auto_bless or false
 prayer = prayer or false
 auto_prayer = auto_prayer or false
 
+rainbow = rainbow or false
+auto_rainbow = auto_rainbow or false
+
 function autoBuffTaniwha()
 	if not blessing and auto_bless then
 		send("cast bless at me")
@@ -2039,7 +2055,11 @@ function autoBuffTaniwha()
 	elseif not prayer and auto_prayer then
 		send("cast prayer at me")
     return true
-	end
+	elseif not rainbow and auto_rainbow then
+    cast_rainbow()
+    return true
+  end
+  
   return false
 end
 
@@ -2113,6 +2133,12 @@ function prayer_click()
   refreshButtons()
 end
 
+function rainbow_buff_click()
+  auto_rainbow = not auto_rainbow
+  autoBuff()
+  refreshButtons()
+end
+
 function setupTaniwhaAbilityButtons()
 
 	ab_container = Geyser.Container:new({
@@ -2143,13 +2169,25 @@ function setupTaniwhaAbilityButtons()
 		x = button_width, y = 2*button_height, width = button_width, height = button_height
 	}, top_container)
 	prayer_label:setClickCallback("prayer_click")
+  
+  rainbow_buff_label = Geyser.Label:new({
+		name = "rainbow_buff_label",
+		message = [[&lt;p style="font-size:14pt"&gt;Rainbow&lt;/p&gt;]],
+		x = button_width, y = 3*button_height, width = button_width, height = button_height
+	}, top_container)
+	rainbow_buff_label:setClickCallback("rainbow_buff_click")
 
 	refreshButtons()
 end
 
 function refreshTaniwhaButtons()
+  if not bless_label then
+    return
+  end
+  
 	updateStyleWithTrying(bless_label, blessing, auto_bless)
 	updateStyleWithTrying(prayer_label, prayer, auto_prayer)
+  updateStyleWithTrying(rainbow_buff_label, rainbow, auto_rainbow)
   
 	updateStyle(rainbow_label, rainbow)
 	updateStyle(courage_label, courage)
@@ -2472,6 +2510,7 @@ function setupAbilityButtons()
   if is_taniwha then
     setupTaniwhaAbilityButtons()
   end
+  refreshButtons()
 end
 
 function addAbilityButton(name, count, label, callback)
@@ -2557,10 +2596,6 @@ function refreshButtons()
 end
 
 function updateStyleWithTrying(label, active, trying)
-  if not label then
-    return
-  end
-
   local style = neutral_style
   if active and not trying then
     style = active_not_trying_style
@@ -2626,11 +2661,7 @@ end
 		<Script isActive="yes" isFolder="no">
 			<name>SetupGuild</name>
 			<packageName></packageName>
-			<script>is_bard = false
-is_taniwha = false
-is_vanguard = false
-
-function setupGuild(guild_name)
+			<script>function setupGuild(guild_name)
   is_bard = guild_name == "Bard"
   is_taniwha = guild_name == "Priest of Taniwha"
   is_vanguard = guild_name == "Vanguard"
@@ -2664,7 +2695,7 @@ end
 		<Script isActive="yes" isFolder="no">
 			<name>AutoCast</name>
 			<packageName></packageName>
-			<script>-- Set in guild-specific to adjust2
+			<script>-- Set in guild-specific to adjust
 cast_cooldown = 5
 gp_needed = 0.2
 multi_limit = 3
@@ -2730,6 +2761,7 @@ end
 			<script>buff_gp_limit = 0.2
 
 function autoBuff()
+  --display("checking auto buff")
   local casting_buff = false
   
 	if gp &gt;= max_gp*buff_gp_limit then
@@ -2737,26 +2769,12 @@ function autoBuff()
       casting_buff = autoBuffTaniwha()
     end
 	end
-
-	if buff_timer then
-		killTimer(buff_timer)
-	end
-
-	buff_timer = tempTimer(10, autoBuff)
+ 
+  refreshButtons()
   
   return casting_buff
 end
-
-function toggleAutoBuff()
-	auto_buff = not auto_buff
-	if auto_buff then
-		autoBuff()
-	elseif buff_timer then
-		killTimer(buff_timer)
-	end
-
-	refreshButtons()
-end</script>
+</script>
 			<eventHandlerList />
 		</Script>
 		<ScriptGroup isActive="yes" isFolder="yes">
@@ -3023,7 +3041,7 @@ end
 			<name>XP</name>
 			<packageName></packageName>
 			<script>
-assault_spending = 35
+assault_spending = 36
 flee_limit = 0.6
 health_limit_percent = 0.8
 heal_limit_percent = 0.65
