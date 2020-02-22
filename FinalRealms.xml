@@ -341,9 +341,11 @@ display(fighting)</script>
 				<colorTriggerFgColor>#000000</colorTriggerFgColor>
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList>
-					<string>^[ &gt;]*You lead your party into battle against an? (.*)\.$</string>
+					<string>^[ &gt;]*You lead your party into battle against (.*)\.$</string>
+					<string>.* leads h.. party consisting .* you into battle against (.*)\.$</string>
 				</regexCodeList>
 				<regexCodePropertyList>
+					<integer>1</integer>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
@@ -486,8 +488,9 @@ tempTimer(60, Setup)
 			<regexCodePropertyList />
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Guild</name>
-				<script>--Priest of Taniwha
-guild_name = matches[2]
+				<script>--For example "Priest of Taniwha"
+local guild_name = matches[2]
+setupGuild(guild_name)
 </script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
@@ -500,7 +503,7 @@ guild_name = matches[2]
 				<colorTriggerFgColor>#000000</colorTriggerFgColor>
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList>
-					<string>^Guild         : (.*)</string>
+					<string>^Guild         : (.*?)  </string>
 				</regexCodeList>
 				<regexCodePropertyList>
 					<integer>1</integer>
@@ -1394,7 +1397,7 @@ checkGuildPoints()
 			<command></command>
 			<packageName></packageName>
 			<time>00:00:00.000</time>
-			<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 				<name>MarkRooms</name>
 				<script>highlightRepopped()
 </script>
@@ -1413,14 +1416,20 @@ checkGuildPoints()
 		</Timer>
 		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 			<name>score</name>
-			<script></script>
+			<script>auto_cast = auto_cast or false
+xp_helper = xp_helper or false
+
+if auto_cast or xp_helper then
+  send("sc")
+end
+</script>
 			<command></command>
 			<packageName></packageName>
 			<time>00:01:00.000</time>
 		</Timer>
 		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 			<name>Singing</name>
-			<script>if not singing and auto_cast and gp &gt; 10 then
+			<script>if not singing and auto_cast and is_bard and gp &gt; 10 then
   send("play")
 end
 </script>
@@ -2018,43 +2027,20 @@ end
 					<name>Buff</name>
 					<packageName></packageName>
 					<script>blessing = blessing or false
+auto_bless = auto_bless or false
+
 prayer = prayer or false
+auto_prayer = auto_prayer or false
 
-buff_gp_limit = 30
-
-function autoBuff()
-	if not auto_buff then
-		return
+function autoBuffTaniwha()
+	if not blessing and auto_bless then
+		send("cast bless at me")
+    return true
+	elseif not prayer and auto_prayer then
+		send("cast prayer at me")
+    return true
 	end
-
-	if gp &gt;= buff_gp_limit then
-		if not blessing then
-			send("cast bless at me")
-		elseif not prayer then
-			send("cast prayer at me")
-		end
-	end
-
-	if buff_timer then
-		killTimer(buff_timer)
-	end
-
-	if not blessing or not prayer then
-		buff_timer = tempTimer(10, autoBuff)
-	else
-		buff_timer = nil
-	end
-end
-
-function toggleAutoBuff()
-	auto_buff = not auto_buff
-	if auto_buff then
-		autoBuff()
-	elseif buff_timer then
-		killTimer(buff_timer)
-	end
-
-	refreshButtons()
+  return false
 end
 
 function cast_rainbow()
@@ -2078,65 +2064,7 @@ end
 				<Script isActive="yes" isFolder="no">
 					<name>AutoCast</name>
 					<packageName></packageName>
-					<script>cast_cooldown = 20
-sc_cooldown = 60
-gp_needed = 0.8
-
-function autoCastOff()
-	if auto_cast then
-		auto_cast = false
-		if cast_timer then
-			killTimer(cast_timer)
-		end
-	end
-end
-
-function autoCastOn()
-	auto_cast = true
-	autoCast()
-end
-
-function autoCast()
-	if not auto_cast then
-		return
-	end
-
-	fighting = fighting or 0
-	gp = gp or 0
-
-	if gp &gt;= max_gp*gp_needed then
-
-		if fighting == 0 then -- not fighting anyone
-	--		echo("Not fighting")
-		elseif not rainbow then
-			send("ra")
---		elseif fighting &lt; 4 then
---			send("xp1")
-		else
---			send("xp1")
-		end
-	end
-
-	if cast_timer then
-		killTimer(cast_timer)
-	end
-	cast_timer = tempTimer(cast_cooldown, autoCast)
-end
-
-
-function autoCastScore()
-	if not auto_cast or true then
-		return
-	end
-
-	send("sc")
-
-	if sc_timer then
-		killTimer(sc_timer)
-	end
-	sc_timer = tempTimer(sc_cooldown, autoCastScore)
-end
-</script>
+					<script></script>
 					<eventHandlerList />
 				</Script>
 				<Script isActive="yes" isFolder="no">
@@ -2165,6 +2093,67 @@ end
 function thorncloud()
 	send("cast thorn cloud at marked")
 	thorncloud_label:flash()
+end
+
+</script>
+					<eventHandlerList />
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>Buttons</name>
+					<packageName></packageName>
+					<script>function bless_click()
+  auto_bless = not auto_bless
+  autoBuff()
+  refreshButtons()
+end
+
+function prayer_click()
+  auto_prayer = not auto_prayer
+  autoBuff()
+  refreshButtons()
+end
+
+function setupTaniwhaAbilityButtons()
+
+	ab_container = Geyser.Container:new({
+	  name = "ab_container",
+	  x="60%", y="-250px",
+	  width = "100%", height="100%",
+	})
+
+	curse_label = addAbilityButton("f1", 0, "F1. Curse", "curse")
+	chant_label = addAbilityButton("f2", 1, "F2. Chant", "chant")
+	flamestrike_label = addAbilityButton("f3", 2, "F3. Flamestrike", "flamestrike")
+	thorncloud_label = addAbilityButton("f4", 3, "F4. Thorn cloud", "thorncloud")
+	rainbow_label = addAbilityButton("f5", 4, "F5. Rainbow", "cast_rainbow")
+	courage_label = addAbilityButton("f6", 5, "F6. Courage", "cast courage")
+	sanctuary_label = addAbilityButton("f7", 6, "F7. Sanctuary", "cast_sanctuary")
+  
+  -- Auto buff buttons
+  bless_label = Geyser.Label:new({
+		name = "bless_label",
+		message = [[&lt;p style="font-size:14pt"&gt;Blessed&lt;/p&gt;]],
+		x = button_width, y = button_height, width = button_width, height = button_height
+	}, top_container)
+	bless_label:setClickCallback("bless_click")
+
+	prayer_label = Geyser.Label:new({
+		name = "prayer_label",
+		message = [[&lt;p style="font-size:14pt"&gt;Prayer&lt;/p&gt;]],
+		x = button_width, y = 2*button_height, width = button_width, height = button_height
+	}, top_container)
+	prayer_label:setClickCallback("prayer_click")
+
+	refreshButtons()
+end
+
+function refreshTaniwhaButtons()
+	updateStyleWithTrying(bless_label, blessing, auto_bless)
+	updateStyleWithTrying(prayer_label, prayer, auto_prayer)
+  
+	updateStyle(rainbow_label, rainbow)
+	updateStyle(courage_label, courage)
+	updateStyle(sanctuary_label, sanctuary)
 end
 
 </script>
@@ -2390,6 +2379,9 @@ end
 
 
 function updateGauges()
+  hp = hp or 1
+  gp = gp or 1
+  xp = xp or 1
 	max_hp = max_hp or 1
 	max_gp = max_gp or 1
 	max_xp = max_xp or 1
@@ -2434,16 +2426,16 @@ end
 			<Script isActive="yes" isFolder="no">
 				<name>Buttons</name>
 				<packageName></packageName>
-				<script>function setupButtons()
+				<script>button_width = 120
+button_height = 30
+
+function setupButtons()
 	top_container = Geyser.Container:new({
 	  name = "top_container",
 	  x="45%", y="4px",
 	  width = "100%", height="100%",
 	})
 --	top_container:flash()
-
-	local button_width = 120
-	local button_height = 30
 
 	auto_xp_label = Geyser.Label:new({
 		name = "auto_xp_label",
@@ -2459,7 +2451,6 @@ end
 	}, top_container)
 	select_xp_label:setClickCallback("select_xp_click")
 
-
 	auto_buff_label = Geyser.Label:new({
 		name = "auto_buff_label",
 		message = [[&lt;p style="font-size:14pt"&gt;Auto-Buff&lt;/p&gt;]],
@@ -2467,48 +2458,20 @@ end
 	}, top_container)
 	auto_buff_label:setClickCallback("auto_buff_click")
 
-	bless_label = Geyser.Label:new({
-		name = "bless_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Blessed&lt;/p&gt;]],
-		x = button_width, y = button_height, width = button_width, height = button_height
-	}, top_container)
-	bless_label:setClickCallback("bless_click")
-
-	prayer_label = Geyser.Label:new({
-		name = "prayer_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Prayer&lt;/p&gt;]],
-		x = button_width, y = 2*button_height, width = button_width, height = button_height
-	}, top_container)
-	prayer_label:setClickCallback("prayer_click")
-
 	auto_cast_label = Geyser.Label:new({
 		name = "auto_cast_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Auto-Cast&lt;/p&gt;]],
+		message = [[&lt;p style="font-size:14pt"&gt;Auto-Offense&lt;/p&gt;]],
 		x = 2*button_width, y = 0, width = button_width, height = button_height
 	}, top_container)
 	auto_cast_label:setClickCallback("auto_cast_click")
-
 
 	refreshButtons()
 end
 
 function setupAbilityButtons()
-
-	ab_container = Geyser.Container:new({
-	  name = "ab_container",
-	  x="60%", y="-250px",
-	  width = "100%", height="100%",
-	})
-
-	curse_label = addAbilityButton("f1", 0, "F1. Curse", "curse")
-	chant_label = addAbilityButton("f2", 1, "F2. Chant", "chant")
-	flamestrike_label = addAbilityButton("f3", 2, "F3. Flamestrike", "flamestrike")
-	thorncloud_label = addAbilityButton("f4", 3, "F4. Thorn cloud", "thorncloud")
-	rainbow_label = addAbilityButton("f5", 4, "F5. Rainbow", "cast_rainbow")
-	courage_label = addAbilityButton("f6", 5, "F6. Courage", "cast courage")
-	sanctuary_label = addAbilityButton("f7", 6, "F7. Sanctuary", "cast_sanctuary")
-
-	refreshButtons()
+  if is_taniwha then
+    setupTaniwhaAbilityButtons()
+  end
 end
 
 function addAbilityButton(name, count, label, callback)
@@ -2544,14 +2507,30 @@ end
 		margin: 2px 0 0 2px;
 		border-radius: 4px;
 	]]
-
+  
 	paused_style = [[
 		background-color: GoldenRod;
 		padding: 2px;
 		margin: 2px 0 0 2px;
 		border-radius: 4px;
 	]]
-
+  
+  inactive_trying_style = [[
+		background-color: grey;
+		padding: 0px;
+		margin: 2px 0 0 2px;
+    border: 2px solid green;
+		border-radius: 4px;
+	]]
+   
+  active_not_trying_style = [[
+		background-color: green;
+		padding: 0px;
+		margin: 2px 0 0 2px;
+    border: 2px solid grey;
+		border-radius: 4px;
+	]]
+  
 function refreshButtons()
 
 	local select_xp_style = neutral_style
@@ -2569,14 +2548,29 @@ function refreshButtons()
 	auto_xp_label:setStyleSheet(xp_style)
 
 	updateStyle(auto_buff_label, auto_buff)
-	updateStyle(bless_label, blessing)
-	updateStyle(prayer_label, prayer)
 	updateStyle(auto_cast_label, auto_cast)
+ 
+  if is_taniwha then
+    refreshTaniwhaButtons()
+  end
 
-	updateStyle(rainbow_label, rainbow)
-	updateStyle(courage_label, courage)
-	updateStyle(sanctuary_label, sanctuary)
+end
 
+function updateStyleWithTrying(label, active, trying)
+  if not label then
+    return
+  end
+
+  local style = neutral_style
+  if active and not trying then
+    style = active_not_trying_style
+  elseif not active and trying then
+    style = inactive_trying_style
+  elseif active then
+    style = active_style
+  end
+  
+  label:setStyleSheet(style)
 end
 
 function updateStyle(label, cond)
@@ -2596,10 +2590,6 @@ end
 
 function auto_buff_click()
 	toggleAutoBuff()
-end
-
-function bless_click()
-	send("cast bless at me")
 end
 
 function select_xp_click()
@@ -2627,13 +2617,29 @@ end
 			<packageName></packageName>
 			<script>function Setup()
 	xp_stats = XpStats()
-	setupButtons()
-	--setupAbilityButtons()
 end
 </script>
 			<eventHandlerList>
 				<string>sysLoadEvent</string>
 			</eventHandlerList>
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>SetupGuild</name>
+			<packageName></packageName>
+			<script>is_bard = false
+is_taniwha = false
+is_vanguard = false
+
+function setupGuild(guild_name)
+  is_bard = guild_name == "Bard"
+  is_taniwha = guild_name == "Priest of Taniwha"
+  is_vanguard = guild_name == "Vanguard"
+
+  setupButtons()
+  setupAbilityButtons()
+end
+</script>
+			<eventHandlerList />
 		</Script>
 		<Script isActive="yes" isFolder="no">
 			<name>Locations</name>
@@ -2653,6 +2659,104 @@ function showLocations()
 	display(locations)
 end
 </script>
+			<eventHandlerList />
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>AutoCast</name>
+			<packageName></packageName>
+			<script>-- Set in guild-specific to adjust2
+cast_cooldown = 5
+gp_needed = 0.2
+multi_limit = 3
+
+function castOnSingle()
+  send("xp1")
+end
+
+function castOnMultiple()
+  send("xp2")
+end
+
+function castBuff()
+  return false
+end
+
+function autoCastOff()
+	if auto_cast then
+		auto_cast = false
+		if cast_timer then
+			killTimer(cast_timer)
+		end
+	end
+end
+
+function autoCastOn()
+	auto_cast = true
+	autoCast()
+end
+
+function autoCast()
+	if cast_timer then
+		killTimer(cast_timer)
+	end
+
+	if not auto_cast then
+		return
+	end
+
+	fighting = fighting or 0
+	gp = gp or 0
+  
+  -- Cast buff to refresh buffs, and don't do offensive at the same time
+	if not castBuff() and gp &gt;= max_gp*gp_needed then
+
+		if fighting == 0 then -- not fighting anyone
+			--echo("Not fighting")
+		elseif fighting &gt;= multi_limit then
+			castOnMultiple()
+		else
+      castOnSingle()
+		end
+	end
+
+	cast_timer = tempTimer(cast_cooldown, autoCast)
+end
+</script>
+			<eventHandlerList />
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>AutoBuff</name>
+			<packageName></packageName>
+			<script>buff_gp_limit = 0.2
+
+function autoBuff()
+  local casting_buff = false
+  
+	if gp &gt;= max_gp*buff_gp_limit then
+    if is_taniwha then
+      casting_buff = autoBuffTaniwha()
+    end
+	end
+
+	if buff_timer then
+		killTimer(buff_timer)
+	end
+
+	buff_timer = tempTimer(10, autoBuff)
+  
+  return casting_buff
+end
+
+function toggleAutoBuff()
+	auto_buff = not auto_buff
+	if auto_buff then
+		autoBuff()
+	elseif buff_timer then
+		killTimer(buff_timer)
+	end
+
+	refreshButtons()
+end</script>
 			<eventHandlerList />
 		</Script>
 		<ScriptGroup isActive="yes" isFolder="yes">
@@ -2919,7 +3023,7 @@ end
 			<name>XP</name>
 			<packageName></packageName>
 			<script>
-assault_spending = 34
+assault_spending = 35
 flee_limit = 0.6
 health_limit_percent = 0.8
 heal_limit_percent = 0.65
@@ -2929,7 +3033,7 @@ repop_delta = 600
 fleeing = fleeing or false
 
 --xp_goal = max_xp*1.3
-xp_goal=1000000
+xp_goal=2000000
 function goalReached()
 	return xp &gt;= xp_goal
 end
@@ -3020,10 +3124,6 @@ function startAssaulting()
 end
 
 function addFight(with)
-	if not xp_helper then
-		return
-	end
-
 	if fighting == nil then
 		fighting = 0
 	end
@@ -3044,23 +3144,20 @@ function addFight(with)
 end
 
 function removeFight(with)
-	if not xp_helper and not xp_health_pause and not xp_gp_pause then
-		return
-	end
-
 	if fighting ~= nil and fighting &gt; 0 then
 		fighting = fighting -1
 	else
 		fighting = 0
 	end
 
+	if not xp_helper and not xp_health_pause and not xp_gp_pause then
+		return
+	end
+
 	if fighting == 0 then
---		visitRoom()
 		send("loot_bury")
---		stepXp()
 		send("xpk")
 	end
-		
 end
 
 xp_area = xp_area or {}
@@ -3503,6 +3600,11 @@ end
 				<name>HighlightRepopped</name>
 				<packageName></packageName>
 				<script>function highlightRepopped()
+  local valid = xp_visit_time or false
+  if not valid then
+    return
+  end
+  
 	local r,g,b = unpack(color_table.green)
 	local br,bg,bb = unpack(color_table.yellow)
 
