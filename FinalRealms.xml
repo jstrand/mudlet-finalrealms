@@ -1403,7 +1403,7 @@ checkGuildPoints()
 			<command></command>
 			<packageName></packageName>
 			<time>00:00:00.000</time>
-			<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 				<name>MarkRooms</name>
 				<script>highlightRepopped()
 </script>
@@ -1878,83 +1878,10 @@ centerview(current_room)</script>
 				<buttonRotation>0</buttonRotation>
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
-			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="yes" useCustomLayout="no">
-				<name>Select XP area</name>
-				<packageName></packageName>
-				<script>listXpAreas()
-clearCmdLine()
-appendCmdLine("select_xp_area ")
-</script>
-				<css></css>
-				<commandButtonUp></commandButtonUp>
-				<commandButtonDown></commandButtonDown>
-				<icon></icon>
-				<orientation>1</orientation>
-				<location>0</location>
-				<posX>0</posX>
-				<posY>0</posY>
-				<mButtonState>1</mButtonState>
-				<sizeX>106</sizeX>
-				<sizeY>6</sizeY>
-				<buttonColumn>1</buttonColumn>
-				<buttonRotation>0</buttonRotation>
-				<buttonColor>#ffffff</buttonColor>
-			</Action>
 			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Auto xp</name>
+				<name>Load map</name>
 				<packageName></packageName>
-				<script>toggleXp()
-</script>
-				<css></css>
-				<commandButtonUp></commandButtonUp>
-				<commandButtonDown></commandButtonDown>
-				<icon></icon>
-				<orientation>1</orientation>
-				<location>0</location>
-				<posX>0</posX>
-				<posY>0</posY>
-				<mButtonState>1</mButtonState>
-				<sizeX>0</sizeX>
-				<sizeY>0</sizeY>
-				<buttonColumn>1</buttonColumn>
-				<buttonRotation>0</buttonRotation>
-				<buttonColor>#ffffff</buttonColor>
-			</Action>
-			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="yes" useCustomLayout="no">
-				<name>Auto cast</name>
-				<packageName></packageName>
-				<script>if auto_cast then
-	autoCastOff()
-else
-	autoCastOn()
-end
-
---autoCastScore()
-
-echo("Auto cast: " .. tostring(auto_cast))
-</script>
-				<css></css>
-				<commandButtonUp></commandButtonUp>
-				<commandButtonDown></commandButtonDown>
-				<icon></icon>
-				<orientation>1</orientation>
-				<location>0</location>
-				<posX>0</posX>
-				<posY>0</posY>
-				<mButtonState>1</mButtonState>
-				<sizeX>3211312</sizeX>
-				<sizeY>3145776</sizeY>
-				<buttonColumn>1</buttonColumn>
-				<buttonRotation>0</buttonRotation>
-				<buttonColor>#ffffff</buttonColor>
-			</Action>
-			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Auto protection</name>
-				<packageName></packageName>
-				<script>auto_protection = not auto_protection
-autoProtect()
-
-echo("Auto protection: " .. tostring(auto_protection) .. ", protected now: " .. tostring(protection) .. "\n")
+				<script>loadFinalRealmsMap()
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -1972,36 +1899,9 @@ echo("Auto protection: " .. tostring(auto_protection) .. ", protected now: " .. 
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
 			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Auto buff</name>
+				<name>Save map</name>
 				<packageName></packageName>
-				<script>auto_buff = not auto_buff
-autoBuff()
-
-echo("Auto buff: " .. tostring(auto_buff) .. ", blessed now: " .. tostring(blessing) .. ", prayer now: " .. tostring(prayer) .. "\n")
-</script>
-				<css></css>
-				<commandButtonUp></commandButtonUp>
-				<commandButtonDown></commandButtonDown>
-				<icon></icon>
-				<orientation>1</orientation>
-				<location>0</location>
-				<posX>0</posX>
-				<posY>0</posY>
-				<mButtonState>1</mButtonState>
-				<sizeX>1988100096</sizeX>
-				<sizeY>-65482</sizeY>
-				<buttonColumn>1</buttonColumn>
-				<buttonRotation>0</buttonRotation>
-				<buttonColor>#ffffff</buttonColor>
-			</Action>
-			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>test</name>
-				<packageName></packageName>
-				<script>for id,name in pairs(getRooms()) do
-  if string.match(name, "Peaceful Trail") then
-    print(id, name)
-  end
-end
+				<script>saveFinalRealmsMap()
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -3027,6 +2927,44 @@ end
 				<eventHandlerList>
 					<string>nudge</string>
 				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>LoadSaveMap</name>
+				<packageName></packageName>
+				<script>
+function getModuleLocation()
+  local moduleFilePath = getModulePath("FinalRealms")
+  local modulePath = string.match(moduleFilePath, "(.*)FinalRealms.xml$")
+  return modulePath
+end
+
+function getFinalRealmsMapPath()
+  return getModuleLocation() .. "map.dat"
+end
+
+function loadFinalRealmsMap()
+  local mapPath = getFinalRealmsMapPath()
+
+  echo("Loading map from " .. mapPath .. "\n")
+  if loadMap(mapPath) then
+    echo("OK" .. "\n")
+  else
+    echo("Failed!" .. "\n")
+  end
+end
+
+function saveFinalRealmsMap()
+  local mapPath = getFinalRealmsMapPath()
+
+  echo("Saving map to " .. mapPath .. "\n")
+  if saveMap(mapPath) then
+    echo("OK" .. "\n")
+  else
+    echo("Failed!" .. "\n")
+  end
+end
+</script>
+				<eventHandlerList />
 			</Script>
 		</ScriptGroup>
 		<ScriptGroup isActive="yes" isFolder="yes">
