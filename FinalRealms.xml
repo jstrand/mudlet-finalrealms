@@ -1918,6 +1918,29 @@ centerview(current_room)</script>
 				<buttonRotation>0</buttonRotation>
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
+			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
+				<name>Lockout test</name>
+				<packageName></packageName>
+				<script>createGauge("lockout", 300, 20, 10, 10, nil, "white")
+setGaugeText("lockout", "&lt;p&gt;Lockout&lt;/p&gt;")
+
+setGauge("lockout", 200, 400)
+</script>
+				<css></css>
+				<commandButtonUp></commandButtonUp>
+				<commandButtonDown></commandButtonDown>
+				<icon></icon>
+				<orientation>1</orientation>
+				<location>0</location>
+				<posX>0</posX>
+				<posY>0</posY>
+				<mButtonState>1</mButtonState>
+				<sizeX>0</sizeX>
+				<sizeY>0</sizeY>
+				<buttonColumn>1</buttonColumn>
+				<buttonRotation>0</buttonRotation>
+				<buttonColor>#ffffff</buttonColor>
+			</Action>
 		</ActionGroup>
 	</ActionPackage>
 	<ScriptPackage>
@@ -2202,6 +2225,10 @@ end
 				<name>Gauges</name>
 				<packageName></packageName>
 				<script>function setupGauges()
+  
+  createGauge("lockout", 300, 20, 10, 10, nil, "white")
+  setGaugeText("lockout", "&lt;p&gt;Lockout&lt;/p&gt;")
+
 	setBorderBottom(30)
 	bottom_container = Geyser.HBox:new({
 	  name = "bottom_container",
@@ -2316,6 +2343,8 @@ function updateGauges()
 		rate = xp_stats.presentation() .. time_left
 	end
 	xpbar:setValue(cap(xp, xp_bar_max), xp_bar_max, "&lt;p style='font-size:12pt'&gt;&lt;b&gt;" .. (math.floor(xp/1000) or "?") .. "k XP ".. rate .. "&lt;/b&gt;&lt;/p&gt;")
+  
+  setGauge("lockout", lockout, max_lockout)
 end
 
 function cap(x, max)
@@ -2572,7 +2601,7 @@ end
 </script>
 			<eventHandlerList />
 		</Script>
-		<Script isActive="yes" isFolder="no">
+		<Script isActive="no" isFolder="no">
 			<name>AutoCast</name>
 			<packageName></packageName>
 			<script>-- Set in guild-specific to adjust
@@ -3656,14 +3685,25 @@ end
 			<script>-- Set in guild-specific to adjust
 gp_needed = 0.2
 multi_limit = 3
-lockout = 0
+lockout = lockout or 0
+max_lockout = max_lockout or 0
 
 function doCasts()
+  if lockout &gt; max_lockout then
+    max_lockout = lockout
+  end
+
   lockout = lockout - 1
 
   if lockout &gt; 0 then
+    updateGauges()
     return
+  elseif lockout &lt;= 0 then
+    lockout = 0
+    max_lockout = 0
   end
+  
+  updateGauges()
   
 	gp = gp or 0
   
@@ -3674,10 +3714,15 @@ function doCasts()
   local buffLockout = refreshBuffs()
   if buffLockout &gt; 0 then
     lockout = buffLockout
+    max_lockout = lockout
+    updateGauges()
     return
   end
   
   if not auto_cast then
+    lockout = 0
+    max_lockout = 0
+    updateGauges()
 		return
 	end
      
@@ -3692,6 +3737,9 @@ function doCasts()
     castOnSingle()
     lockout = 6
 	end
+  
+  max_lockout = lockout
+  updateGauges()
 end
 </script>
 			<eventHandlerList />
