@@ -1448,7 +1448,7 @@ end
 </script>
 			<command></command>
 			<packageName></packageName>
-			<time>00:00:01.000</time>
+			<time>00:00:00.100</time>
 		</Timer>
 	</TimerPackage>
 	<AliasPackage>
@@ -1918,29 +1918,6 @@ centerview(current_room)</script>
 				<buttonRotation>0</buttonRotation>
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
-			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Lockout test</name>
-				<packageName></packageName>
-				<script>createGauge("lockout", 300, 20, 10, 10, nil, "white")
-setGaugeText("lockout", "&lt;p&gt;Lockout&lt;/p&gt;")
-
-setGauge("lockout", 200, 400)
-</script>
-				<css></css>
-				<commandButtonUp></commandButtonUp>
-				<commandButtonDown></commandButtonDown>
-				<icon></icon>
-				<orientation>1</orientation>
-				<location>0</location>
-				<posX>0</posX>
-				<posY>0</posY>
-				<mButtonState>1</mButtonState>
-				<sizeX>0</sizeX>
-				<sizeY>0</sizeY>
-				<buttonColumn>1</buttonColumn>
-				<buttonRotation>0</buttonRotation>
-				<buttonColor>#ffffff</buttonColor>
-			</Action>
 		</ActionGroup>
 	</ActionPackage>
 	<ScriptPackage>
@@ -2225,10 +2202,6 @@ end
 				<name>Gauges</name>
 				<packageName></packageName>
 				<script>function setupGauges()
-  
-  createGauge("lockout", 300, 20, 10, 10, nil, "white")
-  setGaugeText("lockout", "&lt;p&gt;Lockout&lt;/p&gt;")
-
 	setBorderBottom(30)
 	bottom_container = Geyser.HBox:new({
 	  name = "bottom_container",
@@ -2236,84 +2209,114 @@ end
 	  width = "65%", height=30,
 	})
 
-hpbar = Geyser.Gauge:new({
-  name="hpbar",
-  x=5, y=0,
-  width="32%", height="100%",
-}, bottom_container)
-
-hpbar.front:setStyleSheet([[
-	 background-color: green;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-    border-bottom: 1px black solid;
-    border-radius: 4;
-    padding: 3px;
-    margin: 3px;
-]])
-hpbar.back:setStyleSheet([[
-    background-color: gray;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 4;
-    padding: 3px;
-    margin: 3px;
-]])
-
-gpbar = Geyser.Gauge:new({
-  name="gpbar",
-  x="32%", y=0,
-  width="32%", height="100%",
-}, bottom_container)
-
-gpbar.front:setStyleSheet([[
-	 background-color: red;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-    border-bottom: 1px black solid;
-    border-radius: 4;
-    padding: 3px;
-    margin: 3px;
-]])
-gpbar.back:setStyleSheet([[
-    background-color: gray;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 4;
-    padding: 3px;
-    margin: 3px;
-]])
-
-xpbar = Geyser.Gauge:new({
-  name="xpbar",
-  x="66%", y=0,
-  width="32%", height="100%",
-	fgColor="white"
-}, bottom_container)
-
-xpbar.front:setStyleSheet([[
-    background-color: blue;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-    border-bottom: 1px black solid;
-    border-radius: 4;
-    padding: 3px;
-    margin: 3px;
-]])
-
-xpbar.back:setStyleSheet([[
-    background-color: gray;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 4;
-    padding: 3px;
-    margin: 3px;
-]])
-
-updateGauges()
+  hpbar = Geyser.Gauge:new({
+    name="hpbar",
+    x=5, y=0,
+    width="32%", height="100%",
+  }, bottom_container)
+  
+  hpbar.front:setStyleSheet([[
+  	 background-color: green;
+      border-top: 1px black solid;
+      border-left: 1px black solid;
+      border-bottom: 1px black solid;
+      border-radius: 4;
+      padding: 3px;
+      margin: 3px;
+  ]])
+  hpbar.back:setStyleSheet([[
+      background-color: gray;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 4;
+      padding: 3px;
+      margin: 3px;
+  ]])
+  
+  gpbar = Geyser.Gauge:new({
+    name="gpbar",
+    x="32%", y=0,
+    width="32%", height="100%",
+  }, bottom_container)
+  
+  gpbar.front:setStyleSheet([[
+  	 background-color: red;
+      border-top: 1px black solid;
+      border-left: 1px black solid;
+      border-bottom: 1px black solid;
+      border-radius: 4;
+      padding: 3px;
+      margin: 3px;
+  ]])
+  gpbar.back:setStyleSheet([[
+      background-color: gray;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 4;
+      padding: 3px;
+      margin: 3px;
+  ]])
+  
+  xpbar = Geyser.Gauge:new({
+    name="xpbar",
+    x="66%", y=0,
+    width="32%", height="100%",
+  	fgColor="white"
+  }, bottom_container)
+  
+  xpbar.front:setStyleSheet([[
+      background-color: blue;
+      border-top: 1px black solid;
+      border-left: 1px black solid;
+      border-bottom: 1px black solid;
+      border-radius: 4;
+      padding: 3px;
+      margin: 3px;
+  ]])
+  
+  xpbar.back:setStyleSheet([[
+      background-color: gray;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 4;
+      padding: 3px;
+      margin: 3px;
+  ]])
+  
+  lockoutGauge = Geyser.Gauge:new({
+    name="lockoutGauge",
+    x="5", y="5",
+    width="200", height="20",
+  	fgColor="white"
+  })
+  
+  lockoutGauge.front:setStyleSheet([[
+      background-color: rgba(255, 255, 255, 128);
+      border-top: 1px black solid;
+      border-left: 1px black solid;
+      border-bottom: 1px black solid;
+      border-radius: 4;
+      padding: 10px;
+      margin: 3px;
+      opacity: 0.5;
+  ]])
+  
+  lockoutGauge.back:setStyleSheet([[
+      background-color: rgba(128,128,128, 128);
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+      border-radius: 4;
+      padding: 10px;
+      margin: 3px;
+      opacity: 0.5;
+  ]])
+  lockoutGauge:hide()
+  
+  updateGauges()
 end
 
 
@@ -2342,9 +2345,7 @@ function updateGauges()
 		end
 		rate = xp_stats.presentation() .. time_left
 	end
-	xpbar:setValue(cap(xp, xp_bar_max), xp_bar_max, "&lt;p style='font-size:12pt'&gt;&lt;b&gt;" .. (math.floor(xp/1000) or "?") .. "k XP ".. rate .. "&lt;/b&gt;&lt;/p&gt;")
-  
-  setGauge("lockout", lockout, max_lockout)
+	xpbar:setValue(cap(xp, xp_bar_max), xp_bar_max, "&lt;p style='font-size:12pt'&gt;&lt;b&gt;" .. (math.floor(xp/1000) or "?") .. "k XP ".. rate .. "&lt;/b&gt;&lt;/p&gt;") 
 end
 
 function cap(x, max)
@@ -2597,69 +2598,6 @@ mirkwood = 957
 
 function showLocations()
 	display(locations)
-end
-</script>
-			<eventHandlerList />
-		</Script>
-		<Script isActive="no" isFolder="no">
-			<name>AutoCast</name>
-			<packageName></packageName>
-			<script>-- Set in guild-specific to adjust
-cast_cooldown = 5
-gp_needed = 0.2
-multi_limit = 3
-
-function castOnSingle()
-  send("xp1")
-end
-
-function castOnMultiple()
-  send("xp2")
-end
-
-function castBuff()
-  return false
-end
-
-function autoCastOff()
-	if auto_cast then
-		auto_cast = false
-		if cast_timer then
-			killTimer(cast_timer)
-		end
-	end
-end
-
-function autoCastOn()
-	auto_cast = true
-	autoCast()
-end
-
-function autoCast()
-	if cast_timer then
-		killTimer(cast_timer)
-	end
-
-	if not auto_cast then
-		return
-	end
-
-	fighting = fighting or 0
-	gp = gp or 0
-  
-  -- Cast buff to refresh buffs, and don't do offensive at the same time
-	if not castBuff() and gp &gt;= max_gp*gp_needed then
-
-		if fighting == 0 then -- not fighting anyone
-			--echo("Not fighting")
-		elseif fighting &gt;= multi_limit then
-			castOnMultiple()
-		else
-      castOnSingle()
-		end
-	end
-
-	cast_timer = tempTimer(cast_cooldown, autoCast)
 end
 </script>
 			<eventHandlerList />
@@ -3680,7 +3618,7 @@ end
 			</Script>
 		</ScriptGroup>
 		<Script isActive="yes" isFolder="no">
-			<name>AutoCastingv2</name>
+			<name>AutoCasting</name>
 			<packageName></packageName>
 			<script>-- Set in guild-specific to adjust
 gp_needed = 0.2
@@ -3688,22 +3626,31 @@ multi_limit = 3
 lockout = lockout or 0
 max_lockout = max_lockout or 0
 
+function castOnSingle()
+  send("xp1")
+end
+
+function castOnMultiple()
+  send("xp2")
+end
+
 function doCasts()
   if lockout &gt; max_lockout then
     max_lockout = lockout
+    lockoutGauge:show()
   end
-
-  lockout = lockout - 1
 
   if lockout &gt; 0 then
-    updateGauges()
+    lockout = lockout - 0.1
+    lockoutGauge:setValue(lockout, max_lockout, "")
     return
-  elseif lockout &lt;= 0 then
+  elseif max_lockout == 0 then
+    return
+  else
     lockout = 0
     max_lockout = 0
+    lockoutGauge:hide()
   end
-  
-  updateGauges()
   
 	gp = gp or 0
   
