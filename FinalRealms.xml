@@ -2087,6 +2087,8 @@ end
 					<packageName></packageName>
 					<script>protection = protection or false
 auto_protection = auto_protection or false
+singing = singing or false
+auto_sing = auto_sing or false
 
 function autoBuffBard()
   if not singing and auto_sing then
@@ -3634,22 +3636,29 @@ function castOnMultiple()
   send("xp2")
 end
 
+function refreshLockoutGauge()
+  if lockout &lt;= 0 then
+    lockoutGauge:hide()
+  else
+    lockoutGauge:show()
+    lockoutGauge:setValue(lockout, max_lockout, "")
+  end
+end
+
 function doCasts()
   if lockout &gt; max_lockout then
     max_lockout = lockout
-    lockoutGauge:show()
+    refreshLockoutGauge()
   end
 
   if lockout &gt; 0 then
     lockout = lockout - 0.1
-    lockoutGauge:setValue(lockout, max_lockout, "")
-    return
-  elseif max_lockout == 0 then
+    refreshLockoutGauge()
     return
   else
     lockout = 0
     max_lockout = 0
-    lockoutGauge:hide()
+    refreshLockoutGauge()
   end
   
 	gp = gp or 0
@@ -3662,14 +3671,14 @@ function doCasts()
   if buffLockout &gt; 0 then
     lockout = buffLockout
     max_lockout = lockout
-    updateGauges()
+    refreshLockoutGauge()
     return
   end
   
   if not auto_cast then
     lockout = 0
     max_lockout = 0
-    updateGauges()
+    refreshLockoutGauge()
 		return
 	end
      
@@ -3686,7 +3695,7 @@ function doCasts()
 	end
   
   max_lockout = lockout
-  updateGauges()
+  refreshLockoutGauge()
 end
 </script>
 			<eventHandlerList />
