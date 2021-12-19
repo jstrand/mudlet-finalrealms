@@ -486,7 +486,7 @@ tempTimer(60, Setup)
 			<colorTriggerBgColor>#000000</colorTriggerBgColor>
 			<regexCodeList />
 			<regexCodePropertyList />
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Guild</name>
 				<script>--For example "Priest of Taniwha"
 local guild_name = matches[2]
@@ -509,7 +509,7 @@ setupGuild(guild_name)
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>XP Cost</name>
 				<script>local max_xp_str = matches[3]
 max_xp_str = max_xp_str:gsub("[.]", "")
@@ -538,7 +538,7 @@ updateGauges()
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Score</name>
 				<script>--display(matches)
 hp = tonumber(matches[2])
@@ -575,7 +575,7 @@ checkGuildPoints()
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>HP and GP</name>
 				<script>hp = tonumber(matches[2])
 gp = tonumber(matches[3])
@@ -607,7 +607,7 @@ end
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>HP sheet</name>
 				<script>hp = tonumber(matches[2])
 max_hp = tonumber(matches[3])
@@ -633,7 +633,7 @@ checkHealth()
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>GP Sheet</name>
 				<script>gp = tonumber(matches[2])
 max_gp = tonumber(matches[3])
@@ -652,6 +652,27 @@ updateGauges()
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList>
 					<string>     Guild Points  : (\d+) \((\d+)\)</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>1</integer>
+				</regexCodePropertyList>
+			</Trigger>
+			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>Level</name>
+				<script>level = tonumber(matches[2])
+</script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#000000</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>Level         : (\d*)</string>
 				</regexCodeList>
 				<regexCodePropertyList>
 					<integer>1</integer>
@@ -1028,10 +1049,10 @@ end
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList />
 				<regexCodePropertyList />
-				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Blessing off</name>
 					<script>blessing = false
-autoBuff()
+refreshBuffs()
 refreshButtons()</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
@@ -1050,7 +1071,7 @@ refreshButtons()</script>
 						<integer>0</integer>
 					</regexCodePropertyList>
 				</Trigger>
-				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Blessing on</name>
 					<script>blessing = true
 refreshButtons()</script>
@@ -1097,6 +1118,7 @@ refreshButtons()</script>
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Rainbow off</name>
 					<script>rainbow = false
+refreshBuffs()
 refreshButtons()</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
@@ -1118,7 +1140,7 @@ refreshButtons()</script>
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Prayer off</name>
 					<script>prayer = false
-autoBuff()
+refreshBuffs()
 refreshButtons()</script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
@@ -1350,10 +1372,11 @@ refreshButtons()</script>
 				<colorTriggerBgColor>#000000</colorTriggerBgColor>
 				<regexCodeList />
 				<regexCodePropertyList />
-				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Assault off</name>
 					<script>assaulting = false
-checkGuildPoints()
+refreshButtons()
+refreshBuffs()
 </script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
@@ -1372,9 +1395,10 @@ checkGuildPoints()
 						<integer>0</integer>
 					</regexCodePropertyList>
 				</Trigger>
-				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Assault on</name>
 					<script>assaulting = true
+refreshButtons()
 </script>
 					<triggerType>0</triggerType>
 					<conditonLineDelta>0</conditonLineDelta>
@@ -1403,7 +1427,7 @@ checkGuildPoints()
 			<command></command>
 			<packageName></packageName>
 			<time>00:00:00.000</time>
-			<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 				<name>MarkRooms</name>
 				<script>highlightRepopped()
 </script>
@@ -1426,7 +1450,7 @@ checkGuildPoints()
 xp_helper = xp_helper or false
 xp_health_pause = xp_health_pause or false
 
-if auto_cast or xp_helper or xp_health_pause then
+if auto_cast or xp_helper or xp_health_pause or auto_sing then
   send("sc")
 end
 </script>
@@ -1434,15 +1458,15 @@ end
 			<packageName></packageName>
 			<time>00:01:00.000</time>
 		</Timer>
-		<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 			<name>Auto buff</name>
-			<script>autoBuff()
+			<script>refreshBuffs()
 </script>
 			<command></command>
 			<packageName></packageName>
 			<time>00:00:10.000</time>
 		</Timer>
-		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+		<Timer isActive="no" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 			<name>Autocasting</name>
 			<script>doCasts()
 </script>
@@ -1501,25 +1525,6 @@ refreshButtons()</script>
 				<command></command>
 				<packageName></packageName>
 				<regex>^xp (on|off)$</regex>
-			</Alias>
-			<Alias isActive="yes" isFolder="no">
-				<name>Auto assault on/off</name>
-				<script>assault_helper = matches[2] == "on"
-local spending = tonumber(matches[3])
-if spending ~= nil then
-	assault_spending = spending
-end
-
-if assault_helper then
-	echo("Auto assault on\n")
-	startAssaulting()
-else
-	echo("Auto assault off\n")
-end
-</script>
-				<command></command>
-				<packageName></packageName>
-				<regex>^assault (on|off) ?(\d+)?$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
 				<name>Pause xping</name>
@@ -1939,7 +1944,10 @@ centerview(current_room)</script>
 				<Script isActive="yes" isFolder="no">
 					<name>TaniwhaBuffs</name>
 					<packageName></packageName>
-					<script>blessing = blessing or false
+					<script>function blessed()
+  return hasEffect("Bless")
+end
+
 auto_bless = auto_bless or false
 
 prayer = prayer or false
@@ -1949,7 +1957,7 @@ rainbow = rainbow or false
 auto_rainbow = auto_rainbow or false
 
 function autoBuffTaniwha()
-	if not blessing and auto_bless then
+	if not blessed() and auto_bless then
 		send("cast bless at me")
     return 5
 	elseif not prayer and auto_prayer then
@@ -2059,7 +2067,7 @@ function refreshTaniwhaButtons()
     return
   end
   
-	updateStyleWithTrying(bless_label, blessing, auto_bless)
+	updateStyleWithTrying(bless_label, blessed(), auto_bless)
 	updateStyleWithTrying(prayer_label, prayer, auto_prayer)
   updateStyleWithTrying(rainbow_buff_label, rainbow, auto_rainbow)
   
@@ -2134,6 +2142,65 @@ end
 					<eventHandlerList />
 				</Script>
 			</ScriptGroup>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Vanguard</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external scripts --
+-------------------------------------------------
+</script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>VanguardButtons</name>
+					<packageName></packageName>
+					<script>function assault_click()
+  auto_assault = auto_assault or false
+  auto_assault = not auto_assault
+  refreshBuffs()
+  refreshButtons()
+end
+
+function setupVanguardButtons()
+
+	ab_container = Geyser.Container:new({
+	  name = "ab_container",
+	  x="60%", y="-250px",
+	  width = "100%", height="100%",
+	})
+
+  -- Auto buff buttons
+  assault_label = addBuffButton("assault_label", "Assault", "assault_click", 0)
+
+	refreshButtons()
+end
+
+function refreshVanguardButtons() 
+	updateStyleWithTrying(assault_label, assaulting(), auto_assault)
+end
+
+</script>
+					<eventHandlerList />
+				</Script>
+				<Script isActive="yes" isFolder="no">
+					<name>VanguardBuffs</name>
+					<packageName></packageName>
+					<script>function assaulting()
+  return hasEffect("assault")
+end
+
+function autoBuffVanguard()
+	if not assaulting() and auto_assault then
+		send("assault " .. (level + 4))
+    return 5
+  end
+
+  return 0
+end</script>
+					<eventHandlerList />
+				</Script>
+			</ScriptGroup>
 		</ScriptGroup>
 		<ScriptGroup isActive="yes" isFolder="yes">
 			<name>Layout</name>
@@ -2152,6 +2219,7 @@ end
 	setupChat()
 	setupMap()
 	setupGauges()
+  setupEffectsGauges()
 end
 </script>
 				<eventHandlerList>
@@ -2328,15 +2396,20 @@ function updateGauges()
 	max_gp = max_gp or 1
 	max_xp = max_xp or 1
 
-	hpbar:setValue(cap(hp, max_hp), max_hp, "&lt;p style='font-size:12pt'&gt;&lt;b&gt;" .. (hp or "?") .. " HP&lt;/b&gt;&lt;/p&gt;")
-	gpbar:setValue(cap(gp, max_gp), max_gp, "&lt;p style='font-size:12pt'&gt;&lt;b&gt;" .. (gp or "?") .. " GP&lt;/b&gt;&lt;/p&gt;")
+	hpbar:setValue(cap(hp, max_hp), max_hp, "&lt;p style='font-size:12pt;margin-left:10px'&gt;&lt;b&gt;" .. (hp or "?") .. " HP&lt;/b&gt;&lt;/p&gt;")
+	gpbar:setValue(cap(gp, max_gp), max_gp, "&lt;p style='font-size:12pt;margin-left:10px'&gt;&lt;b&gt;" .. (gp or "?") .. " GP&lt;/b&gt;&lt;/p&gt;")
 	local xp_bar_max = max_xp
 	if xp_helper or xp_health_pause then
 		xp_bar_max = xp_goal
 	end
 
+
+	xpbar:setValue(cap(xp, xp_bar_max), xp_bar_max, "&lt;p style='font-size:12pt;margin-left:10px'&gt;&lt;b&gt;" .. (math.floor(xp/1000) or "?") .. "k XP ".. showXpRate() .. "&lt;/b&gt;&lt;/p&gt;") 
+end
+
+function showXpRate()
 	local rate = ""
-	if xp_stats and xp_stats.xp_per_hour() &gt; 0 then
+	if xp_stats and xp_stats.xp_per_hour() &gt; 10000 then
 		local time_left = xp_stats.time_to(xp_goal)
 		if time_left then
 			time_left = " " .. time_left .. " kvar"
@@ -2345,7 +2418,7 @@ function updateGauges()
 		end
 		rate = xp_stats.presentation() .. time_left
 	end
-	xpbar:setValue(cap(xp, xp_bar_max), xp_bar_max, "&lt;p style='font-size:12pt'&gt;&lt;b&gt;" .. (math.floor(xp/1000) or "?") .. "k XP ".. rate .. "&lt;/b&gt;&lt;/p&gt;") 
+  return rate
 end
 
 function cap(x, max)
@@ -2377,7 +2450,7 @@ function setupButtons()
 	  x="45%", y="4px",
 	  width = "100%", height="100%",
 	})
---	top_container:flash()
+	--top_container:flash()
 
 	auto_xp_label = Geyser.Label:new({
 		name = "auto_xp_label",
@@ -2408,6 +2481,8 @@ function setupAbilityButtons()
     setupTaniwhaButtons()
   elseif is_bard then
     setupBardButtons()
+  elseif is_vanguard then
+    setupVanguardButtons()
   end
   refreshButtons()
 end
@@ -2502,6 +2577,8 @@ function refreshButtons()
     refreshTaniwhaButtons()
   elseif is_bard then
     refreshBardButtons()
+  elseif is_vanguard then
+    refreshVanguardButtons()
   end
 
 end
@@ -2550,6 +2627,119 @@ function auto_cast_click()
 --		autoCastOn()
 --	end
 	--refreshButtons()
+end
+
+
+</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>EffectsGauges</name>
+				<packageName></packageName>
+				<script>function setupEffectsGauges()
+  effects_container = Geyser.VBox:new({
+	  name = "effects_container",
+	  x="60%", y="20%",
+	  width = "10%", height="100%",
+	})
+	--effects_container:flash()
+  
+  effectbars = {}
+  for i = 1, 10 do
+    local effectbar = Geyser.Gauge:new({
+      name="effectbar"..i,
+      --x = 0, y = 0,
+      v_policy=Geyser.Fixed,
+      width="95%", height="30",
+    	fgColor="white"
+      }, effects_container)
+    effectbar:hide()
+    
+    effectbar.front:setStyleSheet([[
+        background-color: Gray;
+        border-radius: 4;
+        padding: 3px;
+        margin-bottom: 3px;
+    ]])
+    
+    effectbar.back:setStyleSheet([[
+        background-color: none;
+        border: 2px solid Gray;
+        border-radius: 4;
+        margin-bottom: 3px;
+    ]])
+    
+    effectbars[i] = effectbar
+  end
+end
+
+function hasEffect(name)
+  if not effects then
+    return false
+  end
+  
+  return effects[name] and effects[name].duration &gt; 0
+end
+
+function updateEffects(namesAndDurations)
+  effects = effects or {}
+  
+  for name, effect in pairs(effects) do
+    effect.present = false
+  end
+  
+  local i = 1
+  for name, duration in pairs(namesAndDurations) do
+    if not effects[name] then
+      local effect = {}
+      effects[name] = effect
+      effect.max = duration
+    end
+    local effect = effects[name]
+    if effect.max &lt; duration then
+      effect.max = duration
+    end
+    effect.duration = duration
+    effect.present = true
+    
+    if i &lt;= 10 then
+      if duration &gt; 0 then
+        effectbars[i]:setValue(duration, effect.max, "&lt;p style='font-size:12pt;margin-left:10px'&gt;&lt;b&gt;"..name .. "&lt;/b&gt; " .. showDuration(duration) .. "&lt;/p&gt;")
+        effectbars[i]:show()
+      else
+        effectbars[i]:hide()
+      end
+    end
+    
+    i = i + 1
+  end
+  
+  -- reset any no longer in list
+  for name, effect in pairs(effects) do
+    if not effect.present then
+      effect.max = 0
+      effect.duration = 0
+    end
+  end
+  
+  while i &lt;= 10 do
+    effectbars[i]:hide()
+    i = i + 1
+  end
+end
+
+function showDuration(ticks)
+  local seconds = 2*ticks
+  if seconds &gt; 60 then
+    local minutes = math.floor(seconds / 60)
+    if seconds % 60 &gt; 0 then
+      return minutes .. "m " .. math.floor(seconds % 60) .. "s"
+    end
+    return minutes .. "m"
+  else
+    return seconds .. "s"
+  end
+  return ""
 end
 
 
@@ -2605,22 +2795,7 @@ end
 		<Script isActive="yes" isFolder="no">
 			<name>AutoBuff</name>
 			<packageName></packageName>
-			<script>buff_gp_limit = 0.2
-
-function autoBuff()
-  --display("checking auto buff")
-  local casting_buff = false
-  
-	if gp &gt;= max_gp*buff_gp_limit then
-    if is_taniwha then
-      casting_buff = autoBuffTaniwha()
-    end
-	end
- 
-  refreshButtons()
-  
-  return casting_buff
-end
+			<script>buff_gp_limit = buff_gp_limit or 0.2
 
 function refreshBuffs()
   --display("checking auto buff")
@@ -2630,6 +2805,8 @@ function refreshBuffs()
       return autoBuffTaniwha()
     elseif is_bard then
       return autoBuffBard()
+    elseif is_vanguard then
+      return autoBuffVanguard()
     end
 	end
   return 0
@@ -2938,7 +3115,6 @@ end
 			<name>XP</name>
 			<packageName></packageName>
 			<script>
-assault_spending = 37
 flee_limit = 0.6
 health_limit_percent = 0.8
 heal_limit_percent = 0.65
@@ -3001,11 +3177,7 @@ function checkGuildPoints()
 	if not xp_helper and not xp_gp_pause then
 		return
 	end
-  
-  if gp &gt; assault_spending and not assaulting then
-    send("assault " .. assault_spending)
-  end
-  
+   
 	gp_disabled = true
 	if gp_disabled then
 		return
@@ -3029,12 +3201,6 @@ function checkGuildPoints()
 			killTimer(xp_gp_timer)
 		end
 		xp_gp_timer = tempTimer(60, [[send("sc")]])
-	end
-end
-
-function startAssaulting()
-	if assault_helper then
-		send("assault " .. assault_spending)
 	end
 end
 
@@ -3691,6 +3857,89 @@ end
 </script>
 			<eventHandlerList />
 		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>globalEventTest</name>
+			<packageName></packageName>
+			<script>function testevent()
+  echo "Test event"
+end
+</script>
+			<eventHandlerList>
+				<string>testevent</string>
+			</eventHandlerList>
+		</Script>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Gmcp</name>
+			<packageName></packageName>
+			<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external scripts --
+-------------------------------------------------
+</script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>ReceiveGmcpVitals</name>
+				<packageName></packageName>
+				<script>function ReceiveGmcpVitals()
+  --echo("HP:" .. gmcp.Char.Vitals.hp)
+  hp = gmcp.Char.Vitals.hp
+  max_hp = gmcp.Char.Vitals.maxhp
+  
+  gp = gmcp.Char.Vitals.gp
+  max_gp = gmcp.Char.Vitals.maxgp
+  
+  xp = gmcp.Char.Vitals.xp
+  max_xp = gmcp.Char.Vitals.maxxp
+  
+  xp_stats.new_xp_value(xp)
+
+  updateGauges()
+
+  checkHealth()
+  checkGuildPoints()
+end
+</script>
+				<eventHandlerList>
+					<string>gmcp.Char.Vitals</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>ReceiveGmcpStatus</name>
+				<packageName></packageName>
+				<script>function ReceiveGmcpStatus()
+  --echo("Status received")
+  level = gmcp.Char.Status.level
+  
+  if guild_name ~= gmcp.Char.Status.guild then
+    guild_name = gmcp.Char.Status.guild
+    setupGuild(guild_name)
+  end
+end
+</script>
+				<eventHandlerList>
+					<string>gmcp.Char.Status</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>ReceiveGmcpEffects</name>
+				<packageName></packageName>
+				<script>function ReceiveGmcpEffects()
+  --display(gmcp.Char.Effects)
+  updateEffects(gmcp.Char.Effects)
+  --for effect, duration in pairs(gmcp.Char.Effects) do
+    --display(effect .. duration)
+    --updateEffect(effect, duration)
+  --end
+  
+  refreshButtons()
+end
+</script>
+				<eventHandlerList>
+					<string>gmcp.Char.Effects</string>
+				</eventHandlerList>
+			</Script>
+		</ScriptGroup>
 	</ScriptPackage>
 	<KeyPackage>
 		<KeyGroup isActive="yes" isFolder="yes">
