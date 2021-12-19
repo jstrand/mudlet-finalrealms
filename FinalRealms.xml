@@ -1944,7 +1944,13 @@ centerview(current_room)</script>
 				<Script isActive="yes" isFolder="no">
 					<name>TaniwhaBuffs</name>
 					<packageName></packageName>
-					<script>function blessed()
+					<script>function setupTaniwhaBuffs()
+  resetBuffs()
+  addBuff("Bless", "cast bless at me")
+  addBuff("Rainbow", "cast rainbow at me")
+end
+
+function blessed()
   return hasEffect("Bless")
 end
 
@@ -2447,33 +2453,38 @@ end
 button_height = 30
 
 function setupButtons()
-	top_container = Geyser.Container:new({
+	top_container = Geyser.HBox:new({
 	  name = "top_container",
-	  x="45%", y="4px",
-	  width = "100%", height="100%",
+	  x="100c", y="4px", width = "400px",
 	})
 	--top_container:flash()
+  
+  xp_container = Geyser.VBox:new({
+	  name = "xp_container_beta",
+	}, top_container)
 
 	auto_xp_label = Geyser.Label:new({
 		name = "auto_xp_label",
 		message = [[&lt;p style="font-size:14pt"&gt;Auto-XP&lt;/p&gt;]],
-		x = 0, y = 0, width = button_width, height = button_height
-	}, top_container)
+    height = "30px",
+    v_policy=Geyser.Fixed
+	}, xp_container)
 	auto_xp_label:setClickCallback("auto_xp_click")
 
 	select_xp_label = Geyser.Label:new({
 		name = "select_xp_label",
 		message = [[&lt;p style="font-size:14pt"&gt;XP-Area&lt;/p&gt;]],
-		x = 0, y = button_height, width = button_width, height = button_height
-	}, top_container)
+    height = "30px",
+    v_policy=Geyser.Fixed
+	}, xp_container)
 	select_xp_label:setClickCallback("select_xp_click")
 
-	auto_cast_label = Geyser.Label:new({
-		name = "auto_cast_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Auto-Offense&lt;/p&gt;]],
-		x = 2*button_width, y = 0, width = button_width, height = button_height
-	}, top_container)
-	auto_cast_label:setClickCallback("auto_cast_click")
+--	auto_cast_label = Geyser.Label:new({
+--		name = "auto_cast_label",
+--		message = [[&lt;p style="font-size:14pt"&gt;Auto-Offense&lt;/p&gt;]],
+--		x = 2*button_width, y = 0, width = button_width, height = button_height
+--	}, top_container)
+--	auto_cast_label:setClickCallback("auto_cast_click")
 
 	refreshButtons()
 end
@@ -2635,10 +2646,186 @@ end
 </script>
 				<eventHandlerList />
 			</Script>
-			<Script isActive="yes" isFolder="no">
-				<name>EffectsGauges</name>
+			<Script isActive="no" isFolder="no">
+				<name>SetupBeta</name>
 				<packageName></packageName>
-				<script>function setupEffectsGauges()
+				<script>function setupXpButtons()
+
+	auto_xp_label = Geyser.Label:new({
+		name = "auto_xp_label",
+		message = [[&lt;p style="font-size:14pt"&gt;Auto-XP&lt;/p&gt;]],
+    height = "30px",
+    v_policy=Geyser.Fixed,
+	}, xp_container_beta)
+	auto_xp_label:setClickCallback("auto_xp_click")
+
+	select_xp_label = Geyser.Label:new({
+		name = "select_xp_label",
+		message = [[&lt;p style="font-size:14pt"&gt;XP-Area&lt;/p&gt;]],
+    height = "30px",
+    v_policy=Geyser.Fixed,
+	}, xp_container_beta)
+	select_xp_label:setClickCallback("select_xp_click")
+
+end
+
+function setupTest()
+
+	top_container_beta = Geyser.HBox:new({
+	  name = "top_container_beta",
+	  x="100c", y="100px",
+	  width = "400px"})
+	top_container_beta:flash()
+  
+  xp_container_beta = Geyser.VBox:new({
+	  name = "xp_container_beta",
+	}, top_container_beta)
+  
+  buff_container_beta = Geyser.VBox:new({
+	  name = "buff_container_beta",
+	}, top_container_beta)
+  
+  setupXpButtons()
+
+
+end
+</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+		<Script isActive="yes" isFolder="no">
+			<name>Setup</name>
+			<packageName></packageName>
+			<script>function Setup()
+	xp_stats = XpStats()
+end
+</script>
+			<eventHandlerList>
+				<string>sysLoadEvent</string>
+			</eventHandlerList>
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>SetupGuild</name>
+			<packageName></packageName>
+			<script>function setupGuild(guild_name)
+  is_bard = guild_name == "Bard"
+  is_taniwha = guild_name == "Priest of Taniwha"
+  is_vanguard = guild_name == "Vanguard"
+
+  setupButtons()
+  setupAbilityButtons()
+  setupBuffs()
+end
+</script>
+			<eventHandlerList />
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>Locations</name>
+			<packageName></packageName>
+			<script>locations = {
+
+guild = 314,
+kk_pub = 69,
+kk_xp = 653,
+newb_vault = 352,
+mirkwood = 957
+
+}
+
+
+function showLocations()
+	display(locations)
+end
+</script>
+			<eventHandlerList />
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>Buffs</name>
+			<packageName></packageName>
+			<script>buff_gp_limit = buff_gp_limit or 0.2
+buffs = buffs or {}
+
+function resetBuffs()
+  buffs = {}
+end
+
+function addBuff(name, command)
+  local buff = {
+    name = name,
+    command = command,
+    auto = false
+  }
+  buffs[name] = buff
+end
+
+function refreshBuffs()
+  if gp &gt;= max_gp*buff_gp_limit then
+
+    for name, buff in pairs(buffs) do
+      if not hasEffect(name) and buff.auto then
+        display(buff.command)
+      end
+    end
+
+  end
+end
+
+function clickBuff(name)
+  local buff = buffs[name]
+  buff.auto = not buff.auto
+  if not hasEffect(name) then
+    send(buff.command)
+  end
+  refreshBuffButtons()
+end
+
+function addBuffButton2(name, title, command)
+  local label = Geyser.Label:new({
+		name = name,
+		message = [[&lt;p style="font-size:14pt"&gt;]] .. title .. [[&lt;/p&gt;]],
+		height = "30px",
+    v_policy=Geyser.Fixed
+	}, buff_container_beta)
+	label:setClickCallback("clickBuff", name)
+  return label
+end
+
+function setupBuffButtons()
+  for name, buff in pairs(buffs) do
+    --display(name)
+    --local action = function() send(buff.command) end
+    buff.label = addBuffButton2(name, name, buff.command)
+  end
+end
+
+function refreshBuffButtons()
+  for name, buff in pairs(buffs) do
+    updateStyleWithTrying(buff.label, hasEffect(name), buff.auto)
+  end
+end
+
+function refreshBuffs2()
+  --display("checking auto buff")
+ 
+	if gp &gt;= max_gp*buff_gp_limit then
+    if is_taniwha then
+      return autoBuffTaniwha()
+    elseif is_bard then
+      return autoBuffBard()
+    elseif is_vanguard then
+      return autoBuffVanguard()
+    end
+	end
+  return 0
+end</script>
+			<eventHandlerList />
+		</Script>
+		<Script isActive="yes" isFolder="no">
+			<name>Effects</name>
+			<packageName></packageName>
+			<script>effectbars = effectbars or {}
+  
+function setupEffectsGauges()
   effects_container = Geyser.VBox:new({
 	  name = "effects_container",
 	  x="60%", y="20%",
@@ -2742,76 +2929,6 @@ function showDuration(ticks)
     return seconds .. "s"
   end
   return ""
-end
-
-
-</script>
-				<eventHandlerList />
-			</Script>
-		</ScriptGroup>
-		<Script isActive="yes" isFolder="no">
-			<name>Setup</name>
-			<packageName></packageName>
-			<script>function Setup()
-	xp_stats = XpStats()
-end
-</script>
-			<eventHandlerList>
-				<string>sysLoadEvent</string>
-			</eventHandlerList>
-		</Script>
-		<Script isActive="yes" isFolder="no">
-			<name>SetupGuild</name>
-			<packageName></packageName>
-			<script>function setupGuild(guild_name)
-  is_bard = guild_name == "Bard"
-  is_taniwha = guild_name == "Priest of Taniwha"
-  is_vanguard = guild_name == "Vanguard"
-
-  setupButtons()
-  setupAbilityButtons()
-end
-</script>
-			<eventHandlerList />
-		</Script>
-		<Script isActive="yes" isFolder="no">
-			<name>Locations</name>
-			<packageName></packageName>
-			<script>locations = {
-
-guild = 314,
-kk_pub = 69,
-kk_xp = 653,
-newb_vault = 352,
-mirkwood = 957
-
-}
-
-
-function showLocations()
-	display(locations)
-end
-</script>
-			<eventHandlerList />
-		</Script>
-		<Script isActive="yes" isFolder="no">
-			<name>AutoBuff</name>
-			<packageName></packageName>
-			<script>buff_gp_limit = buff_gp_limit or 0.2
-
-function refreshBuffs()
-  --display("checking auto buff")
- 
-	if gp &gt;= max_gp*buff_gp_limit then
-    if is_taniwha then
-      return autoBuffTaniwha()
-    elseif is_bard then
-      return autoBuffBard()
-    elseif is_vanguard then
-      return autoBuffVanguard()
-    end
-	end
-  return 0
 end</script>
 			<eventHandlerList />
 		</Script>
@@ -3943,6 +4060,8 @@ end
   
   refreshButtons()
 end
+
+--  Lockout : Casting
 </script>
 				<eventHandlerList>
 					<string>gmcp.Char.Effects</string>
