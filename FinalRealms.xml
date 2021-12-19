@@ -1268,52 +1268,6 @@ refreshButtons()
 				<regexCodeList />
 				<regexCodePropertyList />
 				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-					<name>Protection wears off</name>
-					<script>protection = false
-refreshButtons()
-</script>
-					<triggerType>0</triggerType>
-					<conditonLineDelta>0</conditonLineDelta>
-					<mStayOpen>0</mStayOpen>
-					<mCommand></mCommand>
-					<packageName></packageName>
-					<mFgColor>#ff0000</mFgColor>
-					<mBgColor>#ffff00</mBgColor>
-					<mSoundFile></mSoundFile>
-					<colorTriggerFgColor>#000000</colorTriggerFgColor>
-					<colorTriggerBgColor>#000000</colorTriggerBgColor>
-					<regexCodeList>
-						<string>You feel more vulnerable.</string>
-					</regexCodeList>
-					<regexCodePropertyList>
-						<integer>0</integer>
-					</regexCodePropertyList>
-				</Trigger>
-				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-					<name>Protection on</name>
-					<script>protection = true
-refreshButtons()
-</script>
-					<triggerType>0</triggerType>
-					<conditonLineDelta>0</conditonLineDelta>
-					<mStayOpen>0</mStayOpen>
-					<mCommand></mCommand>
-					<packageName></packageName>
-					<mFgColor>#ff0000</mFgColor>
-					<mBgColor>#ffff00</mBgColor>
-					<mSoundFile></mSoundFile>
-					<colorTriggerFgColor>#000000</colorTriggerFgColor>
-					<colorTriggerBgColor>#000000</colorTriggerBgColor>
-					<regexCodeList>
-						<string>You feel a vague sense of protection.</string>
-						<string>Your target is already affected by a protection spell.</string>
-					</regexCodeList>
-					<regexCodePropertyList>
-						<integer>0</integer>
-						<integer>0</integer>
-					</regexCodePropertyList>
-				</Trigger>
-				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 					<name>Song begins</name>
 					<script>singing = true
 refreshButtons()</script>
@@ -2033,15 +1987,17 @@ end
 				<Script isActive="yes" isFolder="no">
 					<name>TaniwhaSetup</name>
 					<packageName></packageName>
-					<script>addGuild(
-{
-  name = "Priest of Taniwha",
-  buffs = {
-    createBuff("Bless", "cast bless at me"),
-    createBuff("Rainbow", "cast rainbow at me"),
-    createBuff("Prayer", "cast prayer at me")
-  }
-})
+					<script>function setupTaniwha()
+  addGuild(
+  {
+    name = "Priest of Taniwha",
+    buffs = {
+      createBuff("Bless", "cast bless at me"),
+      createBuff("Rainbow", "cast rainbow at me"),
+      createBuff("Prayer", "cast prayer at me")
+    }
+  })
+end
 </script>
 					<eventHandlerList />
 				</Script>
@@ -2057,54 +2013,17 @@ end
 </script>
 				<eventHandlerList />
 				<Script isActive="yes" isFolder="no">
-					<name>AutoBuffBard</name>
+					<name>BardSetup</name>
 					<packageName></packageName>
-					<script>protection = protection or false
-auto_protection = auto_protection or false
-singing = singing or false
-auto_sing = auto_sing or false
-
-function autoBuffBard()
-  if not singing and auto_sing then
-    send("play")
-    return 5
-  elseif not protection and auto_protection then
-		send("cast protection at me")
-    return 3
-  end
-  return 0
-end
-</script>
-					<eventHandlerList />
-				</Script>
-				<Script isActive="yes" isFolder="no">
-					<name>BardButtons</name>
-					<packageName></packageName>
-					<script>function protection_click()
-  auto_protection = auto_protection or false
-  auto_protection = not auto_protection
-  refreshButtons()
-end
-
-function sing_click()
-  auto_sing = auto_sing or false
-  auto_sing = not auto_sing
-  refreshButtons()
-end
-
-function setupBardButtons()
-  sing_label = addBuffButton("sing_label", "Sing", "sing_click", 0)
-  protection_label = addBuffButton("protection_label", "Protection", "protection_click", 1)
-  refreshButtons()
-end
-
-function refreshBardButtons()
-  if not protection_label then
-    return
-  end
-  
-  updateStyleWithTrying(protection_label, protection, auto_protection)
-  updateStyleWithTrying(sing_label, singing, auto_sing)
+					<script>function setupBard()
+  addGuild(
+  {
+    name = "Bard",
+    buffs = {
+      createBuff("Protection", "cast protection at me"),
+      createBuff("Singing", "play")
+    }
+  })
 end
 </script>
 					<eventHandlerList />
@@ -2123,14 +2042,16 @@ end
 				<Script isActive="yes" isFolder="no">
 					<name>VanguardSetup</name>
 					<packageName></packageName>
-					<script>addGuild(
-{
-  name = "Vanguard",
-  buffs = {
-    createBuffF("assault", function() send("assault " .. (level + 4)) end),
-    createBuff("vigor", "vigor")
-  }
-})
+					<script>function setupVanguard()
+  addGuild(
+  {
+    name = "Vanguard",
+    buffs = {
+      createBuffF("assault", function() send("assault " .. (level + 4)) end),
+      createBuff("vigor", "vigor")
+    }
+  })
+end
 </script>
 					<eventHandlerList />
 				</Script>
@@ -2529,10 +2450,6 @@ function refreshButtons()
  
   if is_taniwha then
     refreshTaniwhaButtons()
-  elseif is_bard then
-    refreshBardButtons()
-  elseif is_vanguard then
-    refreshVanguardButtons()
   end
   
   refreshBuffButtons()
@@ -2593,52 +2510,6 @@ end
 </script>
 				<eventHandlerList />
 			</Script>
-			<Script isActive="no" isFolder="no">
-				<name>SetupBeta</name>
-				<packageName></packageName>
-				<script>function setupXpButtons()
-
-	auto_xp_label = Geyser.Label:new({
-		name = "auto_xp_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Auto-XP&lt;/p&gt;]],
-    height = "30px",
-    v_policy=Geyser.Fixed,
-	}, xp_container_beta)
-	auto_xp_label:setClickCallback("auto_xp_click")
-
-	select_xp_label = Geyser.Label:new({
-		name = "select_xp_label",
-		message = [[&lt;p style="font-size:14pt"&gt;XP-Area&lt;/p&gt;]],
-    height = "30px",
-    v_policy=Geyser.Fixed,
-	}, xp_container_beta)
-	select_xp_label:setClickCallback("select_xp_click")
-
-end
-
-function setupTest()
-
-	top_container_beta = Geyser.HBox:new({
-	  name = "top_container_beta",
-	  x="100c", y="100px",
-	  width = "400px"})
-	top_container_beta:flash()
-  
-  xp_container_beta = Geyser.VBox:new({
-	  name = "xp_container_beta",
-	}, top_container_beta)
-  
-  buff_container_beta = Geyser.VBox:new({
-	  name = "buff_container_beta",
-	}, top_container_beta)
-  
-  setupXpButtons()
-
-
-end
-</script>
-				<eventHandlerList />
-			</Script>
 		</ScriptGroup>
 		<Script isActive="yes" isFolder="no">
 			<name>Setup</name>
@@ -2657,6 +2528,10 @@ end
 			<script>guilds = guilds or {}
 
 function setupGuild(guild_name)
+  setupBard()
+  setupTaniwha()
+  setupVanguard()
+
   is_bard = guild_name == "Bard"
   is_taniwha = guild_name == "Priest of Taniwha"
   is_vanguard = guild_name == "Vanguard"
@@ -2799,8 +2674,8 @@ end</script>
 function setupEffectsGauges()
   effects_container = Geyser.VBox:new({
 	  name = "effects_container",
-	  x="-200px", y="200px",
-	  width = "200px"
+	  x="-400px", y="200px",
+	  width = "395px"
 	}, leftOfMapContainer)
 	--effects_container:flash()
   
@@ -2834,6 +2709,9 @@ function setupEffectsGauges()
 end
 
 function hasEffect(name)
+  if name == "Singing" then
+    return singing
+  end
   if name == "Rainbow" then
     return rainbow
   end
