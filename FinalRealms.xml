@@ -1879,9 +1879,9 @@ centerview(current_room)</script>
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
 			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Load FR scripts</name>
+				<name>Re-run setup</name>
 				<packageName></packageName>
-				<script>loadFrScripts()
+				<script>Setup()
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -1937,117 +1937,6 @@ centerview(current_room)</script>
 -------------------------------------------------
 </script>
 			<eventHandlerList />
-			<ScriptGroup isActive="yes" isFolder="yes">
-				<name>Taniwha</name>
-				<packageName></packageName>
-				<script></script>
-				<eventHandlerList />
-				<Script isActive="yes" isFolder="no">
-					<name>TaniwhaBuffs</name>
-					<packageName></packageName>
-					<script>
-function cast_rainbow()
-	send("cast rainbow at me")
-	rainbow_label:flash()
-end
-
-function cast_courage()
-	send("cast courage at me")
-	courage_label:flash()
-end
-
-function cast_sanctuary()
-	send("cast sanctuary")
-	sanctuary_label:flash()
-end
-
-</script>
-					<eventHandlerList />
-				</Script>
-				<Script isActive="yes" isFolder="no">
-					<name>Attacks</name>
-					<packageName></packageName>
-					<script>function curse()
-	send("cast curse at marked")
-	curse_label:flash()
-end
-
-function chant()
-	send("cast chant at marked")
-	chant_label:flash()
-end
-
-function thornshock()
-	send("cast thorn shock at marked")
-	thornshock_label:flash()
-end
-
-function flamestrike()
-	send("cast flamestrike at marked")
-	flamestrike_label:flash()
-end
-
-function thorncloud()
-	send("cast thorn cloud at marked")
-	thorncloud_label:flash()
-end
-
-</script>
-					<eventHandlerList />
-				</Script>
-				<Script isActive="yes" isFolder="no">
-					<name>TaniwhaButtons</name>
-					<packageName></packageName>
-					<script>function setupTaniwhaButtons()
-
-	ab_container = Geyser.Container:new({
-	  name = "ab_container",
-	  x="60%", y="-250px",
-	  width = "100%", height="100%",
-	})
-
-	curse_label = addAbilityButton("f1", 0, "F1. Curse", "curse")
-	chant_label = addAbilityButton("f2", 1, "F2. Chant", "chant")
-	flamestrike_label = addAbilityButton("f3", 2, "F3. Flamestrike", "flamestrike")
-	thorncloud_label = addAbilityButton("f4", 3, "F4. Thorn cloud", "thorncloud")
-	rainbow_label = addAbilityButton("f5", 4, "F5. Rainbow", "cast_rainbow")
-	courage_label = addAbilityButton("f6", 5, "F6. Courage", "cast courage")
-	sanctuary_label = addAbilityButton("f7", 6, "F7. Sanctuary", "cast_sanctuary")
-  
-	refreshButtons()
-end
-
-function refreshTaniwhaButtons()
-  if not bless_label then
-    return
-  end 
-  
-	updateStyle(rainbow_label, rainbow)
-	updateStyle(courage_label, courage)
-	updateStyle(sanctuary_label, sanctuary)
-end
-
-</script>
-					<eventHandlerList />
-				</Script>
-				<Script isActive="yes" isFolder="no">
-					<name>TaniwhaSetup</name>
-					<packageName></packageName>
-					<script>function setupTaniwha()
-  addGuild(
-  {
-    name = "Priest of Taniwha",
-    buffs = {
-      createBuff("Bless", "cast bless at me"),
-      createBuff("Rainbow", "cast rainbow at me"),
-      createBuff("Prayer", "cast prayer at me")
-    }
-  })
-end
-</script>
-					<eventHandlerList />
-				</Script>
-			</ScriptGroup>
 			<ScriptGroup isActive="yes" isFolder="yes">
 				<name>Bard</name>
 				<packageName></packageName>
@@ -2345,221 +2234,13 @@ end
 </script>
 				<eventHandlerList />
 			</Script>
-			<Script isActive="yes" isFolder="no">
-				<name>Buttons</name>
-				<packageName></packageName>
-				<script>button_width = 120
-button_height = 30
-
-function setupButtons() 
-	top_container = Geyser.HBox:new({
-	  name = "top_container",
-	  x="-400px", y="4px", width = "400px",
-	}, leftOfMapContainer)
-	top_container:flash()
-  
-  xp_container = Geyser.VBox:new({
-	  name = "xp_container",
-	}, top_container)
-  
-  buff_container = Geyser.VBox:new({
-	  name = "buff_container",
-	}, top_container)
-
-  offense_container = Geyser.VBox:new({
-	  name = "offense_container",
-	}, top_container)
-
-	auto_xp_label = Geyser.Label:new({
-		name = "auto_xp_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Auto-XP&lt;/p&gt;]],
-    height = "30px",
-    v_policy=Geyser.Fixed
-	}, xp_container)
-	auto_xp_label:setClickCallback("auto_xp_click")
-
-	select_xp_label = Geyser.Label:new({
-		name = "select_xp_label",
-		message = [[&lt;p style="font-size:14pt"&gt;XP-Area&lt;/p&gt;]],
-    height = "30px",
-    v_policy=Geyser.Fixed
-	}, xp_container)
-	select_xp_label:setClickCallback("select_xp_click")
-
-	auto_cast_label = Geyser.Label:new({
-		name = "auto_cast_label",
-		message = [[&lt;p style="font-size:14pt"&gt;Auto-Offense&lt;/p&gt;]],
-    height = "30px",
-    v_policy=Geyser.Fixed
-	}, top_container)
-	auto_cast_label:setClickCallback("auto_cast_click")
-
-	refreshButtons()
-end
-
-function setupAbilityButtons()
-  if is_taniwha then
-    setupTaniwhaButtons()
-  elseif is_bard then
-    setupBardButtons()
-  end
-  refreshButtons()
-end
-
-function addBuffButton(name, title, action, count)
-  local label = Geyser.Label:new({
-		name = name,
-		message = [[&lt;p style="font-size:14pt"&gt;]] .. title .. [[&lt;/p&gt;]],
-		x = button_width, y = count*button_height, width = button_width, height = button_height
-	}, top_container)
-	label:setClickCallback(action)
-  return label
-end
-
-function addAbilityButton(name, count, label, callback)
-	local label = Geyser.Label:new({
-		name = name,
-		message = "&lt;p style='font-size:14pt'&gt;".. label .. "&lt;/p&gt;",
-		x = 0, y = 30*count, width = 120, height = 30
-	}, ab_container)
-	label:setClickCallback(callback)
-
-	local neutral_style = [[
-		background-color: DarkRed;
-		padding: 2px;
-		margin: 2px 0 0 2px;
-		border-radius: 4px;
-	]]
-	label:setStyleSheet(neutral_style)
-
-	return label
-end
-
-	neutral_style = [[
-    font-size: 14pt;
-		background-color: grey;
-		padding: 2px;
-		margin: 2px 0 0 2px;
-		border-radius: 4px;
-	]]
-
-	active_style = [[
-		background-color: green;
-		padding: 2px;
-		margin: 2px 0 0 2px;
-		border-radius: 4px;
-	]]
-  
-	paused_style = [[
-		background-color: GoldenRod;
-		padding: 2px;
-		margin: 2px 0 0 2px;
-		border-radius: 4px;
-	]]
-  
-  inactive_trying_style = [[
-		background-color: grey;
-		padding: 0px;
-		margin: 2px 0 0 2px;
-    border: 2px solid green;
-		border-radius: 4px;
-	]]
-   
-  active_not_trying_style = [[
-		background-color: green;
-		padding: 0px;
-		margin: 2px 0 0 2px;
-    border: 2px solid grey;
-		border-radius: 4px;
-	]]
-  
-function refreshButtons()
-
-	local select_xp_style = neutral_style
-	if xp_area then
-		select_xp_style = active_style
-	end
-	select_xp_label:setStyleSheet(select_xp_style)
-
-	local xp_style = neutral_style
-	if xp_helper then
-		xp_style = active_style
-	elseif xp_health_pause then
-		xp_style = paused_style
-	end
-	auto_xp_label:setStyleSheet(xp_style)
-
-	updateStyle(auto_buff_label, auto_buff)
-	updateStyle(auto_cast_label, auto_cast)
- 
-  if is_taniwha then
-    refreshTaniwhaButtons()
-  end
-  
-  refreshBuffButtons()
-
-end
-
-function updateStyleWithTrying(label, active, trying)
-  if not label then
-    return
-  end
-  
-  local style = neutral_style
-  if active and not trying then
-    style = active_not_trying_style
-  elseif not active and trying then
-    style = inactive_trying_style
-  elseif active then
-    style = active_style
-  end
-  
-  label:setStyleSheet(style)
-end
-
-function updateStyle(label, cond)
-	if not label then
-		return
-	end
-	local style = neutral_style
-	if cond then
-		style = active_style
-	end
-	label:setStyleSheet(style)
-end
-
-function auto_xp_click()
-	toggleXp()
-end
-
-function select_xp_click()
-	listXpAreas()
-	clearCmdLine()
-	appendCmdLine("select_xp_area ")
-end
-
-function auto_cast_click()
-  auto_cast = not auto_cast
-  refreshButtons()
-  
---	if auto_cast then
-	--	autoCastOff()
-	--else
---		autoCastOn()
---	end
-	--refreshButtons()
-end
-
-
-</script>
-				<eventHandlerList />
-			</Script>
 		</ScriptGroup>
 		<Script isActive="yes" isFolder="no">
 			<name>Setup</name>
 			<packageName></packageName>
 			<script>function Setup()
   loadFrScripts()
+  FR.setup()
   xp_stats = XpStats()
   initLayout()
 end
@@ -2579,34 +2260,6 @@ end
 			<eventHandlerList>
 				<string>sysLoadEvent</string>
 			</eventHandlerList>
-		</Script>
-		<Script isActive="yes" isFolder="no">
-			<name>SetupGuild</name>
-			<packageName></packageName>
-			<script>guilds = guilds or {}
-
-function setupGuild(guild_name)
-  setupBard()
-  setupTaniwha()
-  setupVanguard()
-
-  is_bard = guild_name == "Bard"
-  is_taniwha = guild_name == "Priest of Taniwha"
-  is_vanguard = guild_name == "Vanguard"
-  
-  guild = guilds[guild_name]
-
-  setupButtons()
-  --setupAbilityButtons()
-  setupBuffButtons()
-end
-
-function addGuild(guild)
-  guilds[guild.name] = guild
-end
-
-</script>
-			<eventHandlerList />
 		</Script>
 		<Script isActive="yes" isFolder="no">
 			<name>Locations</name>
@@ -3864,12 +3517,12 @@ end
 			<packageName></packageName>
 			<script></script>
 			<command></command>
-			<keyCode>-1</keyCode>
+			<keyCode>33554431</keyCode>
 			<keyModifier>0</keyModifier>
 			<Key isActive="yes" isFolder="no">
 				<name>F1</name>
 				<packageName></packageName>
-				<script>curse()
+				<script>activateAbilityShortcut("F1")
 </script>
 				<command></command>
 				<keyCode>16777264</keyCode>
@@ -3878,7 +3531,8 @@ end
 			<Key isActive="yes" isFolder="no">
 				<name>F2</name>
 				<packageName></packageName>
-				<script>chant()</script>
+				<script>activateAbilityShortcut("F2")
+</script>
 				<command></command>
 				<keyCode>16777265</keyCode>
 				<keyModifier>0</keyModifier>
@@ -3886,7 +3540,8 @@ end
 			<Key isActive="yes" isFolder="no">
 				<name>F3</name>
 				<packageName></packageName>
-				<script>flamestrike()</script>
+				<script>activateAbilityShortcut("F3")
+</script>
 				<command></command>
 				<keyCode>16777266</keyCode>
 				<keyModifier>0</keyModifier>
@@ -3894,7 +3549,7 @@ end
 			<Key isActive="yes" isFolder="no">
 				<name>F4</name>
 				<packageName></packageName>
-				<script>thorncloud()
+				<script>activateAbilityShortcut("F4")
 </script>
 				<command></command>
 				<keyCode>16777267</keyCode>
@@ -3903,7 +3558,8 @@ end
 			<Key isActive="yes" isFolder="no">
 				<name>F5</name>
 				<packageName></packageName>
-				<script>cast_rainbow()</script>
+				<script>activateAbilityShortcut("F5")
+</script>
 				<command></command>
 				<keyCode>16777268</keyCode>
 				<keyModifier>0</keyModifier>
@@ -3911,7 +3567,7 @@ end
 			<Key isActive="yes" isFolder="no">
 				<name>F6</name>
 				<packageName></packageName>
-				<script>cast_courage()
+				<script>activateAbilityShortcut("F6")
 </script>
 				<command></command>
 				<keyCode>16777269</keyCode>
@@ -3920,9 +3576,37 @@ end
 			<Key isActive="yes" isFolder="no">
 				<name>F7</name>
 				<packageName></packageName>
-				<script></script>
+				<script>activateAbilityShortcut("F7")
+</script>
 				<command></command>
 				<keyCode>16777270</keyCode>
+				<keyModifier>0</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>F8</name>
+				<packageName></packageName>
+				<script>activateAbilityShortcut("F8")
+</script>
+				<command></command>
+				<keyCode>16777271</keyCode>
+				<keyModifier>0</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>F9</name>
+				<packageName></packageName>
+				<script>activateAbilityShortcut("F9")
+</script>
+				<command></command>
+				<keyCode>16777272</keyCode>
+				<keyModifier>0</keyModifier>
+			</Key>
+			<Key isActive="yes" isFolder="no">
+				<name>F10</name>
+				<packageName></packageName>
+				<script>activateAbilityShortcut("F10")
+</script>
+				<command></command>
+				<keyCode>16777273</keyCode>
 				<keyModifier>0</keyModifier>
 			</Key>
 		</KeyGroup>

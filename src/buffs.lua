@@ -43,21 +43,9 @@ function clickBuff(name)
     refreshBuffButtons()
 end
 
-function addBuffButton2(name, title, command)
-    local label = Geyser.Label:new({
-        name = name,
-        message = [[<p style="font-size:14pt">]] .. title .. [[</p>]],
-        height = "30px",
-        v_policy = Geyser.Fixed
-    }, buff_container)
-    label:setClickCallback("clickBuff", title)
-    return label
-end
-
 function setupBuffButtons()
     for i, buff in ipairs(guild.buffs) do
-        buff.label = addBuffButton2("buff_" .. i .. "_button", buff.name,
-                                    buff.command)
+        buff.label = addBuffButton("buff_" .. i .. "_button", buff.name)
     end
 end
 
