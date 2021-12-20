@@ -43,6 +43,7 @@ function setupEffectsGauges()
 end
 
 function refreshEffectGauges()
+    if not effects then return end
     local i = 1
     for name, effect in pairs(effects) do
         if i <= 10 then
@@ -57,11 +58,10 @@ function refreshEffectGauges()
                                               showDuration(secondsLeft) ..
                                               "</p>")
                 FR.effectbars[i]:show()
+                i = i + 1
             else
                 FR.effectbars[i]:hide()
             end
-
-            i = i + 1
         end
     end
 
@@ -74,7 +74,7 @@ end
 function showDuration(seconds)
     if seconds > 60 then
         local minutes = math.floor(seconds / 60)
-        if seconds % 60 > 0 then
+        if seconds % 60 > 0 and minutes <= 3 then
             return minutes .. "m " .. math.floor(seconds % 60) .. "s"
         end
         return minutes .. "m"
