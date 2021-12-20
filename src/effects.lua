@@ -1,5 +1,3 @@
-display("Loading effects")
-
 FR.effectbars = FR.effectbars or {}
 
 function setupEffectsGauges()
