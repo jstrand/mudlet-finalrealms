@@ -3,9 +3,9 @@ FR.effectbars = FR.effectbars or {}
 function setupEffectsGauges()
     FR.effects_container = Geyser.VBox:new({
         name = "effects_container",
-        x = "-200px",
+        x = "-300px",
         y = "200px",
-        width = "200px"
+        width = "290px"
     }, leftOfMapContainer)
     FR.effects_container:flash()
 
@@ -48,6 +48,9 @@ function refreshEffectGauges()
         if i <= 10 then
             if effect.present and effect.duration > 0 then
                 local secondsLeft = effect.endsAtEpoch - getEpoch()
+                if secondsLeft < 0 then
+                    secondsLeft = effect.duration * 2
+                end
                 FR.effectbars[i]:setValue(secondsLeft, effect.max * 2,
                                           "<p style='font-size:12pt;margin-left:10px'><b>" ..
                                               name .. "</b> " ..
