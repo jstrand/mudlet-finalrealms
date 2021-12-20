@@ -1901,10 +1901,13 @@ centerview(current_room)</script>
 			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
 				<name>Test effects</name>
 				<packageName></packageName>
-				<script>local test1 = { ["Bless"] = 900 }
+				<script>--setupEffectsGauges()
+
+local test1 = { ["Bless"] = 200 }
 updateEffects(test1)
 
-registerNamedTimer("magdar", "testTimer1", 5, function() display("done") end, false)
+--registerNamedTimer("magdar", "testTimer1", 5, function() display("done") end, false)
+--registerNamedTimer("fr", "refreshEffectsTimer", 0.5, function() display("done") end, false)
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -3851,6 +3854,17 @@ end
 </script>
 				<eventHandlerList>
 					<string>gmcp.Char.Effects</string>
+				</eventHandlerList>
+			</Script>
+			<Script isActive="no" isFolder="no">
+				<name>ReceiveGmcpHeartbeat</name>
+				<packageName></packageName>
+				<script>function ReceiveGmcpHeartbeat()
+  display(gmcp.Action.Heartbeat)
+end
+</script>
+				<eventHandlerList>
+					<string>gmcp.Action.Heartbeat</string>
 				</eventHandlerList>
 			</Script>
 		</ScriptGroup>

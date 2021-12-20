@@ -44,7 +44,44 @@ function setupEffectsGauges()
                        true)
 end
 
-function refreshEffectGauges() end
+function refreshEffectGauges()
+    local i = 1
+    for name, effect in pairs(effects) do
+        if i <= 10 then
+            if effect.present and effect.duration > 0 then
+                local secondsLeft = effect.endsAtEpoch - getEpoch()
+                FR.effectbars[i]:setValue(secondsLeft, effect.max * 2,
+                                          "<p style='font-size:12pt;margin-left:10px'><b>" ..
+                                              name .. "</b> " ..
+                                              showDuration(secondsLeft) ..
+                                              "</p>")
+                FR.effectbars[i]:show()
+            else
+                FR.effectbars[i]:hide()
+            end
+
+            i = i + 1
+        end
+    end
+
+    while i <= 10 do
+        FR.effectbars[i]:hide()
+        i = i + 1
+    end
+end
+
+function showDuration(seconds)
+    if seconds > 60 then
+        local minutes = math.floor(seconds / 60)
+        if seconds % 60 > 0 then
+            return minutes .. "m " .. math.floor(seconds % 60) .. "s"
+        end
+        return minutes .. "m"
+    else
+        return math.floor(seconds) .. "s"
+    end
+    return ""
+end
 
 function hasEffect(name)
     if name == "Singing" then return singing end
@@ -60,31 +97,19 @@ function updateEffects(namesAndDurations)
 
     for name, effect in pairs(effects) do effect.present = false end
 
-    local i = 1
     for name, duration in pairs(namesAndDurations) do
         if not effects[name] then
             local effect = {}
             effects[name] = effect
-            effect.max = duration
+            effect.max = 0
         end
         local effect = effects[name]
-        if effect.max < duration then effect.max = duration end
+        if effect.max < duration then
+            effect.max = duration
+            effect.endsAtEpoch = getEpoch() + duration * 2
+        end
         effect.duration = duration
         effect.present = true
-
-        if i <= 10 then
-            if duration > 0 then
-                FR.effectbars[i]:setValue(duration, effect.max,
-                                          "<p style='font-size:12pt;margin-left:10px'><b>" ..
-                                              name .. "</b> " ..
-                                              showDuration(duration) .. "</p>")
-                FR.effectbars[i]:show()
-            else
-                FR.effectbars[i]:hide()
-            end
-        end
-
-        i = i + 1
     end
 
     -- reset any no longer in list
@@ -94,23 +119,4 @@ function updateEffects(namesAndDurations)
             effect.duration = 0
         end
     end
-
-    while i <= 10 do
-        FR.effectbars[i]:hide()
-        i = i + 1
-    end
-end
-
-function showDuration(ticks)
-    local seconds = 2 * ticks
-    if seconds > 60 then
-        local minutes = math.floor(seconds / 60)
-        if seconds % 60 > 0 then
-            return minutes .. "m " .. math.floor(seconds % 60) .. "s"
-        end
-        return minutes .. "m"
-    else
-        return seconds .. "s"
-    end
-    return ""
 end
