@@ -1878,6 +1878,49 @@ centerview(current_room)</script>
 				<buttonRotation>0</buttonRotation>
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
+			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
+				<name>Load FR scripts</name>
+				<packageName></packageName>
+				<script>loadFrScripts()
+</script>
+				<css></css>
+				<commandButtonUp></commandButtonUp>
+				<commandButtonDown></commandButtonDown>
+				<icon></icon>
+				<orientation>1</orientation>
+				<location>0</location>
+				<posX>0</posX>
+				<posY>0</posY>
+				<mButtonState>1</mButtonState>
+				<sizeX>0</sizeX>
+				<sizeY>0</sizeY>
+				<buttonColumn>1</buttonColumn>
+				<buttonRotation>0</buttonRotation>
+				<buttonColor>#ffffff</buttonColor>
+			</Action>
+			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
+				<name>Test effects</name>
+				<packageName></packageName>
+				<script>local test1 = { ["Bless"] = 900 }
+updateEffects(test1)
+
+registerNamedTimer("magdar", "testTimer1", 5, function() display("done") end, false)
+</script>
+				<css></css>
+				<commandButtonUp></commandButtonUp>
+				<commandButtonDown></commandButtonDown>
+				<icon></icon>
+				<orientation>1</orientation>
+				<location>0</location>
+				<posX>0</posX>
+				<posY>0</posY>
+				<mButtonState>1</mButtonState>
+				<sizeX>0</sizeX>
+				<sizeY>0</sizeY>
+				<buttonColumn>1</buttonColumn>
+				<buttonRotation>0</buttonRotation>
+				<buttonColor>#ffffff</buttonColor>
+			</Action>
 		</ActionGroup>
 	</ActionPackage>
 	<ScriptPackage>
@@ -2085,9 +2128,7 @@ end
   setupEffectsGauges()
 end
 </script>
-				<eventHandlerList>
-					<string>sysLoadEvent</string>
-				</eventHandlerList>
+				<eventHandlerList />
 			</Script>
 			<Script isActive="yes" isFolder="no">
 				<name>Chat</name>
@@ -2515,7 +2556,21 @@ end
 			<name>Setup</name>
 			<packageName></packageName>
 			<script>function Setup()
-	xp_stats = XpStats()
+  loadFrScripts()
+  xp_stats = XpStats()
+  initLayout()
+end
+
+function frModulePath()
+  local moduleName = "FinalRealms"
+  local xmlFilePath = getModulePath(moduleName)
+  local pathLength = #(moduleName .. ".xml")
+  local path = xmlFilePath:sub(1, -pathLength - 1)
+  return path
+end
+
+function loadFrScripts()
+  dofile(frModulePath() .. "/src/load.lua")
 end
 </script>
 			<eventHandlerList>
@@ -2599,6 +2654,9 @@ function activateBuff(buff)
 end
 
 function refreshBuffs()
+  if not guild then
+    return
+  end
   if gp &gt;= max_gp*buff_gp_limit then
 
     for i, buff in ipairs(guild.buffs) do
@@ -2663,125 +2721,6 @@ function refreshBuffsOld()
     end
 	end
   return 0
-end</script>
-			<eventHandlerList />
-		</Script>
-		<Script isActive="yes" isFolder="no">
-			<name>Effects</name>
-			<packageName></packageName>
-			<script>effectbars = effectbars or {}
-  
-function setupEffectsGauges()
-  effects_container = Geyser.VBox:new({
-	  name = "effects_container",
-	  x="-400px", y="200px",
-	  width = "395px"
-	}, leftOfMapContainer)
-	--effects_container:flash()
-  
-  effectbars = {}
-  for i = 1, 10 do
-    local effectbar = Geyser.Gauge:new({
-      name="effectbar"..i,
-      --x = 0, y = 0,
-      v_policy=Geyser.Fixed,
-      width="95%", height="30",
-    	fgColor="white"
-      }, effects_container)
-    effectbar:hide()
-    
-    effectbar.front:setStyleSheet([[
-        background-color: Gray;
-        border-radius: 4;
-        padding: 3px;
-        margin-bottom: 3px;
-    ]])
-    
-    effectbar.back:setStyleSheet([[
-        background-color: none;
-        border: 2px solid Gray;
-        border-radius: 4;
-        margin-bottom: 3px;
-    ]])
-    
-    effectbars[i] = effectbar
-  end
-end
-
-function hasEffect(name)
-  if name == "Singing" then
-    return singing
-  end
-  if name == "Rainbow" then
-    return rainbow
-  end
-
-  if not effects then
-    return false
-  end
-  
-  return effects[name] and effects[name].duration &gt; 0
-end
-
-function updateEffects(namesAndDurations)
-  effects = effects or {}
-  
-  for name, effect in pairs(effects) do
-    effect.present = false
-  end
-  
-  local i = 1
-  for name, duration in pairs(namesAndDurations) do
-    if not effects[name] then
-      local effect = {}
-      effects[name] = effect
-      effect.max = duration
-    end
-    local effect = effects[name]
-    if effect.max &lt; duration then
-      effect.max = duration
-    end
-    effect.duration = duration
-    effect.present = true
-    
-    if i &lt;= 10 then
-      if duration &gt; 0 then
-        effectbars[i]:setValue(duration, effect.max, "&lt;p style='font-size:12pt;margin-left:10px'&gt;&lt;b&gt;"..name .. "&lt;/b&gt; " .. showDuration(duration) .. "&lt;/p&gt;")
-        effectbars[i]:show()
-      else
-        effectbars[i]:hide()
-      end
-    end
-    
-    i = i + 1
-  end
-  
-  -- reset any no longer in list
-  for name, effect in pairs(effects) do
-    if not effect.present then
-      effect.max = 0
-      effect.duration = 0
-    end
-  end
-  
-  while i &lt;= 10 do
-    effectbars[i]:hide()
-    i = i + 1
-  end
-end
-
-function showDuration(ticks)
-  local seconds = 2*ticks
-  if seconds &gt; 60 then
-    local minutes = math.floor(seconds / 60)
-    if seconds % 60 &gt; 0 then
-      return minutes .. "m " .. math.floor(seconds % 60) .. "s"
-    end
-    return minutes .. "m"
-  else
-    return seconds .. "s"
-  end
-  return ""
 end</script>
 			<eventHandlerList />
 		</Script>
@@ -3923,7 +3862,7 @@ end
 			<script></script>
 			<command></command>
 			<keyCode>-1</keyCode>
-			<keyModifier>-1</keyModifier>
+			<keyModifier>0</keyModifier>
 			<Key isActive="yes" isFolder="no">
 				<name>north</name>
 				<packageName></packageName>
@@ -4011,7 +3950,7 @@ end
 			<script></script>
 			<command></command>
 			<keyCode>-1</keyCode>
-			<keyModifier>-1</keyModifier>
+			<keyModifier>0</keyModifier>
 			<Key isActive="yes" isFolder="no">
 				<name>F1</name>
 				<packageName></packageName>
