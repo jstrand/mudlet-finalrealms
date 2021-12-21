@@ -1,5 +1,5 @@
 function setupAbilities()
-    if not guild then return end
+    if not guild or not guild.abilities then return end
 
     for i, ability in ipairs(guild.abilities) do
         addAbilityButton(ability.name, i,

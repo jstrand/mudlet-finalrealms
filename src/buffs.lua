@@ -44,12 +44,15 @@ function clickBuff(name)
 end
 
 function setupBuffButtons()
+    if not guild then return end
     for i, buff in ipairs(guild.buffs) do
         buff.label = addBuffButton("buff_" .. i .. "_button", buff.name)
     end
+    refreshBuffButtons()
 end
 
 function refreshBuffButtons()
+    if not guild then return end
     for i, buff in ipairs(guild.buffs) do
         updateStyleWithTrying(buff.label, hasEffect(buff.name), buff.auto)
     end

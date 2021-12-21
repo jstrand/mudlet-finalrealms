@@ -4,11 +4,17 @@ button_height = 30
 function setupButtons()
     top_container = Geyser.HBox:new({
         name = "top_container",
-        x = "-400px",
+        x = "-600px",
         y = "4px",
-        width = "400px"
+        width = "600px"
     }, leftOfMapContainer)
-    top_container:flash()
+    -- top_container:flash()
+
+    dps_container = Geyser.VBox:new({
+        name = "dps_container",
+        width = "300px",
+        h_policy = Geyser.Fixed
+    }, top_container)
 
     xp_container = Geyser.VBox:new({name = "xp_container"}, top_container)
 

@@ -7,7 +7,7 @@ function setupEffectsGauges()
         y = "200px",
         width = "290px"
     }, leftOfMapContainer)
-    FR.effects_container:flash()
+    -- FR.effects_container:flash()
 
     FR.effectbars = {}
     for i = 1, 10 do

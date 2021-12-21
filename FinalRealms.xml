@@ -1723,71 +1723,6 @@ centerview(current_room)</script>
 	</ActionPackage>
 	<ScriptPackage>
 		<ScriptGroup isActive="yes" isFolder="yes">
-			<name>Guilds</name>
-			<packageName></packageName>
-			<script>-------------------------------------------------
---         Put your Lua functions here.        --
---                                             --
--- Note that you can also use external scripts --
--------------------------------------------------
-</script>
-			<eventHandlerList />
-			<ScriptGroup isActive="yes" isFolder="yes">
-				<name>Bard</name>
-				<packageName></packageName>
-				<script>-------------------------------------------------
---         Put your Lua functions here.        --
---                                             --
--- Note that you can also use external Scripts --
--------------------------------------------------
-</script>
-				<eventHandlerList />
-				<Script isActive="yes" isFolder="no">
-					<name>BardSetup</name>
-					<packageName></packageName>
-					<script>function setupBard()
-  addGuild(
-  {
-    name = "Bard",
-    buffs = {
-      createBuff("Protection", "cast protection at me"),
-      createBuff("Singing", "play")
-    }
-  })
-end
-</script>
-					<eventHandlerList />
-				</Script>
-			</ScriptGroup>
-			<ScriptGroup isActive="yes" isFolder="yes">
-				<name>Vanguard</name>
-				<packageName></packageName>
-				<script>-------------------------------------------------
---         Put your Lua functions here.        --
---                                             --
--- Note that you can also use external scripts --
--------------------------------------------------
-</script>
-				<eventHandlerList />
-				<Script isActive="yes" isFolder="no">
-					<name>VanguardSetup</name>
-					<packageName></packageName>
-					<script>function setupVanguard()
-  addGuild(
-  {
-    name = "Vanguard",
-    buffs = {
-      createBuffF("assault", function() send("assault " .. (level + 4)) end),
-      createBuff("vigor", "vigor")
-    }
-  })
-end
-</script>
-					<eventHandlerList />
-				</Script>
-			</ScriptGroup>
-		</ScriptGroup>
-		<ScriptGroup isActive="yes" isFolder="yes">
 			<name>Layout</name>
 			<packageName></packageName>
 			<script>-------------------------------------------------
@@ -2034,9 +1969,9 @@ end
 			<name>Setup</name>
 			<packageName></packageName>
 			<script>function Setup()
+  xp_stats = XpStats()
   loadFrScripts()
   FR.setup()
-  xp_stats = XpStats()
   initLayout()
 end
 
@@ -3179,6 +3114,7 @@ end
 				<packageName></packageName>
 				<script>function ReceiveGmcpStatus()
   --echo("Status received")
+  --echo(gmcp.Char.Status.guild)
   level = gmcp.Char.Status.level
   
   if not guild or guild_name ~= gmcp.Char.Status.guild then
