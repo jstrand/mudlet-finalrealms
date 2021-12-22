@@ -63,29 +63,6 @@
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Assault off</name>
-				<script>assaulting = false
-startAssaulting()
-
-</script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList>
-					<string>.*You drop into a normal fighting stance as your onslaught of assault and battery ends.$</string>
-				</regexCodeList>
-				<regexCodePropertyList>
-					<integer>1</integer>
-				</regexCodePropertyList>
-			</Trigger>
 			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Entered room</name>
 				<script>if xp_helper then
@@ -1107,67 +1084,6 @@ refreshButtons()</script>
 					</regexCodePropertyList>
 				</Trigger>
 			</TriggerGroup>
-			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Vanguard</name>
-				<script></script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList />
-				<regexCodePropertyList />
-				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-					<name>Assault off</name>
-					<script>assaulting = false
-refreshButtons()
-refreshBuffs()
-</script>
-					<triggerType>0</triggerType>
-					<conditonLineDelta>0</conditonLineDelta>
-					<mStayOpen>0</mStayOpen>
-					<mCommand></mCommand>
-					<packageName></packageName>
-					<mFgColor>#ff0000</mFgColor>
-					<mBgColor>#ffff00</mBgColor>
-					<mSoundFile></mSoundFile>
-					<colorTriggerFgColor>#000000</colorTriggerFgColor>
-					<colorTriggerBgColor>#000000</colorTriggerBgColor>
-					<regexCodeList>
-						<string>You drop into a normal fighting stance as your onslaught of assault and battery ends.</string>
-					</regexCodeList>
-					<regexCodePropertyList>
-						<integer>0</integer>
-					</regexCodePropertyList>
-				</Trigger>
-				<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-					<name>Assault on</name>
-					<script>assaulting = true
-refreshButtons()
-</script>
-					<triggerType>0</triggerType>
-					<conditonLineDelta>0</conditonLineDelta>
-					<mStayOpen>0</mStayOpen>
-					<mCommand></mCommand>
-					<packageName></packageName>
-					<mFgColor>#ff0000</mFgColor>
-					<mBgColor>#ffff00</mBgColor>
-					<mSoundFile></mSoundFile>
-					<colorTriggerFgColor>#000000</colorTriggerFgColor>
-					<colorTriggerBgColor>#000000</colorTriggerBgColor>
-					<regexCodeList>
-						<string>You prepare to assail your enemies with sudden and violent attacks.</string>
-					</regexCodeList>
-					<regexCodePropertyList>
-						<integer>0</integer>
-					</regexCodePropertyList>
-				</Trigger>
-			</TriggerGroup>
 		</TriggerGroup>
 	</TriggerPackage>
 	<TimerPackage>
@@ -1479,7 +1395,7 @@ centerview(current_room)
 				<packageName></packageName>
 				<regex>^map_nudge (.*)$</regex>
 			</Alias>
-			<Alias isActive="yes" isFolder="no">
+			<Alias isActive="no" isFolder="no">
 				<name>Special movement</name>
 				<script>movement = matches[2]
 send(movement)</script>
@@ -1677,6 +1593,11 @@ centerview(current_room)</script>
 				<name>Re-run setup</name>
 				<packageName></packageName>
 				<script>Setup()
+
+if guild_name then
+  setupGuild(guild_name)
+end
+
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -1736,14 +1657,12 @@ centerview(current_room)</script>
 				<name>initLayout</name>
 				<packageName></packageName>
 				<script>function initLayout()
-
   leftOfMapContainer = Geyser.Container:new({
     name="leftOfMapContainer",
     x = 0, y = 0,
     width="70%", height="100%"
   })
   leftOfMapContainer:flash()
-
 	setupChat()
 	setupMap()
 	setupGauges()
@@ -2517,11 +2436,14 @@ function nextXpDir()
    -- check if there are saved directions for us
 	if #xp_path == 0 then
 		-- no saved directions, calculate path to next room
+    local bestWeight = nil
 		for room_id,_ in pairs(xp_visit_time) do
-			if repopped(room_id) and getPath(current_room, room_id) then
-				local route_length = tablelength(speedWalkDir)
-				if route_length &lt; #xp_path or #xp_path == 0 then
-					shortest_route = route_length
+    local hasPath, routeWeight = getPath(current_room, room_id)
+			if repopped(room_id) and hasPath then
+				--local route_length = tablelength(speedWalkDir)
+     --local routeWeight = totalWeight
+				if bestWeight == nil or routeWeight &lt; bestWeight or #xp_path == 0 then
+					bestWeight = routeWeight
 					xp_path = copySpeedWalkDir()
 				end
 			end
