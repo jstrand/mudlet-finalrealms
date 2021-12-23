@@ -2,35 +2,6 @@ button_width = 120
 button_height = 30
 
 function setupButtons()
-    top_container = Geyser.HBox:new({
-        name = "top_container",
-        x = "-600px",
-        y = "4px",
-        width = "600px"
-    }, leftOfMapContainer)
-    -- top_container:flash()
-
-    dps_container = Geyser.VBox:new({
-        name = "dps_container",
-        width = "300px",
-        h_policy = Geyser.Fixed
-    }, top_container)
-
-    xp_container = Geyser.VBox:new({name = "xp_container"}, top_container)
-
-    buff_container = Geyser.VBox:new({name = "buff_container"}, top_container)
-
-    offense_container = Geyser.VBox:new({name = "offense_container"},
-                                        top_container)
-
-    ab_container = Geyser.VBox:new({
-        name = "ab_container",
-        x = "-215px",
-        y = "-300px",
-        width = "200px",
-        height = "100%"
-    }, leftOfMapContainer)
-
     auto_xp_label = Geyser.Label:new({
         name = "auto_xp_label",
         message = [[<p style="font-size:14pt">Auto-XP</p>]],
