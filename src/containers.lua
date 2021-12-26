@@ -13,7 +13,7 @@ function FR.setupContainers()
         name = "top_container",
         x = "-900px",
         y = "4px",
-        width = "600px"
+        width = "900px"
     }, leftOfMapContainer)
     -- top_container:flash()
 
