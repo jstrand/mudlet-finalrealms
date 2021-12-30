@@ -140,6 +140,17 @@ function findRoom(room_name)
     return nil
 end
 
+function findRoomByNum(roomNum)
+    local foundRooms = searchRoomUserData("num", roomNum)
+    if #foundRooms == 1 then return foundRooms[1] end
+    -- elseif #foundRooms > 1 then
+    --     echo("Multiple rooms found with number: " .. roomNum .. "\n")
+    -- else
+    --     echo("No rooms found with number: " .. roomNum .. "\n")
+    -- end
+    return nil
+end
+
 function doSpeedWalk()
     echo("Move manually to stop speedwalking.\n")
     echo("Path we need to take: " .. table.concat(speedWalkDir, ", ") .. "\n")
@@ -169,11 +180,44 @@ function detectAndSetRoomEnvironment(room_id)
     setRoomEnv(room_id, color_id)
 end
 
+function onGmcpRoomChange()
+
+    if movement == nil then display(gmcp.Room.Info.num) end
+    -- local foundRooms = searchRoomUserData("num", gmcp.Room.Info.num)
+    -- if #foundRooms == 1 then
+    --     movement = nil
+    --     current_room = foundRooms[1]
+    -- end
+end
+
+function verifyRoom(room_name, room_id)
+    -- There was a room, but are we really there?
+    local roomNum, _ = getRoomUserData(room_id, "num", true)
+    if roomNum ~= nil then
+        if tonumber(roomNum) == gmcp.Room.Info.num then
+            -- Verified by number
+            -- display("Verified by number")
+            return room_id
+        else
+            local foundRoom = findRoomByNum(gmcp.Room.Info.num)
+            if foundRoom ~= nil then return foundRoom end
+        end
+    end
+
+    local found_room_name = getRoomName(room_id)
+    if room_name ~= found_room_name and not xp_helper and
+        not string.starts(room_name, "There are ") then
+        echo("Not in the expected room, trying to find the right room...\n")
+        return findRoom(room_name)
+    end
+
+    return room_id
+end
+
 function onMovement(room_name, direction_string)
     -- check if the current room has been deleted
     if current_room and not roomExists(current_room) then current_room = nil end
-    -- display(matches)
-    -- room_name = matches[2]
+
     room_name = room_name:gsub(">", "")
     room_name = room_name:trim()
 
@@ -201,8 +245,11 @@ function onMovement(room_name, direction_string)
             end
             current_room = room_id
         elseif not current_room then -- and map_locate then
-            current_room = findRoom(room_name)
+            current_room = findRoomByNum(gmcp.Room.Info.num) or
+                               findRoom(room_name)
         elseif current_room then
+            room_id = findRoomByNum(gmcp.Room.Info.num)
+
             -- Try to find an existing room by following the exit from the last room
             current_exits = getRoomExits(current_room)
             -- Check if there are any exits, if not the room is not valid anymore
@@ -210,14 +257,15 @@ function onMovement(room_name, direction_string)
             --			current_room = nil
             --			return
             --		end
-            room_id = nil
-            for dir, room in pairs(current_exits) do
-                if exitmap[dir] == exitmap[movement] then
-                    room_id = room
+            if room_id == nil then
+                for dir, room in pairs(current_exits) do
+                    if exitmap[dir] == exitmap[movement] then
+                        room_id = room
+                    end
                 end
-            end
-            for dir, room in pairs(getSpecialExitsSwap(current_room)) do
-                if dir == movement then room_id = room end
+                for dir, room in pairs(getSpecialExitsSwap(current_room)) do
+                    if dir == movement then room_id = room end
+                end
             end
             if room_id == nil and auto_mapping then
                 -- No room found when moving that direction, is it a normal move?
@@ -261,14 +309,7 @@ function onMovement(room_name, direction_string)
                     addSpecialExit(current_room, room_id, movement)
                 end
             elseif room_id then
-                -- There was a room, but are we really there?
-                found_room_name = getRoomName(room_id)
-                if room_name ~= found_room_name and not xp_helper and
-                    not string.starts(room_name, "There are ") then
-                    echo(
-                        "Not in the expected room, trying to find the right room...\n")
-                    room_id = findRoom(room_name)
-                end
+                room_id = verifyRoom(room_name, room_id)
             end
             -- And remember that we moved
             current_room = room_id
@@ -276,7 +317,7 @@ function onMovement(room_name, direction_string)
     elseif current_room == nil or getRoomName(current_room) ~= room_name then
         -- No known room and we're not moving, a glance or login happend, or the room name was not correct
         -- could also be a special move
-        current_room = findRoom(room_name)
+        current_room = findRoomByNum(gmcp.Room.Info.num) or findRoom(room_name)
     end
 
     -- echo("\n")
@@ -290,6 +331,12 @@ function onMovement(room_name, direction_string)
     if current_room then
         --	detectAndSetRoomEnvironment(current_room)
         centerview(current_room)
+
+        local num, _ = getRoomUserData(current_room, "num", true)
+        if not num and gmcp.Room.Info.num > 0 then
+            setRoomUserData(current_room, "num", gmcp.Room.Info.num)
+        end
+
         if auto_mapping then echo("(" .. current_room .. ")") end
         if speed_walking then stepWalk() end
         if xp_helper or fleeing then

@@ -15,4 +15,7 @@ function FR.setup()
     setupButtons()
     FR.setupMultis()
     FR.setupDps()
+
+    -- todo: move   
+    registerAnonymousEventHandler("gmcp.Room.Info", "onGmcpRoomChange", false)
 end

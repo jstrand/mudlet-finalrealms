@@ -1202,7 +1202,7 @@ centerview(current_room)
 				<packageName></packageName>
 				<regex>^map_center (\d+)$</regex>
 			</Alias>
-			<Alias isActive="no" isFolder="no">
+			<Alias isActive="yes" isFolder="no">
 				<name>Auto mapping on/off</name>
 				<script>auto_mapping = matches[2] == "on"
 echo("Ok, auto mapping is now " .. tostring(auto_mapping) .. "\n")
@@ -1264,7 +1264,7 @@ centerview(current_room)
 				<packageName></packageName>
 				<regex>^map_nudge (.*)$</regex>
 			</Alias>
-			<Alias isActive="no" isFolder="no">
+			<Alias isActive="yes" isFolder="no">
 				<name>Special movement</name>
 				<script>movement = matches[2]
 send(movement)</script>
@@ -1484,15 +1484,31 @@ end
 				<buttonColor>#ffffff</buttonColor>
 			</Action>
 			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Test effects</name>
+				<name>Current room number</name>
 				<packageName></packageName>
-				<script>setupEffectsGauges()
-
---local test1 = { ["Bless"] = 200 }
---updateEffects(test1)
-
---registerNamedTimer("magdar", "testTimer1", 5, function() display("done") end, false)
---registerNamedTimer("fr", "refreshEffectsTimer", 0.5, function() display("done") end, false)
+				<script>echo("GMCP: " .. gmcp.Room.Info.num .. "\n")
+local num, _ = getRoomUserData(current_room, "num", true)
+echo("Room: " .. num .. "\n")
+</script>
+				<css></css>
+				<commandButtonUp></commandButtonUp>
+				<commandButtonDown></commandButtonDown>
+				<icon></icon>
+				<orientation>1</orientation>
+				<location>0</location>
+				<posX>0</posX>
+				<posY>0</posY>
+				<mButtonState>1</mButtonState>
+				<sizeX>0</sizeX>
+				<sizeY>0</sizeY>
+				<buttonColumn>1</buttonColumn>
+				<buttonRotation>0</buttonRotation>
+				<buttonColor>#ffffff</buttonColor>
+			</Action>
+			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
+				<name>Set current room number</name>
+				<packageName></packageName>
+				<script>setRoomUserData(current_room, "num", gmcp.Room.Info.num)
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
