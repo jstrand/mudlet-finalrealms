@@ -1,6 +1,6 @@
 {
     "anonymousAreaName": "Unnamed Area",
-    "areaCount": 17,
+    "areaCount": 16,
     "areas": [
         {
             "id": -1,
@@ -2192,122 +2192,6 @@
                     "id": 3368,
                     "name": "Sunken desert : Endless dunes [ne]"
                 }
-            ]
-        },
-        {
-            "id": 3,
-            "labels": [
-                {
-                    "colors": [
-                        {
-                            "color24RGB": [
-                                255,
-                                200,
-                                1
-                            ]
-                        },
-                        {
-                            "color24RGB": [
-                                241,
-                                0,
-                                22
-                            ]
-                        }
-                    ],
-                    "coordinates": [
-                        11.66566276550293,
-                        -2.1927719116210938,
-                        -5
-                    ],
-                    "id": 0,
-                    "image": [
-                        "iVBORw0KGgoAAAANSUhEUgAAAF8AAAAjCAIAAAB9zkEYAAAACXBIWXMAAAsTAAAL",
-                        "EwEAmpwYAAADK0lEQVRo3u2Zz4scRRTHP9X1Y7onM5MEYlDwEMySIAQJbi4SyGER",
-                        "dCWXHIRFhBw8ePHuxX8gCJKjCJ40sHiJIGpwQUSRjJBF0YBGdzFoUDAJszszOzPV",
-                        "XdXlYWY3OzF6MLPsLNQ7dXV3ver6dH3fe9Ut1jlMtH+xJCKIdCKdSCfSiXQinUgn",
-                        "0ol0ou08nVlXa96uXyo22yFbut1odtXMqC3f7DaaHT074Tnod9uNZnvibidNZ1l6",
-                        "izhSjJye8aoO5PLU6Lo60aen3fKkJ6ECBLFv2pUl3C2DzNXzAOKUEwBePlUCzHh9",
-                        "kPJXHf6f6+1LY/YBPsIOKEtN1p373nC0q54p8yuJPDaSmHzCQyLmigTyb8iW1pRN",
-                        "u2fT4XzEa7b2cr94f7/F1l509hNjzq0nvtY9neoP28alg5/LbK4LhJsHOgsyW1rT",
-                        "dQ86v9wYXLj3dsX0R+VwVQWQxz2gjg5oVX0P8ZgTIJ/OIXWfS79eikMdszDqYp5t",
-                        "C6S7KjBBVPrpuXXRytxPKkDSyMXj7Wyu62/WXEuLI2uN5l1d1e5GFQrzgt1GJCk3",
-                        "pj9nfam8HeLwso6/nhZ/aSqFnAnqmKVl3ArFZ1XAzDuAM4V5lLCabgWjcvVAZ77W",
-                        "e2VLgDq/fGhjIet9nAJ0at3T9d75ffbOuKqs8svTTwdR3DJUCv26k+CXpftdgVUL",
-                        "haribyggvGOcRRwfSJAvDQTkH+mt/GPf0mP+bMVeEIAwASg+TcshxLtmLCooYA/Q",
-                        "wf9owFae60PqrlFe14CZ7yZI15TDQfMfMuibN1zlyQG9er64rf9/ph6hHxCF3S8a",
-                        "GcSeoFNeUwFEtaBl/Ap8rTwgPb7iNim4DyoB9NmWquC+Mg+ZbsJideNiVu6NWvmK",
-                        "8hag/EMFYCXxHQD+NP5eeNL5neE6yvL3HvYZ1KuD7PxAze4JOsPQA/7bZFQE/ZYC",
-                        "7ju5/aa8mQFhNXUrY33HVQp+80x+n3QEbvPocJ4czHeiGhS79U9Cvd2pnhzYi4/Y",
-                        "xbgLvX9H5tOT/4jH02dqV0YVJ3xoZfkXlTDVcHZPWfH7TqQT6UQ60SKdSCfSiXQi",
-                        "nSm3vwEAkjCqDWnBGwAAAABJRU5ErkJggg=="
-                    ],
-                    "scaledels": true,
-                    "showOnTop": true,
-                    "size": [
-                        4.292169570922852,
-                        1.5813255310058594
-                    ],
-                    "text": "Wyrm!"
-                },
-                {
-                    "colors": [
-                        {
-                            "color24RGB": [
-                                255,
-                                242,
-                                255
-                            ]
-                        },
-                        {
-                            "color24RGB": [
-                                0,
-                                0,
-                                0
-                            ]
-                        }
-                    ],
-                    "coordinates": [
-                        0,
-                        -4,
-                        -1
-                    ],
-                    "id": 1,
-                    "image": [
-                        "iVBORw0KGgoAAAANSUhEUgAAAFsAAAAiCAIAAAC/eTLHAAAACXBIWXMAAAsTAAAL",
-                        "EwEAmpwYAAADuUlEQVRo3u2Wf0hbVxTHvxsvmG7Jm9kP2Vq6OBzSEXyT+odUlm2B",
-                        "OlIC5p8Fh8bRdNS0/aN1DCpdUVg6GGEMksJMypAM1rBfrhC3GosURoQacZGaLhqd",
-                        "Dl2Xh4bxym5Gn+E9uPvjOavTOsHRCL2fv96773zPeffcc8+9AIPBYDAYDAaDwdiI",
-                        "7VQ0/VPinHXbAkvH9ZF0PND+AP7t0R2prWFCaCrgXHl1hJcIpWLSvZmt05+ihIQd",
-                        "AMBX19RUH6rmtx2o8kCDpebwK4ceQEa4Hep1gA5GbcrJkLcCav+H7Zf/U1ZUALW4",
-                        "/TAECgCluOtrZA3hRKS+HAsD3c6e9KYGsc66R3j+xNWdBCkCgEUQdnlGFJITfElv",
-                        "rUm93d/01kf/bCj/fF6eHYwlpxVK6FTAbfMlZCkXdGzoKefjkqQsJcIAnL6ELMly",
-                        "XpbzMhEl6TdCpq87VwOhMpZYoiMTE4TOfh/UBgVPZF6UKaGUUCrOhz1CiTOiALrq",
-                        "s/GOeqhz3RbnmvJ4gtfrqxqa6p+RsjO3xmdyfFm5nnuSX78X0ByJddpNXO7S+RMA",
-                        "yOLtyenJyezkxPiYpDeZyo1G0+OarQoYLU1NtfzczVt3VFS95glbAeCFl+v2cdLw",
-                        "QF//2AIMZm+XX0AJsYYlbXEInQq5NzZdmp/1WdZ2VlnrrE5/ihIp6PHNSpQSKdK8",
-                        "wbPWpAmJamuueZNymmX7F7OU0KTPuV4jJEVK82l3aWuEA8RMdhk40PrJxokVsle7",
-                        "M/eTmk4Hu6o4dfCD1z1f/+us9ee+9FYAw6G21si9siv83KdZ/iL+CeAxXuvogi8U",
-                        "n8oskfxovQFQlUJpM6IDFodOHY9mgYqjofnVilj5qivbQquqADih8Z31w+7U0Nm9",
-                        "wNzA+692xjb1tmbr2WKZVFerfR9+v/bdDwvLOz88/4/OquP5yydfungjD87cNZTa",
-                        "9i3qTk/bu+N/YW/D6fkrvtXKj2U+O2hA/sbFF1eb9BY43n5jP7c88zlvqXOdvLCo",
-                        "7pbT1wjgjL2x79dlGA5+Oh23bUu1p4wE6hovLKgwH+5K93YAOHcl3rRfDxTGs2WR",
-                        "3mi0NxoNBZ1b3VOIDOift30bCMdHfqw3ANxTRzy2UmZEufeYdtUeH/1D5Z6zfzXo",
-                        "104H+W7xvuZQwAOZ7sq2S6KKGtfH8fdszz69R0ux/Zj3qKulxdXS0uo54sCm3u4W",
-                        "Cxg+882YCL35zWNeexUZvSmCM3uDPW483AgOt7t5pZLcnnanVQCDwWAwGAwGg8F4",
-                        "iPgb4luYMd++3sMAAAAASUVORK5CYII="
-                    ],
-                    "scaledels": true,
-                    "showOnTop": true,
-                    "size": [
-                        4.111444473266602,
-                        1.5361442565917969
-                    ],
-                    "text": "Krikzha"
-                }
-            ],
-            "name": "",
-            "roomCount": 0,
-            "rooms": [
             ]
         },
         {
@@ -86097,7 +85981,7 @@
     ],
     "defaultAreaName": "Default Area",
     "formatVersion": 1,
-    "labelCount": 24,
+    "labelCount": 22,
     "mapSymbolFontDetails": "Bitstream Vera Sans Mono,12,-1,5,50,0,0,0,0,0",
     "mapSymbolFontFudgeFactor": 1,
     "onlyMapSymbolFontToBeUsed": false,
@@ -86129,7 +86013,7 @@
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 1824,
-        "Final Realms map experiments": 3843
+        "Final Realms map experiments": 3924
     },
     "roomCount": 3916
 }
