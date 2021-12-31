@@ -311,6 +311,7 @@ function handleRoom(room_name)
 
     if not gmcp.Room then
         send("gmcp on")
+        send("gl")
         return
     end
 
@@ -360,6 +361,9 @@ function loadFinalRealmsMap()
     else
         echo("Failed!" .. "\n")
     end
+
+    current_room = nil
+    send("gl")
 end
 
 function saveFinalRealmsMap()
