@@ -199,7 +199,7 @@ function verifyRoom(room_name, room_id)
     end
 
     local found_room_name = getRoomName(room_id)
-    if room_name ~= found_room_name and not xp_helper and
+    if not string.starts(found_room_name, room_name) and not xp_helper and
         not string.starts(room_name, "There are ") then
         echo("Not in the expected room, trying to find the right room...\n")
         return findRoom(room_name)
@@ -330,7 +330,10 @@ function handleRoom(room_name)
 
     if movement then
         current_room = handleMovement(room_name, movement)
-        movement = nil
+        if current_room then
+            -- found a room, reset movement
+            movement = nil
+        end
     elseif current_room == nil or getRoomName(current_room) ~= room_name then
         -- No known room and we're not moving, a glance or login happend, or the room name was not correct
         -- could also be a special move
