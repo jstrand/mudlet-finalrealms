@@ -348,3 +348,27 @@ function handleRoom(room_name)
         if xp_helper or fleeing then stepXp() end
     end
 end
+
+function getFinalRealmsMapPath() return FR.getModuleLocation() .. "map.json" end
+
+function loadFinalRealmsMap()
+    local mapPath = getFinalRealmsMapPath()
+
+    echo("Loading map from " .. mapPath .. "\n")
+    if loadJsonMap(mapPath) then
+        echo("OK" .. "\n")
+    else
+        echo("Failed!" .. "\n")
+    end
+end
+
+function saveFinalRealmsMap()
+    local mapPath = getFinalRealmsMapPath()
+
+    echo("Saving map to " .. mapPath .. "\n")
+    if saveJsonMap(mapPath) then
+        echo("OK" .. "\n")
+    else
+        echo("Failed!" .. "\n")
+    end
+end

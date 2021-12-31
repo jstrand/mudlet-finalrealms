@@ -1792,44 +1792,6 @@ end
 					<string>nudge</string>
 				</eventHandlerList>
 			</Script>
-			<Script isActive="yes" isFolder="no">
-				<name>LoadSaveMap</name>
-				<packageName></packageName>
-				<script>
-function getModuleLocation()
-  local moduleFilePath = getModulePath("FinalRealms")
-  local modulePath = string.match(moduleFilePath, "(.*)FinalRealms.xml$")
-  return modulePath
-end
-
-function getFinalRealmsMapPath()
-  return getModuleLocation() .. "map.dat"
-end
-
-function loadFinalRealmsMap()
-  local mapPath = getFinalRealmsMapPath()
-
-  echo("Loading map from " .. mapPath .. "\n")
-  if loadMap(mapPath) then
-    echo("OK" .. "\n")
-  else
-    echo("Failed!" .. "\n")
-  end
-end
-
-function saveFinalRealmsMap()
-  local mapPath = getFinalRealmsMapPath()
-
-  echo("Saving map to " .. mapPath .. "\n")
-  if saveMap(mapPath) then
-    echo("OK" .. "\n")
-  else
-    echo("Failed!" .. "\n")
-  end
-end
-</script>
-				<eventHandlerList />
-			</Script>
 		</ScriptGroup>
 		<ScriptGroup isActive="yes" isFolder="yes">
 			<name>XP</name>

@@ -19,3 +19,9 @@ function FR.setup()
     -- todo: move   
     registerAnonymousEventHandler("gmcp.Room.Info", "onGmcpRoomChange", false)
 end
+
+function FR.getModuleLocation()
+    local moduleFilePath = getModulePath("FinalRealms")
+    local modulePath = string.match(moduleFilePath, "(.*)FinalRealms.xml$")
+    return modulePath
+end
