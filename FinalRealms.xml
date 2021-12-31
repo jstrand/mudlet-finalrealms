@@ -467,63 +467,10 @@ updateGauges()
 			<regexCodeList />
 			<regexCodePropertyList />
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Cant see</name>
-				<script>--display(matches)
-
-if current_room and movement then
-		-- Try to find an existing room by following the exit from the last room
-		current_exits = getRoomExits(current_room)
-		room_id = nil
-		for dir,room in pairs(current_exits) do
-			if exitmap[dir] == exitmap[movement] then
-				room_id = room
-			end
-		end
-		for dir,room in pairs(getSpecialExitsSwap(current_room)) do
-			if dir == movement then
-				room_id = room
-			end
-		end
-		current_room = room_id
-end
-
-movement = nil
-if current_room then
-	centerview(current_room)
-	if speed_walking then
-		stepWalk()
-	end
-	if xp_helper then
-		stepXp()
-	end
-end
-</script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList>
-					<string>^[ &gt;\]]*You are blinded by the light\.$</string>
-					<string>^[ &gt;\]]*It's too dark to see anything\.$</string>
-					<string>You can't see much.</string>
-					<string>^[ &gt;\]]*The light is painfully bright\.$</string>
-				</regexCodeList>
-				<regexCodePropertyList>
-					<integer>1</integer>
-					<integer>1</integer>
-					<integer>0</integer>
-					<integer>1</integer>
-				</regexCodePropertyList>
-			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>BriefRoom</name>
-				<script>onMovement(matches[2], matches[3])
+				<script>-- Fallback to handle rooms not marked with the GMCP room number yet
+-- directions in matches[3]
+onBriefDescription(matches[2])
 </script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
@@ -1144,23 +1091,7 @@ send(matches[1], false)
 				<regex>^(n|s|e|w|nw|ne|sw|se|u|d|in|out)$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Map move only</name>
-				<script>map_movement = matches[2]
-map_movement_long = long_exits[map_movement]
-exits = getRoomExits(current_room)
-move_to_room = exits[map_movement_long]
-
-if move_to_room then
-	current_room = move_to_room
-	centerview(current_room)
-end
-</script>
-				<command></command>
-				<packageName></packageName>
-				<regex>^map (.*)$</regex>
-			</Alias>
-			<Alias isActive="yes" isFolder="no">
-				<name>List rooms in current area</name>
+				<name>map list rooms</name>
 				<script>if current_room == nil then
 	echo("\nIn unknown room\n")
 else
@@ -1170,10 +1101,10 @@ else
 end</script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_list rooms$</regex>
+				<regex>^map list rooms$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>List areas</name>
+				<name>map list areas</name>
 				<script>echo(" ===== Mapped areas ==== \n")
 area_table = getAreaTableSwap()
 for id,name in pairs(area_table) do
@@ -1182,54 +1113,45 @@ end
 echo(" ======================= \n")</script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_list areas$</regex>
+				<regex>^map list areas$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>List rooms in area</name>
-				<script>area = tonumber(matches[2])
-listRooms(getAreaRooms(area))
+				<name>map list rooms</name>
+				<script>if not area_id then
+  echo("Please set an area first")
+  return
+end
+listRooms(getAreaRooms(area_id))
 </script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_list rooms (\d+)$</regex>
+				<regex>^map list rooms$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Set current room</name>
+				<name>map center roomId</name>
 				<script>current_room = matches[2]
 centerview(current_room)
 </script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_center (\d+)$</regex>
+				<regex>^map center (\d+)$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Auto mapping on/off</name>
-				<script>auto_mapping = matches[2] == "on"
+				<name>map auto</name>
+				<script>if not auto_mapping and area_id == nil then
+  echo("Start by setting an area with map_area &lt;name&gt;")
+  return
+end
+
+auto_mapping = not auto_mapping
 echo("Ok, auto mapping is now " .. tostring(auto_mapping) .. "\n")
 </script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_auto (on|off)$</regex>
+				<regex>^map auto$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Find location on map</name>
-				<script>current_room = nil
-map_locate = true
-echo("Try to find location on map, move a square!\n")</script>
-				<command></command>
-				<packageName></packageName>
-				<regex>^map_locate$</regex>
-			</Alias>
-			<Alias isActive="yes" isFolder="no">
-				<name>Abort finding location</name>
-				<script>map_locate = false
-echo("Ok, stopped trying to find location on map.\n")</script>
-				<command></command>
-				<packageName></packageName>
-				<regex>^map_locate stop$</regex>
-			</Alias>
-			<Alias isActive="yes" isFolder="no">
-				<name>Mapping area</name>
+				<name>map area</name>
 				<script>if matches[2] == "nil" or matches[2] == "none" then
 	area_name = nil
 	area_id = nil
@@ -1253,32 +1175,32 @@ end
 </script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_area (.*)$</regex>
+				<regex>^map area (.*)$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Nudge room</name>
+				<name>map nudge</name>
 				<script>setRelativeCoordinates(current_room, current_room, matches[2])
 centerview(current_room)
 </script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_nudge (.*)$</regex>
+				<regex>^map nudge (.*)$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Special movement</name>
+				<name>map move</name>
 				<script>movement = matches[2]
 send(movement)</script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^move (.*)$</regex>
+				<regex>^map move (.*)$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
-				<name>Mark room with char</name>
+				<name>map mark</name>
 				<script>setRoomChar(current_room, 'B')
 </script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_mark (\w)$</regex>
+				<regex>^map mark (\w)$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
 				<name>Speed walk to waypoint</name>
@@ -1304,7 +1226,7 @@ end
 				<script>echo("Current room: " .. current_room .. "\n")</script>
 				<command></command>
 				<packageName></packageName>
-				<regex>^map_room$</regex>
+				<regex>^map room$</regex>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
 				<name>Show waypoints</name>
