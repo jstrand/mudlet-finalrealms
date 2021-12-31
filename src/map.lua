@@ -214,7 +214,43 @@ function verifyRoom(room_name, room_id)
     return room_id
 end
 
+function cleanRoomName(roomName) end
+
+function addExits(room_id)
+    for exitDirection, exitToRoomNum in pairs(gmcp.Room.Info.exits) do
+        local exitToExistingRoomId = findRoomByNum(exitToRoomNum)
+        if exitToExistingRoomId then
+            if exitmap[exitDirection] ~= nil then
+                setExitStub(room_id, exitDirection, true)
+                connectExitStub(room_id, exitToExistingRoomId)
+                -- setExit(room_id, exitToExistingRoomId, exitDirection)
+            else
+                addSpecialExit(room_id, exitToExistingRoomId, exitDirection)
+            end
+        elseif exitmap[exitDirection] ~= nil then
+            setExitStub(room_id, exitDirection, true)
+        end
+    end
+end
+
+function createRoom()
+    local room_id = createRoomID()
+    addRoom(room_id)
+    setRoomUserData(room_id, "num", gmcp.Room.Info.num)
+    setRoomName(room_id, gmcp.Room.Info.name)
+    setRoomArea(room_id, area_id)
+    detectAndSetRoomEnvironment(room_id)
+    addExits(room_id)
+    return room_id
+end
+
 function onMovement(room_name, direction_string)
+
+    if not gmcp.Room then
+        send("gmcp on")
+        return
+    end
+
     -- check if the current room has been deleted
     if current_room and not roomExists(current_room) then current_room = nil end
 
@@ -230,19 +266,9 @@ function onMovement(room_name, direction_string)
     if movement then
         if not current_room and auto_mapping then
             -- Start of area
-            room_id = createRoomID()
-            addRoom(room_id)
-            setRoomName(room_id, room_name)
-            setRoomArea(room_id, area_id)
+            local room_id = createRoom()
             setRoomCoordinates(room_id, 0, 0, 0)
-            detectAndSetRoomEnvironment(room_id)
-            for i, dir in pairs(directions) do
-                normalized_dir = exitmap[dir]
-                if normalized_dir == nil then
-                elseif normalized_dir >= 1 and normalized_dir <= 10 then
-                    setExitStub(room_id, normalized_dir, true)
-                end
-            end
+
             current_room = room_id
         elseif not current_room then -- and map_locate then
             current_room = findRoomByNum(gmcp.Room.Info.num) or
@@ -269,37 +295,34 @@ function onMovement(room_name, direction_string)
             end
             if room_id == nil and auto_mapping then
                 -- No room found when moving that direction, is it a normal move?
-                if exitmap[movement] ~= nil then
-                    -- try to find one at the coordinates
-                    x, y, z = getRelativeCoordinates(current_room, movement)
-                    potential_rooms = getRoomsByPosition(getRoomArea(
-                                                             current_room), x,
-                                                         y, z)
-                    if potential_rooms[0] ~= nil and
-                        getRoomName(potential_rooms[0]) == room_name then
-                        room_id = potential_rooms[0]
-                    end
-                end
-                if room_id == nil then
-                    room_id = createRoomID()
-                    addRoom(room_id)
-                    setRoomName(room_id, room_name)
-                    setRoomArea(room_id, area_id)
-                    setRelativeCoordinates(room_id, current_room, movement)
-                    detectAndSetRoomEnvironment(room_id)
-                    -- new room, create stubs
-                    for i, dir in pairs(directions) do
-                        normalized_dir = exitmap[dir]
-                        if normalized_dir == nil then
-                        elseif normalized_dir >= 1 and normalized_dir <= 10 then
-                            setExitStub(room_id, exitmap[dir], true)
-                        end
-                    end
-                end
+                -- if exitmap[movement] ~= nil then
+                --     -- try to find one at the coordinates
+                --     x, y, z = getRelativeCoordinates(current_room, movement)
+                --     potential_rooms = getRoomsByPosition(getRoomArea(
+                --                                              current_room), x,
+                --                                          y, z)
+                --     if potential_rooms[0] ~= nil and
+                --         getRoomName(potential_rooms[0]) == room_name then
+                --         room_id = potential_rooms[0]
+                --     end
+                -- end
+                -- if room_id == nil then
+                room_id = createRoom()
+                setRelativeCoordinates(room_id, current_room, movement)
+                -- end
+            elseif room_id then
+                room_id = verifyRoom(room_name, room_id)
+            end
+
+            if auto_mapping then
                 if exitmap[movement] ~= nil then
                     coming_from = opposingmap[movement]
-                    for i, dir in pairs(directions) do
-                        if coming_from == dir then
+                    for exitDirection, exitToRoomNum in
+                        pairs(gmcp.Room.Info.exits) do
+                        if coming_from == exitDirection and
+                            not getRoomExits(room_id)[long_exits[exitDirection]] then
+                            echo(
+                                "Exit back to where you came from not found, connecting")
                             setExit(room_id, current_room, exitmap[coming_from])
                         end
                     end
@@ -308,9 +331,8 @@ function onMovement(room_name, direction_string)
                 else
                     addSpecialExit(current_room, room_id, movement)
                 end
-            elseif room_id then
-                room_id = verifyRoom(room_name, room_id)
             end
+
             -- And remember that we moved
             current_room = room_id
         end
