@@ -86865,7 +86865,7 @@
         {
             "id": 8,
             "name": "Human Newbie",
-            "roomCount": 74,
+            "roomCount": 78,
             "rooms": [
                 {
                     "coordinates": [
@@ -86873,7 +86873,7 @@
                         0,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2362,
@@ -86885,7 +86885,10 @@
                         }
                     ],
                     "id": 2361,
-                    "name": "Isle of Havmand: Jungle. [n,se]"
+                    "name": "Isle of Havmand: Jungle. [n,se]",
+                    "userData": {
+                        "num": "392"
+                    }
                 },
                 {
                     "coordinates": [
@@ -86893,7 +86896,7 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2363,
@@ -86905,7 +86908,10 @@
                         }
                     ],
                     "id": 2362,
-                    "name": "Isle of Havmand: Jungle. [ne,s]"
+                    "name": "Isle of Havmand: Jungle. [ne,s]",
+                    "userData": {
+                        "num": "391"
+                    }
                 },
                 {
                     "coordinates": [
@@ -86913,7 +86919,7 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2364,
@@ -86925,7 +86931,10 @@
                         }
                     ],
                     "id": 2363,
-                    "name": "Isle of Havmand: Jungle. [n,sw]"
+                    "name": "Isle of Havmand: Jungle. [n,sw]",
+                    "userData": {
+                        "num": "389"
+                    }
                 },
                 {
                     "coordinates": [
@@ -86933,7 +86942,7 @@
                         3,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2383,
@@ -86953,7 +86962,10 @@
                         }
                     ],
                     "id": 2364,
-                    "name": "Isle of Havmand: Jungle. [n,s,w,e]"
+                    "name": "Isle of Havmand: Jungle. [n,s,w,e]",
+                    "userData": {
+                        "num": "387"
+                    }
                 },
                 {
                     "coordinates": [
@@ -86961,7 +86973,7 @@
                         3,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2382,
@@ -86985,7 +86997,10 @@
                         }
                     ],
                     "id": 2365,
-                    "name": "Isle of Havmand: Pirate Camp. [w,e,n,s,se]"
+                    "name": "Isle of Havmand: Pirate Camp. [w,e,n,s,se]",
+                    "userData": {
+                        "num": "390"
+                    }
                 },
                 {
                     "coordinates": [
@@ -86993,7 +87008,7 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2424,
@@ -87013,7 +87028,10 @@
                         }
                     ],
                     "id": 2366,
-                    "name": "Isle of Havmand: Pirate Camp. [w,e,n,nw]"
+                    "name": "Isle of Havmand: Pirate Camp. [w,e,n,nw]",
+                    "userData": {
+                        "num": "422"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87021,7 +87039,7 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2424,
@@ -87037,7 +87055,10 @@
                         }
                     ],
                     "id": 2367,
-                    "name": "Isle of Havmand: Pirate Camp. [w,e,nw]"
+                    "name": "Isle of Havmand: Pirate Camp. [w,e,nw]",
+                    "userData": {
+                        "num": "426"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87045,7 +87066,7 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2374,
@@ -87061,7 +87082,10 @@
                         }
                     ],
                     "id": 2368,
-                    "name": "Isle of Havmand: Beach. [n,s,w]"
+                    "name": "Isle of Havmand: Beach. [n,s,w]",
+                    "userData": {
+                        "num": "427"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87069,7 +87093,7 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2368,
@@ -87085,7 +87109,10 @@
                         }
                     ],
                     "id": 2369,
-                    "name": "Isle of Havmand: Beach. [n,s,w]"
+                    "name": "Isle of Havmand: Beach. [n,s,w]",
+                    "userData": {
+                        "num": "429"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87093,7 +87120,7 @@
                         0,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2369,
@@ -87105,7 +87132,10 @@
                         }
                     ],
                     "id": 2370,
-                    "name": "Isle of Havmand: Rocks. [w,n]"
+                    "name": "Isle of Havmand: Rocks. [w,n]",
+                    "userData": {
+                        "num": "434"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87113,7 +87143,7 @@
                         0,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2370,
@@ -87121,7 +87151,10 @@
                         }
                     ],
                     "id": 2371,
-                    "name": "Isle of Havmand: Rocks. [e]"
+                    "name": "Isle of Havmand: Rocks. [e]",
+                    "userData": {
+                        "num": "437"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87129,7 +87162,7 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2369,
@@ -87141,7 +87174,10 @@
                         }
                     ],
                     "id": 2372,
-                    "name": "Isle of Havmand: Jungle. [e,w]"
+                    "name": "Isle of Havmand: Jungle. [e,w]",
+                    "userData": {
+                        "num": "435"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87149,7 +87185,7 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2372,
@@ -87157,7 +87193,10 @@
                         }
                     ],
                     "id": 2373,
-                    "name": "Isle of Havmand: Jungle. [e]"
+                    "name": "Isle of Havmand: Jungle. [e]",
+                    "userData": {
+                        "num": "436"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87165,7 +87204,7 @@
                         3,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2375,
@@ -87177,7 +87216,10 @@
                         }
                     ],
                     "id": 2374,
-                    "name": "Isle of Havmand: Beach. [n,s]"
+                    "name": "Isle of Havmand: Beach. [n,s]",
+                    "userData": {
+                        "num": "428"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87185,7 +87227,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2376,
@@ -87201,7 +87243,10 @@
                         }
                     ],
                     "id": 2375,
-                    "name": "Isle of Havmand: Beach. [n,s,w]"
+                    "name": "Isle of Havmand: Beach. [n,s,w]",
+                    "userData": {
+                        "num": "425"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87209,7 +87254,7 @@
                         5,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2377,
@@ -87225,7 +87270,10 @@
                         }
                     ],
                     "id": 2376,
-                    "name": "Isle of Havmand: Beach. [n,s,w]"
+                    "name": "Isle of Havmand: Beach. [n,s,w]",
+                    "userData": {
+                        "num": "430"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87233,7 +87281,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2378,
@@ -87245,7 +87293,10 @@
                         }
                     ],
                     "id": 2377,
-                    "name": "Isle of Havmand: Rocks. [w,s]"
+                    "name": "Isle of Havmand: Rocks. [w,s]",
+                    "userData": {
+                        "num": "431"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87253,7 +87304,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2377,
@@ -87261,7 +87312,10 @@
                         }
                     ],
                     "id": 2378,
-                    "name": "Isle of Havmand: Rocks. [e]"
+                    "name": "Isle of Havmand: Rocks. [e]",
+                    "userData": {
+                        "num": "433"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87269,7 +87323,7 @@
                         5,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2376,
@@ -87277,7 +87331,10 @@
                         }
                     ],
                     "id": 2379,
-                    "name": "Isle of Havmand: Jungle. [e]"
+                    "name": "Isle of Havmand: Jungle. [e]",
+                    "userData": {
+                        "num": "432"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87285,7 +87342,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2375,
@@ -87301,7 +87358,10 @@
                         }
                     ],
                     "id": 2380,
-                    "name": "Isle of Havmand: Pirate Camp. [w,e,sw]"
+                    "name": "Isle of Havmand: Pirate Camp. [w,e,sw]",
+                    "userData": {
+                        "num": "424"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87309,7 +87369,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2380,
@@ -87321,7 +87381,10 @@
                         }
                     ],
                     "id": 2381,
-                    "name": "Isle of Havmand: Jungle. [e,w]"
+                    "name": "Isle of Havmand: Jungle. [e,w]",
+                    "userData": {
+                        "num": "423"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87329,7 +87392,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2381,
@@ -87341,7 +87404,10 @@
                         }
                     ],
                     "id": 2382,
-                    "name": "Isle of Havmand: Jungle. [s,e]"
+                    "name": "Isle of Havmand: Jungle. [s,e]",
+                    "userData": {
+                        "num": "420"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87349,7 +87415,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2384,
@@ -87361,7 +87427,10 @@
                         }
                     ],
                     "id": 2383,
-                    "name": "Isle of Havmand: Jungle. [s,nw]"
+                    "name": "Isle of Havmand: Jungle. [s,nw]",
+                    "userData": {
+                        "num": "388"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87369,7 +87438,7 @@
                         5,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2385,
@@ -87381,7 +87450,10 @@
                         }
                     ],
                     "id": 2384,
-                    "name": "Isle of Havmand: Jungle. [n,se]"
+                    "name": "Isle of Havmand: Jungle. [n,se]",
+                    "userData": {
+                        "num": "398"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87389,7 +87461,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2386,
@@ -87401,7 +87473,10 @@
                         }
                     ],
                     "id": 2385,
-                    "name": "Isle of Havmand: Jungle. [ne,s]"
+                    "name": "Isle of Havmand: Jungle. [ne,s]",
+                    "userData": {
+                        "num": "399"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87409,7 +87484,7 @@
                         7,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2387,
@@ -87421,7 +87496,10 @@
                         }
                     ],
                     "id": 2386,
-                    "name": "Isle of Havmand: Jungle. [e,sw]"
+                    "name": "Isle of Havmand: Jungle. [e,sw]",
+                    "userData": {
+                        "num": "400"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87429,7 +87507,7 @@
                         7,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2386,
@@ -87441,7 +87519,10 @@
                         }
                     ],
                     "id": 2387,
-                    "name": "Isle of Havmand: Jungle. [w,se]"
+                    "name": "Isle of Havmand: Jungle. [w,se]",
+                    "userData": {
+                        "num": "401"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87449,7 +87530,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2387,
@@ -87461,7 +87542,10 @@
                         }
                     ],
                     "id": 2388,
-                    "name": "Isle of Havmand: Jungle. [sw,nw]"
+                    "name": "Isle of Havmand: Jungle. [sw,nw]",
+                    "userData": {
+                        "num": "402"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87469,7 +87553,7 @@
                         5,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2388,
@@ -87481,7 +87565,10 @@
                         }
                     ],
                     "id": 2389,
-                    "name": "Isle of Havmand: Jungle. [ne,nw]"
+                    "name": "Isle of Havmand: Jungle. [ne,nw]",
+                    "userData": {
+                        "num": "403"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87489,7 +87576,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2389,
@@ -87497,7 +87584,10 @@
                         }
                     ],
                     "id": 2390,
-                    "name": "Isle of Havmand : Hilltop [se]"
+                    "name": "Isle of Havmand : Hilltop [se]",
+                    "userData": {
+                        "num": "404"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87505,119 +87595,22 @@
                         3,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2364,
                             "name": "east"
                         },
                         {
-                            "exitId": 2392,
+                            "exitId": 2395,
                             "name": "west"
                         }
                     ],
                     "id": 2391,
-                    "name": "Isle of Havmand: Jungle. [w,e]"
-                },
-                {
-                    "coordinates": [
-                        -1,
-                        3,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2405,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2391,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2393,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 2409,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 2392,
-                    "name": "Isle of Havmand: Jungle. [w,e,n,s]"
-                },
-                {
-                    "coordinates": [
-                        -2,
-                        3,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2395,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2392,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2394,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 2419,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 2393,
-                    "name": "Isle of Havmand: Track. [n,s,w,e]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        3,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2393,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 2394,
-                    "name": "Isle of Havmand: Hovel. [e]"
-                },
-                {
-                    "coordinates": [
-                        -2,
-                        4,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2396,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2405,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2406,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 2393,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 2395,
-                    "name": "Isle of Havmand: Track. [n,s,w,e]"
+                    "name": "Isle of Havmand: Jungle. [w,e]",
+                    "userData": {
+                        "num": "386"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87625,7 +87618,7 @@
                         5,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2397,
@@ -87636,16 +87629,143 @@
                             "name": "east"
                         },
                         {
-                            "exitId": 2407,
+                            "exitId": 2419,
                             "name": "west"
                         },
                         {
+                            "exitId": 2393,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 2392,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "99"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        4,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2392,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 2405,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2418,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2394,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 2393,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "95"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2393,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 2395,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2417,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2414,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 2394,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "94"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2405,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 2391,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2394,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2396,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 2395,
+                    "name": "Isle of Havmand: Jungle.",
+                    "userData": {
+                        "num": "98"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -1,
+                        2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2395,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 2423,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2414,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2406,
                             "name": "south"
                         }
                     ],
                     "id": 2396,
-                    "name": "Isle of Havmand: Track. [w,e,n,s]"
+                    "name": "Isle of Havmand: Jungle.",
+                    "userData": {
+                        "num": "378"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87653,7 +87773,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2400,
@@ -87664,12 +87784,15 @@
                             "name": "west"
                         },
                         {
-                            "exitId": 2396,
+                            "exitId": 2392,
                             "name": "south"
                         }
                     ],
                     "id": 2397,
-                    "name": "Isle of Havmand: Track. [w,e,s]"
+                    "name": "Isle of Havmand: Track. [w,e,s]",
+                    "userData": {
+                        "num": "104"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87677,7 +87800,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2397,
@@ -87689,7 +87812,10 @@
                         }
                     ],
                     "id": 2398,
-                    "name": "Isle of Havmand: Track. [dock,e]"
+                    "name": "Isle of Havmand: Track. [dock,e]",
+                    "userData": {
+                        "num": "105"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87697,7 +87823,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2398,
@@ -87705,7 +87831,10 @@
                         }
                     ],
                     "id": 2399,
-                    "name": "Isle of Havmand: Dock. [e]"
+                    "name": "Isle of Havmand: Dock. [e]",
+                    "userData": {
+                        "num": "417"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87713,7 +87842,7 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2401,
@@ -87729,7 +87858,10 @@
                         }
                     ],
                     "id": 2400,
-                    "name": "Isle of Havmand: Jungle. [n,s,w]"
+                    "name": "Isle of Havmand: Jungle. [n,s,w]",
+                    "userData": {
+                        "num": "106"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87737,7 +87869,7 @@
                         7,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2402,
@@ -87753,7 +87885,10 @@
                         }
                     ],
                     "id": 2401,
-                    "name": "Isle of Havmand: Jungle. [n,s,w]"
+                    "name": "Isle of Havmand: Jungle. [n,s,w]",
+                    "userData": {
+                        "num": "411"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87761,7 +87896,7 @@
                         8,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2401,
@@ -87769,7 +87904,10 @@
                         }
                     ],
                     "id": 2402,
-                    "name": "Isle of Havmand: Jungle. [s]"
+                    "name": "Isle of Havmand: Jungle. [s]",
+                    "userData": {
+                        "num": "412"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87777,14 +87915,14 @@
                         5,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2400,
                             "name": "north"
                         },
                         {
-                            "exitId": 2396,
+                            "exitId": 2392,
                             "name": "west"
                         },
                         {
@@ -87797,7 +87935,10 @@
                         }
                     ],
                     "id": 2403,
-                    "name": "Isle of Havmand: Jungle. [n,s,w,se]"
+                    "name": "Isle of Havmand: Jungle. [n,s,w,se]",
+                    "userData": {
+                        "num": "103"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87805,7 +87946,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2403,
@@ -87817,7 +87958,10 @@
                         }
                     ],
                     "id": 2404,
-                    "name": "Isle of Havmand: Jungle. [w,nw]"
+                    "name": "Isle of Havmand: Jungle. [w,nw]",
+                    "userData": {
+                        "num": "410"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87825,7 +87969,7 @@
                         4,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2403,
@@ -87836,96 +87980,19 @@
                             "name": "east"
                         },
                         {
-                            "exitId": 2395,
+                            "exitId": 2393,
                             "name": "west"
                         },
                         {
-                            "exitId": 2392,
+                            "exitId": 2395,
                             "name": "south"
                         }
                     ],
                     "id": 2405,
-                    "name": "Isle of Havmand: Jungle. [n,s,e,w]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        4,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2395,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 2406,
-                    "name": "Isle of Havmand: Shop [e]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        5,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2396,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2408,
-                            "name": "down"
-                        }
-                    ],
-                    "id": 2407,
-                    "name": "Isle of Havmand: Tavern [e,d]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        5,
-                        -1
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2407,
-                            "name": "up"
-                        }
-                    ],
-                    "id": 2408,
-                    "name": "Isle of Havmand: Tavern Cellar. [u]"
-                },
-                {
-                    "coordinates": [
-                        -1,
-                        2,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2392,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2423,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2419,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 2410,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 2409,
-                    "name": "Isle of Havmand: Jungle. [w,e,n,s]"
+                    "name": "Isle of Havmand: Jungle. [n,s,e,w]",
+                    "userData": {
+                        "num": "101"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87933,10 +88000,10 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
-                            "exitId": 2409,
+                            "exitId": 2396,
                             "name": "north"
                         },
                         {
@@ -87944,16 +88011,19 @@
                             "name": "northeast"
                         },
                         {
-                            "exitId": 2417,
+                            "exitId": 2413,
                             "name": "west"
                         },
                         {
-                            "exitId": 2411,
+                            "exitId": 2407,
                             "name": "south"
                         }
                     ],
-                    "id": 2410,
-                    "name": "Isle of Havmand: Jungle. [w,n,s,ne]"
+                    "id": 2406,
+                    "name": "Isle of Havmand: Jungle.",
+                    "userData": {
+                        "num": "383"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87961,182 +88031,72 @@
                         0,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
-                            "exitId": 2410,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2415,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 2412,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 2411,
-                    "name": "Isle of Havmand: Jungle. [n,s,w]"
-                },
-                {
-                    "coordinates": [
-                        -1,
-                        -1,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2411,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2413,
-                            "name": "west"
-                        }
-                    ],
-                    "id": 2412,
-                    "name": "Isle of Havmand: Jungle. [w,n]"
-                },
-                {
-                    "coordinates": [
-                        -2,
-                        -1,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2415,
+                            "exitId": 2406,
                             "name": "north"
                         },
                         {
                             "exitId": 2412,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2414,
-                            "name": "west"
-                        }
-                    ],
-                    "id": 2413,
-                    "name": "Isle of Havmand: Track. [n,w,e]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        -1,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2413,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 2414,
-                    "name": "Isle of Havmand: Gate. [e]"
-                },
-                {
-                    "coordinates": [
-                        -2,
-                        0,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2417,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 2411,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2416,
                             "name": "west"
                         },
                         {
-                            "exitId": 2413,
+                            "exitId": 2409,
                             "name": "south"
                         }
                     ],
-                    "id": 2415,
-                    "name": "Isle of Havmand: Track. [n,s,w,e]"
+                    "id": 2407,
+                    "name": "Isle of Havmand: Jungle.",
+                    "userData": {
+                        "num": "385"
+                    }
                 },
                 {
                     "coordinates": [
                         -3,
-                        0,
-                        0
+                        5,
+                        -1
                     ],
                     "environment": 12632256,
                     "exits": [
-                        {
-                            "exitId": 2415,
-                            "name": "east"
-                        }
                     ],
-                    "id": 2416,
-                    "name": "Isle of Havmand: Hovel. [e]"
+                    "id": 2408,
+                    "name": "Isle of Havmand: Tavern Cellar. [u]"
                 },
                 {
                     "coordinates": [
-                        -2,
-                        1,
+                        -1,
+                        -1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
-                            "exitId": 2419,
+                            "exitId": 2407,
                             "name": "north"
                         },
                         {
                             "exitId": 2410,
-                            "name": "east"
-                        },
-                        {
-                            "exitId": 2418,
                             "name": "west"
-                        },
-                        {
-                            "exitId": 2415,
-                            "name": "south"
                         }
                     ],
-                    "id": 2417,
-                    "name": "Isle of Havmand: Track. [n,s,w,e]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        1,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 2417,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 2418,
-                    "name": "Isle of Havmand: Raiseroom [e]"
+                    "id": 2409,
+                    "name": "Isle of Havmand: Jungle.",
+                    "userData": {
+                        "num": "408"
+                    }
                 },
                 {
                     "coordinates": [
                         -2,
-                        2,
+                        -1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
-                            "exitId": 2393,
+                            "exitId": 2412,
                             "name": "north"
                         },
                         {
@@ -88144,16 +88104,127 @@
                             "name": "east"
                         },
                         {
-                            "exitId": 2420,
+                            "exitId": 2411,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 2410,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "405"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        -1,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2410,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 2411,
+                    "name": "Isle of Havmand: Gate.",
+                    "userData": {
+                        "num": "407"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        0,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2413,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 2407,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4289,
                             "name": "west"
                         },
                         {
-                            "exitId": 2417,
+                            "exitId": 2410,
                             "name": "south"
                         }
                     ],
-                    "id": 2419,
-                    "name": "Isle of Havmand: Track. [n,s,w,e]"
+                    "id": 2412,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "381"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        1,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2414,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 2406,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4288,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2412,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 2413,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "376"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -2,
+                        2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2394,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 2396,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2415,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 2413,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 2414,
+                    "name": "Isle of Havmand: Track.",
+                    "userData": {
+                        "num": "96"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88161,23 +88232,125 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
-                            "exitId": 2419,
+                            "exitId": 2414,
                             "name": "east"
                         },
                         {
-                            "exitId": 2422,
+                            "exitId": 2416,
                             "name": "up"
                         },
                         {
-                            "exitId": 2421,
+                            "exitId": 4287,
                             "name": "down"
                         }
                     ],
+                    "id": 2415,
+                    "name": "Isle of Havmand: Guildroom",
+                    "userData": {
+                        "num": "377"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        2,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2415,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 2416,
+                    "name": "Isle of Havmand:  Post Office",
+                    "userData": {
+                        "num": "379"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2394,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 2417,
+                    "name": "Isle of Havmand: Hovel.",
+                    "userData": {
+                        "num": "97"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        4,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2393,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 2418,
+                    "name": "Isle of Havmand: Shop",
+                    "userData": {
+                        "num": "100"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        5,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2392,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 2420,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 2419,
+                    "name": "Isle of Havmand: Tavern",
+                    "userData": {
+                        "num": "102"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        5,
+                        -1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2419,
+                            "name": "up"
+                        }
+                    ],
                     "id": 2420,
-                    "name": "Isle of Havmand: Guildroom [e,u,d]"
+                    "name": "Isle of Havmand: Tavern Cellar.",
+                    "userData": {
+                        "num": "418"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88187,10 +88360,6 @@
                     ],
                     "environment": 12632256,
                     "exits": [
-                        {
-                            "exitId": 2420,
-                            "name": "up"
-                        }
                     ],
                     "id": 2421,
                     "name": "Isle of Havmand: Bank [u]"
@@ -88203,10 +88372,6 @@
                     ],
                     "environment": 12632256,
                     "exits": [
-                        {
-                            "exitId": 2420,
-                            "name": "down"
-                        }
                     ],
                     "id": 2422,
                     "name": "Isle of Havmand:  Post Office [d]"
@@ -88217,19 +88382,22 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
-                            "exitId": 2409,
+                            "exitId": 2396,
                             "name": "west"
                         },
                         {
-                            "exitId": 2410,
+                            "exitId": 2406,
                             "name": "southwest"
                         }
                     ],
                     "id": 2423,
-                    "name": "Isle of Havmand: Jungle. [w,sw]"
+                    "name": "Isle of Havmand: Jungle. [w,sw]",
+                    "userData": {
+                        "num": "384"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88237,7 +88405,7 @@
                         3,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2380,
@@ -88257,7 +88425,10 @@
                         }
                     ],
                     "id": 2424,
-                    "name": "Isle of Havmand: Pirate Camp. [w,s,ne,se]"
+                    "name": "Isle of Havmand: Pirate Camp. [w,s,ne,se]",
+                    "userData": {
+                        "num": "419"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88265,7 +88436,7 @@
                         2,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2365,
@@ -88277,7 +88448,10 @@
                         }
                     ],
                     "id": 2425,
-                    "name": "Isle of Havmand: Jungle. [n,e]"
+                    "name": "Isle of Havmand: Jungle. [n,e]",
+                    "userData": {
+                        "num": "421"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88285,7 +88459,7 @@
                         -1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2361,
@@ -88297,7 +88471,10 @@
                         }
                     ],
                     "id": 2426,
-                    "name": "Isle of Havmand: Jungle. [e,nw]"
+                    "name": "Isle of Havmand: Jungle. [e,nw]",
+                    "userData": {
+                        "num": "393"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88305,7 +88482,7 @@
                         -1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2428,
@@ -88317,7 +88494,10 @@
                         }
                     ],
                     "id": 2427,
-                    "name": "Isle of Havmand: Jungle. [w,ne]"
+                    "name": "Isle of Havmand: Jungle. [w,ne]",
+                    "userData": {
+                        "num": "394"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88325,7 +88505,7 @@
                         0,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2429,
@@ -88337,7 +88517,10 @@
                         }
                     ],
                     "id": 2428,
-                    "name": "Isle of Havmand: Jungle. [nw,sw]"
+                    "name": "Isle of Havmand: Jungle. [nw,sw]",
+                    "userData": {
+                        "num": "395"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88345,7 +88528,7 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2430,
@@ -88357,7 +88540,10 @@
                         }
                     ],
                     "id": 2429,
-                    "name": "Isle of Havmand: Jungle. [w,se]"
+                    "name": "Isle of Havmand: Jungle. [w,se]",
+                    "userData": {
+                        "num": "396"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88365,15 +88551,22 @@
                         1,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2429,
                             "name": "east"
+                        },
+                        {
+                            "exitId": 4286,
+                            "name": "climb vine"
                         }
                     ],
                     "id": 2430,
-                    "name": "Isle of Havmand: Jungle. [e]"
+                    "name": "Isle of Havmand: Jungle. [e]",
+                    "userData": {
+                        "num": "397"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88381,7 +88574,7 @@
                         7,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2433,
@@ -88397,7 +88590,10 @@
                         }
                     ],
                     "id": 2431,
-                    "name": "Isle of Havmand: Jungle. [w,e,n]"
+                    "name": "Isle of Havmand: Jungle. [w,e,n]",
+                    "userData": {
+                        "num": "413"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88405,7 +88601,7 @@
                         7,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2431,
@@ -88413,7 +88609,10 @@
                         }
                     ],
                     "id": 2432,
-                    "name": "Isle of Havmand: Jungle. [e]"
+                    "name": "Isle of Havmand: Jungle. [e]",
+                    "userData": {
+                        "num": "414"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88421,7 +88620,7 @@
                         8,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2434,
@@ -88433,7 +88632,10 @@
                         }
                     ],
                     "id": 2433,
-                    "name": "Isle of Havmand: Beach. [w,s]"
+                    "name": "Isle of Havmand: Beach. [w,s]",
+                    "userData": {
+                        "num": "415"
+                    }
                 },
                 {
                     "coordinates": [
@@ -88441,7 +88643,7 @@
                         8,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2433,
@@ -88449,7 +88651,86 @@
                         }
                     ],
                     "id": 2434,
-                    "name": "Isle of Havmand: Beach. [e]"
+                    "name": "Isle of Havmand: Beach. [e]",
+                    "userData": {
+                        "num": "416"
+                    }
+                },
+                {
+                    "coordinates": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2430,
+                            "name": "vine"
+                        }
+                    ],
+                    "id": 4286,
+                    "name": "Isle of Havmand: Ledge. ",
+                    "userData": {
+                        "num": "409"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        2,
+                        -1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2415,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4287,
+                    "name": "Isle of Havmand: Bank",
+                    "userData": {
+                        "num": "380"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        1,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2413,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4288,
+                    "name": "Isle of Havmand: Raiseroom",
+                    "userData": {
+                        "num": "382"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -3,
+                        0,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 2412,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4289,
+                    "name": "Isle of Havmand: Hovel.",
+                    "userData": {
+                        "num": "406"
+                    }
                 }
             ]
         },
@@ -98238,7 +98519,7 @@
         {
             "color24RGB": [
                 0,
-                179,
+                128,
                 0
             ],
             "id": 258
@@ -98285,9 +98566,9 @@
         },
         {
             "color24RGB": [
-                36,
-                36,
-                36
+                0,
+                0,
+                0
             ],
             "id": 264
         },
@@ -98503,6 +98784,7 @@
     "playerRoomStyle": 0,
     "playersRoomId": {
         "FR Erik": 3872,
+        "FR Heather": 2415,
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
@@ -98512,5 +98794,5 @@
         "Final Realms Vigor": 1824,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4285
+    "roomCount": 4289
 }
