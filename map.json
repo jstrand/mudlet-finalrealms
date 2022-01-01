@@ -20162,7 +20162,7 @@
                         41,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 797,
@@ -20185,7 +20185,7 @@
                         42,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 798,
@@ -20208,7 +20208,7 @@
                         43,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 799,
@@ -20231,7 +20231,7 @@
                         44,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 801,
@@ -20258,7 +20258,7 @@
                         44,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 804,
@@ -20270,7 +20270,10 @@
                         }
                     ],
                     "id": 800,
-                    "name": "Forest Trail [w,ne]"
+                    "name": "Forest Trail [w,ne]",
+                    "userData": {
+                        "num": "70006"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20278,8 +20281,12 @@
                         45,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
+                        {
+                            "exitId": 802,
+                            "name": "north"
+                        },
                         {
                             "exitId": 802,
                             "name": "northeast"
@@ -20301,7 +20308,7 @@
                         46,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 803,
@@ -20324,7 +20331,7 @@
                         47,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 811,
@@ -20347,7 +20354,7 @@
                         45,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 805,
@@ -20359,7 +20366,10 @@
                         }
                     ],
                     "id": 804,
-                    "name": "Forest Trail [sw,ne]"
+                    "name": "Forest Trail [sw,ne]",
+                    "userData": {
+                        "num": "70008"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20367,7 +20377,7 @@
                         46,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 806,
@@ -20379,7 +20389,10 @@
                         }
                     ],
                     "id": 805,
-                    "name": "Forest Trail [sw,e]"
+                    "name": "Forest Trail [sw,e]",
+                    "userData": {
+                        "num": "70009"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20387,7 +20400,7 @@
                         46,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 807,
@@ -20399,7 +20412,10 @@
                         }
                     ],
                     "id": 806,
-                    "name": "Forest Trail [w,ne]"
+                    "name": "Forest Trail [w,ne]",
+                    "userData": {
+                        "num": "70010"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20407,7 +20423,7 @@
                         47,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 808,
@@ -20419,7 +20435,10 @@
                         }
                     ],
                     "id": 807,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70011"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20427,7 +20446,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8421376,
                     "exits": [
                         {
                             "exitId": 809,
@@ -20443,7 +20462,10 @@
                         }
                     ],
                     "id": 808,
-                    "name": "Dusty old hut. [e,w,s]"
+                    "name": "Dusty old hut. [e,w,s]",
+                    "userData": {
+                        "num": "70012"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20451,7 +20473,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8421376,
                     "exits": [
                         {
                             "exitId": 808,
@@ -20459,7 +20481,10 @@
                         }
                     ],
                     "id": 809,
-                    "name": "Dusty old hut. [w]"
+                    "name": "Dusty old hut. [w]",
+                    "userData": {
+                        "num": "70013"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20467,7 +20492,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8421376,
                     "exits": [
                         {
                             "exitId": 808,
@@ -20475,7 +20500,10 @@
                         }
                     ],
                     "id": 810,
-                    "name": "Ruined room. [out]"
+                    "name": "Ruined room. [out]",
+                    "userData": {
+                        "num": "70014"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20483,7 +20511,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 812,
@@ -20506,7 +20534,7 @@
                         49,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 814,
@@ -20533,7 +20561,7 @@
                         49,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8421376,
                     "exits": [
                         {
                             "exitId": 812,
@@ -20541,7 +20569,10 @@
                         }
                     ],
                     "id": 813,
-                    "name": "Old Shack [w]"
+                    "name": "Old Shack [w]",
+                    "userData": {
+                        "num": "70020"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20549,7 +20580,7 @@
                         50,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 816,
@@ -20576,7 +20607,7 @@
                         50,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1855,
@@ -20599,7 +20630,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 817,
@@ -20611,7 +20642,10 @@
                         }
                     ],
                     "id": 816,
-                    "name": "Forest Trail [sw,ne]"
+                    "name": "Forest Trail [sw,ne]",
+                    "userData": {
+                        "num": "70021"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20619,7 +20653,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 818,
@@ -20631,7 +20665,10 @@
                         }
                     ],
                     "id": 817,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70576"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20639,7 +20676,7 @@
                         53,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 819,
@@ -20651,7 +20688,10 @@
                         }
                     ],
                     "id": 818,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70577"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20659,7 +20699,7 @@
                         54,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 820,
@@ -20671,7 +20711,10 @@
                         }
                     ],
                     "id": 819,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70578"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20679,7 +20722,7 @@
                         55,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 821,
@@ -20691,7 +20734,10 @@
                         }
                     ],
                     "id": 820,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70579"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20699,7 +20745,7 @@
                         56,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 822,
@@ -20711,7 +20757,10 @@
                         }
                     ],
                     "id": 821,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70580"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20719,7 +20768,7 @@
                         57,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 823,
@@ -20731,7 +20780,10 @@
                         }
                     ],
                     "id": 822,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70581"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20739,7 +20791,7 @@
                         58,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 824,
@@ -20751,7 +20803,10 @@
                         }
                     ],
                     "id": 823,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70582"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20759,7 +20814,7 @@
                         59,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 825,
@@ -20771,7 +20826,10 @@
                         }
                     ],
                     "id": 824,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70583"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20779,7 +20837,7 @@
                         60,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 826,
@@ -20791,7 +20849,10 @@
                         }
                     ],
                     "id": 825,
-                    "name": "Forest Trail [sw,ne]"
+                    "name": "Forest Trail [sw,ne]",
+                    "userData": {
+                        "num": "70584"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20799,7 +20860,7 @@
                         61,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 827,
@@ -20811,7 +20872,10 @@
                         }
                     ],
                     "id": 826,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70585"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20819,7 +20883,7 @@
                         62,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 828,
@@ -20831,7 +20895,10 @@
                         }
                     ],
                     "id": 827,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70586"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20839,7 +20906,7 @@
                         63,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 829,
@@ -20851,7 +20918,10 @@
                         }
                     ],
                     "id": 828,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70587"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20859,7 +20929,7 @@
                         64,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 830,
@@ -20871,7 +20941,10 @@
                         }
                     ],
                     "id": 829,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70588"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20879,7 +20952,7 @@
                         65,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 831,
@@ -20891,7 +20964,10 @@
                         }
                     ],
                     "id": 830,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70589"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20899,7 +20975,7 @@
                         66,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 832,
@@ -20911,7 +20987,10 @@
                         }
                     ],
                     "id": 831,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70590"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20919,7 +20998,7 @@
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 833,
@@ -20931,7 +21010,10 @@
                         }
                     ],
                     "id": 832,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70591"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20939,7 +21021,7 @@
                         68,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 834,
@@ -20951,7 +21033,10 @@
                         }
                     ],
                     "id": 833,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70592"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20959,7 +21044,7 @@
                         69,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 835,
@@ -20971,7 +21056,10 @@
                         }
                     ],
                     "id": 834,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70593"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20979,7 +21067,7 @@
                         70,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 836,
@@ -20991,7 +21079,10 @@
                         }
                     ],
                     "id": 835,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70594"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20999,7 +21090,7 @@
                         71,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 837,
@@ -21011,7 +21102,10 @@
                         }
                     ],
                     "id": 836,
-                    "name": "Forest Trail [sw,ne]"
+                    "name": "Forest Trail [sw,ne]",
+                    "userData": {
+                        "num": "70595"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21019,7 +21113,7 @@
                         72,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 838,
@@ -21031,7 +21125,10 @@
                         }
                     ],
                     "id": 837,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70596"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21039,7 +21136,7 @@
                         73,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 839,
@@ -21051,7 +21148,10 @@
                         }
                     ],
                     "id": 838,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70597"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21059,7 +21159,7 @@
                         74,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 840,
@@ -21071,7 +21171,10 @@
                         }
                     ],
                     "id": 839,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70598"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21079,7 +21182,7 @@
                         75,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 841,
@@ -21091,7 +21194,10 @@
                         }
                     ],
                     "id": 840,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70599"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21099,7 +21205,7 @@
                         76,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 842,
@@ -21111,7 +21217,10 @@
                         }
                     ],
                     "id": 841,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70600"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21119,7 +21228,7 @@
                         77,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 843,
@@ -21131,7 +21240,10 @@
                         }
                     ],
                     "id": 842,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70601"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21139,7 +21251,7 @@
                         78,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 844,
@@ -21151,7 +21263,10 @@
                         }
                     ],
                     "id": 843,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70602"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21159,7 +21274,7 @@
                         79,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 845,
@@ -21171,7 +21286,10 @@
                         }
                     ],
                     "id": 844,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70603"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21179,7 +21297,7 @@
                         80,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 846,
@@ -21191,7 +21309,10 @@
                         }
                     ],
                     "id": 845,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70604"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21199,7 +21320,7 @@
                         81,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 847,
@@ -21211,7 +21332,10 @@
                         }
                     ],
                     "id": 846,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70605"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21219,7 +21343,7 @@
                         82,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 848,
@@ -21231,7 +21355,10 @@
                         }
                     ],
                     "id": 847,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70606"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21239,7 +21366,7 @@
                         83,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 849,
@@ -21251,7 +21378,10 @@
                         }
                     ],
                     "id": 848,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70607"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21259,7 +21389,7 @@
                         84,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 850,
@@ -21271,7 +21401,10 @@
                         }
                     ],
                     "id": 849,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70608"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21279,7 +21412,7 @@
                         85,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 851,
@@ -21291,7 +21424,10 @@
                         }
                     ],
                     "id": 850,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70615"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21299,7 +21435,7 @@
                         86,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 852,
@@ -21311,7 +21447,10 @@
                         }
                     ],
                     "id": 851,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70614"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21319,7 +21458,7 @@
                         87,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 853,
@@ -21331,7 +21470,10 @@
                         }
                     ],
                     "id": 852,
-                    "name": "Forest Trail [s,nw]"
+                    "name": "Forest Trail [s,nw]",
+                    "userData": {
+                        "num": "70613"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21339,7 +21481,7 @@
                         88,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 854,
@@ -21351,7 +21493,10 @@
                         }
                     ],
                     "id": 853,
-                    "name": "Forest Trail [se,n]"
+                    "name": "Forest Trail [se,n]",
+                    "userData": {
+                        "num": "70612"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21359,7 +21504,7 @@
                         89,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 855,
@@ -21371,7 +21516,10 @@
                         }
                     ],
                     "id": 854,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70611"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21379,7 +21527,7 @@
                         90,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 858,
@@ -21395,7 +21543,10 @@
                         }
                     ],
                     "id": 855,
-                    "name": "Forest Trail [w,s,nw]"
+                    "name": "Forest Trail [w,s,nw]",
+                    "userData": {
+                        "num": "70610"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21419,7 +21570,10 @@
                         }
                     ],
                     "id": 856,
-                    "name": "East road:  Between Unicorn Mountain and Oceania [n,e,w]"
+                    "name": "East road:  Between Unicorn Mountain and Oceania [n,e,w]",
+                    "userData": {
+                        "num": "30447"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21447,7 +21601,7 @@
                         91,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 859,
@@ -21463,7 +21617,10 @@
                         }
                     ],
                     "id": 858,
-                    "name": "Forest Trail [s,se,n]"
+                    "name": "Forest Trail [s,se,n]",
+                    "userData": {
+                        "num": "70609"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21471,7 +21628,7 @@
                         92,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 860,
@@ -21483,7 +21640,10 @@
                         }
                     ],
                     "id": 859,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70792"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21491,7 +21651,7 @@
                         93,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 861,
@@ -21503,7 +21663,10 @@
                         }
                     ],
                     "id": 860,
-                    "name": "Forest Trail [sw,n]"
+                    "name": "Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "70793"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21511,7 +21674,7 @@
                         94,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 862,
@@ -21523,7 +21686,10 @@
                         }
                     ],
                     "id": 861,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70794"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21531,7 +21697,7 @@
                         95,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 863,
@@ -21543,7 +21709,10 @@
                         }
                     ],
                     "id": 862,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70795"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21551,7 +21720,7 @@
                         96,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 864,
@@ -21563,7 +21732,10 @@
                         }
                     ],
                     "id": 863,
-                    "name": "Forest Trail [s,nw]"
+                    "name": "Forest Trail [s,nw]",
+                    "userData": {
+                        "num": "70796"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21571,7 +21743,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 865,
@@ -21583,7 +21755,10 @@
                         }
                     ],
                     "id": 864,
-                    "name": "Forest Trail [se,nw]"
+                    "name": "Forest Trail [se,nw]",
+                    "userData": {
+                        "num": "70797"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21591,7 +21766,7 @@
                         98,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 866,
@@ -21603,7 +21778,10 @@
                         }
                     ],
                     "id": 865,
-                    "name": "Forest Trail [se,n]"
+                    "name": "Forest Trail [se,n]",
+                    "userData": {
+                        "num": "70798"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21611,7 +21789,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 867,
@@ -21623,7 +21801,10 @@
                         }
                     ],
                     "id": 866,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70799"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21631,7 +21812,7 @@
                         100,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 868,
@@ -21643,7 +21824,10 @@
                         }
                     ],
                     "id": 867,
-                    "name": "Forest Trail [s,ne]"
+                    "name": "Forest Trail [s,ne]",
+                    "userData": {
+                        "num": "70653"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21651,7 +21835,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8388736,
                     "exits": [
                         {
                             "exitId": 1021,
@@ -21667,7 +21851,10 @@
                         }
                     ],
                     "id": 868,
-                    "name": "Dirt Path [e,nw,sw]"
+                    "name": "Dirt Path [e,nw,sw]",
+                    "userData": {
+                        "num": "70651"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21675,7 +21862,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 870,
@@ -21687,7 +21874,10 @@
                         }
                     ],
                     "id": 869,
-                    "name": "Facedeux : West Gate [e,w]"
+                    "name": "Facedeux : West Gate [e,w]",
+                    "userData": {
+                        "num": "70650"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21695,7 +21885,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 871,
@@ -21711,7 +21901,10 @@
                         }
                     ],
                     "id": 870,
-                    "name": "Western Way [s,e,w]"
+                    "name": "Western Way [s,e,w]",
+                    "userData": {
+                        "num": "70648"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21719,7 +21912,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 872,
@@ -21731,7 +21924,10 @@
                         }
                     ],
                     "id": 871,
-                    "name": "Western Way [e,w]"
+                    "name": "Western Way [e,w]",
+                    "userData": {
+                        "num": "70649"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21739,7 +21935,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 873,
@@ -21755,7 +21951,10 @@
                         }
                     ],
                     "id": 872,
-                    "name": "Facedeux : Pounding Jack Armoury [s,e,w]"
+                    "name": "Facedeux : Pounding Jack Armoury [s,e,w]",
+                    "userData": {
+                        "num": "70654"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21763,7 +21962,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 874,
@@ -21775,7 +21974,10 @@
                         }
                     ],
                     "id": 873,
-                    "name": "Borderline Boulevard [e,w]"
+                    "name": "Borderline Boulevard [e,w]",
+                    "userData": {
+                        "num": "70656"
+                    }
                 },
                 {
                     "coordinates": [
@@ -21783,7 +21985,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1033,
@@ -21818,7 +22020,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 876,
@@ -21841,7 +22043,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 877,
@@ -21864,7 +22066,7 @@
                         101,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 878,
@@ -21887,7 +22089,7 @@
                         102,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 879,
@@ -21910,7 +22112,7 @@
                         103,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 880,
@@ -21987,7 +22189,7 @@
                         100,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 874,
@@ -22010,7 +22212,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 882,
@@ -22037,7 +22239,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 883,
@@ -22049,7 +22251,10 @@
                         }
                     ],
                     "id": 884,
-                    "name": "Facedeux : Minerva Way [e,w]"
+                    "name": "Facedeux : Minerva Way [e,w]",
+                    "userData": {
+                        "num": "70636"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22057,7 +22262,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1030,
@@ -22092,7 +22297,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 255,
                     "exits": [
                         {
                             "exitId": 1029,
@@ -22112,7 +22317,10 @@
                         }
                     ],
                     "id": 886,
-                    "name": "Facedeux : Library [n,s,e,w]"
+                    "name": "Facedeux : Library [n,s,e,w]",
+                    "userData": {
+                        "num": "70638"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22120,7 +22328,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1026,
@@ -22140,7 +22348,10 @@
                         }
                     ],
                     "id": 887,
-                    "name": "Facedeux : Ishtar Avenue [s,e,n,w]"
+                    "name": "Facedeux : Ishtar Avenue [s,e,n,w]",
+                    "userData": {
+                        "num": "70647"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22148,7 +22359,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1020,
@@ -22168,7 +22379,10 @@
                         }
                     ],
                     "id": 888,
-                    "name": "Ishtar Avenue [nw,s,e,w]"
+                    "name": "Ishtar Avenue [nw,s,e,w]",
+                    "userData": {
+                        "num": "70645"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22176,7 +22390,7 @@
                         99,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1020,
@@ -22192,7 +22406,10 @@
                         }
                     ],
                     "id": 889,
-                    "name": "Facedeux : Empty Building [n,e,se]"
+                    "name": "Facedeux : Empty Building [n,e,se]",
+                    "userData": {
+                        "num": "1711"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22200,7 +22417,7 @@
                         98,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 888,
@@ -22216,7 +22433,10 @@
                         }
                     ],
                     "id": 890,
-                    "name": "Facedeux : Dressmakers' Alley [n,nw,se]"
+                    "name": "Facedeux : Dressmakers' Alley [n,nw,se]",
+                    "userData": {
+                        "num": "70644"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22224,7 +22444,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1028,
@@ -22240,7 +22460,10 @@
                         }
                     ],
                     "id": 891,
-                    "name": "Facedeux : Nenivah's Clothing Shoppe [nw,e,ne]"
+                    "name": "Facedeux : Nenivah's Clothing Shoppe [nw,e,ne]",
+                    "userData": {
+                        "num": "70643"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22248,7 +22471,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1028,
@@ -22264,7 +22487,10 @@
                         }
                     ],
                     "id": 892,
-                    "name": "Market Street [n,e,w]"
+                    "name": "Market Street [n,e,w]",
+                    "userData": {
+                        "num": "70642"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22272,7 +22498,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 894,
@@ -22284,7 +22510,10 @@
                         }
                     ],
                     "id": 893,
-                    "name": "Market Street [e,w]"
+                    "name": "Market Street [e,w]",
+                    "userData": {
+                        "num": "70238"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22292,7 +22521,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1032,
@@ -22327,7 +22556,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 896,
@@ -22339,7 +22568,10 @@
                         }
                     ],
                     "id": 895,
-                    "name": "Eastern Walkway [e,w]"
+                    "name": "Eastern Walkway [e,w]",
+                    "userData": {
+                        "num": "70236"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22347,7 +22579,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 897,
@@ -22359,7 +22591,10 @@
                         }
                     ],
                     "id": 896,
-                    "name": "Eastern Walkway [e,w]"
+                    "name": "Eastern Walkway [e,w]",
+                    "userData": {
+                        "num": "70239"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22367,7 +22602,7 @@
                         97,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 898,
@@ -22379,7 +22614,10 @@
                         }
                     ],
                     "id": 897,
-                    "name": "Facedeux : East Gate [w,e]"
+                    "name": "Facedeux : East Gate [w,e]",
+                    "userData": {
+                        "num": "70240"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22399,7 +22637,10 @@
                         }
                     ],
                     "id": 898,
-                    "name": "Unicorn Mountain : Dark Forest Trail [w,e]"
+                    "name": "Unicorn Mountain : Dark Forest Trail [w,e]",
+                    "userData": {
+                        "num": "70242"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22419,7 +22660,10 @@
                         }
                     ],
                     "id": 899,
-                    "name": "Unicorn Mountain : Dark Forest Trail [w,n]"
+                    "name": "Unicorn Mountain : Dark Forest Trail [w,n]",
+                    "userData": {
+                        "num": "70243"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22467,7 +22711,7 @@
                         96,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 894,
@@ -22490,7 +22734,7 @@
                         95,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 902,
@@ -22513,7 +22757,7 @@
                         94,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 903,
@@ -22536,7 +22780,7 @@
                         93,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 904,
@@ -22563,7 +22807,7 @@
                         93,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 907,
@@ -22586,7 +22830,7 @@
                         93,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 906,
@@ -22605,7 +22849,7 @@
                         93,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 905,
@@ -22628,7 +22872,7 @@
                         92,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 908,
@@ -22651,7 +22895,7 @@
                         91,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 909,
@@ -25107,7 +25351,7 @@
                         100,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 870,
@@ -25123,7 +25367,10 @@
                         }
                     ],
                     "id": 1020,
-                    "name": "Facedeux : Two Man alley [se,n,s]"
+                    "name": "Facedeux : Two Man alley [se,n,s]",
+                    "userData": {
+                        "num": "70646"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25131,7 +25378,7 @@
                         102,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8388736,
                     "exits": [
                         {
                             "exitId": 1022,
@@ -25143,7 +25390,10 @@
                         }
                     ],
                     "id": 1021,
-                    "name": "Dirt Path [se,w]"
+                    "name": "Dirt Path [se,w]",
+                    "userData": {
+                        "num": "70652"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25151,7 +25401,7 @@
                         102,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8388736,
                     "exits": [
                         {
                             "exitId": 1023,
@@ -25163,7 +25413,10 @@
                         }
                     ],
                     "id": 1022,
-                    "name": "Dirt Path [e,nw]"
+                    "name": "Dirt Path [e,nw]",
+                    "userData": {
+                        "num": "70698"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25171,7 +25424,7 @@
                         103,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8388736,
                     "exits": [
                         {
                             "exitId": 1024,
@@ -25183,7 +25436,10 @@
                         }
                     ],
                     "id": 1023,
-                    "name": "Dirt Path [se,nw]"
+                    "name": "Dirt Path [se,nw]",
+                    "userData": {
+                        "num": "70699"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25191,7 +25447,7 @@
                         104,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8388736,
                     "exits": [
                         {
                             "exitId": 1025,
@@ -25203,7 +25459,10 @@
                         }
                     ],
                     "id": 1024,
-                    "name": "Dirt Path [se,n]"
+                    "name": "Dirt Path [se,n]",
+                    "userData": {
+                        "num": "70700"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25211,7 +25470,7 @@
                         105,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1024,
@@ -25227,7 +25486,10 @@
                         {
                             "name": "west"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "70701"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25235,7 +25497,7 @@
                         100,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 872,
@@ -25251,7 +25513,10 @@
                         }
                     ],
                     "id": 1026,
-                    "name": "Facedeux : Intersection of Eowyn Blvd and Ishtar Avenue [n,s,e]"
+                    "name": "Facedeux : Intersection of Eowyn Blvd and Ishtar Avenue [n,s,e]",
+                    "userData": {
+                        "num": "70655"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25259,7 +25524,7 @@
                         98,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 887,
@@ -25271,7 +25536,10 @@
                         }
                     ],
                     "id": 1027,
-                    "name": "Facedeux : Intersection of Dora Road and Ishtar Avenue [n,e]"
+                    "name": "Facedeux : Intersection of Dora Road and Ishtar Avenue [n,e]",
+                    "userData": {
+                        "num": "70658"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25279,7 +25547,7 @@
                         98,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 886,
@@ -25303,7 +25571,10 @@
                         }
                     ],
                     "id": 1028,
-                    "name": "Facedeux : Dora Road [n,e,w,s,sw]"
+                    "name": "Facedeux : Dora Road [n,e,w,s,sw]",
+                    "userData": {
+                        "num": "70641"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25311,7 +25582,7 @@
                         100,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1030,
@@ -25327,7 +25598,10 @@
                         }
                     ],
                     "id": 1029,
-                    "name": "Facedeux : Eowyn Boulevard [e,w,s]"
+                    "name": "Facedeux : Eowyn Boulevard [e,w,s]",
+                    "userData": {
+                        "num": "70657"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25335,7 +25609,7 @@
                         100,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 874,
@@ -25362,7 +25636,7 @@
                         98,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 885,
@@ -25389,7 +25663,7 @@
                         98,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 883,
@@ -25412,7 +25686,7 @@
                         102,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 874,
@@ -25420,7 +25694,10 @@
                         }
                     ],
                     "id": 1033,
-                    "name": "Facedeux : Post Office [se]"
+                    "name": "Facedeux : Post Office [se]",
+                    "userData": {
+                        "num": "70660"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40473,11 +40750,11 @@
                 },
                 {
                     "coordinates": [
-                        61,
+                        60,
                         77,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1745,
@@ -40496,11 +40773,11 @@
                 },
                 {
                     "coordinates": [
-                        60,
+                        59,
                         77,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1748,
@@ -40512,15 +40789,18 @@
                         }
                     ],
                     "id": 1749,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [sw,e]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [sw,e]",
+                    "userData": {
+                        "num": "70117"
+                    }
                 },
                 {
                     "coordinates": [
-                        59,
+                        58,
                         76,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1749,
@@ -40532,15 +40812,18 @@
                         }
                     ],
                     "id": 1750,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [ne,s]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [ne,s]",
+                    "userData": {
+                        "num": "70116"
+                    }
                 },
                 {
                     "coordinates": [
-                        59,
+                        58,
                         75,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1750,
@@ -40552,15 +40835,18 @@
                         }
                     ],
                     "id": 1751,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,sw]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,sw]",
+                    "userData": {
+                        "num": "70115"
+                    }
                 },
                 {
                     "coordinates": [
-                        58,
+                        57,
                         74,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1751,
@@ -40572,15 +40858,18 @@
                         }
                     ],
                     "id": 1752,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [ne,s]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [ne,s]",
+                    "userData": {
+                        "num": "70114"
+                    }
                 },
                 {
                     "coordinates": [
-                        58,
+                        57,
                         73,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1752,
@@ -40592,15 +40881,18 @@
                         }
                     ],
                     "id": 1753,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [s,n]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [s,n]",
+                    "userData": {
+                        "num": "70113"
+                    }
                 },
                 {
                     "coordinates": [
-                        58,
+                        57,
                         72,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1753,
@@ -40612,15 +40904,18 @@
                         }
                     ],
                     "id": 1754,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,se]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,se]",
+                    "userData": {
+                        "num": "70112"
+                    }
                 },
                 {
                     "coordinates": [
-                        59,
+                        58,
                         71,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1754,
@@ -40632,15 +40927,18 @@
                         }
                     ],
                     "id": 1755,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [nw,s]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [nw,s]",
+                    "userData": {
+                        "num": "70111"
+                    }
                 },
                 {
                     "coordinates": [
-                        59,
+                        58,
                         70,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1755,
@@ -40652,15 +40950,18 @@
                         }
                     ],
                     "id": 1756,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,s]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,s]",
+                    "userData": {
+                        "num": "70110"
+                    }
                 },
                 {
                     "coordinates": [
-                        59,
+                        58,
                         69,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1756,
@@ -40672,15 +40973,18 @@
                         }
                     ],
                     "id": 1757,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,s]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,s]",
+                    "userData": {
+                        "num": "70109"
+                    }
                 },
                 {
                     "coordinates": [
-                        59,
+                        58,
                         68,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1757,
@@ -40699,11 +41003,11 @@
                 },
                 {
                     "coordinates": [
-                        60,
+                        59,
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1758,
@@ -40722,11 +41026,11 @@
                 },
                 {
                     "coordinates": [
-                        61,
+                        60,
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1761,
@@ -40745,11 +41049,11 @@
                 },
                 {
                     "coordinates": [
-                        62,
+                        61,
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1762,
@@ -40768,11 +41072,11 @@
                 },
                 {
                     "coordinates": [
-                        63,
+                        62,
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1761,
@@ -40791,11 +41095,11 @@
                 },
                 {
                     "coordinates": [
-                        65,
-                        68,
+                        62,
+                        66,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1762,
@@ -41483,7 +41787,7 @@
                         68,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1790,
@@ -41506,7 +41810,7 @@
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1791,
@@ -41533,7 +41837,7 @@
                         66,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1792,
@@ -41568,7 +41872,7 @@
                         65,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1793,
@@ -41591,7 +41895,7 @@
                         64,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1794,
@@ -41614,7 +41918,7 @@
                         63,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1795,
@@ -41641,7 +41945,7 @@
                         62,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1796,
@@ -41668,7 +41972,7 @@
                         61,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1797,
@@ -41691,7 +41995,7 @@
                         60,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1798,
@@ -41718,7 +42022,7 @@
                         59,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1799,
@@ -41741,7 +42045,7 @@
                         58,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1800,
@@ -41764,7 +42068,7 @@
                         57,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1801,
@@ -41787,7 +42091,7 @@
                         56,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1802,
@@ -41810,7 +42114,7 @@
                         55,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1803,
@@ -41833,7 +42137,7 @@
                         54,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1804,
@@ -41856,7 +42160,7 @@
                         54,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1805,
@@ -41879,7 +42183,7 @@
                         53,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1806,
@@ -41902,7 +42206,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1807,
@@ -41925,7 +42229,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1819,
@@ -41956,7 +42260,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1817,
@@ -41976,7 +42280,10 @@
                         }
                     ],
                     "id": 1810,
-                    "name": "Forest Trail [n,w,ne,u]"
+                    "name": "Forest Trail [n,w,ne,u]",
+                    "userData": {
+                        "num": "70052"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41984,7 +42291,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1814,
@@ -42000,7 +42307,10 @@
                         }
                     ],
                     "id": 1811,
-                    "name": "Forest Trail [nw,n,e]"
+                    "name": "Forest Trail [nw,n,e]",
+                    "userData": {
+                        "num": "70048"
+                    }
                 },
                 {
                     "coordinates": [
@@ -42044,7 +42354,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1815,
@@ -42075,7 +42385,7 @@
                         53,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1819,
@@ -42102,7 +42412,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1815,
@@ -42133,7 +42443,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1819,
@@ -42164,7 +42474,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1816,
@@ -42187,7 +42497,7 @@
                         53,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1815,
@@ -42214,7 +42524,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1818,
@@ -42237,7 +42547,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1820,
@@ -42260,7 +42570,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1821,
@@ -42287,7 +42597,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1822,
@@ -42310,7 +42620,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1823,
@@ -42333,7 +42643,7 @@
                         50,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1824,
@@ -42356,7 +42666,7 @@
                         49,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1825,
@@ -42379,7 +42689,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1826,
@@ -42402,7 +42712,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1827,
@@ -42425,7 +42735,7 @@
                         47,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1828,
@@ -42448,7 +42758,7 @@
                         47,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1829,
@@ -42471,7 +42781,7 @@
                         47,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1832,
@@ -42494,7 +42804,7 @@
                         48,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1833,
@@ -42517,7 +42827,7 @@
                         49,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1834,
@@ -42864,7 +43174,7 @@
                         49,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1833,
@@ -42887,7 +43197,7 @@
                         49,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1850,
@@ -42910,7 +43220,7 @@
                         52,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1851,
@@ -42933,7 +43243,7 @@
                         51,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1852,
@@ -42960,7 +43270,7 @@
                         50,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 8421376,
                     "exits": [
                         {
                             "exitId": 1853,
@@ -42968,7 +43278,10 @@
                         }
                     ],
                     "id": 1854,
-                    "name": "Small Cabin [n]"
+                    "name": "Small Cabin [n]",
+                    "userData": {
+                        "num": "70026"
+                    }
                 },
                 {
                     "coordinates": [
@@ -42976,7 +43289,7 @@
                         50,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1853,
@@ -42999,7 +43312,7 @@
                         68,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1857,
@@ -43011,15 +43324,18 @@
                         }
                     ],
                     "id": 1856,
-                    "name": "Unicorn Mountain : Southern Forest [nw,se]"
+                    "name": "Unicorn Mountain : Southern Forest [nw,se]",
+                    "userData": {
+                        "num": "70082"
+                    }
                 },
                 {
                     "coordinates": [
-                        61,
+                        60,
                         69,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1858,
@@ -43031,15 +43347,18 @@
                         }
                     ],
                     "id": 1857,
-                    "name": "Unicorn Mountain : Southern Forest [nw,se]"
+                    "name": "Unicorn Mountain : Southern Forest [nw,se]",
+                    "userData": {
+                        "num": "70099"
+                    }
                 },
                 {
                     "coordinates": [
-                        60,
+                        59,
                         70,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1859,
@@ -43055,15 +43374,18 @@
                         }
                     ],
                     "id": 1858,
-                    "name": "Unicorn Mountain : Southern Forest [s,se,n]"
+                    "name": "Unicorn Mountain : Southern Forest [s,se,n]",
+                    "userData": {
+                        "num": "70100"
+                    }
                 },
                 {
                     "coordinates": [
-                        60,
+                        59,
                         71,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1860,
@@ -43075,15 +43397,18 @@
                         }
                     ],
                     "id": 1859,
-                    "name": "Forest Trail [s,n]"
+                    "name": "Forest Trail [s,n]",
+                    "userData": {
+                        "num": "70102"
+                    }
                 },
                 {
                     "coordinates": [
-                        60,
+                        59,
                         72,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1859,
@@ -43091,7 +43416,10 @@
                         }
                     ],
                     "id": 1860,
-                    "name": "Forest Trail [s]"
+                    "name": "Forest Trail [s]",
+                    "userData": {
+                        "num": "70103"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43099,7 +43427,7 @@
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1864,
@@ -43126,7 +43454,7 @@
                         66,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1863,
@@ -43149,7 +43477,7 @@
                         67,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1864,
@@ -43172,7 +43500,7 @@
                         68,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1876,
@@ -43199,7 +43527,7 @@
                         65,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1793,
@@ -43222,7 +43550,7 @@
                         64,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1865,
@@ -43245,7 +43573,7 @@
                         63,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1866,
@@ -43272,7 +43600,7 @@
                         62,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1867,
@@ -43299,7 +43627,7 @@
                         61,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1868,
@@ -43322,7 +43650,7 @@
                         61,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1872,
@@ -43349,7 +43677,7 @@
                         61,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1870,
@@ -43357,7 +43685,10 @@
                         }
                     ],
                     "id": 1871,
-                    "name": "Unicorn Birthplace [w]"
+                    "name": "Unicorn Birthplace [w]",
+                    "userData": {
+                        "num": "70067"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43365,7 +43696,7 @@
                         62,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1873,
@@ -43392,7 +43723,7 @@
                         63,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1874,
@@ -43415,7 +43746,7 @@
                         63,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1873,
@@ -43442,7 +43773,7 @@
                         62,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1867,
@@ -43465,7 +43796,7 @@
                         69,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1877,
@@ -43488,7 +43819,7 @@
                         70,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1884,
@@ -43515,7 +43846,7 @@
                         70,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1879,
@@ -43538,7 +43869,7 @@
                         71,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1880,
@@ -43561,7 +43892,7 @@
                         72,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1881,
@@ -43584,7 +43915,7 @@
                         73,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1882,
@@ -43607,7 +43938,7 @@
                         73,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1881,
@@ -43630,7 +43961,7 @@
                         72,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1882,
@@ -43653,7 +43984,7 @@
                         71,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 32896,
                     "exits": [
                         {
                             "exitId": 1883,
@@ -44791,11 +45122,11 @@
                 },
                 {
                     "coordinates": [
-                        60,
+                        59,
                         69,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65280,
                     "exits": [
                         {
                             "exitId": 1858,
@@ -44803,7 +45134,10 @@
                         }
                     ],
                     "id": 1940,
-                    "name": "Unicorn Mountain : Southern Forest [n]"
+                    "name": "Unicorn Mountain : Southern Forest [n]",
+                    "userData": {
+                        "num": "70101"
+                    }
                 },
                 {
                     "coordinates": [
@@ -98172,7 +98506,7 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 1779,
+        "Final Realms Alena": 911,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 1824,

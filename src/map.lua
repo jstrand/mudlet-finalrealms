@@ -165,12 +165,24 @@ function stepWalk()
     send(movement)
 end
 
-function detectAndSetRoomEnvironment(room_id)
-    local name = getRoomName(room_id)
-    local selectResult = selectString(name, 1)
-    if selectResult < 0 then return end
+function getColorIdOfString(value)
+    local selectResult = selectString(value, 1)
+    if selectResult < 0 then return selectResult end
+
     local r, g, b = getFgColor()
     local color_id = r * 256 * 256 + g * 256 + b
+    return color_id
+end
+
+function detectAndSetRoomEnvironment(room_id)
+    local roomName = getRoomName(room_id)
+    local color_id = getColorIdOfString(roomName)
+    if color_id < 0 or color_id == 12632256 then
+        -- if name not found or
+        -- default grey 192, 192, 192 look for colors on direction [n,s,w]        
+        color_id = getColorIdOfString("[")
+        if color_id < 0 then return end
+    end
     local environment = getCustomEnvColorTable()[color_id]
     if environment == nil then setCustomEnvColor(color_id, r, g, b, 255) end
     setRoomEnv(room_id, color_id)
