@@ -1,6 +1,6 @@
 {
     "anonymousAreaName": "Unnamed Area",
-    "areaCount": 17,
+    "areaCount": 19,
     "areas": [
         {
             "id": -1,
@@ -3891,7 +3891,7 @@
                 }
             ],
             "name": "Main",
-            "roomCount": 3607,
+            "roomCount": 3602,
             "rooms": [
                 {
                     "coordinates": [
@@ -22575,7 +22575,10 @@
                         }
                     ],
                     "id": 906,
-                    "name": "Facedeux : Healers' Way [e,w]"
+                    "name": "Facedeux : Healers' Way [e,w]",
+                    "userData": {
+                        "num": "70230"
+                    }
                 },
                 {
                     "coordinates": [
@@ -22591,7 +22594,10 @@
                         }
                     ],
                     "id": 907,
-                    "name": "Facedeux : Raiseroom [w]"
+                    "name": "Facedeux : Raiseroom [w]",
+                    "userData": {
+                        "num": "70231"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40483,7 +40489,10 @@
                         }
                     ],
                     "id": 1748,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,ne]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,ne]",
+                    "userData": {
+                        "num": "70118"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40683,7 +40692,10 @@
                         }
                     ],
                     "id": 1758,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,se]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [n,se]",
+                    "userData": {
+                        "num": "70108"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40703,7 +40715,10 @@
                         }
                     ],
                     "id": 1759,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [nw,e]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [nw,e]",
+                    "userData": {
+                        "num": "70107"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40723,7 +40738,10 @@
                         }
                     ],
                     "id": 1760,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,e]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,e]",
+                    "userData": {
+                        "num": "70106"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40743,7 +40761,10 @@
                         }
                     ],
                     "id": 1761,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,e]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,e]",
+                    "userData": {
+                        "num": "70105"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40763,7 +40784,10 @@
                         }
                     ],
                     "id": 1762,
-                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,s]"
+                    "name": "Unicorn Mountain : Trail around Unicorn Cove [w,s]",
+                    "userData": {
+                        "num": "70104"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40783,7 +40807,10 @@
                         }
                     ],
                     "id": 1763,
-                    "name": "Unicorn Mountain : Southern Forest [se,n]"
+                    "name": "Unicorn Mountain : Southern Forest [se,n]",
+                    "userData": {
+                        "num": "70097"
+                    }
                 },
                 {
                     "coordinates": [
@@ -40930,7 +40957,10 @@
                         }
                     ],
                     "id": 1769,
-                    "name": "Wizard Warrior Guild House : Raiseroom [s]"
+                    "name": "Wizard Warrior Guild House : Raiseroom [s]",
+                    "userData": {
+                        "num": "1548"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41057,7 +41087,10 @@
                         }
                     ],
                     "id": 1775,
-                    "name": "Sunshade Road [n,e]"
+                    "name": "Sunshade Road [n,e]",
+                    "userData": {
+                        "num": "70182"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41077,7 +41110,10 @@
                         }
                     ],
                     "id": 1776,
-                    "name": "Sunshade Road [w,s]"
+                    "name": "Sunshade Road [w,s]",
+                    "userData": {
+                        "num": "70183"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41097,7 +41133,10 @@
                         }
                     ],
                     "id": 1777,
-                    "name": "Sunshade Road [n,s]"
+                    "name": "Sunshade Road [n,s]",
+                    "userData": {
+                        "num": "70170"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41125,7 +41164,10 @@
                         }
                     ],
                     "id": 1778,
-                    "name": "Crossroads [n,s,e,w]"
+                    "name": "Crossroads [n,s,e,w]",
+                    "userData": {
+                        "num": "70168"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41149,7 +41191,10 @@
                         }
                     ],
                     "id": 1779,
-                    "name": "Sunshade Road [e,w,s]"
+                    "name": "Sunshade Road [e,w,s]",
+                    "userData": {
+                        "num": "70167"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41169,7 +41214,10 @@
                         }
                     ],
                     "id": 1780,
-                    "name": "Sunshade Road [e,w]"
+                    "name": "Sunshade Road [e,w]",
+                    "userData": {
+                        "num": "70166"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41189,7 +41237,10 @@
                         }
                     ],
                     "id": 1781,
-                    "name": "Sunshade Road [w,s]"
+                    "name": "Sunshade Road [w,s]",
+                    "userData": {
+                        "num": "70163"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41217,7 +41268,10 @@
                         }
                     ],
                     "id": 1782,
-                    "name": "Sunshade Road [n,s,w,e]"
+                    "name": "Sunshade Road [n,s,w,e]",
+                    "userData": {
+                        "num": "70161"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41241,7 +41295,10 @@
                         }
                     ],
                     "id": 1783,
-                    "name": "Sunshade Road [n,s,w]"
+                    "name": "Sunshade Road [n,s,w]",
+                    "userData": {
+                        "num": "70160"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41261,7 +41318,10 @@
                         }
                     ],
                     "id": 1784,
-                    "name": "Sunshade Road [w,n]"
+                    "name": "Sunshade Road [w,n]",
+                    "userData": {
+                        "num": "70159"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41281,7 +41341,10 @@
                         }
                     ],
                     "id": 1785,
-                    "name": "Sunshade Road [e,w]"
+                    "name": "Sunshade Road [e,w]",
+                    "userData": {
+                        "num": "70157"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41305,7 +41368,10 @@
                         }
                     ],
                     "id": 1786,
-                    "name": "Sunshade Road [e,w,n]"
+                    "name": "Sunshade Road [e,w,n]",
+                    "userData": {
+                        "num": "70156"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41329,7 +41395,10 @@
                         }
                     ],
                     "id": 1787,
-                    "name": "Crossroads [n,s,e]"
+                    "name": "Crossroads [n,s,e]",
+                    "userData": {
+                        "num": "70154"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41349,7 +41418,10 @@
                         }
                     ],
                     "id": 1788,
-                    "name": "Sunshade Road [w,n]"
+                    "name": "Sunshade Road [w,n]",
+                    "userData": {
+                        "num": "70152"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41360,10 +41432,6 @@
                     "environment": 16776960,
                     "exits": [
                         {
-                            "exitId": 1891,
-                            "name": "north"
-                        },
-                        {
                             "exitId": 1788,
                             "name": "east"
                         },
@@ -41373,7 +41441,10 @@
                         }
                     ],
                     "id": 1789,
-                    "name": "Sunshade Road [e,w,n]"
+                    "name": "Sunshade Road [e,w,n]",
+                    "userData": {
+                        "num": "70150"
+                    }
                 },
                 {
                     "coordinates": [
@@ -41384,7 +41455,7 @@
                     "environment": 16776960,
                     "exits": [
                         {
-                            "exitId": 1917,
+                            "exitId": 4279,
                             "name": "north"
                         },
                         {
@@ -43044,7 +43115,10 @@
                         }
                     ],
                     "id": 1861,
-                    "name": "Unicorn Mountain : Southern Forest [ne,sw,se]"
+                    "name": "Unicorn Mountain : Southern Forest [ne,sw,se]",
+                    "userData": {
+                        "num": "70083"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43064,7 +43138,10 @@
                         }
                     ],
                     "id": 1862,
-                    "name": "Unicorn Mountain : Southern Forest [ne,nw]"
+                    "name": "Unicorn Mountain : Southern Forest [ne,nw]",
+                    "userData": {
+                        "num": "70085"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43084,7 +43161,10 @@
                         }
                     ],
                     "id": 1863,
-                    "name": "Unicorn Mountain : Southern Forest [nw,sw]"
+                    "name": "Unicorn Mountain : Southern Forest [nw,sw]",
+                    "userData": {
+                        "num": "70086"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43108,7 +43188,10 @@
                         }
                     ],
                     "id": 1864,
-                    "name": "Unicorn Mountain : Southern Forest [se,sw,n]"
+                    "name": "Unicorn Mountain : Southern Forest [se,sw,n]",
+                    "userData": {
+                        "num": "70084"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43128,7 +43211,10 @@
                         }
                     ],
                     "id": 1865,
-                    "name": "Unicorn Mountain : Southern Forest [ne,s]"
+                    "name": "Unicorn Mountain : Southern Forest [ne,s]",
+                    "userData": {
+                        "num": "70078"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43148,7 +43234,10 @@
                         }
                     ],
                     "id": 1866,
-                    "name": "Unicorn Mountain : Southern Forest [n,sw]"
+                    "name": "Unicorn Mountain : Southern Forest [n,sw]",
+                    "userData": {
+                        "num": "70077"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43172,7 +43261,10 @@
                         }
                     ],
                     "id": 1867,
-                    "name": "Unicorn Mountain : Southern Forest [ne,sw,se]"
+                    "name": "Unicorn Mountain : Southern Forest [ne,sw,se]",
+                    "userData": {
+                        "num": "70075"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43196,7 +43288,10 @@
                         }
                     ],
                     "id": 1868,
-                    "name": "Unicorn Mountain : Southern Forest [e,sw,nw]"
+                    "name": "Unicorn Mountain : Southern Forest [e,sw,nw]",
+                    "userData": {
+                        "num": "70073"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43216,7 +43311,10 @@
                         }
                     ],
                     "id": 1869,
-                    "name": "Unicorn Mountain : Southern Forest [nw,ne]"
+                    "name": "Unicorn Mountain : Southern Forest [nw,ne]",
+                    "userData": {
+                        "num": "70074"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43240,7 +43338,10 @@
                         }
                     ],
                     "id": 1870,
-                    "name": "Unicorn Mountain : Southern Forest [ne,sw,e]"
+                    "name": "Unicorn Mountain : Southern Forest [ne,sw,e]",
+                    "userData": {
+                        "num": "70065"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43280,7 +43381,10 @@
                         }
                     ],
                     "id": 1872,
-                    "name": "A clearing [sw,nw,n]"
+                    "name": "A clearing [sw,nw,n]",
+                    "userData": {
+                        "num": "70066"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43300,7 +43404,10 @@
                         }
                     ],
                     "id": 1873,
-                    "name": "Unicorn Mountain : Southern Forest [s,w]"
+                    "name": "Unicorn Mountain : Southern Forest [s,w]",
+                    "userData": {
+                        "num": "70069"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43324,7 +43431,10 @@
                         }
                     ],
                     "id": 1874,
-                    "name": "Unicorn Mountain : Southern Forest [e,w,se]"
+                    "name": "Unicorn Mountain : Southern Forest [e,w,se]",
+                    "userData": {
+                        "num": "70068"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43344,7 +43454,10 @@
                         }
                     ],
                     "id": 1875,
-                    "name": "Unicorn Mountain : Southern Forest [ne,se]"
+                    "name": "Unicorn Mountain : Southern Forest [ne,se]",
+                    "userData": {
+                        "num": "70076"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43364,7 +43477,10 @@
                         }
                     ],
                     "id": 1876,
-                    "name": "Unicorn Mountain : Southern Forest [s,ne]"
+                    "name": "Unicorn Mountain : Southern Forest [s,ne]",
+                    "userData": {
+                        "num": "70087"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43388,7 +43504,10 @@
                         }
                     ],
                     "id": 1877,
-                    "name": "Unicorn Forest : Feral Gardens [w,ne,sw]"
+                    "name": "Unicorn Forest : Feral Gardens [w,ne,sw]",
+                    "userData": {
+                        "num": "70088"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43408,7 +43527,10 @@
                         }
                     ],
                     "id": 1878,
-                    "name": "Unicorn Forest : Feral Gardens [e,nw]"
+                    "name": "Unicorn Forest : Feral Gardens [e,nw]",
+                    "userData": {
+                        "num": "70089"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43428,7 +43550,10 @@
                         }
                     ],
                     "id": 1879,
-                    "name": "Unicorn Forest : Feral Gardens [n,se]"
+                    "name": "Unicorn Forest : Feral Gardens [n,se]",
+                    "userData": {
+                        "num": "70095"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43448,7 +43573,10 @@
                         }
                     ],
                     "id": 1880,
-                    "name": "Unicorn Forest : Feral Gardens [ne,s]"
+                    "name": "Unicorn Forest : Feral Gardens [ne,s]",
+                    "userData": {
+                        "num": "70094"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43468,7 +43596,10 @@
                         }
                     ],
                     "id": 1881,
-                    "name": "Unicorn Forest : Feral Gardens [e,sw]"
+                    "name": "Unicorn Forest : Feral Gardens [e,sw]",
+                    "userData": {
+                        "num": "70093"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43488,7 +43619,10 @@
                         }
                     ],
                     "id": 1882,
-                    "name": "Unicorn Forest : Feral Gardens [w,se]"
+                    "name": "Unicorn Forest : Feral Gardens [w,se]",
+                    "userData": {
+                        "num": "70092"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43508,7 +43642,10 @@
                         }
                     ],
                     "id": 1883,
-                    "name": "Unicorn Forest : Feral Gardens [nw,s]"
+                    "name": "Unicorn Forest : Feral Gardens [nw,s]",
+                    "userData": {
+                        "num": "70091"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43528,7 +43665,10 @@
                         }
                     ],
                     "id": 1884,
-                    "name": "Unicorn Forest : Feral Gardens [n,sw]"
+                    "name": "Unicorn Forest : Feral Gardens [n,sw]",
+                    "userData": {
+                        "num": "70090"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43543,7 +43683,7 @@
                             "name": "north"
                         },
                         {
-                            "exitId": 1896,
+                            "exitId": 1892,
                             "name": "west"
                         },
                         {
@@ -43552,7 +43692,10 @@
                         }
                     ],
                     "id": 1885,
-                    "name": "Backdash Square [n,s,w]"
+                    "name": "Backdash Square [n,s,w]",
+                    "userData": {
+                        "num": "70155"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43572,7 +43715,10 @@
                         }
                     ],
                     "id": 1886,
-                    "name": "Backdash Square. [n,s]"
+                    "name": "Backdash Square. [n,s]",
+                    "userData": {
+                        "num": "70171"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43588,7 +43734,10 @@
                         }
                     ],
                     "id": 1887,
-                    "name": "Unicorn's Stash [n]"
+                    "name": "Unicorn's Stash [n]",
+                    "userData": {
+                        "num": "70169"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43612,7 +43761,10 @@
                         {
                             "name": "south"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "70165"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43628,7 +43780,10 @@
                         }
                     ],
                     "id": 1889,
-                    "name": "Pawn Shop [e]"
+                    "name": "Pawn Shop [e]",
+                    "userData": {
+                        "num": "70162"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43644,27 +43799,37 @@
                         }
                     ],
                     "id": 1890,
-                    "name": "Unicorn Cove smithy [s]"
+                    "name": "Unicorn Cove smithy [s]",
+                    "userData": {
+                        "num": "70158"
+                    }
                 },
                 {
                     "coordinates": [
                         67,
-                        70,
+                        72,
                         0
                     ],
                     "environment": 12632256,
                     "exits": [
                         {
-                            "exitId": 1892,
+                            "exitId": 1915,
                             "name": "north"
                         },
                         {
-                            "exitId": 1789,
+                            "exitId": 1894,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 1892,
                             "name": "south"
                         }
                     ],
                     "id": 1891,
-                    "name": "Entrance To Timion Guild [s,n]"
+                    "name": "Backdash Square",
+                    "userData": {
+                        "num": "70174"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43675,20 +43840,19 @@
                     "environment": 12632256,
                     "exits": [
                         {
-                            "exitId": 1894,
+                            "exitId": 1891,
                             "name": "north"
                         },
                         {
-                            "exitId": 1893,
+                            "exitId": 1885,
                             "name": "east"
-                        },
-                        {
-                            "exitId": 1891,
-                            "name": "south"
                         }
                     ],
                     "id": 1892,
-                    "name": "Clerics of Timion:  Hall [e,s,n]"
+                    "name": "Backdash Square",
+                    "userData": {
+                        "num": "70184"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43698,38 +43862,28 @@
                     ],
                     "environment": 12632256,
                     "exits": [
-                        {
-                            "exitId": 1892,
-                            "name": "west"
-                        }
                     ],
                     "id": 1893,
                     "name": "Raiseroom of the God Timion [w]"
                 },
                 {
                     "coordinates": [
-                        67,
+                        66,
                         72,
                         0
                     ],
                     "environment": 12632256,
                     "exits": [
                         {
-                            "exitId": 1895,
+                            "exitId": 1891,
                             "name": "east"
-                        },
-                        {
-                            "exitId": 1892,
-                            "name": "south"
                         }
                     ],
                     "id": 1894,
-                    "name": "Main Temple of Timion [w,s,e]",
-                    "stubExits": [
-                        {
-                            "name": "west"
-                        }
-                    ]
+                    "name": "Warehouse",
+                    "userData": {
+                        "num": "70185"
+                    }
                 },
                 {
                     "coordinates": [
@@ -43739,34 +43893,9 @@
                     ],
                     "environment": 12632256,
                     "exits": [
-                        {
-                            "exitId": 1894,
-                            "name": "west"
-                        }
                     ],
                     "id": 1895,
                     "name": "The Cathedral of Lawful Neutral [w]"
-                },
-                {
-                    "coordinates": [
-                        67,
-                        71,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 1885,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 1896,
-                    "name": "Backdash Square [n,e]",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        }
-                    ]
                 },
                 {
                     "coordinates": [
@@ -43777,7 +43906,7 @@
                     "environment": 16776960,
                     "exits": [
                         {
-                            "exitId": 1920,
+                            "exitId": 4285,
                             "name": "north"
                         },
                         {
@@ -44000,7 +44129,10 @@
                         }
                     ],
                     "id": 1906,
-                    "name": "Sunshade Road.   [n,s,e]"
+                    "name": "Sunshade Road.   [n,s,e]",
+                    "userData": {
+                        "num": "70203"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44104,7 +44236,10 @@
                         }
                     ],
                     "id": 1911,
-                    "name": "Guffaw Street [n,w,e]"
+                    "name": "Guffaw Street [n,w,e]",
+                    "userData": {
+                        "num": "70133"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44154,12 +44289,15 @@
                             "name": "west"
                         },
                         {
-                            "exitId": 1939,
+                            "exitId": 1917,
                             "name": "south"
                         }
                     ],
                     "id": 1913,
-                    "name": "Guffaw Street [e,w,s]"
+                    "name": "Guffaw Street [e,w,s]",
+                    "userData": {
+                        "num": "70132"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44183,7 +44321,10 @@
                         }
                     ],
                     "id": 1914,
-                    "name": "Guffaw Street [n,e,w]"
+                    "name": "Guffaw Street [n,e,w]",
+                    "userData": {
+                        "num": "70175"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44204,15 +44345,17 @@
                         {
                             "exitId": 1914,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 1891,
+                            "name": "south"
                         }
                     ],
                     "id": 1915,
                     "name": "Guffaw Street [n,s,e,w]",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        }
-                    ]
+                    "userData": {
+                        "num": "70172"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44228,106 +44371,28 @@
                         }
                     ],
                     "id": 1916,
-                    "name": "General Store [e]"
-                },
-                {
-                    "coordinates": [
-                        66,
-                        70,
-                        0
-                    ],
-                    "environment": 16776960,
-                    "exits": [
-                        {
-                            "exitId": 1919,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 1918,
-                            "name": "west"
-                        },
-                        {
-                            "exitId": 1790,
-                            "name": "south"
-                        }
-                    ],
-                    "id": 1917,
-                    "name": "Unicorn Cove: Virga Park [n,e,w,s]",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        }
-                    ]
+                    "name": "General Store [e]",
+                    "userData": {
+                        "num": "70164"
+                    }
                 },
                 {
                     "coordinates": [
                         65,
-                        70,
-                        0
-                    ],
-                    "environment": 16776960,
-                    "exits": [
-                        {
-                            "exitId": 1919,
-                            "name": "northeast"
-                        },
-                        {
-                            "exitId": 1917,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 1918,
-                    "name": "Unicorn Cove: Virga Park [ne,e]"
-                },
-                {
-                    "coordinates": [
-                        66,
-                        71,
-                        0
-                    ],
-                    "environment": 16776960,
-                    "exits": [
-                        {
-                            "exitId": 1917,
-                            "name": "south"
-                        },
-                        {
-                            "exitId": 1918,
-                            "name": "southwest"
-                        }
-                    ],
-                    "id": 1919,
-                    "name": "Unicorn Cove: Virga Park [ne,s,sw,e]",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        }
-                    ]
-                },
-                {
-                    "coordinates": [
-                        65,
-                        70,
+                        72,
                         0
                     ],
                     "environment": 12632256,
                     "exits": [
                         {
-                            "exitId": 1921,
+                            "exitId": 1932,
                             "name": "west"
-                        },
-                        {
-                            "exitId": 1897,
-                            "name": "south"
                         }
                     ],
-                    "id": 1920,
-                    "name": "Unicorn Cove Post Office [s,w]",
+                    "id": 1918,
+                    "name": "Restaurant",
                     "userData": {
-                        "num": "70141"
+                        "num": "70135"
                     }
                 },
                 {
@@ -44343,7 +44408,7 @@
                             "name": "north"
                         },
                         {
-                            "exitId": 1920,
+                            "exitId": 4285,
                             "name": "east"
                         },
                         {
@@ -44433,7 +44498,10 @@
                         }
                     ],
                     "id": 1924,
-                    "name": "Unicorn Sweets [w]"
+                    "name": "Unicorn Sweets [w]",
+                    "userData": {
+                        "num": "70127"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44469,7 +44537,10 @@
                         }
                     ],
                     "id": 1926,
-                    "name": "Lobby. [u,e,w]"
+                    "name": "Lobby. [u,e,w]",
+                    "userData": {
+                        "num": "70130"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44489,7 +44560,10 @@
                         }
                     ],
                     "id": 1927,
-                    "name": "Hallway. [d,e]"
+                    "name": "Hallway. [d,e]",
+                    "userData": {
+                        "num": "70208"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44505,7 +44579,10 @@
                         }
                     ],
                     "id": 1928,
-                    "name": "Balcony. [w]"
+                    "name": "Balcony. [w]",
+                    "userData": {
+                        "num": "70211"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44516,6 +44593,14 @@
                     "environment": 12632256,
                     "exits": [
                         {
+                            "exitId": 4271,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 1896,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 1915,
                             "name": "south"
                         }
@@ -44524,15 +44609,12 @@
                     "name": "Double-Edged Sword Tavern Entry Hall [s,w,e,n]",
                     "stubExits": [
                         {
-                            "name": "east"
-                        },
-                        {
                             "name": "north"
-                        },
-                        {
-                            "name": "west"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "70173"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44564,7 +44646,10 @@
                         }
                     ],
                     "id": 1931,
-                    "name": "Guffaw's House [s]"
+                    "name": "Guffaw's House [s]",
+                    "userData": {
+                        "num": "70205"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44579,7 +44664,7 @@
                             "name": "north"
                         },
                         {
-                            "exitId": 1937,
+                            "exitId": 1918,
                             "name": "east"
                         },
                         {
@@ -44642,7 +44727,10 @@
                         }
                     ],
                     "id": 1934,
-                    "name": "Unicorn Cove Bank [e]"
+                    "name": "Unicorn Cove Bank [e]",
+                    "userData": {
+                        "num": "70142"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44658,7 +44746,10 @@
                         }
                     ],
                     "id": 1935,
-                    "name": "Bakery [w]"
+                    "name": "Bakery [w]",
+                    "userData": {
+                        "num": "70138"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44674,23 +44765,10 @@
                         }
                     ],
                     "id": 1936,
-                    "name": "Jewelry Store [e]"
-                },
-                {
-                    "coordinates": [
-                        65,
-                        72,
-                        0
-                    ],
-                    "environment": 12632256,
-                    "exits": [
-                        {
-                            "exitId": 1932,
-                            "name": "west"
-                        }
-                    ],
-                    "id": 1937,
-                    "name": "Restaurant [w]"
+                    "name": "Jewelry Store [e]",
+                    "userData": {
+                        "num": "70139"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44706,34 +44784,10 @@
                         }
                     ],
                     "id": 1938,
-                    "name": "Justine's [e]"
-                },
-                {
-                    "coordinates": [
-                        65,
-                        72,
-                        0
-                    ],
-                    "environment": 16776960,
-                    "exits": [
-                        {
-                            "exitId": 1913,
-                            "name": "north"
-                        }
-                    ],
-                    "id": 1939,
-                    "name": "Unicorn Cove: Virga Park [s,e,w,n]",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ]
+                    "name": "Justine's [e]",
+                    "userData": {
+                        "num": "70136"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44785,7 +44839,10 @@
                         }
                     ],
                     "id": 1942,
-                    "name": "Anlyon's Shoppe of Arcane Wizardry [n]"
+                    "name": "Anlyon's Shoppe of Arcane Wizardry [n]",
+                    "userData": {
+                        "num": "70181"
+                    }
                 },
                 {
                     "coordinates": [
@@ -44801,7 +44858,10 @@
                         }
                     ],
                     "id": 1943,
-                    "name": "Unicorn Cove:  The 'Almost Magic' Magic Shop [s]"
+                    "name": "Unicorn Cove:  The 'Almost Magic' Magic Shop [s]",
+                    "userData": {
+                        "num": "70180"
+                    }
                 },
                 {
                     "coordinates": [
@@ -85247,6 +85307,29 @@
                     "userData": {
                         "num": "80583"
                     }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        70,
+                        0
+                    ],
+                    "environment": 12632256,
+                    "exits": [
+                        {
+                            "exitId": 1921,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 1897,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4285,
+                    "name": "Unicorn Cove Post Office",
+                    "userData": {
+                        "num": "70141"
+                    }
                 }
             ]
         },
@@ -86318,6 +86401,130 @@
                     ],
                     "id": 2058,
                     "name": "Cave of Gloom:  Fountain [w]"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Double-Edged Sword Tavern",
+            "roomCount": 5,
+            "rooms": [
+                {
+                    "coordinates": [
+                        66,
+                        74,
+                        0
+                    ],
+                    "environment": 12632256,
+                    "exits": [
+                        {
+                            "exitId": 1929,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 1896,
+                    "name": "Double-Edged Sword Tavern Public Bar",
+                    "stubExits": [
+                        {
+                            "name": "north"
+                        }
+                    ],
+                    "userData": {
+                        "num": "70186"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        74,
+                        0
+                    ],
+                    "environment": -1,
+                    "exits": [
+                        {
+                            "exitId": 1929,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4272,
+                            "name": "board"
+                        },
+                        {
+                            "exitId": 4273,
+                            "name": "booth 1"
+                        },
+                        {
+                            "exitId": 4274,
+                            "name": "booth 3"
+                        }
+                    ],
+                    "id": 4271,
+                    "name": "Double-Edged Sword Tavern Black Door Private Bar",
+                    "stubExits": [
+                        {
+                            "name": "northwest"
+                        }
+                    ],
+                    "userData": {
+                        "num": "70187"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        73,
+                        0
+                    ],
+                    "environment": 12632256,
+                    "exits": [
+                        {
+                            "exitId": 4271,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4272,
+                    "name": "Double-Edged Sword Tavern Booth",
+                    "userData": {
+                        "num": "70896"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        73,
+                        0
+                    ],
+                    "environment": 12632256,
+                    "exits": [
+                        {
+                            "exitId": 4271,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4273,
+                    "name": "Double-Edged Sword Tavern Booth",
+                    "userData": {
+                        "num": "70897"
+                    }
+                },
+                {
+                    "coordinates": [
+                        70,
+                        73,
+                        0
+                    ],
+                    "environment": 12632256,
+                    "exits": [
+                        {
+                            "exitId": 4271,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4274,
+                    "name": "Double-Edged Sword Tavern Booth",
+                    "userData": {
+                        "num": "70899"
+                    }
                 }
             ]
         },
@@ -97259,6 +97466,422 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 18,
+            "name": "Virga Park",
+            "roomCount": 15,
+            "rooms": [
+                {
+                    "coordinates": [
+                        65,
+                        72,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 1913,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4283,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4284,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 1919,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 1917,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70177"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        71,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 1917,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4284,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4281,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 1920,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 1919,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70189"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        70,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4281,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 1919,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 1937,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 1920,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70192"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        69,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 1920,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 1939,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 1937,
+                    "name": "Shrine of Virga",
+                    "userData": {
+                        "num": "1550"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        68,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 1937,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4275,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4278,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 1939,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70195"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        67,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 1939,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4278,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4276,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4277,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4275,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70196"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        66,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4275,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4277,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4279,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4276,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70199"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        66,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4275,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4276,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4277,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70200"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        67,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 1939,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4275,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4279,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4280,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4278,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70197"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        66,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4278,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4276,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4280,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 1790,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4279,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70151"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        66,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4278,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4279,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4280,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70198"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        71,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4283,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4282,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 1919,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 1920,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4281,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70193"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        72,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4283,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4281,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4282,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70194"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        72,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4282,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 1917,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4281,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4283,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70190"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        72,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 1917,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 1919,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4284,
+                    "name": "Unicorn Cove: Virga Park",
+                    "userData": {
+                        "num": "70191"
+                    }
+                }
+            ]
         }
     ],
     "customEnvColors": [
@@ -97549,11 +98172,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 4207,
+        "Final Realms Alena": 1779,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 1824,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4270
+    "roomCount": 4285
 }
