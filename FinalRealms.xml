@@ -1990,7 +1990,8 @@ function stepXp()
 		else
 			moving = true
 			xp_movement_timer = tempTimer(60, [[send("gl")]])
-			send("party move " .. movement)
+			--send("party move " .. movement)
+      send(movement)
 		end
 	end
 end

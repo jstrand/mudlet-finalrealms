@@ -213,9 +213,11 @@ function addExits(room_id)
         local exitToExistingRoomId = findRoomByNum(exitToRoomNum)
         if exitToExistingRoomId then
             if exitmap[exitDirection] ~= nil then
+                -- echo("Add exit from " .. room_id .. " to " ..
+                --          exitToExistingRoomId .. " " .. exitDirection)
                 -- Try to reach out to any stubs on the other side
                 setExitStub(room_id, exitDirection, true)
-                connectExitStub(room_id, exitToExistingRoomId)
+                connectExitStub(room_id, exitToExistingRoomId, exitDirection)
             else
                 addSpecialExit(room_id, exitToExistingRoomId, exitDirection)
             end
@@ -350,6 +352,12 @@ function handleRoom(room_name)
 
         if speed_walking then stepWalk() end
         if xp_helper or fleeing then stepXp() end
+    end
+
+    if getRoomNumber(current_room) ~= nil and gmcp.Room.Info.num ~=
+        getRoomNumber(current_room) then
+        echo("Missmatch GMCP/Map. GMCP: " .. gmcp.Room.Info.num .. ", Map: " ..
+                 getRoomNumber(current_room))
     end
 end
 
