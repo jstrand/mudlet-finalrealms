@@ -3891,7 +3891,7 @@
                 }
             ],
             "name": "Main",
-            "roomCount": 3536,
+            "roomCount": 3607,
             "rooms": [
                 {
                     "coordinates": [
@@ -75176,6 +75176,14 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4233,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4242,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3947,
                             "name": "east"
                         },
@@ -75186,14 +75194,6 @@
                     ],
                     "id": 3939,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80536"
                     }
@@ -75211,6 +75211,22 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4221,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4234,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4233,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4242,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3939,
                             "name": "south"
                         },
@@ -75221,20 +75237,6 @@
                     ],
                     "id": 3940,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80537"
                     }
@@ -75252,32 +75254,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4219,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4221,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4234,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3940,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4233,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4242,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3941,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80541"
                     }
@@ -75295,32 +75301,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4207,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4219,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3941,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4221,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4234,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3942,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80562"
                     }
@@ -75338,32 +75348,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4270,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4207,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3942,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4219,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3943,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80581"
                     }
@@ -75381,32 +75395,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 3964,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4256,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4270,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3943,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4207,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3944,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80582"
                     }
@@ -75424,33 +75442,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4001,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4255,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3964,
                             "name": "east"
                         },
                         {
+                            "exitId": 4256,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3944,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4270,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3945,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80586"
                     }
@@ -75463,6 +75484,18 @@
                     ],
                     "environment": 65280,
                     "exits": [
+                        {
+                            "exitId": 4230,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4233,
+                            "name": "northwest"
+                        },
                         {
                             "exitId": 3948,
                             "name": "east"
@@ -75486,17 +75519,6 @@
                     ],
                     "id": 3946,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80530"
                     }
@@ -75509,6 +75531,14 @@
                     ],
                     "environment": 65280,
                     "exits": [
+                        {
+                            "exitId": 4233,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "northeast"
+                        },
                         {
                             "exitId": 3940,
                             "name": "northwest"
@@ -75532,14 +75562,6 @@
                     ],
                     "id": 3947,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northeast"
-                        }
-                    ],
                     "userData": {
                         "num": "80534"
                     }
@@ -75552,6 +75574,18 @@
                     ],
                     "environment": 65280,
                     "exits": [
+                        {
+                            "exitId": 4231,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4232,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "northwest"
+                        },
                         {
                             "exitId": 3949,
                             "name": "east"
@@ -75571,17 +75605,6 @@
                     ],
                     "id": 3948,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80531"
                     }
@@ -75595,8 +75618,16 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4232,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 3950,
                             "name": "northeast"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "northwest"
                         },
                         {
                             "exitId": 3948,
@@ -75609,14 +75640,6 @@
                     ],
                     "id": 3949,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80535"
                     }
@@ -75630,8 +75653,20 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4225,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 3951,
                             "name": "northeast"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "west"
                         },
                         {
                             "exitId": 3949,
@@ -75640,17 +75675,6 @@
                     ],
                     "id": 3950,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80570"
                     }
@@ -75664,8 +75688,20 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4229,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 3952,
                             "name": "northeast"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "west"
                         },
                         {
                             "exitId": 3950,
@@ -75674,17 +75710,6 @@
                     ],
                     "id": 3951,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80572"
                     }
@@ -75698,8 +75723,20 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4214,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 3953,
                             "name": "northeast"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4229,
+                            "name": "west"
                         },
                         {
                             "exitId": 3951,
@@ -75708,17 +75745,6 @@
                     ],
                     "id": 3952,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80616"
                     }
@@ -75732,8 +75758,20 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4213,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 3955,
                             "name": "northeast"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4214,
+                            "name": "west"
                         },
                         {
                             "exitId": 3952,
@@ -75742,17 +75780,6 @@
                     ],
                     "id": 3953,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80617"
                     }
@@ -75805,17 +75832,16 @@
                             "name": "northwest"
                         },
                         {
+                            "exitId": 4213,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3953,
                             "name": "southwest"
                         }
                     ],
                     "id": 3955,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80619"
                     }
@@ -75835,15 +75861,14 @@
                         {
                             "exitId": 3955,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4213,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3956,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80621"
                     }
@@ -75865,20 +75890,20 @@
                             "name": "west"
                         },
                         {
+                            "exitId": 4213,
+                            "name": "south"
+                        },
+                        {
                             "exitId": 3955,
                             "name": "southeast"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3957,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80622"
                     }
@@ -75898,21 +75923,22 @@
                         {
                             "exitId": 3959,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4213,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3958,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80623"
                     }
@@ -75932,21 +75958,22 @@
                         {
                             "exitId": 3960,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3959,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80625"
                     }
@@ -75966,21 +75993,22 @@
                         {
                             "exitId": 3961,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3960,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80627"
                     }
@@ -76000,21 +76028,22 @@
                         {
                             "exitId": 3962,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3961,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80628"
                     }
@@ -76028,30 +76057,32 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4202,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3961,
                             "name": "east"
                         },
                         {
                             "exitId": 3963,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3962,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80610"
                     }
@@ -76065,33 +76096,36 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4202,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4001,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3962,
                             "name": "east"
                         },
                         {
                             "exitId": 3964,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4270,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3963,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80601"
                     }
@@ -76105,36 +76139,40 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4001,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4202,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3965,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3963,
                             "name": "east"
                         },
                         {
                             "exitId": 3945,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4270,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3944,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3964,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80596"
                     }
@@ -76152,33 +76190,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4000,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4254,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 4001,
                             "name": "east"
                         },
                         {
+                            "exitId": 4255,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3945,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 3964,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4256,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3965,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80595"
                     }
@@ -76196,33 +76237,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 3999,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4253,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 4000,
                             "name": "east"
                         },
                         {
+                            "exitId": 4254,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3965,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4001,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4255,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3966,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80603"
                     }
@@ -76240,33 +76284,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 3998,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4252,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3999,
                             "name": "east"
                         },
                         {
+                            "exitId": 4253,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3966,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4000,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4254,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3967,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80607"
                     }
@@ -76284,33 +76331,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 3997,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4251,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 3998,
                             "name": "east"
                         },
                         {
+                            "exitId": 4252,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3967,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 3999,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4253,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3968,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80641"
                     }
@@ -76336,23 +76386,24 @@
                             "name": "east"
                         },
                         {
+                            "exitId": 4251,
+                            "name": "west"
+                        },
+                        {
                             "exitId": 3968,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 3998,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4252,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3969,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ],
                     "userData": {
                         "num": "80551"
                     }
@@ -76380,15 +76431,14 @@
                         {
                             "exitId": 3997,
                             "name": "southeast"
+                        },
+                        {
+                            "exitId": 4251,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3970,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80639"
                     }
@@ -76476,17 +76526,16 @@
                             "name": "west"
                         },
                         {
+                            "exitId": 4239,
+                            "name": "south"
+                        },
+                        {
                             "exitId": 3997,
                             "name": "southwest"
                         }
                     ],
                     "id": 3973,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        }
-                    ],
                     "userData": {
                         "num": "80636"
                     }
@@ -77038,17 +77087,16 @@
                             "name": "south"
                         },
                         {
+                            "exitId": 4239,
+                            "name": "southeast"
+                        },
+                        {
                             "exitId": 3969,
                             "name": "southwest"
                         }
                     ],
                     "id": 3996,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "southeast"
-                        }
-                    ],
                     "userData": {
                         "num": "80637"
                     }
@@ -77074,27 +77122,28 @@
                             "name": "northwest"
                         },
                         {
+                            "exitId": 4239,
+                            "name": "east"
+                        },
+                        {
                             "exitId": 3969,
                             "name": "west"
                         },
                         {
                             "exitId": 3998,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4240,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3968,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3997,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80635"
                     }
@@ -77112,33 +77161,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4239,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3969,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4240,
+                            "name": "east"
+                        },
+                        {
                             "exitId": 3968,
                             "name": "west"
                         },
                         {
                             "exitId": 3999,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4200,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3967,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3998,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80633"
                     }
@@ -77156,33 +77208,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4240,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3968,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4200,
+                            "name": "east"
+                        },
+                        {
                             "exitId": 3967,
                             "name": "west"
                         },
                         {
                             "exitId": 4000,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4201,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3966,
+                            "name": "southwest"
                         }
                     ],
                     "id": 3999,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80631"
                     }
@@ -77200,33 +77255,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4200,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3967,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4201,
+                            "name": "east"
+                        },
+                        {
                             "exitId": 3966,
                             "name": "west"
                         },
                         {
                             "exitId": 4001,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4202,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3965,
+                            "name": "southwest"
                         }
                     ],
                     "id": 4000,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80608"
                     }
@@ -77244,32 +77302,36 @@
                             "name": "north"
                         },
                         {
+                            "exitId": 4201,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3966,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4202,
+                            "name": "east"
+                        },
+                        {
                             "exitId": 3965,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 3964,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3963,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3945,
+                            "name": "southwest"
                         }
                     ],
                     "id": 4001,
                     "name": "Ethereal Dragaera: Rune Forest",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        },
-                        {
-                            "name": "northeast"
-                        },
-                        {
-                            "name": "northwest"
-                        },
-                        {
-                            "name": "south"
-                        },
-                        {
-                            "name": "southeast"
-                        },
-                        {
-                            "name": "southwest"
-                        }
-                    ],
                     "userData": {
                         "num": "80602"
                     }
@@ -82123,6 +82185,3067 @@
                     "name": "House of Sinaku : Tree Top Tavern",
                     "userData": {
                         "num": "1955"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        123,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4240,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3998,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3999,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4201,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4000,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4200,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80630"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        122,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4200,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3999,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4000,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4202,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4001,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4201,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80629"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4201,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4000,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4001,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3963,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3962,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3964,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4202,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80609"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3963,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3962,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3964,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4204,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4207,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4203,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80597"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4203,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4204,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80611"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3962,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3961,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3963,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4205,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80600"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4203,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4270,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4207,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4219,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4206,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80580"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4270,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3944,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3943,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4219,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3942,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4207,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80579"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4257,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3944,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3943,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3942,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4236,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4208,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80561"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3961,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3960,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3962,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4209,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80612"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3960,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3959,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3961,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4210,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80626"
+                    }
+                },
+                {
+                    "coordinates": [
+                        70,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3959,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3958,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3960,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4214,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4211,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80624"
+                    }
+                },
+                {
+                    "coordinates": [
+                        71,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3958,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3957,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3959,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4213,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4214,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3953,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4212,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80620"
+                    }
+                },
+                {
+                    "coordinates": [
+                        72,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3957,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3956,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3958,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3955,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3953,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4214,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4213,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80618"
+                    }
+                },
+                {
+                    "coordinates": [
+                        71,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4212,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4213,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3953,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3952,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4229,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4214,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80615"
+                    }
+                },
+                {
+                    "coordinates": [
+                        70,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4211,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4212,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4214,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4229,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3952,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4215,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80614"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4210,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4211,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4229,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4216,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80613"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4209,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4210,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4205,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4217,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80599"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4205,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4209,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4218,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80598"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4207,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3943,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3942,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4221,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3941,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4219,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80578"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4206,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4207,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4219,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4221,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4220,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80577"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4219,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3942,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3941,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4233,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3940,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4221,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80563"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4220,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4219,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4221,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4233,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4222,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80569"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4228,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4232,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4223,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80566"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4227,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4232,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3950,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4224,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80567"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4226,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4229,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3951,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3950,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4232,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4225,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80571"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4216,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4215,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4229,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3951,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4226,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80573"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4217,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4218,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4228,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4227,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80575"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4218,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4217,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4227,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4220,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4228,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80576"
+                    }
+                },
+                {
+                    "coordinates": [
+                        70,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4215,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4214,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4216,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3952,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4226,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3951,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4229,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80574"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        115,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4222,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4221,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4233,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3946,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3948,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3947,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4230,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80564"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        115,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4223,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4224,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4232,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3948,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3949,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3946,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4231,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80565"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        115,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4224,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4225,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4223,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3950,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4231,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3949,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3948,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4232,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80568"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        115,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4221,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4222,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3941,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4230,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3940,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 3947,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3946,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3939,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4233,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80538"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4241,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3942,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4236,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3941,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4235,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4242,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3940,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4234,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80540"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        116,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4236,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4238,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4234,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4242,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4235,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80542"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4237,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4243,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4238,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4235,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4234,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4236,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80543"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4258,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4243,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4236,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4241,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4238,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4237,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80547"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4243,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4244,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4236,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4235,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4238,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80545"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        125,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3973,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3996,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3997,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4240,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3998,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4239,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80634"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        124,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4239,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3997,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3998,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4200,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3999,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4240,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80632"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        117,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4208,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3943,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3942,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4236,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4234,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3941,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4235,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4241,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80544"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        115,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4234,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3941,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4235,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3940,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3939,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4242,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80539"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4266,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4267,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4244,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4238,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4236,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4243,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80546"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        118,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4267,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4245,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3969,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4238,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4244,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80548"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4246,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4267,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4244,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4245,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80552"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        120,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4247,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4269,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4245,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4267,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4246,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80553"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4248,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4269,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4246,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4247,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80558"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        122,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4249,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4263,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4269,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4247,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4248,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80559"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        123,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4250,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4262,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4263,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4248,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4249,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80593"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        124,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4251,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4252,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4262,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4253,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4249,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4250,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80605"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        125,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3970,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3969,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4252,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3968,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4250,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4251,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80640"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        124,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4251,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3969,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3968,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4250,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4253,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3967,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4262,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4252,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80606"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        123,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4252,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3968,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4250,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3967,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4262,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4254,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3966,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4253,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80604"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        122,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4253,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3967,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4262,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3966,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4255,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3965,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4254,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80591"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4254,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3966,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3965,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4256,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3945,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4255,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80589"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        120,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4255,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3965,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3945,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3944,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4256,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80585"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4256,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3945,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 3944,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 3943,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4257,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80584"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4259,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4256,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4208,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4243,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4258,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80560"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        120,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4260,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4255,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4256,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4257,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4259,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80587"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4261,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4254,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4263,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4255,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4256,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4260,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80588"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        122,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4262,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4253,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4249,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4254,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4263,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4255,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4261,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80590"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        123,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4250,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4252,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4253,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4249,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4254,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4263,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4262,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80594"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        122,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4249,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4262,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4248,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4269,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4263,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80592"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4263,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4261,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4248,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4269,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4264,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80556"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        120,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4264,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4260,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4269,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4267,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4265,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80557"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4265,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4259,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4258,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4267,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4243,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4237,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4244,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4266,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80550"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4268,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4246,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4245,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4244,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4243,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4267,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80549"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        120,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4269,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4247,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4246,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4267,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4266,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4245,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4268,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80554"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        121,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4248,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4263,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4264,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4247,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4268,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4265,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4246,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4269,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80555"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        119,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 3964,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 3963,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 3945,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4203,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 3944,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4207,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4206,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 3943,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4270,
+                    "name": "Ethereal Dragaera: Rune Forest",
+                    "userData": {
+                        "num": "80583"
                     }
                 }
             ]
@@ -94158,7 +97281,7 @@
         {
             "color24RGB": [
                 0,
-                128,
+                179,
                 0
             ],
             "id": 258
@@ -94205,9 +97328,9 @@
         },
         {
             "color24RGB": [
-                0,
-                0,
-                0
+                36,
+                36,
+                36
             ],
             "id": 264
         },
@@ -94426,11 +97549,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 3567,
+        "Final Realms Alena": 4207,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 1824,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4199
+    "roomCount": 4270
 }
