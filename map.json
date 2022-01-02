@@ -1,6 +1,6 @@
 {
     "anonymousAreaName": "Unnamed Area",
-    "areaCount": 19,
+    "areaCount": 20,
     "areas": [
         {
             "id": -1,
@@ -10903,6 +10903,10 @@
                         {
                             "exitId": 372,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4290,
+                            "name": "in"
                         }
                     ],
                     "id": 371,
@@ -11199,6 +11203,10 @@
                         {
                             "exitId": 385,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4372,
+                            "name": "in"
                         }
                     ],
                     "id": 384,
@@ -11433,7 +11441,7 @@
                             "name": "south"
                         },
                         {
-                            "exitId": 394,
+                            "exitId": 4311,
                             "name": "in"
                         }
                     ],
@@ -49735,7 +49743,10 @@
                         }
                     ],
                     "id": 2202,
-                    "name": "Isle of Belaern:  Eastern Beach, Under Pier [n,s]"
+                    "name": "Isle of Belaern:  Eastern Beach, Under Pier [n,s]",
+                    "userData": {
+                        "num": "60012"
+                    }
                 },
                 {
                     "coordinates": [
@@ -49755,7 +49766,10 @@
                         }
                     ],
                     "id": 2203,
-                    "name": "Isle of Belaern:  Eastern Beach, Under Port Authority [n,s]"
+                    "name": "Isle of Belaern:  Eastern Beach, Under Port Authority [n,s]",
+                    "userData": {
+                        "num": "60452"
+                    }
                 },
                 {
                     "coordinates": [
@@ -49775,7 +49789,10 @@
                         }
                     ],
                     "id": 2204,
-                    "name": "Isle of Belaern:  Eastern Beach [s,w,sea]"
+                    "name": "Isle of Belaern:  Eastern Beach [s,w,sea]",
+                    "userData": {
+                        "num": "60453"
+                    }
                 },
                 {
                     "coordinates": [
@@ -49791,7 +49808,10 @@
                         }
                     ],
                     "id": 2205,
-                    "name": "The Cathedral of Chaotic Neutral. [e]"
+                    "name": "The Cathedral of Chaotic Neutral. [e]",
+                    "userData": {
+                        "num": "1921"
+                    }
                 },
                 {
                     "coordinates": [
@@ -49811,7 +49831,10 @@
                         }
                     ],
                     "id": 2206,
-                    "name": "Isle of Belaern:  Eastern Beach [n,s]"
+                    "name": "Isle of Belaern:  Eastern Beach [n,s]",
+                    "userData": {
+                        "num": "60451"
+                    }
                 },
                 {
                     "coordinates": [
@@ -49831,13 +49854,16 @@
                         }
                     ],
                     "id": 2207,
-                    "name": "Isle of Belaern:  Eastern Beach [n,s]"
+                    "name": "Isle of Belaern:  Eastern Beach [n,s]",
+                    "userData": {
+                        "num": "60450"
+                    }
                 },
                 {
                     "coordinates": [
                         -27,
                         -14,
-                        -1
+                        0
                     ],
                     "environment": 12632256,
                     "exits": [
@@ -49851,12 +49877,15 @@
                         }
                     ],
                     "id": 2208,
-                    "name": "Isle of Belaern:  Eastern Beach [n,sw]"
+                    "name": "Isle of Belaern:  Eastern Beach [n,sw]",
+                    "userData": {
+                        "num": "60449"
+                    }
                 },
                 {
                     "coordinates": [
                         -30,
-                        -15,
+                        -17,
                         0
                     ],
                     "environment": 12632256,
@@ -49871,12 +49900,15 @@
                         }
                     ],
                     "id": 2209,
-                    "name": "Isle of Belaern:  Southern Beach [w,ne]"
+                    "name": "Isle of Belaern:  Southern Beach [w,ne]",
+                    "userData": {
+                        "num": "60448"
+                    }
                 },
                 {
                     "coordinates": [
                         -31,
-                        -15,
+                        -17,
                         0
                     ],
                     "environment": 12632256,
@@ -49891,12 +49923,15 @@
                         }
                     ],
                     "id": 2210,
-                    "name": "Isle of Belaern:  Southern Beach [e,w]"
+                    "name": "Isle of Belaern:  Southern Beach [e,w]",
+                    "userData": {
+                        "num": "60447"
+                    }
                 },
                 {
                     "coordinates": [
                         -32,
-                        -15,
+                        -17,
                         0
                     ],
                     "environment": 12632256,
@@ -49911,12 +49946,15 @@
                         }
                     ],
                     "id": 2211,
-                    "name": "Isle of Belaern:  Southern Beach. [e,sw]"
+                    "name": "Isle of Belaern:  Southern Beach. [e,sw]",
+                    "userData": {
+                        "num": "60446"
+                    }
                 },
                 {
                     "coordinates": [
                         -33,
-                        -16,
+                        -18,
                         0
                     ],
                     "environment": 12632256,
@@ -49931,12 +49969,15 @@
                         }
                     ],
                     "id": 2212,
-                    "name": "Isle of Belaern:  Southern Beach [w,ne]"
+                    "name": "Isle of Belaern:  Southern Beach [w,ne]",
+                    "userData": {
+                        "num": "60445"
+                    }
                 },
                 {
                     "coordinates": [
                         -34,
-                        -16,
+                        -18,
                         0
                     ],
                     "environment": 12632256,
@@ -52963,7 +53004,10 @@
                         }
                     ],
                     "id": 2338,
-                    "name": "Sandy Path [n,s]"
+                    "name": "Sandy Path [n,s]",
+                    "userData": {
+                        "num": "60275"
+                    }
                 },
                 {
                     "coordinates": [
@@ -52987,7 +53031,10 @@
                         }
                     ],
                     "id": 2339,
-                    "name": "Isle of Belaern:  Southern Beach [n,w,se]"
+                    "name": "Isle of Belaern:  Southern Beach [n,w,se]",
+                    "userData": {
+                        "num": "60274"
+                    }
                 },
                 {
                     "coordinates": [
@@ -53007,7 +53054,10 @@
                         }
                     ],
                     "id": 2340,
-                    "name": "Isle of Belaern:  Southern Beach [s,nw]"
+                    "name": "Isle of Belaern:  Southern Beach [s,nw]",
+                    "userData": {
+                        "num": "60276"
+                    }
                 },
                 {
                     "coordinates": [
@@ -53027,7 +53077,10 @@
                         }
                     ],
                     "id": 2341,
-                    "name": "Isle of Belaern:  Southern Beach [n,se]"
+                    "name": "Isle of Belaern:  Southern Beach [n,se]",
+                    "userData": {
+                        "num": "60277"
+                    }
                 },
                 {
                     "coordinates": [
@@ -53047,7 +53100,10 @@
                         }
                     ],
                     "id": 2342,
-                    "name": "Isle of Belaern:  Southern Beach [e,nw]"
+                    "name": "Isle of Belaern:  Southern Beach [e,nw]",
+                    "userData": {
+                        "num": "60439"
+                    }
                 },
                 {
                     "coordinates": [
@@ -53067,7 +53123,10 @@
                         }
                     ],
                     "id": 2343,
-                    "name": "Isle of Belaern:  Southern Beach [e,w]"
+                    "name": "Isle of Belaern:  Southern Beach [e,w]",
+                    "userData": {
+                        "num": "60440"
+                    }
                 },
                 {
                     "coordinates": [
@@ -53087,12 +53146,15 @@
                         }
                     ],
                     "id": 2344,
-                    "name": "Isle of Belaern:  Southern Beach [e,w]"
+                    "name": "Isle of Belaern:  Southern Beach [e,w]",
+                    "userData": {
+                        "num": "60441"
+                    }
                 },
                 {
                     "coordinates": [
                         -35,
-                        -16,
+                        -18,
                         0
                     ],
                     "environment": 12632256,
@@ -67651,7 +67713,7 @@
                 },
                 {
                     "coordinates": [
-                        -45,
+                        -44,
                         -8,
                         0
                     ],
@@ -69367,7 +69429,7 @@
                 },
                 {
                     "coordinates": [
-                        -46,
+                        -45,
                         -9,
                         0
                     ],
@@ -71452,7 +71514,7 @@
                 },
                 {
                     "coordinates": [
-                        -42,
+                        -41,
                         -11,
                         0
                     ],
@@ -71472,7 +71534,7 @@
                 },
                 {
                     "coordinates": [
-                        -43,
+                        -42,
                         -11,
                         0
                     ],
@@ -71496,7 +71558,7 @@
                 },
                 {
                     "coordinates": [
-                        -44,
+                        -43,
                         -12,
                         0
                     ],
@@ -71524,7 +71586,7 @@
                 },
                 {
                     "coordinates": [
-                        -44,
+                        -43,
                         -11,
                         0
                     ],
@@ -71540,7 +71602,7 @@
                 },
                 {
                     "coordinates": [
-                        -44,
+                        -43,
                         -13,
                         0
                     ],
@@ -71560,7 +71622,7 @@
                 },
                 {
                     "coordinates": [
-                        -45,
+                        -44,
                         -13,
                         0
                     ],
@@ -71584,7 +71646,7 @@
                 },
                 {
                     "coordinates": [
-                        -46,
+                        -45,
                         -12,
                         0
                     ],
@@ -71604,7 +71666,7 @@
                 },
                 {
                     "coordinates": [
-                        -45,
+                        -44,
                         -11,
                         0
                     ],
@@ -71624,7 +71686,7 @@
                 },
                 {
                     "coordinates": [
-                        -45,
+                        -44,
                         -12,
                         0
                     ],
@@ -71640,7 +71702,7 @@
                 },
                 {
                     "coordinates": [
-                        -45,
+                        -44,
                         -10,
                         0
                     ],
@@ -71664,7 +71726,7 @@
                 },
                 {
                     "coordinates": [
-                        -44,
+                        -43,
                         -10,
                         0
                     ],
@@ -71688,7 +71750,7 @@
                 },
                 {
                     "coordinates": [
-                        -44,
+                        -43,
                         -9,
                         0
                     ],
@@ -71712,7 +71774,7 @@
                 },
                 {
                     "coordinates": [
-                        -45,
+                        -44,
                         -9,
                         0
                     ],
@@ -71737,7 +71799,7 @@
                 },
                 {
                     "coordinates": [
-                        -46,
+                        -45,
                         -10,
                         0
                     ],
@@ -71770,7 +71832,7 @@
                 },
                 {
                     "coordinates": [
-                        -46,
+                        -45,
                         -11,
                         0
                     ],
@@ -71799,7 +71861,7 @@
                 },
                 {
                     "coordinates": [
-                        -47,
+                        -46,
                         -12,
                         0
                     ],
@@ -71815,7 +71877,7 @@
                 },
                 {
                     "coordinates": [
-                        -47,
+                        -46,
                         -11,
                         0
                     ],
@@ -71835,7 +71897,7 @@
                 },
                 {
                     "coordinates": [
-                        -48,
+                        -47,
                         -11,
                         0
                     ],
@@ -71855,7 +71917,7 @@
                 },
                 {
                     "coordinates": [
-                        -49,
+                        -48,
                         -11,
                         0
                     ],
@@ -71883,7 +71945,7 @@
                 },
                 {
                     "coordinates": [
-                        -49,
+                        -48,
                         -12,
                         0
                     ],
@@ -71907,7 +71969,7 @@
                 },
                 {
                     "coordinates": [
-                        -48,
+                        -47,
                         -12,
                         0
                     ],
@@ -71939,7 +72001,7 @@
                 },
                 {
                     "coordinates": [
-                        -49,
+                        -48,
                         -13,
                         0
                     ],
@@ -71963,7 +72025,7 @@
                 },
                 {
                     "coordinates": [
-                        -48,
+                        -47,
                         -13,
                         0
                     ],
@@ -71987,7 +72049,7 @@
                 },
                 {
                     "coordinates": [
-                        -47,
+                        -46,
                         -13,
                         0
                     ],
@@ -72011,7 +72073,7 @@
                 },
                 {
                     "coordinates": [
-                        -46,
+                        -45,
                         -13,
                         0
                     ],
@@ -72027,7 +72089,7 @@
                 },
                 {
                     "coordinates": [
-                        -48,
+                        -47,
                         -10,
                         0
                     ],
@@ -72060,7 +72122,7 @@
                 },
                 {
                     "coordinates": [
-                        -49,
+                        -48,
                         -9,
                         0
                     ],
@@ -72085,7 +72147,7 @@
                 },
                 {
                     "coordinates": [
-                        -48,
+                        -47,
                         -9,
                         0
                     ],
@@ -72109,7 +72171,7 @@
                 },
                 {
                     "coordinates": [
-                        -47,
+                        -46,
                         -9,
                         0
                     ],
@@ -98497,6 +98559,3029 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 19,
+            "name": "Daggerford",
+            "roomCount": 120,
+            "rooms": [
+                {
+                    "coordinates": [
+                        5,
+                        10,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4291,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4324,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4295,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 371,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4290,
+                    "name": "City of Daggerford:  West Gate",
+                    "userData": {
+                        "num": "10004"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4292,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4290,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4291,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10005"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        13,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4293,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4291,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4292,
+                    "name": "City of Daggerford:  Wall Street - Near Delfen's Tower",
+                    "userData": {
+                        "num": "10093"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4292,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4293,
+                    "name": "Delfen's Tower:  First Floor",
+                    "userData": {
+                        "num": "1521"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        1,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4300,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4294,
+                    "name": "City of Daggerford:  Healing Clinic",
+                    "userData": {
+                        "num": "10101"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4290,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4325,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4296,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4295,
+                    "name": "City of Daggerford:  Wall Street and Landis Way",
+                    "userData": {
+                        "num": "10006"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        4,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4295,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4338,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4297,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4296,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10094"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        2,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4296,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4337,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4298,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4297,
+                    "name": "City of Daggerford:  Wall Street - West of Scribe's Office",
+                    "userData": {
+                        "num": "10095"
+                    }
+                },
+                {
+                    "coordinates": [
+                        5,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4297,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4299,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4298,
+                    "name": "City of Daggerford:  Wall Street - South West Corner",
+                    "userData": {
+                        "num": "10097"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4337,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4300,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4298,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4299,
+                    "name": "City of Daggerford:  Wall Street - South of Scribe's Office",
+                    "userData": {
+                        "num": "10099"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4294,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4301,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4299,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4300,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10100"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4366,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4302,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4300,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4301,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10102"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4365,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4303,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4301,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4302,
+                    "name": "City of Daggerford:  Market Square",
+                    "userData": {
+                        "num": "10104"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4367,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4304,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4302,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4372,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4303,
+                    "name": "City of Daggerford:  Sacred Fountain",
+                    "userData": {
+                        "num": "10010"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4373,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4305,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4303,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4304,
+                    "name": "City of Daggerford:  Wall Street - South of Hokemj",
+                    "userData": {
+                        "num": "10105"
+                    }
+                },
+                {
+                    "coordinates": [
+                        18,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4348,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4306,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4304,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4305,
+                    "name": "City of Daggerford:  Wall Street - Near Drill Field",
+                    "userData": {
+                        "num": "10106"
+                    }
+                },
+                {
+                    "coordinates": [
+                        19,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4307,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4305,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4306,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10108"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        0,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4308,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4306,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4307,
+                    "name": "City of Daggerford:  Wall Street - South East Corner",
+                    "userData": {
+                        "num": "10109"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        4,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4309,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4307,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4308,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10110"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        5,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4310,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4308,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4309,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10111"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4311,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4341,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4309,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4310,
+                    "name": "City of Daggerford:  Wall Street - Near Timion",
+                    "userData": {
+                        "num": "10112"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4312,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4334,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4310,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 394,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4311,
+                    "name": "City of Daggerford:  East Gate",
+                    "userData": {
+                        "num": "10019"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        13,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4313,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4311,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4312,
+                    "name": "City of Daggerford:  Wall Street",
+                    "userData": {
+                        "num": "10114"
+                    }
+                },
+                {
+                    "coordinates": [
+                        23,
+                        14,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4314,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4312,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4313,
+                    "name": "City of Daggerford:  Wall Street and Hill Road",
+                    "userData": {
+                        "num": "10116"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        14,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4313,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4315,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4384,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4314,
+                    "name": "City of Daggerford:  Hill Road - The Stable",
+                    "userData": {
+                        "num": "10117"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        14,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4314,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4316,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4315,
+                    "name": "City of Daggerford:  Hill Road and Duke's Way",
+                    "userData": {
+                        "num": "10118"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        14,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4315,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4317,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4319,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4316,
+                    "name": "City of Daggerford:  Duke's Way - Ducal Gate",
+                    "userData": {
+                        "num": "10120"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        14,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4316,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4318,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4317,
+                    "name": "Chapel of Taniwha : Entryway",
+                    "userData": {
+                        "num": "10122"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        14,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4317,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4318,
+                    "name": "Chapel of Taniwha : By the Pulpit",
+                    "userData": {
+                        "num": "10123"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        13,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4316,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4320,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4319,
+                    "name": "City of Daggerford:  Duke's Way and Hill Road",
+                    "userData": {
+                        "num": "10121"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4319,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4321,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4328,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4320,
+                    "name": "City of Daggerford:  Duke's Way and Farmer's Road",
+                    "userData": {
+                        "num": "10124"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4320,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4322,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4327,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4321,
+                    "name": "City of Daggerford:  Farmer's Road - Outside River Shining Tavern",
+                    "userData": {
+                        "num": "10126"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4321,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4323,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4322,
+                    "name": "City of Daggerford:  Farmer's Road - Park Entrance",
+                    "userData": {
+                        "num": "10000"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4322,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4324,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4323,
+                    "name": "City of Daggerford:  Farmer's Road",
+                    "userData": {
+                        "num": "10002"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        10,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4323,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4290,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4325,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4324,
+                    "name": "City of Daggerford:  Farmer's Road",
+                    "userData": {
+                        "num": "10001"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4324,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4359,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4295,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4326,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4325,
+                    "name": "City of Daggerford:  Landis Way",
+                    "userData": {
+                        "num": "10003"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        5,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4325,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4326,
+                    "name": "City of Daggerford:  Money Changer",
+                    "userData": {
+                        "num": "10149"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        10,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4321,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4328,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4327,
+                    "name": "City of Daggerford:  The River Shining Tavern",
+                    "userData": {
+                        "num": "10128"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        10,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4320,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4327,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4329,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4328,
+                    "name": "City of Daggerford:  Duke's Way - Outside River Shining Tavern",
+                    "userData": {
+                        "num": "10125"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4328,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4331,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4330,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4329,
+                    "name": "City of Daggerford:  Landis Way and Tanner's Way",
+                    "userData": {
+                        "num": "10127"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4356,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4354,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4361,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4329,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4359,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4360,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4330,
+                    "name": "City of Daggerford:  Landis Way - Town Center",
+                    "userData": {
+                        "num": "10129"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4332,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4340,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4329,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4331,
+                    "name": "City of Daggerford:  Landis Way and Tanner's Way",
+                    "userData": {
+                        "num": "10130"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4335,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4333,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4331,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4332,
+                    "name": "City of Daggerford:  Tanner's Way and River Road",
+                    "userData": {
+                        "num": "10131"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4339,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4334,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4332,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4333,
+                    "name": "City of Daggerford:  River Road",
+                    "userData": {
+                        "num": "10151"
+                    }
+                },
+                {
+                    "coordinates": [
+                        22,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4358,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4311,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4333,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4334,
+                    "name": "City of Daggerford:  River Road",
+                    "userData": {
+                        "num": "10115"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        12,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4336,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4332,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4335,
+                    "name": "City of Daggerford:  Tanner's Way",
+                    "userData": {
+                        "num": "10150"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        13,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4335,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4393,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4336,
+                    "name": "City of Daggerford:  Vic's Tannery",
+                    "userData": {
+                        "num": "10152"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        2,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4297,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4299,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4337,
+                    "name": "City of Daggerford:  Scribe's Office",
+                    "userData": {
+                        "num": "10098"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        4,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4296,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4355,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4338,
+                    "name": "City of Daggerford:  The Vault of Growing Wisdom",
+                    "userData": {
+                        "num": "1"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4333,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4339,
+                    "name": "City of Daggerford:  Pawn Shop",
+                    "userData": {
+                        "num": "10154"
+                    }
+                },
+                {
+                    "coordinates": [
+                        18,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4341,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4331,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4347,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4340,
+                    "name": "City of Daggerford:  Landis Way - Near Drill Field",
+                    "userData": {
+                        "num": "10132"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4310,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4340,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4342,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4341,
+                    "name": "City of Daggerford:  Gravel Pathway - Outside of Timion",
+                    "userData": {
+                        "num": "10113"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        5,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4341,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4344,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4343,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4342,
+                    "name": "Clerics of Timion: Steps",
+                    "stubExits": [
+                        {
+                            "name": "east"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1524"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        4,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4342,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4345,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4346,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4343,
+                    "name": "Entry chamber to the Cathedral of Justice",
+                    "stubExits": [
+                        {
+                            "name": "southwest"
+                        },
+                        {
+                            "name": "west"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1526"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        5,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4342,
+                            "name": "steps"
+                        }
+                    ],
+                    "id": 4344,
+                    "name": "Chapel",
+                    "userData": {
+                        "num": "90004"
+                    }
+                },
+                {
+                    "coordinates": [
+                        22,
+                        4,
+                        0
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 4343,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4345,
+                    "name": "Tribunal Hall",
+                    "userData": {
+                        "num": "1657"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4343,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4346,
+                    "name": "The Cathedral of Lawful Neutral",
+                    "userData": {
+                        "num": "1658"
+                    }
+                },
+                {
+                    "coordinates": [
+                        18,
+                        5,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4340,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4353,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4348,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4347,
+                    "name": "City of Daggerford:  North Drill Field",
+                    "userData": {
+                        "num": "10133"
+                    }
+                },
+                {
+                    "coordinates": [
+                        18,
+                        3,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4347,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4349,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4350,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4305,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4348,
+                    "name": "City of Daggerford:  South Drill Field",
+                    "userData": {
+                        "num": "10107"
+                    }
+                },
+                {
+                    "coordinates": [
+                        19,
+                        3,
+                        0
+                    ],
+                    "environment": 8388608,
+                    "exits": [
+                        {
+                            "exitId": 4348,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4349,
+                    "name": "The Fighter's Complex:  Training Arena",
+                    "stubExits": [
+                        {
+                            "name": "north"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1528"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        3,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4351,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4348,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4350,
+                    "name": "The Band of the Silver Fist Complex:",
+                    "stubExits": [
+                        {
+                            "name": "south"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1527"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        4,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4352,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4350,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4351,
+                    "name": "The Band of the Silver Fist: Gallery of The Fist",
+                    "userData": {
+                        "num": "1531"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        5,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4351,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4352,
+                    "name": "The Band of the Silver Fist: Gallery of The Fist",
+                    "userData": {
+                        "num": "1926"
+                    }
+                },
+                {
+                    "coordinates": [
+                        17,
+                        5,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4347,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4353,
+                    "name": "City of Daggerford:  Derval's Smithy",
+                    "userData": {
+                        "num": "10134"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        7,
+                        0
+                    ],
+                    "environment": 8388608,
+                    "exits": [
+                        {
+                            "exitId": 4330,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4354,
+                    "name": "Mayor Manor: Entrance",
+                    "userData": {
+                        "num": "10138"
+                    }
+                },
+                {
+                    "coordinates": [
+                        6,
+                        3,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4338,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4355,
+                    "name": "City of Daggerford:  Potion Rack of the Young",
+                    "userData": {
+                        "num": "10168"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        10,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4357,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4330,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4356,
+                    "name": "City of Daggerford:  Militia Headquarters",
+                    "userData": {
+                        "num": "10139"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        10,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4356,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4357,
+                    "name": "City of Daggerford:  Militia Barracks",
+                    "userData": {
+                        "num": "10145"
+                    }
+                },
+                {
+                    "coordinates": [
+                        22,
+                        12,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4368,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4334,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4358,
+                    "name": "City of Daggerford:  Gambling House",
+                    "userData": {
+                        "num": "10155"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        6,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4362,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4330,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4325,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4363,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4359,
+                    "name": "City of Daggerford:  Landis Way - Outside Bank",
+                    "userData": {
+                        "num": "10140"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        4,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4330,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4364,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4365,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4360,
+                    "name": "City of Daggerford:  Market Square",
+                    "userData": {
+                        "num": "10135"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        7,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4369,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4371,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4381,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4330,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4361,
+                    "name": "Lord Grey's Office",
+                    "userData": {
+                        "num": "10137"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        7,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4359,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4362,
+                    "name": "City of Daggerford:  Daggerford Bank",
+                    "userData": {
+                        "num": "10147"
+                    }
+                },
+                {
+                    "coordinates": [
+                        7,
+                        5,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4359,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4363,
+                    "name": "City of Daggerford:  Daggerford Treasury",
+                    "userData": {
+                        "num": "10148"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        4,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4360,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4364,
+                    "name": "City of Daggerford:  Korbus General Store",
+                    "userData": {
+                        "num": "10136"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        2,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4360,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4367,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4366,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4302,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4365,
+                    "name": "City of Daggerford:  Market Square",
+                    "userData": {
+                        "num": "10009"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        2,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4365,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4301,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4366,
+                    "name": "City of Daggerford:  Crommach's Smithy",
+                    "userData": {
+                        "num": "10103"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        2,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4365,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4303,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4385,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4367,
+                    "name": "City of Daggerford:  Lady Luck Tavern",
+                    "userData": {
+                        "num": "10008"
+                    }
+                },
+                {
+                    "coordinates": [
+                        21,
+                        12,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4358,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4368,
+                    "name": "Backroom",
+                    "userData": {
+                        "num": "10156"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        9,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4370,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4361,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4371,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4369,
+                    "name": "Storeroom:",
+                    "userData": {
+                        "num": "10144"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        9,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4369,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4381,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4371,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4370,
+                    "name": "Storeroom:",
+                    "userData": {
+                        "num": "10166"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        8,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4369,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4370,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4361,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4381,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 4395,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4371,
+                    "name": "Stairwell:",
+                    "userData": {
+                        "num": "10142"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        -1,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4303,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 384,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4372,
+                    "name": "City of Daggerford:  South Gate",
+                    "userData": {
+                        "num": "10016"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        1,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4374,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4304,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4373,
+                    "name": "Gates of Good Fortune",
+                    "userData": {
+                        "num": "1522"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4377,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4376,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4375,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4373,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4374,
+                    "name": "Courtyard",
+                    "userData": {
+                        "num": "1538"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4374,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4375,
+                    "name": "Raiseroom of the Lord Hokemj",
+                    "userData": {
+                        "num": "1540"
+                    }
+                },
+                {
+                    "coordinates": [
+                        15,
+                        2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4374,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4376,
+                    "name": "The Cathedral of Chaotic Good.",
+                    "userData": {
+                        "num": "1541"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4378,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4382,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4383,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4374,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4389,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4377,
+                    "name": "Temple of Hokemj",
+                    "userData": {
+                        "num": "1539"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        4,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4379,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4380,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4377,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4392,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4378,
+                    "name": "High Cleric's Council Room",
+                    "userData": {
+                        "num": "1662"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        5,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4378,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4379,
+                    "name": "Mcclintock's Meditation Hall.",
+                    "userData": {
+                        "num": "2209"
+                    }
+                },
+                {
+                    "coordinates": [
+                        15,
+                        4,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4378,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4380,
+                    "name": "Hokemj Library",
+                    "userData": {
+                        "num": "2211"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        7,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4370,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4371,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4361,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4381,
+                    "name": "Storeroom:",
+                    "userData": {
+                        "num": "10143"
+                    }
+                },
+                {
+                    "coordinates": [
+                        15,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4377,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4382,
+                    "name": "Garden",
+                    "userData": {
+                        "num": "1659"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4377,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4383,
+                    "name": "Soup Kitchen",
+                    "userData": {
+                        "num": "1660"
+                    }
+                },
+                {
+                    "coordinates": [
+                        20,
+                        13,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4314,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4384,
+                    "name": "City of Daggerford:  Stables",
+                    "userData": {
+                        "num": "10119"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        2,
+                        1
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4386,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4388,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4387,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4367,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4385,
+                    "name": "City of Daggerford:  Board Room",
+                    "userData": {
+                        "num": "10011"
+                    }
+                },
+                {
+                    "coordinates": [
+                        12,
+                        3,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4385,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4386,
+                    "name": "Trading Room",
+                    "userData": {
+                        "num": "10481"
+                    }
+                },
+                {
+                    "coordinates": [
+                        11,
+                        2,
+                        1
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4385,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4387,
+                    "name": "City of Daggerford:  Quest Board Room",
+                    "userData": {
+                        "num": "10479"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        2,
+                        1
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4385,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4388,
+                    "name": "City of Daggerford:  Information Board Room",
+                    "userData": {
+                        "num": "10480"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        3,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4390,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4391,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4377,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4389,
+                    "name": "Hokemj Guild Shop",
+                    "stubExits": [
+                        {
+                            "name": "up"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1661"
+                    }
+                },
+                {
+                    "coordinates": [
+                        13,
+                        3,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4389,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4390,
+                    "name": "Hokemj Guild Treasury",
+                    "userData": {
+                        "num": "1992"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        2,
+                        1
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 4389,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4391,
+                    "name": "Hokemj Guild : Acolyte of Hokemj Vault",
+                    "stubExits": [
+                        {
+                            "name": "east"
+                        },
+                        {
+                            "name": "up"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1993"
+                    }
+                },
+                {
+                    "coordinates": [
+                        14,
+                        4,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4378,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4392,
+                    "name": "The Guildmaster's room",
+                    "userData": {
+                        "num": "2210"
+                    }
+                },
+                {
+                    "coordinates": [
+                        16,
+                        13,
+                        1
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4394,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4336,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4393,
+                    "name": "City of Daggerford:  Vic's Living Room",
+                    "userData": {
+                        "num": "10153"
+                    }
+                },
+                {
+                    "coordinates": [
+                        15,
+                        13,
+                        1
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4393,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4394,
+                    "name": "City of Daggerford:  Vic's Bed Room",
+                    "userData": {
+                        "num": "11535"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        8,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4397,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4396,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4398,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4399,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 4400,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 4371,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4395,
+                    "name": "Stairwell:",
+                    "userData": {
+                        "num": "10167"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        9,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4397,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4399,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4395,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4396,
+                    "name": "Library",
+                    "userData": {
+                        "num": "11537"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        9,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4396,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4398,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4395,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4397,
+                    "name": "Library",
+                    "userData": {
+                        "num": "11102"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        7,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4397,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4395,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4399,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4398,
+                    "name": "Library",
+                    "userData": {
+                        "num": "11100"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        7,
+                        1
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4396,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4395,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4398,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4399,
+                    "name": "Library",
+                    "userData": {
+                        "num": "11101"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        8,
+                        2
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4401,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4402,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4404,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4403,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 4405,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 4395,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4400,
+                    "name": "Stairwell:",
+                    "userData": {
+                        "num": "11536"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        9,
+                        2
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4402,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4404,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4400,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4401,
+                    "name": "Guest Chamber:",
+                    "userData": {
+                        "num": "11539"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        9,
+                        2
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4401,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4403,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4400,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4402,
+                    "name": "Guest Chamber:",
+                    "userData": {
+                        "num": "11540"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        7,
+                        2
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4402,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4400,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4404,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4403,
+                    "name": "Guest Chamber:",
+                    "userData": {
+                        "num": "11541"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        7,
+                        2
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4401,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4400,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4403,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4404,
+                    "name": "Guest Chamber:",
+                    "userData": {
+                        "num": "11542"
+                    }
+                },
+                {
+                    "coordinates": [
+                        9,
+                        8,
+                        3
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4406,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4407,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4409,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4408,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 4400,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4405,
+                    "name": "Stairwell:",
+                    "userData": {
+                        "num": "11538"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        9,
+                        3
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4407,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4409,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4405,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4406,
+                    "name": "Grey's Chambers:Study",
+                    "userData": {
+                        "num": "11543"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        9,
+                        3
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4406,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4408,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4405,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4407,
+                    "name": "Lord Grey's Suite:Bedroom:",
+                    "userData": {
+                        "num": "11544"
+                    }
+                },
+                {
+                    "coordinates": [
+                        8,
+                        7,
+                        3
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4407,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4405,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4409,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4408,
+                    "name": "Lord Grey's Suite:Treasury:",
+                    "userData": {
+                        "num": "11545"
+                    }
+                },
+                {
+                    "coordinates": [
+                        10,
+                        7,
+                        3
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4406,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4405,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4408,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4409,
+                    "name": "Lord Grey's Suite:Closet:",
+                    "userData": {
+                        "num": "11546"
+                    }
+                }
+            ]
         }
     ],
     "customEnvColors": [
@@ -98784,7 +101869,7 @@
     "playerRoomStyle": 0,
     "playersRoomId": {
         "FR Erik": 3872,
-        "FR Heather": 2415,
+        "FR Heather": 4330,
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
@@ -98794,5 +101879,5 @@
         "Final Realms Vigor": 1824,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4289
+    "roomCount": 4409
 }

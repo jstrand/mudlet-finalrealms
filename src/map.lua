@@ -323,11 +323,7 @@ end
 
 function handleRoom(room_name)
 
-    if not gmcp.Room then
-        send("gmcp on")
-        send("gl")
-        return
-    end
+    if not gmcp.Room then return end
 
     -- check if the current room has been deleted
     if current_room and not roomExists(current_room) then current_room = nil end
