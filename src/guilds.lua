@@ -3,6 +3,7 @@ guilds = guilds or {}
 function setupGuild(guild_name)
     setupBard()
     setupTaniwha()
+    setupHokemj()
     setupVanguard()
 
     if not guilds[guild_name] then return end

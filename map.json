@@ -10906,7 +10906,8 @@
                         },
                         {
                             "exitId": 4290,
-                            "name": "in"
+                            "name": "in",
+                            "weight": 100
                         }
                     ],
                     "id": 371,
@@ -11206,7 +11207,8 @@
                         },
                         {
                             "exitId": 4372,
-                            "name": "in"
+                            "name": "in",
+                            "weight": 100
                         }
                     ],
                     "id": 384,
@@ -11442,7 +11444,8 @@
                         },
                         {
                             "exitId": 4311,
-                            "name": "in"
+                            "name": "in",
+                            "weight": 100
                         }
                     ],
                     "id": 394,
@@ -54355,7 +54358,7 @@
                         -8,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2479,
@@ -54378,7 +54381,7 @@
                         -9,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2478,
@@ -54409,7 +54412,7 @@
                         -9,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2552,
@@ -54427,7 +54430,10 @@
                         }
                     ],
                     "id": 2480,
-                    "name": "City of Stormfront:  Dungeon Hall [n,e,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [n,e,sw]",
+                    "userData": {
+                        "num": "60196"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54435,7 +54441,7 @@
                         -10,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2480,
@@ -54453,7 +54459,10 @@
                         }
                     ],
                     "id": 2481,
-                    "name": "City of Stormfront:  Dungeon Hall [s,ne,nw]"
+                    "name": "City of Stormfront:  Dungeon Hall [s,ne,nw]",
+                    "userData": {
+                        "num": "60199"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54461,7 +54470,7 @@
                         -11,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2481,
@@ -54469,7 +54478,10 @@
                         }
                     ],
                     "id": 2482,
-                    "name": "City of Stormfront:  Dungeon Cell [n]"
+                    "name": "City of Stormfront:  Dungeon Cell [n]",
+                    "userData": {
+                        "num": "60200"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54477,7 +54489,7 @@
                         -9,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2484,
@@ -54494,7 +54506,10 @@
                         }
                     ],
                     "id": 2483,
-                    "name": "City of Stormfront:  Dungeon Hall [n,se,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [n,se,sw]",
+                    "userData": {
+                        "num": "60201"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54502,7 +54517,7 @@
                         -8,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2483,
@@ -54510,7 +54525,10 @@
                         }
                     ],
                     "id": 2484,
-                    "name": "City of Stormfront:  Dungeon Cell [s]"
+                    "name": "City of Stormfront:  Dungeon Cell [s]",
+                    "userData": {
+                        "num": "60202"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54518,7 +54536,7 @@
                         -10,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2486,
@@ -54531,7 +54549,10 @@
                         }
                     ],
                     "id": 2485,
-                    "name": "City of Stormfront:  Dungeon Temple of the Dead [n,ne]"
+                    "name": "City of Stormfront:  Dungeon Temple of the Dead [n,ne]",
+                    "userData": {
+                        "num": "60203"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54539,7 +54560,7 @@
                         -9,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2485,
@@ -54551,7 +54572,10 @@
                         }
                     ],
                     "id": 2486,
-                    "name": "City of Stormfront:  Dungeon Guard Post [s,door]"
+                    "name": "City of Stormfront:  Dungeon Guard Post [s,door]",
+                    "userData": {
+                        "num": "60204"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54559,7 +54583,7 @@
                         -8,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2486,
@@ -54571,7 +54595,10 @@
                         }
                     ],
                     "id": 2487,
-                    "name": "City of Stormfront:  Dungeon Torture Room [s,d]"
+                    "name": "City of Stormfront:  Dungeon Torture Room [s,d]",
+                    "userData": {
+                        "num": "60205"
+                    }
                 },
                 {
                     "coordinates": [
@@ -54595,7 +54622,10 @@
                         }
                     ],
                     "id": 2488,
-                    "name": "Stormfront : Catacombs [u,e,sw]"
+                    "name": "Stormfront : Catacombs [u,e,sw]",
+                    "userData": {
+                        "num": "60206"
+                    }
                 },
                 {
                     "coordinates": [
@@ -55895,7 +55925,7 @@
                         -8,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2480,
@@ -55903,7 +55933,10 @@
                         }
                     ],
                     "id": 2552,
-                    "name": "City of Stormfront:  Dungeon Cell [s]"
+                    "name": "City of Stormfront:  Dungeon Cell [s]",
+                    "userData": {
+                        "num": "60198"
+                    }
                 },
                 {
                     "coordinates": [
@@ -55911,7 +55944,7 @@
                         -10,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2479,
@@ -55923,7 +55956,10 @@
                         }
                     ],
                     "id": 2553,
-                    "name": "City of Stormfront:  Dungeon Hall [ne,nw]"
+                    "name": "City of Stormfront:  Dungeon Hall [ne,nw]",
+                    "userData": {
+                        "num": "60197"
+                    }
                 },
                 {
                     "coordinates": [
@@ -55931,7 +55967,7 @@
                         -9,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2555,
@@ -55949,7 +55985,10 @@
                         }
                     ],
                     "id": 2554,
-                    "name": "City of Stormfront:  Dungeon Hall [n,se,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [n,se,sw]",
+                    "userData": {
+                        "num": "61166"
+                    }
                 },
                 {
                     "coordinates": [
@@ -55957,7 +55996,7 @@
                         -8,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2554,
@@ -55965,7 +56004,10 @@
                         }
                     ],
                     "id": 2555,
-                    "name": "City of Stormfront:  Dungeon Cell [s]"
+                    "name": "City of Stormfront:  Dungeon Cell [s]",
+                    "userData": {
+                        "num": "61243"
+                    }
                 },
                 {
                     "coordinates": [
@@ -55973,7 +56015,7 @@
                         -10,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2554,
@@ -55985,7 +56027,10 @@
                         }
                     ],
                     "id": 2556,
-                    "name": "City of Stormfront:  Dungeon Hall [ne,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [ne,sw]",
+                    "userData": {
+                        "num": "61241"
+                    }
                 },
                 {
                     "coordinates": [
@@ -55993,7 +56038,7 @@
                         -11,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2556,
@@ -56015,7 +56060,10 @@
                         }
                     ],
                     "id": 2557,
-                    "name": "City of Stormfront:  Dungeon Hall [s,w,ne,nw]"
+                    "name": "City of Stormfront:  Dungeon Hall [s,w,ne,nw]",
+                    "userData": {
+                        "num": "61237"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56023,7 +56071,7 @@
                         -10,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2557,
@@ -56031,7 +56079,10 @@
                         }
                     ],
                     "id": 2558,
-                    "name": "City of Stormfront:  Dungeon Cell [se]"
+                    "name": "City of Stormfront:  Dungeon Cell [se]",
+                    "userData": {
+                        "num": "61242"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56039,7 +56090,7 @@
                         -11,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2557,
@@ -56047,7 +56098,10 @@
                         }
                     ],
                     "id": 2559,
-                    "name": "City of Stormfront:  Dungeon Cell [e]"
+                    "name": "City of Stormfront:  Dungeon Cell [e]",
+                    "userData": {
+                        "num": "61240"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56055,7 +56109,7 @@
                         -12,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2557,
@@ -56077,7 +56131,10 @@
                         }
                     ],
                     "id": 2560,
-                    "name": "City of Stormfront:  Dungeon Hall [n,w,se,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [n,w,se,sw]",
+                    "userData": {
+                        "num": "61235"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56085,7 +56142,7 @@
                         -12,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2560,
@@ -56093,7 +56150,10 @@
                         }
                     ],
                     "id": 2561,
-                    "name": "City of Stormfront:  Dungeon Cell [e]"
+                    "name": "City of Stormfront:  Dungeon Cell [e]",
+                    "userData": {
+                        "num": "61238"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56101,7 +56161,7 @@
                         -13,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2560,
@@ -56109,7 +56169,10 @@
                         }
                     ],
                     "id": 2562,
-                    "name": "City of Stormfront:  Dungeon Cell [ne]"
+                    "name": "City of Stormfront:  Dungeon Cell [ne]",
+                    "userData": {
+                        "num": "61239"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56117,7 +56180,7 @@
                         -13,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2560,
@@ -56143,7 +56206,10 @@
                         }
                     ],
                     "id": 2563,
-                    "name": "City of Stormfront:  Dungeon Hall [s,w,nw,se,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [s,w,nw,se,sw]",
+                    "userData": {
+                        "num": "61230"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56151,7 +56217,7 @@
                         -14,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2563,
@@ -56159,7 +56225,10 @@
                         }
                     ],
                     "id": 2564,
-                    "name": "City of Stormfront:  Dungeon Cell [n]"
+                    "name": "City of Stormfront:  Dungeon Cell [n]",
+                    "userData": {
+                        "num": "61233"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56167,7 +56236,7 @@
                         -14,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2563,
@@ -56175,7 +56244,10 @@
                         }
                     ],
                     "id": 2565,
-                    "name": "City of Stormfront:  Dungeon Cell [ne]"
+                    "name": "City of Stormfront:  Dungeon Cell [ne]",
+                    "userData": {
+                        "num": "61236"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56183,7 +56255,7 @@
                         -13,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2563,
@@ -56191,7 +56263,10 @@
                         }
                     ],
                     "id": 2566,
-                    "name": "City of Stormfront:  Dungeon Cell [e]"
+                    "name": "City of Stormfront:  Dungeon Cell [e]",
+                    "userData": {
+                        "num": "61234"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56199,7 +56274,7 @@
                         -14,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2568,
@@ -56225,7 +56300,10 @@
                         }
                     ],
                     "id": 2567,
-                    "name": "City of Stormfront:  Dungeon Hall [s,ne,nw,se,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [s,ne,nw,se,sw]",
+                    "userData": {
+                        "num": "61225"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56233,7 +56311,7 @@
                         -13,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2569,
@@ -56251,7 +56329,10 @@
                         }
                     ],
                     "id": 2568,
-                    "name": "City of Stormfront:  Dungeon Hall [n,se,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [n,se,sw]",
+                    "userData": {
+                        "num": "61223"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56259,7 +56340,7 @@
                         -12,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2570,
@@ -56282,7 +56363,7 @@
                         -11,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2571,
@@ -56311,7 +56392,7 @@
                         -10,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2479,
@@ -56334,7 +56415,7 @@
                         -12,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2570,
@@ -56342,7 +56423,10 @@
                         }
                     ],
                     "id": 2572,
-                    "name": "City of Stormfront:  Dungeon Cell [n]"
+                    "name": "City of Stormfront:  Dungeon Cell [n]",
+                    "userData": {
+                        "num": "61221"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56350,7 +56434,7 @@
                         -14,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2574,
@@ -56363,7 +56447,10 @@
                         }
                     ],
                     "id": 2573,
-                    "name": "City of Stormfront:  Dungeon Guard Post [n,nw]"
+                    "name": "City of Stormfront:  Dungeon Guard Post [n,nw]",
+                    "userData": {
+                        "num": "61224"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56371,7 +56458,7 @@
                         -13,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2573,
@@ -56384,7 +56471,10 @@
                         }
                     ],
                     "id": 2574,
-                    "name": "City of Stormfront:  Dungeon Hall [s,sw]"
+                    "name": "City of Stormfront:  Dungeon Hall [s,sw]",
+                    "userData": {
+                        "num": "61226"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56392,7 +56482,7 @@
                         -14,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2574,
@@ -56405,15 +56495,18 @@
                         }
                     ],
                     "id": 2575,
-                    "name": "City of Stormfront:  Dungeon Hall [ne,se]"
+                    "name": "City of Stormfront:  Dungeon Hall [ne,se]",
+                    "userData": {
+                        "num": "61227"
+                    }
                 },
                 {
                     "coordinates": [
-                        -29,
-                        -16,
+                        -30,
+                        -15,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2575,
@@ -56421,7 +56514,10 @@
                         }
                     ],
                     "id": 2576,
-                    "name": "City of Stormfront:  Dungeon Cell [nw]"
+                    "name": "City of Stormfront:  Dungeon Cell [nw]",
+                    "userData": {
+                        "num": "61228"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56429,7 +56525,7 @@
                         -15,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2567,
@@ -56437,7 +56533,10 @@
                         }
                     ],
                     "id": 2577,
-                    "name": "City of Stormfront:  Dungeon Cell [ne]"
+                    "name": "City of Stormfront:  Dungeon Cell [ne]",
+                    "userData": {
+                        "num": "61232"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56445,7 +56544,7 @@
                         -15,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2567,
@@ -56453,7 +56552,10 @@
                         }
                     ],
                     "id": 2578,
-                    "name": "City of Stormfront:  Dungeon Cell [n]"
+                    "name": "City of Stormfront:  Dungeon Cell [n]",
+                    "userData": {
+                        "num": "61229"
+                    }
                 },
                 {
                     "coordinates": [
@@ -56461,7 +56563,7 @@
                         -15,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 2567,
@@ -56469,7 +56571,10 @@
                         }
                     ],
                     "id": 2579,
-                    "name": "City of Stormfront:  Dungeon Cell [nw]"
+                    "name": "City of Stormfront:  Dungeon Cell [nw]",
+                    "userData": {
+                        "num": "61231"
+                    }
                 },
                 {
                     "coordinates": [
@@ -98848,7 +98953,8 @@
                     "exits": [
                         {
                             "exitId": 4366,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 100
                         },
                         {
                             "exitId": 4302,
@@ -98875,7 +98981,8 @@
                     "exits": [
                         {
                             "exitId": 4365,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 100
                         },
                         {
                             "exitId": 4303,
@@ -98902,7 +99009,9 @@
                     "exits": [
                         {
                             "exitId": 4367,
-                            "name": "north"
+                            "locked": true,
+                            "name": "north",
+                            "weight": 100
                         },
                         {
                             "exitId": 4304,
@@ -99099,7 +99208,7 @@
                 {
                     "coordinates": [
                         23,
-                        11,
+                        10,
                         0
                     ],
                     "environment": 16776960,
@@ -99130,7 +99239,7 @@
                 {
                     "coordinates": [
                         23,
-                        13,
+                        12,
                         0
                     ],
                     "environment": 16776960,
@@ -99153,7 +99262,7 @@
                 {
                     "coordinates": [
                         23,
-                        14,
+                        13,
                         0
                     ],
                     "environment": 16776960,
@@ -99176,7 +99285,7 @@
                 {
                     "coordinates": [
                         20,
-                        14,
+                        13,
                         0
                     ],
                     "environment": 16776960,
@@ -99203,7 +99312,7 @@
                 {
                     "coordinates": [
                         16,
-                        14,
+                        13,
                         0
                     ],
                     "environment": 16776960,
@@ -99226,7 +99335,7 @@
                 {
                     "coordinates": [
                         14,
-                        14,
+                        13,
                         0
                     ],
                     "environment": 16776960,
@@ -99253,7 +99362,7 @@
                 {
                     "coordinates": [
                         13,
-                        14,
+                        13,
                         0
                     ],
                     "environment": 16776960,
@@ -99276,7 +99385,7 @@
                 {
                     "coordinates": [
                         13,
-                        14,
+                        13,
                         0
                     ],
                     "environment": 16776960,
@@ -99295,7 +99404,7 @@
                 {
                     "coordinates": [
                         14,
-                        13,
+                        12,
                         0
                     ],
                     "environment": 16776960,
@@ -99638,7 +99747,7 @@
                 {
                     "coordinates": [
                         16,
-                        11,
+                        10,
                         0
                     ],
                     "environment": 16776960,
@@ -99665,7 +99774,7 @@
                 {
                     "coordinates": [
                         20,
-                        11,
+                        10,
                         0
                     ],
                     "environment": 16776960,
@@ -99692,7 +99801,7 @@
                 {
                     "coordinates": [
                         22,
-                        11,
+                        10,
                         0
                     ],
                     "environment": 16776960,
@@ -99719,7 +99828,7 @@
                 {
                     "coordinates": [
                         16,
-                        12,
+                        11,
                         0
                     ],
                     "environment": 16776960,
@@ -99742,7 +99851,7 @@
                 {
                     "coordinates": [
                         16,
-                        13,
+                        12,
                         0
                     ],
                     "environment": 16776960,
@@ -99811,7 +99920,7 @@
                 {
                     "coordinates": [
                         20,
-                        12,
+                        11,
                         0
                     ],
                     "environment": 65535,
@@ -100259,7 +100368,7 @@
                 {
                     "coordinates": [
                         22,
-                        12,
+                        11,
                         0
                     ],
                     "environment": 16776960,
@@ -100328,7 +100437,8 @@
                         },
                         {
                             "exitId": 4365,
-                            "name": "south"
+                            "name": "south",
+                            "weight": 100
                         }
                     ],
                     "id": 4360,
@@ -100509,7 +100619,7 @@
                 {
                     "coordinates": [
                         21,
-                        12,
+                        11,
                         0
                     ],
                     "environment": 16776960,
@@ -100901,7 +101011,7 @@
                 {
                     "coordinates": [
                         20,
-                        13,
+                        12,
                         0
                     ],
                     "environment": 16776960,
@@ -101105,7 +101215,7 @@
                 {
                     "coordinates": [
                         16,
-                        13,
+                        12,
                         1
                     ],
                     "environment": 32896,
@@ -101128,7 +101238,7 @@
                 {
                     "coordinates": [
                         15,
-                        13,
+                        12,
                         1
                     ],
                     "environment": 32896,
@@ -101869,14 +101979,14 @@
     "playerRoomStyle": 0,
     "playersRoomId": {
         "FR Erik": 3872,
-        "FR Heather": 4330,
+        "FR Heather": 384,
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 911,
+        "Final Realms Alena": 2845,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
-        "Final Realms Vigor": 1824,
+        "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
     "roomCount": 4409
