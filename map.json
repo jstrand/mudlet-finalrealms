@@ -45958,7 +45958,13 @@
                         }
                     ],
                     "id": 1976,
-                    "name": "Old Shadowfall: Ruins [s,e,n]"
+                    "name": "Old Shadowfall: Ruins [s,e,n]",
+                    "symbol": {
+                        "text": "d"
+                    },
+                    "userData": {
+                        "num": "40266"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45978,7 +45984,10 @@
                         }
                     ],
                     "id": 1977,
-                    "name": "Old Shadowfall: Ruins [s,e]"
+                    "name": "Old Shadowfall: Ruins [s,e]",
+                    "userData": {
+                        "num": "40273"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90382,7 +90391,10 @@
                         {
                             "name": "up"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "100353"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90402,7 +90414,10 @@
                         }
                     ],
                     "id": 3376,
-                    "name": "Blackforged Tunnel [ne,u]"
+                    "name": "Blackforged Tunnel [ne,u]",
+                    "userData": {
+                        "num": "100354"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90422,7 +90437,10 @@
                         }
                     ],
                     "id": 3377,
-                    "name": "Blackforged Tunnel [e,sw]"
+                    "name": "Blackforged Tunnel [e,sw]",
+                    "userData": {
+                        "num": "100355"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90442,7 +90460,10 @@
                         }
                     ],
                     "id": 3378,
-                    "name": "Blackforged Tunnel [e,w]"
+                    "name": "Blackforged Tunnel [e,w]",
+                    "userData": {
+                        "num": "100356"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90462,7 +90483,10 @@
                         }
                     ],
                     "id": 3379,
-                    "name": "Blackforged Tunnel [d,w]"
+                    "name": "Blackforged Tunnel [d,w]",
+                    "userData": {
+                        "num": "100357"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90482,7 +90506,10 @@
                         }
                     ],
                     "id": 3380,
-                    "name": "Shadowfall Tunnels [w,u]"
+                    "name": "Shadowfall Tunnels [w,u]",
+                    "userData": {
+                        "num": "100156"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90506,7 +90533,10 @@
                         }
                     ],
                     "id": 3381,
-                    "name": "Shadowfall Tunnels [e,s,nw]"
+                    "name": "Shadowfall Tunnels [e,s,nw]",
+                    "userData": {
+                        "num": "100155"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90526,7 +90556,10 @@
                         }
                     ],
                     "id": 3382,
-                    "name": "Shadowfall Tunnels [n,sw]"
+                    "name": "Shadowfall Tunnels [n,sw]",
+                    "userData": {
+                        "num": "100154"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90546,7 +90579,10 @@
                         }
                     ],
                     "id": 3383,
-                    "name": "Shadowfall Tunnels [s,ne]"
+                    "name": "Shadowfall Tunnels [s,ne]",
+                    "userData": {
+                        "num": "100153"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90570,7 +90606,10 @@
                         }
                     ],
                     "id": 3384,
-                    "name": "Tunnel Intersection [w,n,se]"
+                    "name": "Tunnel Intersection [w,n,se]",
+                    "userData": {
+                        "num": "100151"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90590,7 +90629,10 @@
                         }
                     ],
                     "id": 3385,
-                    "name": "Shadowfall Tunnels [se,nw]"
+                    "name": "Shadowfall Tunnels [se,nw]",
+                    "userData": {
+                        "num": "100150"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90610,7 +90652,10 @@
                         }
                     ],
                     "id": 3386,
-                    "name": "Shadowfall Tunnels [s,nw]"
+                    "name": "Shadowfall Tunnels [s,nw]",
+                    "userData": {
+                        "num": "100149"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90630,7 +90675,10 @@
                         }
                     ],
                     "id": 3387,
-                    "name": "Shadowfall Tunnels [n,s]"
+                    "name": "Shadowfall Tunnels [n,s]",
+                    "userData": {
+                        "num": "100148"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90650,7 +90698,10 @@
                         }
                     ],
                     "id": 3388,
-                    "name": "Shadowfall Tunnels [n,sw]"
+                    "name": "Shadowfall Tunnels [n,sw]",
+                    "userData": {
+                        "num": "100147"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90682,7 +90733,10 @@
                         }
                     ],
                     "id": 3389,
-                    "name": "Shadowfall Tunnels [w,s,se,sw,ne]"
+                    "name": "Shadowfall Tunnels [w,s,se,sw,ne]",
+                    "userData": {
+                        "num": "100143"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90774,7 +90828,10 @@
                         }
                     ],
                     "id": 3393,
-                    "name": "Shadowfall Tunnels [e,nw]"
+                    "name": "Shadowfall Tunnels [e,nw]",
+                    "userData": {
+                        "num": "100142"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90794,7 +90851,10 @@
                         }
                     ],
                     "id": 3394,
-                    "name": "Shadowfall Tunnels [w,s]"
+                    "name": "Shadowfall Tunnels [w,s]",
+                    "userData": {
+                        "num": "100141"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90814,7 +90874,10 @@
                         }
                     ],
                     "id": 3395,
-                    "name": "Shadowfall Tunnels [n,sw]"
+                    "name": "Shadowfall Tunnels [n,sw]",
+                    "userData": {
+                        "num": "100140"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90834,7 +90897,10 @@
                         }
                     ],
                     "id": 3396,
-                    "name": "Shadowfall Tunnels [s,ne]"
+                    "name": "Shadowfall Tunnels [s,ne]",
+                    "userData": {
+                        "num": "100139"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90858,7 +90924,10 @@
                         }
                     ],
                     "id": 3397,
-                    "name": "Shadowfall Tunnels [w,n,s]"
+                    "name": "Shadowfall Tunnels [w,n,s]",
+                    "userData": {
+                        "num": "100137"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90878,7 +90947,10 @@
                         }
                     ],
                     "id": 3398,
-                    "name": "Shadowfall Tunnels [n,sw]"
+                    "name": "Shadowfall Tunnels [n,sw]",
+                    "userData": {
+                        "num": "100135"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90902,7 +90974,10 @@
                         }
                     ],
                     "id": 3399,
-                    "name": "Shadowfall Tunnels [se,ne,nw]"
+                    "name": "Shadowfall Tunnels [se,ne,nw]",
+                    "userData": {
+                        "num": "100134"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90922,7 +90997,10 @@
                         }
                     ],
                     "id": 3400,
-                    "name": "Shadowfall Tunnels [sw,nw]"
+                    "name": "Shadowfall Tunnels [sw,nw]",
+                    "userData": {
+                        "num": "100133"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90946,7 +91024,10 @@
                         }
                     ],
                     "id": 3401,
-                    "name": "Shadowfall Tunnels [w,s,ne]"
+                    "name": "Shadowfall Tunnels [w,s,ne]",
+                    "userData": {
+                        "num": "100131"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90966,7 +91047,10 @@
                         }
                     ],
                     "id": 3402,
-                    "name": "Shadowfall Tunnels [e,sw]"
+                    "name": "Shadowfall Tunnels [e,sw]",
+                    "userData": {
+                        "num": "100130"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90986,7 +91070,10 @@
                         }
                     ],
                     "id": 3403,
-                    "name": "Shadowfall Tunnels [s,ne]"
+                    "name": "Shadowfall Tunnels [s,ne]",
+                    "userData": {
+                        "num": "100129"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91010,7 +91097,10 @@
                         }
                     ],
                     "id": 3404,
-                    "name": "Shadowfall Tunnels [w,n,sw]"
+                    "name": "Shadowfall Tunnels [w,n,sw]",
+                    "userData": {
+                        "num": "100127"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91066,7 +91156,10 @@
                         }
                     ],
                     "id": 3407,
-                    "name": "Shadowfall Tunnels [s,ne]"
+                    "name": "Shadowfall Tunnels [s,ne]",
+                    "userData": {
+                        "num": "100126"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91086,7 +91179,10 @@
                         }
                     ],
                     "id": 3408,
-                    "name": "Shadowfall Tunnels [n,sw]"
+                    "name": "Shadowfall Tunnels [n,sw]",
+                    "userData": {
+                        "num": "100125"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91106,7 +91202,10 @@
                         }
                     ],
                     "id": 3409,
-                    "name": "Shadowfall Tunnels [s,ne]"
+                    "name": "Shadowfall Tunnels [s,ne]",
+                    "userData": {
+                        "num": "100124"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91130,7 +91229,10 @@
                         }
                     ],
                     "id": 3410,
-                    "name": "Umbris Passage [w,n,se]"
+                    "name": "Umbris Passage [w,n,se]",
+                    "userData": {
+                        "num": "100122"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91779,7 +91881,10 @@
                         }
                     ],
                     "id": 3442,
-                    "name": "Umbris Passage [w,s,nw]"
+                    "name": "Umbris Passage [w,s,nw]",
+                    "userData": {
+                        "num": "100119"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91806,6 +91911,9 @@
                     "name": "Umbris Passage [e,sw,crag]",
                     "symbol": {
                         "text": "C"
+                    },
+                    "userData": {
+                        "num": "100118"
                     }
                 },
                 {
@@ -92226,7 +92334,10 @@
                         }
                     ],
                     "id": 3461,
-                    "name": "Crag: Umbris Lair  [e,u]"
+                    "name": "Crag: Umbris Lair  [e,u]",
+                    "userData": {
+                        "num": "100120"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92246,7 +92357,10 @@
                         }
                     ],
                     "id": 3462,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100683"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92266,7 +92380,10 @@
                         }
                     ],
                     "id": 3463,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100684"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92286,7 +92403,10 @@
                         }
                     ],
                     "id": 3464,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100685"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92306,7 +92426,10 @@
                         }
                     ],
                     "id": 3465,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100686"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92326,7 +92449,10 @@
                         }
                     ],
                     "id": 3466,
-                    "name": "Crag: Umbris Lair  [w,n]"
+                    "name": "Crag: Umbris Lair  [w,n]",
+                    "userData": {
+                        "num": "100687"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92346,7 +92472,10 @@
                         }
                     ],
                     "id": 3467,
-                    "name": "Crag: Umbris Lair  [n,s]"
+                    "name": "Crag: Umbris Lair  [n,s]",
+                    "userData": {
+                        "num": "100688"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92366,7 +92495,10 @@
                         }
                     ],
                     "id": 3468,
-                    "name": "Crag: Umbris Lair  [n,s]"
+                    "name": "Crag: Umbris Lair  [n,s]",
+                    "userData": {
+                        "num": "100689"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92386,7 +92518,10 @@
                         }
                     ],
                     "id": 3469,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100690"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92406,7 +92541,10 @@
                         }
                     ],
                     "id": 3470,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100691"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92426,7 +92564,10 @@
                         }
                     ],
                     "id": 3471,
-                    "name": "Crag: Umbris Lair  [n,s]"
+                    "name": "Crag: Umbris Lair  [n,s]",
+                    "userData": {
+                        "num": "100692"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92446,7 +92587,10 @@
                         }
                     ],
                     "id": 3472,
-                    "name": "Crag: Umbris Lair  [e,s]"
+                    "name": "Crag: Umbris Lair  [e,s]",
+                    "userData": {
+                        "num": "100693"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92470,7 +92614,10 @@
                         }
                     ],
                     "id": 3473,
-                    "name": "Crag: Umbris Lair  [e,w,n]"
+                    "name": "Crag: Umbris Lair  [e,w,n]",
+                    "userData": {
+                        "num": "100694"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92490,7 +92637,10 @@
                         }
                     ],
                     "id": 3474,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100695"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92518,7 +92668,10 @@
                         }
                     ],
                     "id": 3475,
-                    "name": "Crag: Umbris Lair  [e,w,n,s]"
+                    "name": "Crag: Umbris Lair  [e,w,n,s]",
+                    "userData": {
+                        "num": "100697"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92534,7 +92687,10 @@
                         }
                     ],
                     "id": 3476,
-                    "name": "Crag: Umbris Lair  [w]"
+                    "name": "Crag: Umbris Lair  [w]",
+                    "userData": {
+                        "num": "100698"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92550,7 +92706,10 @@
                         }
                     ],
                     "id": 3477,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100699"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92570,7 +92729,10 @@
                         }
                     ],
                     "id": 3478,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100700"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92590,7 +92752,10 @@
                         }
                     ],
                     "id": 3479,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100701"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92618,7 +92783,10 @@
                         }
                     ],
                     "id": 3480,
-                    "name": "Crag: Umbris Lair  [e,w,n,s]"
+                    "name": "Crag: Umbris Lair  [e,w,n,s]",
+                    "userData": {
+                        "num": "100702"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92634,7 +92802,10 @@
                         }
                     ],
                     "id": 3481,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100704"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92658,7 +92829,10 @@
                         }
                     ],
                     "id": 3482,
-                    "name": "Crag: Umbris Lair  [w,n,s]"
+                    "name": "Crag: Umbris Lair  [w,n,s]",
+                    "userData": {
+                        "num": "100705"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92674,7 +92848,10 @@
                         }
                     ],
                     "id": 3483,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100706"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92698,7 +92875,10 @@
                         }
                     ],
                     "id": 3484,
-                    "name": "Crag: Umbris Lair  [e,n,s]"
+                    "name": "Crag: Umbris Lair  [e,n,s]",
+                    "userData": {
+                        "num": "100707"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92714,7 +92894,10 @@
                         }
                     ],
                     "id": 3485,
-                    "name": "Crag: Umbris Lair  [w]"
+                    "name": "Crag: Umbris Lair  [w]",
+                    "userData": {
+                        "num": "100708"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92734,7 +92917,10 @@
                         }
                     ],
                     "id": 3486,
-                    "name": "Crag: Umbris Lair  [w,n]"
+                    "name": "Crag: Umbris Lair  [w,n]",
+                    "userData": {
+                        "num": "100709"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92754,7 +92940,10 @@
                         }
                     ],
                     "id": 3487,
-                    "name": "Crag: Umbris Lair  [e,w]"
+                    "name": "Crag: Umbris Lair  [e,w]",
+                    "userData": {
+                        "num": "100710"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92778,7 +92967,10 @@
                         }
                     ],
                     "id": 3488,
-                    "name": "Crag: Umbris Lair  [e,w,s]"
+                    "name": "Crag: Umbris Lair  [e,w,s]",
+                    "userData": {
+                        "num": "100711"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92794,7 +92986,10 @@
                         }
                     ],
                     "id": 3489,
-                    "name": "Crag: Umbris Lair  [n]"
+                    "name": "Crag: Umbris Lair  [n]",
+                    "userData": {
+                        "num": "100713"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92818,7 +93013,10 @@
                         }
                     ],
                     "id": 3490,
-                    "name": "Crag: Umbris Lair  [e,w,s]"
+                    "name": "Crag: Umbris Lair  [e,w,s]",
+                    "userData": {
+                        "num": "100712"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92838,7 +93036,10 @@
                         }
                     ],
                     "id": 3491,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100714"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92858,7 +93059,10 @@
                         }
                     ],
                     "id": 3492,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100716"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92886,7 +93090,10 @@
                         }
                     ],
                     "id": 3493,
-                    "name": "Crag: Umbris Lair  [e,w,n,s]"
+                    "name": "Crag: Umbris Lair  [e,w,n,s]",
+                    "userData": {
+                        "num": "100717"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92902,7 +93109,10 @@
                         }
                     ],
                     "id": 3494,
-                    "name": "Crag: Umbris Lair  [n]"
+                    "name": "Crag: Umbris Lair  [n]",
+                    "userData": {
+                        "num": "100720"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92922,7 +93132,10 @@
                         }
                     ],
                     "id": 3495,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100719"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92942,7 +93155,10 @@
                         }
                     ],
                     "id": 3496,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100725"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92962,7 +93178,10 @@
                         }
                     ],
                     "id": 3497,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100726"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92982,7 +93201,10 @@
                         }
                     ],
                     "id": 3498,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100727"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93010,7 +93232,10 @@
                         }
                     ],
                     "id": 3499,
-                    "name": "Crag: Umbris Lair  [e,w,n,s]"
+                    "name": "Crag: Umbris Lair  [e,w,n,s]",
+                    "userData": {
+                        "num": "100728"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93026,7 +93251,10 @@
                         }
                     ],
                     "id": 3500,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100730"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93050,7 +93278,10 @@
                         }
                     ],
                     "id": 3501,
-                    "name": "Crag: Umbris Lair  [w,n,s]"
+                    "name": "Crag: Umbris Lair  [w,n,s]",
+                    "userData": {
+                        "num": "100731"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93074,7 +93305,10 @@
                         }
                     ],
                     "id": 3502,
-                    "name": "Crag: Umbris Lair  [w,n,s]"
+                    "name": "Crag: Umbris Lair  [w,n,s]",
+                    "userData": {
+                        "num": "100733"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93094,7 +93328,10 @@
                         }
                     ],
                     "id": 3503,
-                    "name": "Crag: Umbris Lair  [e,s]"
+                    "name": "Crag: Umbris Lair  [e,s]",
+                    "userData": {
+                        "num": "100735"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93114,7 +93351,10 @@
                         }
                     ],
                     "id": 3504,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100736"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93134,7 +93374,10 @@
                         }
                     ],
                     "id": 3505,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100737"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93154,7 +93397,10 @@
                         }
                     ],
                     "id": 3506,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100738"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93174,7 +93420,10 @@
                         }
                     ],
                     "id": 3507,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100739"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93194,7 +93443,10 @@
                         }
                     ],
                     "id": 3508,
-                    "name": "Crag: Umbris Lair  [w,n]"
+                    "name": "Crag: Umbris Lair  [w,n]",
+                    "userData": {
+                        "num": "100740"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93214,7 +93466,10 @@
                         }
                     ],
                     "id": 3509,
-                    "name": "Crag: Umbris Lair  [n,s]"
+                    "name": "Crag: Umbris Lair  [n,s]",
+                    "userData": {
+                        "num": "100741"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93234,7 +93489,10 @@
                         }
                     ],
                     "id": 3510,
-                    "name": "Crag: Umbris Lair  [e,s]"
+                    "name": "Crag: Umbris Lair  [e,s]",
+                    "userData": {
+                        "num": "100742"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93254,7 +93512,10 @@
                         }
                     ],
                     "id": 3511,
-                    "name": "Crag: Umbris Lair  [w,n]"
+                    "name": "Crag: Umbris Lair  [w,n]",
+                    "userData": {
+                        "num": "100743"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93274,7 +93535,10 @@
                         }
                     ],
                     "id": 3512,
-                    "name": "Crag: Umbris Lair  [w,s]"
+                    "name": "Crag: Umbris Lair  [w,s]",
+                    "userData": {
+                        "num": "100744"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93294,7 +93558,10 @@
                         }
                     ],
                     "id": 3513,
-                    "name": "Crag: Umbris Lair  [e,n]"
+                    "name": "Crag: Umbris Lair  [e,n]",
+                    "userData": {
+                        "num": "100745"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93318,7 +93585,10 @@
                         }
                     ],
                     "id": 3514,
-                    "name": "Crag: Umbris Lair  [e,w,s]"
+                    "name": "Crag: Umbris Lair  [e,w,s]",
+                    "userData": {
+                        "num": "100746"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93334,7 +93604,10 @@
                         }
                     ],
                     "id": 3515,
-                    "name": "Crag: Umbris Lair  [w]"
+                    "name": "Crag: Umbris Lair  [w]",
+                    "userData": {
+                        "num": "100747"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93350,7 +93623,10 @@
                         }
                     ],
                     "id": 3516,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100748"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93366,7 +93642,10 @@
                         }
                     ],
                     "id": 3517,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100734"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93382,7 +93661,10 @@
                         }
                     ],
                     "id": 3518,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100732"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93398,7 +93680,10 @@
                         }
                     ],
                     "id": 3519,
-                    "name": "Crag: Umbris Lair  [w]"
+                    "name": "Crag: Umbris Lair  [w]",
+                    "userData": {
+                        "num": "100729"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93422,7 +93707,10 @@
                         }
                     ],
                     "id": 3520,
-                    "name": "Crag: Umbris Lair  [e,w,s]"
+                    "name": "Crag: Umbris Lair  [e,w,s]",
+                    "userData": {
+                        "num": "100718"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93446,7 +93734,10 @@
                         }
                     ],
                     "id": 3521,
-                    "name": "Crag: Umbris Lair  [e,w,n]"
+                    "name": "Crag: Umbris Lair  [e,w,n]",
+                    "userData": {
+                        "num": "100721"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93462,7 +93753,10 @@
                         }
                     ],
                     "id": 3522,
-                    "name": "Crag: Umbris Lair  [e]"
+                    "name": "Crag: Umbris Lair  [e]",
+                    "userData": {
+                        "num": "100723"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93478,7 +93772,10 @@
                         }
                     ],
                     "id": 3523,
-                    "name": "Crag: Umbris Lair  [s]"
+                    "name": "Crag: Umbris Lair  [s]",
+                    "userData": {
+                        "num": "100724"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93494,7 +93791,10 @@
                         }
                     ],
                     "id": 3524,
-                    "name": "Crag: Umbris Lair  [n]"
+                    "name": "Crag: Umbris Lair  [n]",
+                    "userData": {
+                        "num": "100722"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93510,7 +93810,10 @@
                         }
                     ],
                     "id": 3525,
-                    "name": "Crag: Umbris Lair  [n]"
+                    "name": "Crag: Umbris Lair  [n]",
+                    "userData": {
+                        "num": "100715"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93526,7 +93829,10 @@
                         }
                     ],
                     "id": 3526,
-                    "name": "Crag: Umbris Lair  [w]"
+                    "name": "Crag: Umbris Lair  [w]",
+                    "userData": {
+                        "num": "100703"
+                    }
                 },
                 {
                     "coordinates": [
@@ -93542,7 +93848,10 @@
                         }
                     ],
                     "id": 3527,
-                    "name": "Crag: Umbris Lair  [s]"
+                    "name": "Crag: Umbris Lair  [s]",
+                    "userData": {
+                        "num": "100696"
+                    }
                 }
             ]
         },
@@ -101983,7 +102292,7 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 2845,
+        "Final Realms Alena": 3461,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
