@@ -3959,8 +3959,8 @@
                         }
                     ],
                     "coordinates": [
-                        0.7786837220191956,
-                        14.636309623718262,
+                        5,
+                        14,
                         0
                     ],
                     "id": 23,
@@ -4136,7 +4136,7 @@
                 }
             ],
             "name": "Main",
-            "roomCount": 3665,
+            "roomCount": 3667,
             "rooms": [
                 {
                     "coordinates": [
@@ -9090,6 +9090,10 @@
                         {
                             "exitId": 274,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4682,
+                            "name": "crawl"
                         }
                     ],
                     "id": 273,
@@ -9116,7 +9120,10 @@
                         }
                     ],
                     "id": 274,
-                    "name": "Sword Sea Coast:  Delimbiyr River Delta [s,e,sea,river]"
+                    "name": "Sword Sea Coast:  Delimbiyr River Delta [s,e,sea,river]",
+                    "userData": {
+                        "num": "10044"
+                    }
                 },
                 {
                     "coordinates": [
@@ -19703,7 +19710,10 @@
                         }
                     ],
                     "id": 762,
-                    "name": "Wilderness Road : Dead End [w,shop]"
+                    "name": "Wilderness Road : Dead End [w,shop]",
+                    "userData": {
+                        "num": "40024"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87761,6 +87771,48 @@
                     "userData": {
                         "num": "70808"
                     }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        13,
+                        1
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 273,
+                            "name": "down"
+                        },
+                        {
+                            "exitId": 4683,
+                            "name": "hut"
+                        }
+                    ],
+                    "id": 4682,
+                    "name": "Top of the Dune",
+                    "userData": {
+                        "num": "11124"
+                    }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        13,
+                        2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4682,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 4683,
+                    "name": "Inside The Hermit's Hut",
+                    "userData": {
+                        "num": "11125"
+                    }
                 }
             ]
         },
@@ -109008,7 +109060,7 @@
         {
             "color24RGB": [
                 0,
-                128,
+                179,
                 0
             ],
             "id": 258
@@ -109055,9 +109107,9 @@
         },
         {
             "color24RGB": [
-                0,
-                0,
-                0
+                36,
+                36,
+                36
             ],
             "id": 264
         },
@@ -109277,11 +109329,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 1034,
+        "Final Realms Alena": 4616,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4681
+    "roomCount": 4683
 }
