@@ -3888,6 +3888,58 @@
                         2.3072967529296875
                     ],
                     "text": "Nibbelheim"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                255,
+                                255,
+                                255
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                17,
+                                0,
+                                150
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        35.746826171875,
+                        -10.774215698242188,
+                        0
+                    ],
+                    "id": 22,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAAUgAAAAlCAIAAACva+dUAAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAADMUlEQVR42u3cv0/iYBgH8G8vt9zY+h/wFi4xTnAy1NVINAwsXhia",
+                        "uGGaXDwXb7zBOLmoxFyjmwkD0YWB0Hi5lQ5yMBkuJ337H1BGR24Af1EQk1OM+v2M",
+                        "L31enjb99mkYUFT8ABG9Lu94CYgYbCJisImIwSYiBpuIGGwiBpuIGGwiYrCJiMEm",
+                        "IgabiMEmIgabiBjsN89I1lrJ+FOXTLLPx2rvWU6TwaZnjvdk+mG6Xqn3vAST4J7N",
+                        "RtkPcWK/ghHdtYKuFVQTYmBC9ta7VjAwKgdK7hycMgc3SZkAMLXZSplGstZKblb6",
+                        "2xZzIyZzqCSOqc2jhNATv7pWzfoAIDN0EyC+kx3oefDIcKv9rwOgF28We8dkNw3e",
+                        "Igz2y6MXqwm5amuKrc3V5fj1oR/drMzvqvmKDjeQujoNxJcj0kE6B0CNodMEoCdi",
+                        "JVtTbG3VX9i49by4pwQA2t9X6tKrzyv2rH05chMjebDeWVNsTbHXWur0kK8Lt3q2",
+                        "50TSvcznxIIjC9CLVXVP6Z2gv3jE938G++WNa0149e3DB68P/ejWSuPEl4vChFd2",
+                        "1JiB6Y+d8lZHZHQYmmgFDQDXteedu8+L0SVhozZxA4lIvpsygcLSaSF85JBWUSj5",
+                        "CxkdgJlR97c8GJpAJH/9SqKr07xPGOxXYkYV/7dB8y9iM3o62mm60okKc0aVJe/R",
+                        "S8KJzyq2psj09Zv2Qxz+3o8KE3o66pfc/oNjvjexFVtTTgu8HxjsF8YNpB7JGAAQ",
+                        "X47chPlQ/rxaH1/iBlJPfMtdrTiyADROfGx8EmXZQLtURjqDi/MxvYwvGTs8jWRx",
+                        "ZwrwssrxvqfGYkObH2wVaJfKaroiRFk27h5DE8BfxZ+Cl10VQdX6AkjHl8PWexPs",
+                        "3hIvO6fVqlZwAMBfU7xehKBHnJM2gMYfLKQ72y5gjHnK3Ffinu05Vr5rfS00gcuR",
+                        "O1Q/B+sAIHePZy/EYvh8w60CjRNfVNW9pXboGMCrz6/wPnlCCv9++HnkUkFGakse",
+                        "rwRxYr94ZsXK9+fdzWQj4sQmovH44xkRg01EDDYRMdhExGATEYNNxGATEYNNRAw2",
+                        "ETHYRMRgE715/wDFouxY377CGAAAAABJRU5ErkJggg=="
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        5.69671630859375,
+                        0.6426172256469727
+                    ],
+                    "text": "dig down with shovel"
                 }
             ],
             "name": "Main",
@@ -8652,7 +8704,10 @@
                         }
                     ],
                     "id": 265,
-                    "name": "Cobblestone Highway [n,s,shop]"
+                    "name": "Cobblestone Highway [n,s,shop]",
+                    "userData": {
+                        "num": "10055"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8676,7 +8731,10 @@
                         }
                     ],
                     "id": 266,
-                    "name": "Cobblestone Highway [n,s,e]"
+                    "name": "Cobblestone Highway [n,s,e]",
+                    "userData": {
+                        "num": "10054"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8696,7 +8754,10 @@
                         }
                     ],
                     "id": 267,
-                    "name": "Cobblestone Highway [n,s]"
+                    "name": "Cobblestone Highway [n,s]",
+                    "userData": {
+                        "num": "10053"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8716,7 +8777,10 @@
                         }
                     ],
                     "id": 268,
-                    "name": "Cobblestone Highway [n,s]"
+                    "name": "Cobblestone Highway [n,s]",
+                    "userData": {
+                        "num": "10052"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8736,7 +8800,10 @@
                         }
                     ],
                     "id": 269,
-                    "name": "Cobblestone Highway [n,s]"
+                    "name": "Cobblestone Highway [n,s]",
+                    "userData": {
+                        "num": "10051"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8760,7 +8827,10 @@
                         }
                     ],
                     "id": 270,
-                    "name": "Cobblestone Highway [n,s,w]"
+                    "name": "Cobblestone Highway [n,s,w]",
+                    "userData": {
+                        "num": "10050"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8784,7 +8854,10 @@
                         }
                     ],
                     "id": 271,
-                    "name": "Cobblestone Highway [n,s,w]"
+                    "name": "Cobblestone Highway [n,s,w]",
+                    "userData": {
+                        "num": "10048"
+                    }
                 },
                 {
                     "coordinates": [
@@ -8800,7 +8873,10 @@
                         }
                     ],
                     "id": 272,
-                    "name": "Bridge Over River Delimbiyr - South Side [s]"
+                    "name": "Bridge Over River Delimbiyr - South Side [s]",
+                    "userData": {
+                        "num": "10049"
+                    }
                 },
                 {
                     "coordinates": [
@@ -18977,7 +19053,10 @@
                         }
                     ],
                     "id": 742,
-                    "name": "The Cathedral of Lawful Evil [e]"
+                    "name": "The Cathedral of Lawful Evil [e]",
+                    "userData": {
+                        "num": "1506"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32593,7 +32672,7 @@
                         -10,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1366,
@@ -32605,7 +32684,10 @@
                         }
                     ],
                     "id": 1367,
-                    "name": "Forest path [n,se]"
+                    "name": "Forest path [n,se]",
+                    "userData": {
+                        "num": "40183"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32613,7 +32695,7 @@
                         -11,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1367,
@@ -32622,10 +32704,17 @@
                         {
                             "exitId": 1369,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4466,
+                            "name": "down"
                         }
                     ],
                     "id": 1368,
-                    "name": "Forest path [nw,s]"
+                    "name": "Forest path [nw,s]",
+                    "userData": {
+                        "num": "40189"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32645,7 +32734,10 @@
                         }
                     ],
                     "id": 1369,
-                    "name": "Castle entrance [n,s]"
+                    "name": "Castle entrance [n,s]",
+                    "userData": {
+                        "num": "40190"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90367,10 +90459,65 @@
                         1.6684017181396484
                     ],
                     "text": "crag"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                255,
+                                255,
+                                255
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                150,
+                                0,
+                                2
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        -54.230262756347656,
+                        -10.463113784790039,
+                        0
+                    ],
+                    "id": 1,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAAMMAAAAhCAIAAADrkYh0AAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAAD0ElEQVR42u2bQW+jRhTH/5T9AsTfwIDsQ26tLBmfI4sIyT40kW+7",
+                        "F0i4uUrzDbanrRWfSmJfutckh6yEjKxca0dabW+Ragr2N2D5BIgeBmzj4NRtk+4m",
+                        "eb/TMHpv3szwnzczSHC/4BsQxH+GZESQkghSEkFKIghSEkFKIkhJBCmJIEhJBCmJ",
+                        "ICURpCTi4VE6La9TeAzjL9Lg16UkpdOKIzOOzDhqnVSfoDr0+uL16PVkLLa0tmZT",
+                        "Cnsa7MuActKmr2GkzWq8xfEWdxiWtp/WNBVOXDM+LaaP0uAUB7zF8eddeWeg59Zs",
+                        "jlDC7OKGdrfN8T6PWaE/3O1ns5RbUZZystJpJSu7WvFsaY1lZZBNAGvdqxUvqhvz",
+                        "zOFW3iy5K52WZ9e9yIyjulGtJIXVrgc/lKxaN0xXhag60x4ABBd2KJcLOTUAIA6S",
+                        "HFw3WPeSQNkQuqh6n5Ed0WK86eM8HbLyYgaWWpt7jdrC81VSf+qoO3FkLtarXh+V",
+                        "PnG8xfFWzS6+7xTGk1AqCUBhTwsdiAaAbQFueNcSgNQWrniL0/x5hLXuNx/fOcWm",
+                        "DgBGo+j8/PHPrLskh69568Apnv0KVjje+JCRBs2pSUIsNcgCsZqzdA0YjaLzwc+M",
+                        "SK+P2uHfZrjV9hdeS6J/jjnJ3+UtjreuGibTk1IWoO7M15BUEtCfOvKWAqHkTd+6",
+                        "QlOHUha8SZBjCfjdT727Ys1zB9D7MFMbEiA11dlVHyvuvj0dA7duOC88zIDTEPMG",
+                        "WfusP5C3FCC3S0pZSMvBhR2qDWmT9pe8XsbdradZ3CF7r/C75yzTcEl6CF0I27oo",
+                        "u+H4ciY3pO1SmM7yimUua93RnzqqaCz2oIe7RpQFP6u8uzX3Ud2S/fCWvgL8o4vb",
+                        "PEuzuR5PQqn9XfZEElzYOP5RsC8D3ExtiE2Et2y/WLXMJd+dLeC3XeHsVOj+5D/Q",
+                        "Ti0aybVL8CZBTs29GI0iy0/K90WkiSqzPybjLexpQrL3JXtoYU8T1u6zmqjca/OY",
+                        "vPqf4owvZ/JvZnzKXuvvtVIADGvl1igyz5JcfS4fBeMJJI1dZII/UNTc8zGA/qrl",
+                        "67Wnljz3tAO+hn97RSqcuPttCcB+3J4d8MPdQzFm/XGuuT4Af6VG6eSebPbjNsBs",
+                        "joLk/v/mjuyWx5u0f9119+NoBwgdZ03C6w8PGuYo+vY+m0eEeyl/BBi2eeyey0df",
+                        "7LON0mm9x3W2A9IgEq/4Ye85TPArvAykpjp7p31lX/90UXWmu89khjn6S4l4mnc3",
+                        "gpREEKQkgpREkJIIUhJBkJIIUhJBSiII/AUt63Zql/yspgAAAABJRU5ErkJggg=="
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        3.8775100708007812,
+                        0.6561946868896484
+                    ],
+                    "text": "Sewer wyrm 100hp/round"
                 }
             ],
-            "name": "Shadowfall tunnels",
-            "roomCount": 86,
+            "name": "MidFr",
+            "roomCount": 292,
             "rooms": [
                 {
                     "coordinates": [
@@ -90760,7 +90907,10 @@
                         }
                     ],
                     "id": 3390,
-                    "name": "Shadowfall Tunnels [w,n,nw]"
+                    "name": "Shadowfall Tunnels [w,n,nw]",
+                    "userData": {
+                        "num": "100145"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90784,7 +90934,10 @@
                         }
                     ],
                     "id": 3391,
-                    "name": "Shadowfall Tunnels [e,n,ne]"
+                    "name": "Shadowfall Tunnels [e,n,ne]",
+                    "userData": {
+                        "num": "100146"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90808,7 +90961,10 @@
                         }
                     ],
                     "id": 3392,
-                    "name": "Shadowfall Tunnels [e,s,se]"
+                    "name": "Shadowfall Tunnels [e,s,se]",
+                    "userData": {
+                        "num": "100144"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91120,7 +91276,10 @@
                         }
                     ],
                     "id": 3405,
-                    "name": "Shadowfall Tunnels [e,nw]"
+                    "name": "Shadowfall Tunnels [e,nw]",
+                    "userData": {
+                        "num": "100128"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91136,7 +91295,10 @@
                         }
                     ],
                     "id": 3406,
-                    "name": "Forgotten Cavern [se]"
+                    "name": "Forgotten Cavern [se]",
+                    "userData": {
+                        "num": "101016"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91256,7 +91418,10 @@
                         }
                     ],
                     "id": 3411,
-                    "name": "Umbris Passage [e,w,s]"
+                    "name": "Umbris Passage [e,w,s]",
+                    "userData": {
+                        "num": "100123"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91272,7 +91437,10 @@
                         }
                     ],
                     "id": 3412,
-                    "name": "Dead End Corridor [n]"
+                    "name": "Dead End Corridor [n]",
+                    "userData": {
+                        "num": "100132"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91332,7 +91500,10 @@
                         }
                     ],
                     "id": 3415,
-                    "name": "Bright Tunnel [e,sw]"
+                    "name": "Bright Tunnel [e,sw]",
+                    "userData": {
+                        "num": "100152"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91352,7 +91523,10 @@
                         }
                     ],
                     "id": 3416,
-                    "name": "Bright Tunnel [s,ne]"
+                    "name": "Bright Tunnel [s,ne]",
+                    "userData": {
+                        "num": "100358"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91373,7 +91547,10 @@
                         {
                             "name": "down"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "100359"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91393,7 +91570,10 @@
                         }
                     ],
                     "id": 3418,
-                    "name": "Shadowfall Tunnels [se,nw]"
+                    "name": "Shadowfall Tunnels [se,nw]",
+                    "userData": {
+                        "num": "100157"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91413,7 +91593,10 @@
                         }
                     ],
                     "id": 3419,
-                    "name": "Tunnel under Shadowfall [w,se]"
+                    "name": "Tunnel under Shadowfall [w,se]",
+                    "userData": {
+                        "num": "100158"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91433,7 +91616,10 @@
                         }
                     ],
                     "id": 3420,
-                    "name": "Tunnel under Shadowfall [e,w]"
+                    "name": "Tunnel under Shadowfall [e,w]",
+                    "userData": {
+                        "num": "100159"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91453,7 +91639,10 @@
                         }
                     ],
                     "id": 3421,
-                    "name": "Tunnel under Shadowfall [e,w]"
+                    "name": "Tunnel under Shadowfall [e,w]",
+                    "userData": {
+                        "num": "100160"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91473,7 +91662,10 @@
                         }
                     ],
                     "id": 3422,
-                    "name": "Tunnel under Shadowfall [e,w]"
+                    "name": "Tunnel under Shadowfall [e,w]",
+                    "userData": {
+                        "num": "100161"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91493,7 +91685,10 @@
                         }
                     ],
                     "id": 3423,
-                    "name": "Tunnel under Shadowfall [e,w]"
+                    "name": "Tunnel under Shadowfall [e,w]",
+                    "userData": {
+                        "num": "100162"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91513,7 +91708,10 @@
                         }
                     ],
                     "id": 3424,
-                    "name": "Tunnel under Shadowfall [e,w]"
+                    "name": "Tunnel under Shadowfall [e,w]",
+                    "userData": {
+                        "num": "100163"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91533,7 +91731,10 @@
                         }
                     ],
                     "id": 3425,
-                    "name": "Tunnel under Shadowfall [e,nw]"
+                    "name": "Tunnel under Shadowfall [e,nw]",
+                    "userData": {
+                        "num": "100164"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91553,7 +91754,10 @@
                         }
                     ],
                     "id": 3426,
-                    "name": "Tunnel under Shadowfall [n,se]"
+                    "name": "Tunnel under Shadowfall [n,se]",
+                    "userData": {
+                        "num": "100165"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91573,7 +91777,10 @@
                         }
                     ],
                     "id": 3427,
-                    "name": "Tunnel under Shadowfall [w,s]"
+                    "name": "Tunnel under Shadowfall [w,s]",
+                    "userData": {
+                        "num": "100166"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91593,7 +91800,10 @@
                         }
                     ],
                     "id": 3428,
-                    "name": "Tunnel under Shadowfall [e,nw]"
+                    "name": "Tunnel under Shadowfall [e,nw]",
+                    "userData": {
+                        "num": "100167"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91613,7 +91823,10 @@
                         }
                     ],
                     "id": 3429,
-                    "name": "Lycan shadowy Tunnel [w,se]"
+                    "name": "Lycan shadowy Tunnel [w,se]",
+                    "userData": {
+                        "num": "100168"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91633,7 +91846,10 @@
                         }
                     ],
                     "id": 3430,
-                    "name": "Lycan shadowy Tunnel [e,w]"
+                    "name": "Lycan shadowy Tunnel [e,w]",
+                    "userData": {
+                        "num": "100169"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91653,7 +91869,10 @@
                         }
                     ],
                     "id": 3431,
-                    "name": "Lycan shadowy Tunnel [e,nw]"
+                    "name": "Lycan shadowy Tunnel [e,nw]",
+                    "userData": {
+                        "num": "100170"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91673,7 +91892,10 @@
                         }
                     ],
                     "id": 3432,
-                    "name": "Lycan shadowy Tunnel [w,se]"
+                    "name": "Lycan shadowy Tunnel [w,se]",
+                    "userData": {
+                        "num": "100171"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91693,7 +91915,10 @@
                         }
                     ],
                     "id": 3433,
-                    "name": "Lycan shadowy Tunnel [e,sw]"
+                    "name": "Lycan shadowy Tunnel [e,sw]",
+                    "userData": {
+                        "num": "100172"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91713,7 +91938,10 @@
                         }
                     ],
                     "id": 3434,
-                    "name": "Lycan shadowy Tunnel [w,ne]"
+                    "name": "Lycan shadowy Tunnel [w,ne]",
+                    "userData": {
+                        "num": "100173"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91733,7 +91961,10 @@
                         }
                     ],
                     "id": 3435,
-                    "name": "Lycan shadowy Tunnel [e,nw]"
+                    "name": "Lycan shadowy Tunnel [e,nw]",
+                    "userData": {
+                        "num": "100174"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91753,7 +91984,10 @@
                         }
                     ],
                     "id": 3436,
-                    "name": "Lycan shadowy Tunnel [se,nw]"
+                    "name": "Lycan shadowy Tunnel [se,nw]",
+                    "userData": {
+                        "num": "100175"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91773,7 +92007,10 @@
                         }
                     ],
                     "id": 3437,
-                    "name": "Lycan shadowy Tunnel [n,se]"
+                    "name": "Lycan shadowy Tunnel [n,se]",
+                    "userData": {
+                        "num": "100176"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91793,7 +92030,10 @@
                         }
                     ],
                     "id": 3438,
-                    "name": "Lycan shadowy Tunnel [n,s]"
+                    "name": "Lycan shadowy Tunnel [n,s]",
+                    "userData": {
+                        "num": "100177"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91817,7 +92057,10 @@
                         }
                     ],
                     "id": 3439,
-                    "name": "Lycan shadowy Tunnel [s,w,n]"
+                    "name": "Lycan shadowy Tunnel [s,w,n]",
+                    "userData": {
+                        "num": "100178"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91833,7 +92076,10 @@
                         }
                     ],
                     "id": 3440,
-                    "name": "Dead End Tunnel [s]"
+                    "name": "Dead End Tunnel [s]",
+                    "userData": {
+                        "num": "100180"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91841,11 +92087,15 @@
                         10,
                         -2
                     ],
-                    "environment": 12632256,
+                    "environment": 16777215,
                     "exits": [
                         {
                             "exitId": 3439,
                             "name": "east"
+                        },
+                        {
+                            "exitId": 4482,
+                            "name": "west"
                         }
                     ],
                     "id": 3441,
@@ -91853,11 +92103,11 @@
                     "stubExits": [
                         {
                             "name": "down"
-                        },
-                        {
-                            "name": "west"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "100179"
+                    }
                 },
                 {
                     "coordinates": [
@@ -91986,7 +92236,10 @@
                         }
                     ],
                     "id": 3446,
-                    "name": "Umbris Passage [e,w,s]"
+                    "name": "Umbris Passage [e,w,s]",
+                    "userData": {
+                        "num": "100514"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92010,7 +92263,10 @@
                         }
                     ],
                     "id": 3447,
-                    "name": "Umbris Passage [e,s,sw]"
+                    "name": "Umbris Passage [e,s,sw]",
+                    "userData": {
+                        "num": "100671"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92158,7 +92414,10 @@
                         }
                     ],
                     "id": 3453,
-                    "name": "Umbris Passage [e,n,nw]"
+                    "name": "Umbris Passage [e,n,nw]",
+                    "userData": {
+                        "num": "100110"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92198,7 +92457,10 @@
                         }
                     ],
                     "id": 3455,
-                    "name": "Umbris Passage [s,ne]"
+                    "name": "Umbris Passage [s,ne]",
+                    "userData": {
+                        "num": "100109"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92226,7 +92488,10 @@
                         }
                     ],
                     "id": 3456,
-                    "name": "Umbris Passage [e,w,n,se]"
+                    "name": "Umbris Passage [e,w,n,se]",
+                    "userData": {
+                        "num": "100107"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92246,7 +92511,10 @@
                         }
                     ],
                     "id": 3457,
-                    "name": "Haisk Tunnels [e,sw]"
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100106"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92259,15 +92527,17 @@
                         {
                             "exitId": 3457,
                             "name": "northeast"
+                        },
+                        {
+                            "exitId": 4410,
+                            "name": "south"
                         }
                     ],
                     "id": 3458,
-                    "name": "Haisk Tunnels [s,ne]",
-                    "stubExits": [
-                        {
-                            "name": "south"
-                        }
-                    ]
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100105"
+                    }
                 },
                 {
                     "coordinates": [
@@ -92308,6 +92578,4801 @@
                     ],
                     "id": 3460,
                     "name": "Umbris Passage [n,sw]"
+                },
+                {
+                    "coordinates": [
+                        -8,
+                        -25,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 3458,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4464,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4411,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4410,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100103"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -7,
+                        -26,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4410,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4412,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4411,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100102"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -7,
+                        -27,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4411,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4413,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4412,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100101"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -8,
+                        -28,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4412,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4414,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4413,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100100"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -8,
+                        -29,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4413,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4415,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4414,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100099"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -9,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4414,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4416,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4415,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100098"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -10,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4415,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4417,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4416,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100096"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -11,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4459,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4416,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4418,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4417,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100095"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -12,
+                        -31,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4417,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4419,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4418,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100094"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -13,
+                        -31,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4418,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4420,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4419,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100093"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -14,
+                        -32,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4419,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4421,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4420,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100092"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -15,
+                        -32,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4420,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4422,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4421,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100091"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        -32,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4421,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4423,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4422,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100090"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -16,
+                        -33,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4422,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4424,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4423,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100089"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -17,
+                        -34,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4423,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4425,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4424,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100088"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -18,
+                        -34,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4424,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4426,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4425,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100087"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -19,
+                        -34,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4425,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4427,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4426,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100080"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -20,
+                        -35,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4426,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4449,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4428,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4427,
+                    "name": "Tunnel Intersection",
+                    "userData": {
+                        "num": "100078"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -20,
+                        -36,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4427,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4429,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4428,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100077"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -21,
+                        -37,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4428,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4430,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4429,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100076"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -21,
+                        -38,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4429,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4431,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4430,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100075"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -22,
+                        -39,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4430,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4432,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4431,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100074"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -22,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4431,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4433,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4432,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100073"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -23,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4432,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4434,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4433,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100072"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4433,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4435,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4434,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100071"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -25,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4434,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4436,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4435,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100070"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -25,
+                        -41,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4435,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4437,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4436,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100069"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -26,
+                        -41,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4436,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4438,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4437,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100068"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -27,
+                        -41,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4437,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4439,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4438,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100067"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -28,
+                        -41,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4440,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4438,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4439,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100066"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -28,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4441,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4439,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4440,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100065"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -29,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4440,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4442,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4441,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100064"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -30,
+                        -40,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4443,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4441,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4442,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100063"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -31,
+                        -39,
+                        -2
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4444,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4442,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4443,
+                    "name": "Mithril Cavern",
+                    "userData": {
+                        "num": "100062"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -32,
+                        -39,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4445,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4443,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4444,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100061"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -33,
+                        -38,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4446,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4444,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4445,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100060"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -33,
+                        -37,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4447,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4445,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4446,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100059"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -33,
+                        -36,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4448,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4446,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4447,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100058"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -34,
+                        -35,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4447,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4467,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4448,
+                    "name": "Ancient Lycan Tunnel",
+                    "userData": {
+                        "num": "100057"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -21,
+                        -35,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4427,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4450,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4449,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "100079"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -22,
+                        -35,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4451,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4449,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4450,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "100081"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -23,
+                        -34,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4452,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4450,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4451,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "100082"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        -34,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4451,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4453,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4465,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4452,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "100083"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        -35,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4452,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4454,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4453,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "100084"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -25,
+                        -35,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4453,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4455,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4454,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "101048"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -26,
+                        -35,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4454,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4456,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4455,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "101049"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -27,
+                        -36,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4455,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4457,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4456,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "101050"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -28,
+                        -36,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4456,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4458,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4457,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "101051"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -29,
+                        -36,
+                        -2
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4457,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4458,
+                    "name": "Miners Passage",
+                    "userData": {
+                        "num": "101052"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -11,
+                        -29,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4460,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4417,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4459,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100097"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -11,
+                        -28,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4461,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4459,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4460,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100519"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -11,
+                        -27,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4462,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4460,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4461,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100518"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -10,
+                        -27,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4463,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4461,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4462,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100517"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -9,
+                        -26,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4464,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4462,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4463,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100516"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -9,
+                        -25,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4410,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4463,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4464,
+                    "name": "Haisk Tunnels",
+                    "userData": {
+                        "num": "100104"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        -34,
+                        -1
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4466,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 4452,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4465,
+                    "name": "Haisk Castle Tunnel",
+                    "userData": {
+                        "num": "100085"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        -34,
+                        0
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 1368,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 4465,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4466,
+                    "name": "Haisk Castle Tunnel",
+                    "userData": {
+                        "num": "100086"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -34,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4468,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4448,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4467,
+                    "name": "Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100056"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -35,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4467,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4469,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4468,
+                    "name": "Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100055"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -36,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4470,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4468,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4469,
+                    "name": "Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100054"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -36,
+                        -34,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4471,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4469,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4470,
+                    "name": "Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100053"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -36,
+                        -33,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4472,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4470,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4471,
+                    "name": "Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100052"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -37,
+                        -33,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4471,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4473,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4472,
+                    "name": "Stinking Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100051"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -38,
+                        -34,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4472,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4474,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4473,
+                    "name": "Stinking Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100050"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -39,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4473,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4475,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4474,
+                    "name": "Stinking Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100049"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -36,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4474,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4476,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4475,
+                    "name": "Stinking Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100048"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -36,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4477,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4475,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4476,
+                    "name": "Stinking Tunnel: Near Haisk",
+                    "userData": {
+                        "num": "100047"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4478,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4476,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4477,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100046"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4477,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4479,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4478,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100045"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -35,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4478,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4480,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4479,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100044"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -36,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4479,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4481,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4480,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100041"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -45,
+                        -36,
+                        -1
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4554,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4480,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4481,
+                    "name": "Cavern of Horrors",
+                    "stubExits": [
+                        {
+                            "name": "south"
+                        }
+                    ],
+                    "userData": {
+                        "num": "100040"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -19,
+                        10,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 3441,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4483,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4482,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100181"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -20,
+                        10,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4482,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4484,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4483,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100226"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -21,
+                        10,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4483,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4485,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4484,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100803"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -22,
+                        10,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4484,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4486,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4485,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100804"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -23,
+                        9,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4485,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4487,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4486,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100805"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        8,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4486,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4488,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4487,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100806"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -24,
+                        7,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4487,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4489,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4488,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100807"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -25,
+                        7,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4488,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4490,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4489,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100808"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -26,
+                        7,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4489,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4491,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4490,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100809"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -27,
+                        7,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4490,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4492,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4491,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100810"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -28,
+                        6,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4491,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4493,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4492,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100811"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -28,
+                        5,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4492,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4494,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4493,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100812"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -28,
+                        4,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4493,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4495,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4494,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100813"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -29,
+                        4,
+                        -2
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4494,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4496,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4495,
+                    "name": "Putrid passage",
+                    "userData": {
+                        "num": "100814"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -30,
+                        3,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4495,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4497,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4496,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100815"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -31,
+                        2,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4496,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4498,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4497,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100816"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -32,
+                        1,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4497,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4499,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4498,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100817"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -32,
+                        0,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4498,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4500,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4499,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100818"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -32,
+                        -1,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4499,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4501,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4500,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100819"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -33,
+                        -2,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4500,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4502,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4501,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100820"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -33,
+                        -3,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4501,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4503,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4502,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100821"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -34,
+                        -4,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4502,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4504,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4503,
+                    "name": "Spectral Tunnel: Daggerford - Shadowfall",
+                    "userData": {
+                        "num": "100822"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -35,
+                        -5,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4503,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4505,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4504,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100823"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -36,
+                        -6,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4504,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4506,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4505,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100824"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -36,
+                        -7,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4505,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4507,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4506,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100825"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -36,
+                        -8,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4506,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4508,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4507,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100826"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -37,
+                        -8,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4507,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4509,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4508,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100827"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -38,
+                        -8,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4508,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4510,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4509,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100828"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -39,
+                        -9,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4509,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4511,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4510,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100829"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -39,
+                        -10,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4510,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4512,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4511,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100830"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -11,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4511,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4513,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4512,
+                    "name": "Dark Corridor",
+                    "userData": {
+                        "num": "100831"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -12,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4512,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4514,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4513,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100832"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -13,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4513,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4515,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4514,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100833"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -14,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4514,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4516,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4515,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100834"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -15,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4515,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4517,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4516,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100835"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -16,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4516,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4518,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4517,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100836"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -16,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4517,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4519,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4518,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100837"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -45,
+                        -17,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4518,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4520,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4519,
+                    "name": "Shadowy Tunnel: Under Daggerford",
+                    "userData": {
+                        "num": "100560"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -46,
+                        -18,
+                        -2
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4519,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4521,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4522,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4520,
+                    "name": "Cavern of Time",
+                    "userData": {
+                        "num": "100558"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -47,
+                        -18,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4520,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4591,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4521,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100559"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -46,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4520,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4523,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4522,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100557"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -46,
+                        -20,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4522,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4524,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4523,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100556"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -45,
+                        -20,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4525,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4523,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4524,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100555"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -20,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4524,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4526,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4525,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100553"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -20,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4530,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4527,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 4525,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4526,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100550"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -45,
+                        -21,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4526,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4528,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4529,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4527,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100552"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -46,
+                        -21,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4527,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4562,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4528,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100554"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -22,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4530,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4527,
+                            "name": "northwest"
+                        }
+                    ],
+                    "id": 4529,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100551"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -21,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4526,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4531,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4529,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4530,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100549"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -21,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4530,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4532,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4531,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100548"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -22,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4531,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4533,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4532,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100547"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -23,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4532,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4534,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4533,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100541"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -24,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4533,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4535,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4561,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4534,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100539"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -24,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4536,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4534,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4535,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100538"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -24,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4535,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4537,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4536,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100537"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -25,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4536,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4538,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4537,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100536"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -26,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4537,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4539,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4538,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100535"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -27,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4538,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4540,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4539,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100534"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -27,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4539,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4541,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4540,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100533"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -28,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4540,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4542,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4541,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100532"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -28,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4541,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4555,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4543,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4542,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100530"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -29,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4542,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4544,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4543,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100529"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -29,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4545,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4543,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4544,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100528"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -29,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4544,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4546,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4545,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100527"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -29,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4545,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4547,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4546,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100526"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4546,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4548,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4547,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100525"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4549,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4547,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4548,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100524"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -42,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4550,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4548,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4549,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100523"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -41,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4551,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4549,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4550,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100521"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -30,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4552,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4550,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4553,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4551,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100520"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -29,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4551,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4552,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100522"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -40,
+                        -31,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4551,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4554,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4553,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100039"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -39,
+                        -31,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4553,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4481,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4554,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100038"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -28,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4556,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4542,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4555,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100531"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -27,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4557,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4555,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4556,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100546"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -27,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4558,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4556,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4557,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100545"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -26,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4559,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4557,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4558,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100544"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -25,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4560,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4558,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4559,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100543"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -44,
+                        -24,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4561,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4559,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4560,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100542"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -43,
+                        -24,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4534,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4560,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4561,
+                    "name": "Great Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100540"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -46,
+                        -22,
+                        -3
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4528,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4563,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4562,
+                    "name": "Lycan Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100596"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -47,
+                        -22,
+                        -3
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4562,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4564,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4563,
+                    "name": "Dead End Tunnel",
+                    "userData": {
+                        "num": "100597"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -47,
+                        -22,
+                        -4
+                    ],
+                    "environment": 4286095,
+                    "exits": [
+                        {
+                            "exitId": 4565,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4563,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4564,
+                    "name": "Water Pond",
+                    "userData": {
+                        "num": "100598"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -48,
+                        -22,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4564,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4566,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4565,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100599"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -48,
+                        -23,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4565,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4567,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4566,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100600"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -49,
+                        -23,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4566,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4568,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4567,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100601"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -50,
+                        -24,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4567,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4569,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4568,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100602"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -51,
+                        -25,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4568,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4570,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4569,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100603"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -52,
+                        -25,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4569,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4571,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4570,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100604"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -52,
+                        -26,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4570,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4572,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4571,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100605"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -52,
+                        -27,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4571,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4573,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4572,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100606"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -53,
+                        -27,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4572,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4574,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4573,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100607"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -54,
+                        -27,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4573,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4575,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4574,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100608"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -27,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4574,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4576,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4575,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100609"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -27,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4577,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4575,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4578,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4576,
+                    "name": "Dark cavern",
+                    "userData": {
+                        "num": "100610"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -26,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4576,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4577,
+                    "name": "Waterfall Cavern",
+                    "userData": {
+                        "num": "100612"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -57,
+                        -27,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4576,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4579,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4578,
+                    "name": "Deep Hole: Lost dark passage",
+                    "userData": {
+                        "num": "100611"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -58,
+                        -27,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4578,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4580,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4579,
+                    "name": "Deep Hole: Lost dark passage",
+                    "userData": {
+                        "num": "100613"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -59,
+                        -28,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4579,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4581,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4580,
+                    "name": "Deep Hole: Lost dark passage",
+                    "userData": {
+                        "num": "100614"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -59,
+                        -29,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4580,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4582,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4581,
+                    "name": "Deep Hole: Lost dark passage",
+                    "userData": {
+                        "num": "100615"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -59,
+                        -30,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4581,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4589,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4583,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4582,
+                    "name": "Deep Hole: Lost dark passage",
+                    "userData": {
+                        "num": "100616"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -58,
+                        -31,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4582,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4584,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4583,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100618"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -57,
+                        -32,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4583,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4585,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4584,
+                    "name": "Lycan Tunnel: Lost dark passage",
+                    "userData": {
+                        "num": "100989"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -33,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4586,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4584,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4587,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4588,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4585,
+                    "name": "Dark cavern",
+                    "userData": {
+                        "num": "100990"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -32,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4585,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4586,
+                    "name": "Dark cavern",
+                    "userData": {
+                        "num": "100991"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -34,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4585,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4588,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4587,
+                    "name": "Dark cavern",
+                    "userData": {
+                        "num": "100992"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -57,
+                        -34,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4585,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4587,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4588,
+                    "name": "Dark cavern",
+                    "userData": {
+                        "num": "100993"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -59,
+                        -31,
+                        -4
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 4582,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4590,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4589,
+                    "name": "Deep Hole: Lost dark passage",
+                    "userData": {
+                        "num": "100617"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -60,
+                        -31,
+                        -4
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4589,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4590,
+                    "name": "Lycan Tunnel: Somewhere under the sea",
+                    "stubExits": [
+                        {
+                            "name": "west"
+                        }
+                    ],
+                    "userData": {
+                        "num": "100619"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -48,
+                        -18,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4521,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4592,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4591,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100561"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -48,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4591,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4593,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4592,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100562"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -49,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4592,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4594,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4593,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "stubExits": [
+                        {
+                            "name": "down"
+                        }
+                    ],
+                    "userData": {
+                        "num": "100563"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -50,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4593,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4595,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4594,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100564"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -51,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4594,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4596,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4595,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "stubExits": [
+                        {
+                            "name": "down"
+                        }
+                    ],
+                    "userData": {
+                        "num": "100566"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -52,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4595,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4597,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4596,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100567"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -53,
+                        -19,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4598,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4596,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4597,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100569"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -53,
+                        -18,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4599,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4597,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4598,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100570"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -54,
+                        -18,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4600,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4598,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4599,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100571"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -54,
+                        -17,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4601,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4599,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4600,
+                    "name": "Stinking Tunnel: Daggerford - Haisk",
+                    "userData": {
+                        "num": "100572"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -17,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4602,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4600,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4601,
+                    "name": "Lycan Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "100573"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -16,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4603,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4601,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4602,
+                    "name": "Lycan Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "100574"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -15,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4606,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4605,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4604,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4602,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4603,
+                    "name": "Lycan Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101007"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -15,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4603,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4604,
+                    "name": "Lycan Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101008"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -54,
+                        -15,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4603,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4605,
+                    "name": "Lycan Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101010"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -14,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4607,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4603,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4606,
+                    "name": "Lycan Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101009"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -13,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4608,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4606,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4607,
+                    "name": "Small Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101011"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -13,
+                        -2
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4607,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4609,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4608,
+                    "name": "Small Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101012"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -13,
+                        -1
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4610,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 4608,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4609,
+                    "name": "Small Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101013"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -13,
+                        0
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4611,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4609,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4610,
+                    "name": "Small Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101014"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -12,
+                        0
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4612,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4610,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4611,
+                    "name": "Small Tunnel: Near Daggerford",
+                    "userData": {
+                        "num": "101015"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -55,
+                        -11,
+                        0
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 4613,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4612,
+                    "name": "Sewer Disposal Room",
+                    "stubExits": [
+                        {
+                            "name": "southeast"
+                        }
+                    ],
+                    "userData": {
+                        "num": "11103"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -56,
+                        -11,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4614,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4612,
+                            "name": "pipe"
+                        }
+                    ],
+                    "id": 4613,
+                    "name": "River Bed",
+                    "userData": {
+                        "num": "11104"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -57,
+                        -11,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4613,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4615,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4614,
+                    "name": "River Bed",
+                    "userData": {
+                        "num": "11690"
+                    }
+                },
+                {
+                    "coordinates": [
+                        -58,
+                        -11,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4614,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4615,
+                    "name": "Below Bridge",
+                    "userData": {
+                        "num": "11689"
+                    }
                 }
             ]
         },
@@ -92606,11 +97671,13 @@
                         },
                         {
                             "exitId": 3474,
-                            "name": "east"
+                            "name": "east",
+                            "weight": 5
                         },
                         {
                             "exitId": 3472,
-                            "name": "west"
+                            "name": "west",
+                            "weight": 5
                         }
                     ],
                     "id": 3473,
@@ -92767,7 +97834,8 @@
                     "exits": [
                         {
                             "exitId": 3479,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 5
                         },
                         {
                             "exitId": 3526,
@@ -92779,7 +97847,8 @@
                         },
                         {
                             "exitId": 3482,
-                            "name": "south"
+                            "name": "south",
+                            "weight": 5
                         }
                     ],
                     "id": 3480,
@@ -92863,7 +97932,8 @@
                     "exits": [
                         {
                             "exitId": 3482,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 5
                         },
                         {
                             "exitId": 3485,
@@ -92871,7 +97941,8 @@
                         },
                         {
                             "exitId": 3486,
-                            "name": "south"
+                            "name": "south",
+                            "weight": 5
                         }
                     ],
                     "id": 3484,
@@ -92955,11 +98026,13 @@
                     "exits": [
                         {
                             "exitId": 3487,
-                            "name": "east"
+                            "name": "east",
+                            "weight": 5
                         },
                         {
                             "exitId": 3490,
-                            "name": "west"
+                            "name": "west",
+                            "weight": 5
                         },
                         {
                             "exitId": 3489,
@@ -93001,11 +98074,13 @@
                     "exits": [
                         {
                             "exitId": 3488,
-                            "name": "east"
+                            "name": "east",
+                            "weight": 5
                         },
                         {
                             "exitId": 3491,
-                            "name": "west"
+                            "name": "west",
+                            "weight": 5
                         },
                         {
                             "exitId": 3525,
@@ -93074,15 +98149,18 @@
                     "exits": [
                         {
                             "exitId": 3495,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 6
                         },
                         {
                             "exitId": 3492,
-                            "name": "east"
+                            "name": "east",
+                            "weight": 5
                         },
                         {
                             "exitId": 3520,
-                            "name": "west"
+                            "name": "west",
+                            "weight": 4
                         },
                         {
                             "exitId": 3494,
@@ -93216,7 +98294,8 @@
                     "exits": [
                         {
                             "exitId": 3501,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 5
                         },
                         {
                             "exitId": 3519,
@@ -93228,7 +98307,8 @@
                         },
                         {
                             "exitId": 3498,
-                            "name": "south"
+                            "name": "south",
+                            "weight": 5
                         }
                     ],
                     "id": 3499,
@@ -93266,7 +98346,8 @@
                     "exits": [
                         {
                             "exitId": 3502,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 5
                         },
                         {
                             "exitId": 3518,
@@ -93274,7 +98355,8 @@
                         },
                         {
                             "exitId": 3499,
-                            "name": "south"
+                            "name": "south",
+                            "weight": 5
                         }
                     ],
                     "id": 3501,
@@ -93293,7 +98375,8 @@
                     "exits": [
                         {
                             "exitId": 3503,
-                            "name": "north"
+                            "name": "north",
+                            "weight": 5
                         },
                         {
                             "exitId": 3517,
@@ -93301,7 +98384,8 @@
                         },
                         {
                             "exitId": 3501,
-                            "name": "south"
+                            "name": "south",
+                            "weight": 5
                         }
                     ],
                     "id": 3502,
@@ -93726,7 +98810,8 @@
                         },
                         {
                             "exitId": 3520,
-                            "name": "east"
+                            "name": "east",
+                            "weight": 5
                         },
                         {
                             "exitId": 3522,
@@ -102263,7 +107348,7 @@
     ],
     "defaultAreaName": "Default Area",
     "formatVersion": 1,
-    "labelCount": 23,
+    "labelCount": 25,
     "mapSymbolFontDetails": "Bitstream Vera Sans Mono,12,-1,5,50,0,0,0,0,0",
     "mapSymbolFontFudgeFactor": 1,
     "onlyMapSymbolFontToBeUsed": false,
@@ -102292,11 +107377,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 3461,
+        "Final Realms Alena": 370,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4409
+    "roomCount": 4615
 }
