@@ -3940,10 +3940,203 @@
                         0.6426172256469727
                     ],
                     "text": "dig down with shovel"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                255,
+                                255,
+                                255
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                50,
+                                50,
+                                150
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        0.7786837220191956,
+                        14.636309623718262,
+                        0
+                    ],
+                    "id": 23,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAAHwAAAAbCAIAAAAxjXwLAAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAACAklEQVRo3u2ZMWvbQBTH/yn9AnI+wFH5Bs254FEQhDZPHrpoMV6C",
+                        "hwxetQgvWj0EIrwUL4LSQZOXIIxA0CWg/Qb5wn0AW1+hg2xVGkpDGmyavP/0+N/p",
+                        "Pfjp7t0hXVxdPYB0Wn0iBASdoJMIOkEnEXSCTiLoBL2RNUiSgfXvc14+jaD/p7ze",
+                        "RJ/PXF8+jUYfrr2cGDpfFK4NAMgfisNKD+H7CENDw7QZ8uCHmnwdM+RBNCsBGLfJ",
+                        "1GYAqpX3/V52d0ksWB3rouuoQDyu6+SjJ2kNktj4Jh7XuLxLrp/9ahIi02JsA0Ae",
+                        "RLP1u20vl3eJiyASIhIimv3sDjJD+ZEIlD13UQeTgdX4IvJWGIftRsQXsdB1Nq/Q",
+                        "XcdbGfMFh9xrZnDAck2dwxkCMExUJQAmzE0kRKvQ+4Ru9W9QLP+0prRKJVBWugna",
+                        "PiBTVRM8Zusx3c3WcmSqtN0fotzkxhcL3Kw2y4o5HFaP6b0E0DzbFKIr41upVDA5",
+                        "d1hVym3G+kNu6E35kW4vcptB3A5fu09ck+Xb3ytb7jUzXes4dHAO+ZvJMlWYXLNs",
+                        "K7FLMzgO1PmZn/Qg3d37RRJPi3nrIP2rmIgLUR+V3qgNrJwF/SKejgGdK107Xu+Y",
+                        "XwWirN8NmJmlOwDyGfZNtZTAua+oF/TniD4DEHQSQSfoJIJO0EkEnaCTgF8FTuWj",
+                        "1/jWiQAAAABJRU5ErkJggg=="
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        2.4656991362571716,
+                        0.5368862152099609
+                    ],
+                    "text": "climb down"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                255,
+                                255,
+                                255
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                0,
+                                0,
+                                127
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        56.088565826416016,
+                        103.70853424072266,
+                        -3
+                    ],
+                    "id": 24,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAAGUAAAAdCAIAAAA8bzU0AAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAABt0lEQVRo3u2ZMWuDQBiGvyvZOof+AaVEkj9wgoNbQocuIWM2pZAh",
+                        "HbIVekO3DC6BErdCl9ClQzFbBkG3TglmuPsDxTnzddAYjKGkQwy234uDIPd69/h+",
+                        "36ESgEdAHa0LRIC8kBfyQl7IC4W8kBfyQl7Hipqcm/Sf8qIml0ymx8ChFcZUVr6E",
+                        "rxNGCCN6dBP0LKzHYxXGPAuTM8iH7sp5MRTFCCTjd5cA0PXSVHpWIafcpEUHanJu",
+                        "Oh6T8uSPpCxeltYW8SpBdz8hSejsePjQAvi67/tC+Dph6vMGFOP6Pbm6bo9MCi0v",
+                        "MLidhNQXhx1gO2rmnngdtdPaK0YgjbQw1UWYdavAUNKCjSlAmC/hp2TRq1gAAK2r",
+                        "wu+7hX6Xd9iN+gv9S/eFUm/ulqp96Lm8/KRmXSluDr9yqF49hgvVhmnWXET0FgIA",
+                        "0K62Y5EB3ZMbzRWtu7d3HnQoRbWS7uPO9MYgkIOGPhlzlhSpmK/FFuh4zqaSjV4/",
+                        "ATb5kcuOrcmADbeBhXBxwKEskSp9j7Z68jYineUZp1CrACWPTdvJ6domy/NOhuD/",
+                        "DnzfRl7IC3khLxTyQl6l6huujdYlExNrAAAAAABJRU5ErkJggg=="
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        3.252819061279297,
+                        0.9339752197265625
+                    ],
+                    "text": "Rathgar"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                255,
+                                255,
+                                0
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        64.8486328125,
+                        100.32044982910156,
+                        -1
+                    ],
+                    "id": 25,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAAH4AAAAcCAIAAAAofZyOAAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAABI0lEQVRo3u2ZPU7EMBSEv4e4B03SIE7glFQhzd6AbvcS3IAGSrbj",
+                        "BjSQijI5ARV2w0lM4f3Rhl3EEkTCMiMrxVPGij4/T6zEYkQaREdCIPRCLwm90EtC",
+                        "L/SS0Au9dMjoA0VBSFehH+8K/Z3nPT4c9BlNo67fs1VnBWaYMas3m/eTRt5l/FhP",
+                        "N9uichvU9Su1nHpiBjV2wcT3NnbqkYecq0iZ1uCSqiETegBHlUiUTOH1rbexU3/m",
+                        "Bea29nlGgf5/HC4dPhKXo1TWd1Uzd1Qn0JLCIzzS7mXcWj/nrOW61glnW2TnyzR4",
+                        "imRwf7OouCnu68awc8I7T5Fjqx0wjqxfb8NhhsdtpkFf47cn/PWhDwmDyfRbXK9Z",
+                        "oZeEXugloRd66af0Ds7IWFMhtG+9AAAAAElFTkSuQmCC"
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        4.0579681396484375,
+                        0.9017715454101562
+                    ],
+                    "text": "pull pipe"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                255,
+                                255,
+                                255
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                50,
+                                50,
+                                150
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        63.855072021484375,
+                        104.537841796875,
+                        -2
+                    ],
+                    "id": 26,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAARUAAAAVCAIAAADn++0BAAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAAFH0lEQVR42u1bv2/iSBT+9rT/gJM/YBTjYuodRIkUWYjiXKVYreQG",
+                        "0UQUFBTX0CA3lEeBtIgrEI2laAsqNxxCSJauiTL9FMbRNLmK+A/Y5gp+GWy8bATZ",
+                        "ze18FcRvvvf8zXtvfkS8+/DhMxQUFF6E35QECgqqfhQUVP0oKKj6UVBQ9aOgoPCr",
+                        "1Q8tjEYFehquy/qoxv8qn47wLStjlTmvcV7rWGeL7VRzZ5U5/1Snqn5+aCbReqki",
+                        "J+zP6EeX8c8Ao+NoQ7vHWK/h/bT9bg1vzFpRpf0a+v+S9SPub27uxbcy5raCYT84",
+                        "p4s31HEuCKJH8aPm4gUl9DAEu7XOLsz787b5tiahFwkA+K1vta6kfVAYtTGTrFIM",
+                        "W+zhavRRHyxJjA7Ph/ZdV8TGuowsP0sOGh84Duqf3IoGAIiG9l0XhVEbzSbaK5u0",
+                        "8KxcUYZ9AVAAKHVqbsyMJgldbcDG3rJV89zUjqqHXOyGaseyZ59W7K4AvFQEAPif",
+                        "Ofl9+3belnD9tY3mzb2gm6gu66P8YzMCtNtRrUi2/DRNmS3zxrXLCODwmvP079PX",
+                        "p7+zXK9m0G99CasfK2RXWHpQqN2VP6FDUrTtX1IjX0xmUfvqEli85fWHaGGzx1iP",
+                        "tcKiU7ZeYE+YPu0xNvaw6A7Commsktt/iKWX0XGZbPUY6zGbyxXVZiBE946xJW1U",
+                        "uTVi7pY2PdYKi9Wd5Z5eaXI2FwfM9gnF/cDXTWtdeP7cO+giLdRNLz4UJy7roxKW",
+                        "o1iv8U/87baE9lBzOgbEsySaAdCSLn2YFgBNRxTE5LWHWG5vUjzGdFsjaNhcSm6z",
+                        "Hvvj6WuG642LVlh0SmgmhM0QKkuHpGhGx9UGSxs7vF5u1XYjF48R0bW3vP4AkOFk",
+                        "mYPe3HfyVxQQ+z1GDr/cdBfp9iSC5P2Nxt7cd3IWApi6Px3v7C4kb+5NRXzgTveK",
+                        "aNImiGTWWyTMEoTeNHRMA15gmdqwHwCF9LGpoeJgnCu1aO4au6M2tDFCMQmlm7Mw",
+                        "nvr5Kwro0bQfVW8NBBdEPgtcbOQVk1BWNAMQSWXiumWrkXTdj9YuIimj1Ye9jdUh",
+                        "oTJ0oNgXjV4Q6A6vOavvoYFoP/IgktWLWMa9xfrJ2Pd271j3ewcFU79kWgaK4bTx",
+                        "PdtIV5/ZvdU2oH2KfWmS0HsYVvMWYJLtri/tVKURROeOMwhhGoZOor6Yz0jeMiCn",
+                        "9ymZenJljjyZZAuVjCpVtN2tL2ihmpRazs99BH2t+wMrV9ysLcfbJxYFr8+JUyLD",
+                        "h50WKZ4l0UsUAGhJJ4eXwfSnqeX9GJHrHP3WuhojXExmmtnJkVnmnHlzfx0qjo9T",
+                        "zGeHTsPiWZLVI1rSiT/3ADEJUc2T2VxgMZnBNBHu3oNsLF+gTLbrI3CEUHtRJUWL",
+                        "uT7Y5a40GUbnzuszrz+EuZxhdb484pplz54mWqaYz6SOyd6hMGi0ctytVQDphzJx",
+                        "wzOQtSVtytOMRHfyJZoW8wFCMQmJqw0a2QfWbairq46j4lx0m3zk1rizuj/YIbQv",
+                        "1o/CFguW6QWizyYLAOIRxeto1ek38kpu3wQAXqJMhmtaOKrusoVK0SEpWtw1ILnd",
+                        "3GO5LF1rcrA4d/28O+PvFzYXQSe0t8q8GtmvcjVM659c/YE1gnM5sMrcnJ+R/3+J",
+                        "I0V7rTx5/8bUM3V/0Hud/6uI7mQ4+sg7OG2KW52aU8R6jVXFcwbRrDJ3tKE9foU8",
+                        "ead+P6eg8NPfHygoqPpRUFBQ9aOgcBr8B8zg1+DQ5yOwAAAAAElFTkSuQmCC"
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        8.921096801757812,
+                        0.67633056640625
+                    ],
+                    "text": "p - pry drain (having a crowbar from villager)"
                 }
             ],
             "name": "Main",
-            "roomCount": 3602,
+            "roomCount": 3665,
             "rooms": [
                 {
                     "coordinates": [
@@ -8870,6 +9063,10 @@
                         {
                             "exitId": 271,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 272,
+                            "name": "up"
                         }
                     ],
                     "id": 272,
@@ -8896,7 +9093,10 @@
                         }
                     ],
                     "id": 273,
-                    "name": "Sandy Trail Near Delta [w,e]"
+                    "name": "Sandy Trail Near Delta [w,e]",
+                    "userData": {
+                        "num": "10045"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10973,6 +11173,10 @@
                     "environment": 16776960,
                     "exits": [
                         {
+                            "exitId": 4616,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 370,
                             "name": "west"
                         },
@@ -10988,11 +11192,6 @@
                     ],
                     "id": 371,
                     "name": "Outside of Daggerford:  West Gate [n,s,w,in]",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        }
-                    ],
                     "userData": {
                         "num": "10007"
                     }
@@ -19316,7 +19515,10 @@
                         }
                     ],
                     "id": 754,
-                    "name": "The Cathedral of Neutral Evil [n]"
+                    "name": "The Cathedral of Neutral Evil [n]",
+                    "userData": {
+                        "num": "1510"
+                    }
                 },
                 {
                     "coordinates": [
@@ -19602,7 +19804,10 @@
                         }
                     ],
                     "id": 766,
-                    "name": "Road : Between Shadowfall and Oceania [nw,e]"
+                    "name": "Road : Between Shadowfall and Oceania [nw,e]",
+                    "userData": {
+                        "num": "40027"
+                    }
                 },
                 {
                     "coordinates": [
@@ -19622,7 +19827,10 @@
                         }
                     ],
                     "id": 767,
-                    "name": "Road : Between Shadowfall and Oceania [w,se]"
+                    "name": "Road : Between Shadowfall and Oceania [w,se]",
+                    "userData": {
+                        "num": "40031"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25795,7 +26003,7 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1035,
@@ -25819,7 +26027,10 @@
                         }
                     ],
                     "id": 1034,
-                    "name": "Facedeux : Sewer System, Entrance Level. [n,e,s,w,u]"
+                    "name": "Facedeux : Sewer System, Entrance Level. [n,e,s,w,u]",
+                    "userData": {
+                        "num": "70640"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25827,7 +26038,7 @@
                         100,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1039,
@@ -25839,7 +26050,10 @@
                         }
                     ],
                     "id": 1035,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]"
+                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]",
+                    "userData": {
+                        "num": "70662"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25847,20 +26061,22 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1034,
                             "name": "east"
+                        },
+                        {
+                            "exitId": 1047,
+                            "name": "west"
                         }
                     ],
                     "id": 1036,
                     "name": "Facedeux : Sewer System, Drainage Pipes. [w,e]",
-                    "stubExits": [
-                        {
-                            "name": "west"
-                        }
-                    ]
+                    "userData": {
+                        "num": "70665"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25868,7 +26084,7 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1061,
@@ -25880,7 +26096,10 @@
                         }
                     ],
                     "id": 1037,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [w,e]"
+                    "name": "Facedeux : Sewer System, Drainage Pipes. [w,e]",
+                    "userData": {
+                        "num": "70663"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25888,7 +26107,7 @@
                         98,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1034,
@@ -25900,7 +26119,10 @@
                         }
                     ],
                     "id": 1038,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]"
+                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]",
+                    "userData": {
+                        "num": "70664"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25908,7 +26130,7 @@
                         101,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1040,
@@ -25920,7 +26142,10 @@
                         }
                     ],
                     "id": 1039,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]"
+                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]",
+                    "userData": {
+                        "num": "70666"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25928,7 +26153,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1062,
@@ -25944,7 +26169,10 @@
                         }
                     ],
                     "id": 1040,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e,s]",
+                    "userData": {
+                        "num": "70667"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25952,7 +26180,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1040,
@@ -25964,7 +26192,10 @@
                         }
                     ],
                     "id": 1041,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70668"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25972,7 +26203,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1041,
@@ -25984,7 +26215,10 @@
                         }
                     ],
                     "id": 1042,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70670"
+                    }
                 },
                 {
                     "coordinates": [
@@ -25992,7 +26226,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1042,
@@ -26004,7 +26238,10 @@
                         }
                     ],
                     "id": 1043,
-                    "name": "Facedeux : Sewer System, Level 1 [e,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [e,s]",
+                    "userData": {
+                        "num": "70671"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26012,7 +26249,7 @@
                         101,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1043,
@@ -26024,7 +26261,10 @@
                         }
                     ],
                     "id": 1044,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70672"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26032,7 +26272,7 @@
                         100,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1044,
@@ -26044,7 +26284,10 @@
                         }
                     ],
                     "id": 1045,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70673"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26052,7 +26295,7 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1045,
@@ -26068,7 +26311,10 @@
                         }
                     ],
                     "id": 1046,
-                    "name": "Facedeux : Sewer System, Level 1 [n,e,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,e,s]",
+                    "userData": {
+                        "num": "70674"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26076,20 +26322,22 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
+                        {
+                            "exitId": 1036,
+                            "name": "east"
+                        },
                         {
                             "exitId": 1046,
                             "name": "west"
                         }
                     ],
                     "id": 1047,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [w,e]",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        }
-                    ]
+                    "name": "Facedeux : Sewer System, Drainage Pipes.",
+                    "userData": {
+                        "num": "70675"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26097,7 +26345,7 @@
                         98,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1046,
@@ -26109,7 +26357,10 @@
                         }
                     ],
                     "id": 1048,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70676"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26117,7 +26368,7 @@
                         97,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1048,
@@ -26129,7 +26380,10 @@
                         }
                     ],
                     "id": 1049,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70677"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26137,7 +26391,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1049,
@@ -26149,7 +26403,10 @@
                         }
                     ],
                     "id": 1050,
-                    "name": "Facedeux : Sewer System, Level 1 [n,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,e]",
+                    "userData": {
+                        "num": "70678"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26157,7 +26414,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1052,
@@ -26169,7 +26426,10 @@
                         }
                     ],
                     "id": 1051,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70679"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26177,7 +26437,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1053,
@@ -26189,7 +26449,10 @@
                         }
                     ],
                     "id": 1052,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70680"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26197,7 +26460,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1054,
@@ -26213,7 +26476,10 @@
                         }
                     ],
                     "id": 1053,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e,n]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e,n]",
+                    "userData": {
+                        "num": "70681"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26221,7 +26487,7 @@
                         97,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1038,
@@ -26233,7 +26499,10 @@
                         }
                     ],
                     "id": 1054,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]"
+                    "name": "Facedeux : Sewer System, Drainage Pipes. [n,s]",
+                    "userData": {
+                        "num": "70683"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26241,7 +26510,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1056,
@@ -26253,7 +26522,10 @@
                         }
                     ],
                     "id": 1055,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70682"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26261,7 +26533,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1057,
@@ -26273,7 +26545,10 @@
                         }
                     ],
                     "id": 1056,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70684"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26281,7 +26556,7 @@
                         96,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1058,
@@ -26293,7 +26568,10 @@
                         }
                     ],
                     "id": 1057,
-                    "name": "Facedeux : Sewer System, Level 1 [n,w]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,w]",
+                    "userData": {
+                        "num": "70685"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26301,7 +26579,7 @@
                         97,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1059,
@@ -26313,7 +26591,10 @@
                         }
                     ],
                     "id": 1058,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70686"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26321,7 +26602,7 @@
                         98,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1060,
@@ -26333,7 +26614,10 @@
                         }
                     ],
                     "id": 1059,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70687"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26341,7 +26625,7 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1066,
@@ -26357,7 +26641,10 @@
                         }
                     ],
                     "id": 1060,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s,w]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s,w]",
+                    "userData": {
+                        "num": "70688"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26365,7 +26652,7 @@
                         99,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1060,
@@ -26377,7 +26664,10 @@
                         }
                     ],
                     "id": 1061,
-                    "name": "Facedeux : Sewer System, Drainage Pipes. [w,e]"
+                    "name": "Facedeux : Sewer System, Drainage Pipes. [w,e]",
+                    "userData": {
+                        "num": "70690"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26385,7 +26675,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1063,
@@ -26397,7 +26687,10 @@
                         }
                     ],
                     "id": 1062,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70669"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26405,7 +26698,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1064,
@@ -26417,7 +26710,10 @@
                         }
                     ],
                     "id": 1063,
-                    "name": "Facedeux : Sewer System, Level 1 [w,e]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,e]",
+                    "userData": {
+                        "num": "70693"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26425,7 +26721,7 @@
                         102,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1063,
@@ -26437,7 +26733,10 @@
                         }
                     ],
                     "id": 1064,
-                    "name": "Facedeux : Sewer System, Level 1 [w,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [w,s]",
+                    "userData": {
+                        "num": "70692"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26445,7 +26744,7 @@
                         101,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1064,
@@ -26457,7 +26756,10 @@
                         }
                     ],
                     "id": 1065,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70691"
+                    }
                 },
                 {
                     "coordinates": [
@@ -26465,7 +26767,7 @@
                         100,
                         -1
                     ],
-                    "environment": 12632256,
+                    "environment": 16776960,
                     "exits": [
                         {
                             "exitId": 1065,
@@ -26474,10 +26776,17 @@
                         {
                             "exitId": 1060,
                             "name": "south"
+                        },
+                        {
+                            "exitId": 4622,
+                            "name": "tunnel"
                         }
                     ],
                     "id": 1066,
-                    "name": "Facedeux : Sewer System, Level 1 [n,s]"
+                    "name": "Facedeux : Sewer System, Level 1 [n,s]",
+                    "userData": {
+                        "num": "70689"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45309,6 +45618,10 @@
                     "environment": 8421376,
                     "exits": [
                         {
+                            "exitId": 4619,
+                            "name": "north"
+                        },
+                        {
                             "exitId": 767,
                             "name": "northwest"
                         },
@@ -45319,11 +45632,9 @@
                     ],
                     "id": 1944,
                     "name": "Road : Between Shadowfall and Oceania [nw,n,e]",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        }
-                    ]
+                    "userData": {
+                        "num": "40032"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45343,7 +45654,10 @@
                         }
                     ],
                     "id": 1945,
-                    "name": "Road : Between Shadowfall and Oceania [w,se]"
+                    "name": "Road : Between Shadowfall and Oceania [w,se]",
+                    "userData": {
+                        "num": "40033"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45363,7 +45677,10 @@
                         }
                     ],
                     "id": 1946,
-                    "name": "Road : Between Shadowfall and Oceania [nw,e,home]"
+                    "name": "Road : Between Shadowfall and Oceania [nw,e,home]",
+                    "userData": {
+                        "num": "40034"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45373,6 +45690,10 @@
                     ],
                     "environment": 8421376,
                     "exits": [
+                        {
+                            "exitId": 4620,
+                            "name": "north"
+                        },
                         {
                             "exitId": 1946,
                             "name": "west"
@@ -45384,11 +45705,9 @@
                     ],
                     "id": 1947,
                     "name": "Road : Between Shadowfall and Oceania [n,w,se]",
-                    "stubExits": [
-                        {
-                            "name": "north"
-                        }
-                    ]
+                    "userData": {
+                        "num": "40035"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45408,7 +45727,10 @@
                         }
                     ],
                     "id": 1948,
-                    "name": "Road : Between Shadowfall and Oceania [nw,e]"
+                    "name": "Road : Between Shadowfall and Oceania [nw,e]",
+                    "userData": {
+                        "num": "40037"
+                    }
                 },
                 {
                     "coordinates": [
@@ -85932,6 +86254,1513 @@
                     "userData": {
                         "num": "70141"
                     }
+                },
+                {
+                    "coordinates": [
+                        32,
+                        17,
+                        0
+                    ],
+                    "environment": 8421376,
+                    "exits": [
+                        {
+                            "exitId": 1944,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4619,
+                    "name": "In Front of an Abandoned Shack",
+                    "userData": {
+                        "num": "1515"
+                    }
+                },
+                {
+                    "coordinates": [
+                        35,
+                        16,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4621,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 1947,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4620,
+                    "name": "Road",
+                    "userData": {
+                        "num": "40036"
+                    }
+                },
+                {
+                    "coordinates": [
+                        35,
+                        17,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4620,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4621,
+                    "name": "Mine Entrance",
+                    "userData": {
+                        "num": "40379"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        100,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4623,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4624,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 1066,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4622,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70800"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4656,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4655,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4622,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4623,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70801"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        99,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4622,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4625,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4624,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70802"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4624,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4678,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4680,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4676,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4626,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4674,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4627,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4673,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 4631,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4625,
+                    "name": "Drain Pipe",
+                    "symbol": {
+                        "text": "p"
+                    },
+                    "userData": {
+                        "num": "70834"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4625,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4649,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4626,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70837"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        97,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4625,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4628,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4627,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70839"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        96,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4627,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4629,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4628,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70824"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4663,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4628,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4664,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4630,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4629,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70822"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        95,
+                        -1
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4629,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 4630,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70892"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        98,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4632,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4625,
+                            "name": "up"
+                        }
+                    ],
+                    "id": 4631,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70841"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        99,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4642,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4633,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4631,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4632,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70842"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        100,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4634,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4632,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4633,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70844"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        100,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4635,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4633,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4634,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70849"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        101,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4636,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4634,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4635,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70850"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        102,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4637,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4635,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4636,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70851"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        103,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4638,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4636,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4647,
+                            "name": "crack"
+                        }
+                    ],
+                    "id": 4637,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70852"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        103,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4639,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4637,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4638,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70853"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        104,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4640,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4638,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4639,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70854"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        105,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4641,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4639,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4640,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70855"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        105,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4640,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4641,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70856"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        100,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4643,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4645,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4632,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4642,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70843"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        100,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4644,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4642,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4643,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70846"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        100,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4643,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4644,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70848"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        99,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4642,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4646,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4645,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70845"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        98,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4645,
+                            "name": "northwest"
+                        }
+                    ],
+                    "id": 4646,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70847"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        103,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4637,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4648,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4647,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70857"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        103,
+                        -3
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4647,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4648,
+                    "name": "Drain Pipe",
+                    "symbol": {
+                        "text": "R"
+                    },
+                    "userData": {
+                        "num": "70858"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4626,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4650,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4649,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70812"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4651,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4649,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4671,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4650,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70810"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        99,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4652,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4650,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4651,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70809"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        100,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4653,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4651,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4652,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70807"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4654,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4652,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4681,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4653,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70806"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4655,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4653,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4654,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70805"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4623,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4654,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4655,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70803"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4657,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4623,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4656,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70804"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4658,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4656,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4657,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70831"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        101,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4657,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4659,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4679,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4658,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70830"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        100,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4658,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4660,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4659,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70829"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        99,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4659,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4661,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4660,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70827"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4660,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4677,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4662,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4661,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70826"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        97,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4661,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4663,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4662,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70825"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        96,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4662,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4629,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4663,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70823"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4629,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4665,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4664,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70821"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4664,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4666,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4665,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70819"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4675,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4665,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4667,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4666,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70818"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4666,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4668,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4667,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70817"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4667,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4669,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4668,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70815"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        95,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4670,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4672,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4668,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4669,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70814"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        96,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4671,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4669,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4670,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70813"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        97,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4650,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4670,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4671,
+                    "name": "Sewers of Facedeux: Level 2",
+                    "userData": {
+                        "num": "70811"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        96,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4673,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4669,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4672,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70816"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        97,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4625,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4672,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4673,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70840"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        97,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4625,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4675,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4674,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70835"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        96,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4674,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4666,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4675,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70820"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4677,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4625,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4676,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70836"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        98,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4661,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4676,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4677,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70828"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        99,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4679,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4625,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4678,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70838"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        100,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4658,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4678,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4679,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70832"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        99,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4681,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4625,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4680,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70833"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        100,
+                        -2
+                    ],
+                    "environment": 32896,
+                    "exits": [
+                        {
+                            "exitId": 4653,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4680,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4681,
+                    "name": "Drain Pipe",
+                    "userData": {
+                        "num": "70808"
+                    }
                 }
             ]
         },
@@ -97272,6 +99101,7 @@
                     "exits": [
                         {
                             "exitId": 4612,
+                            "locked": true,
                             "name": "north"
                         },
                         {
@@ -97323,6 +99153,7 @@
                         },
                         {
                             "exitId": 4612,
+                            "locked": true,
                             "name": "pipe"
                         }
                     ],
@@ -97366,6 +99197,10 @@
                         {
                             "exitId": 4614,
                             "name": "east"
+                        },
+                        {
+                            "exitId": 272,
+                            "name": "up"
                         }
                     ],
                     "id": 4615,
@@ -104062,7 +105897,7 @@
         {
             "id": 19,
             "name": "Daggerford",
-            "roomCount": 120,
+            "roomCount": 123,
             "rooms": [
                 {
                     "coordinates": [
@@ -107084,6 +108919,71 @@
                     "userData": {
                         "num": "11546"
                     }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        11,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4617,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 371,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4616,
+                    "name": "Outside Daggerford",
+                    "userData": {
+                        "num": "10026"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        12,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4618,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4616,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4617,
+                    "name": "Outside Daggerford",
+                    "userData": {
+                        "num": "10062"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        13,
+                        0
+                    ],
+                    "environment": 16776960,
+                    "exits": [
+                        {
+                            "exitId": 4617,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4618,
+                    "name": "City of Daggerford:  Court Office",
+                    "userData": {
+                        "num": "10063"
+                    }
                 }
             ]
         }
@@ -107348,7 +109248,7 @@
     ],
     "defaultAreaName": "Default Area",
     "formatVersion": 1,
-    "labelCount": 25,
+    "labelCount": 29,
     "mapSymbolFontDetails": "Bitstream Vera Sans Mono,12,-1,5,50,0,0,0,0,0",
     "mapSymbolFontFudgeFactor": 1,
     "onlyMapSymbolFontToBeUsed": false,
@@ -107377,11 +109277,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 370,
+        "Final Realms Alena": 1034,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4615
+    "roomCount": 4681
 }
