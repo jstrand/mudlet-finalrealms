@@ -941,14 +941,6 @@ end
 			<time>00:01:00.000</time>
 		</Timer>
 		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
-			<name>Auto buff</name>
-			<script>refreshBuffs()
-</script>
-			<command></command>
-			<packageName></packageName>
-			<time>00:00:10.000</time>
-		</Timer>
-		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
 			<name>Autocasting</name>
 			<script>doCasts()
 </script>
@@ -1196,7 +1188,7 @@ send(movement)</script>
 			</Alias>
 			<Alias isActive="yes" isFolder="no">
 				<name>map mark</name>
-				<script>setRoomChar(current_room, 'B')
+				<script>setRoomChar(current_room, matches[2])
 </script>
 				<command></command>
 				<packageName></packageName>
@@ -2306,98 +2298,6 @@ end
 				<eventHandlerList />
 			</Script>
 		</ScriptGroup>
-		<Script isActive="yes" isFolder="no">
-			<name>AutoCasting</name>
-			<packageName></packageName>
-			<script>-- Set in guild-specific to adjust
-gp_needed = 0.2
-multi_limit = 3
-lockout = lockout or 0
-max_lockout = max_lockout or 0
-
-function castOnSingle()
-  send("xp1")
-end
-
-function castOnMultiple()
-  send("xp2")
-end
-
-function refreshLockoutGauge()
-  if lockout &lt;= 0 then
-    lockoutGauge:hide()
-  else
-    lockoutGauge:show()
-    lockoutGauge:setValue(lockout, max_lockout, "")
-  end
-end
-
-function doCasts()
-  if lockout &gt; max_lockout then
-    max_lockout = lockout
-    refreshLockoutGauge()
-  end
-
-  if lockout &gt; 0 then
-    lockout = lockout - 0.1
-    refreshLockoutGauge()
-    return
-  else
-    lockout = 0
-    max_lockout = 0
-    refreshLockoutGauge()
-  end
-  
-	gp = gp or 0
-  
-  if gp &lt; max_gp*gp_needed then
-    return
-  end
-  
-  --local buffLockout = refreshBuffs()
-  --if buffLockout &gt; 0 then
-    --lockout = buffLockout
-    --max_lockout = lockout
-    --refreshLockoutGauge()
-    --return
-  --end
-  
-  if not auto_cast then
-    lockout = 0
-    max_lockout = 0
-    refreshLockoutGauge()
-		return
-	end
-     
-  local fighting = #gmcp.Action.Round.Fighting
-
-	if fighting == 0 then -- not fighting anyone
-		--echo("Not fighting")
-	elseif fighting &gt;= multi_limit then
-		castOnMultiple()
-    lockout = 7
-	else
-    castOnSingle()
-    lockout = 4
-	end
-  
-  max_lockout = lockout
-  refreshLockoutGauge()
-end
-</script>
-			<eventHandlerList />
-		</Script>
-		<Script isActive="yes" isFolder="no">
-			<name>globalEventTest</name>
-			<packageName></packageName>
-			<script>function testevent()
-  echo "Test event"
-end
-</script>
-			<eventHandlerList>
-				<string>testevent</string>
-			</eventHandlerList>
-		</Script>
 		<ScriptGroup isActive="yes" isFolder="yes">
 			<name>Gmcp</name>
 			<packageName></packageName>

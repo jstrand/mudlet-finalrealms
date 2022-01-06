@@ -85,7 +85,7 @@ function showDuration(seconds)
 end
 
 function hasEffect(name)
-    if name == "Singing" then return singing end
+    if name == "Playing" then return singing end
     if name == "Rainbow" then return rainbow end
 
     if not effects then return false end

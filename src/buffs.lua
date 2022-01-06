@@ -1,22 +1,34 @@
 buff_gp_limit = buff_gp_limit or 0.2
+default_buff_lockout = 5
 
-function createBuff(name, command)
-    return {name = name, command = command, auto = false}
+function createBuff(name, command, buffLockout)
+    return {name = name, command = command, auto = false, lockout = buffLockout}
 end
 
-function createBuffF(name, commandF)
-    local buff = createBuff(name, nil)
+function createBuffF(name, commandF, buffLockout)
+    local buff = createBuff(name, nil, buffLockout)
     buff.commandF = commandF
 
     return buff
 end
 
+function createConditionalBuff(name, command, conditionF, buffLockout)
+    local buff = createBuff(name, command, buffLockout)
+    buff.conditionF = conditionF
+
+    return buff
+
+end
+
 function activateBuff(buff)
+    if buff.conditionF and not buff.conditionF() then return 0 end
+
     if buff.commandF then
         buff.commandF()
     else
         send(buff.command)
     end
+    return buff.lockout or default_buff_lockout
 end
 
 function refreshBuffs()
@@ -25,11 +37,11 @@ function refreshBuffs()
 
         for i, buff in ipairs(guild.buffs) do
             if not hasEffect(buff.name) and buff.auto then
-                activateBuff(buff)
+                return activateBuff(buff)
             end
         end
-
     end
+    return 0
 end
 
 function buffByName(name)
@@ -39,7 +51,6 @@ end
 function clickBuff(name)
     local buff = buffByName(name)
     buff.auto = not buff.auto
-    if not hasEffect(name) then activateBuff(buff) end
     refreshBuffButtons()
 end
 

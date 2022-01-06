@@ -4,8 +4,8 @@ FR = FR or {}
 
 local files = {
     "containers.lua", "buttons.lua", "gauges.lua", "map.lua", "multis.lua",
-    "effects.lua", "buffs.lua", "abilities.lua", "guilds.lua", "dps.lua",
-    "taniwha.lua", "hokemj.lua", "vanguard.lua", "bard.lua"
+    "effects.lua", "casting.lua", "buffs.lua", "abilities.lua", "guilds.lua",
+    "dps.lua", "taniwha.lua", "hokemj.lua", "vanguard.lua", "bard.lua"
 }
 
 for i, file in ipairs(files) do dofile(frModulePath() .. "/src/" .. file) end

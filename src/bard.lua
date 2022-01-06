@@ -3,7 +3,7 @@ function setupBard()
         name = "Bard",
         buffs = {
             createBuff("Protection", "cast protection at me"),
-            createBuff("Singing", "play")
+            createConditionalBuff("Playing", "play", partyNeedInspiration)
         },
         abilities = {
             createAbility("F1", "Shocking grasp",
@@ -13,4 +13,12 @@ function setupBard()
     })
 end
 
-function partyNeedInspiration() return true end
+function partyNeedInspiration()
+    for i, v in pairs(FR.multis.vitals) do
+        if v then
+            local gp_fraction = v.gp / v.maxGp
+            if v.hp > 0 and gp_fraction < 0.4 then return true end
+        end
+    end
+    return false
+end
