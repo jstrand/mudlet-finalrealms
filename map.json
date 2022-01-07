@@ -2351,7 +2351,10 @@
                         }
                     ],
                     "id": 214,
-                    "name": "Tower Entrance [u,n,e,opening,nw,out]"
+                    "name": "Tower Entrance [u,n,e,opening,nw,out]",
+                    "userData": {
+                        "num": "1676"
+                    }
                 },
                 {
                     "coordinates": [
@@ -2422,7 +2425,10 @@
                         }
                     ],
                     "id": 218,
-                    "name": "Ruined Tower Raiseroom [d,u]"
+                    "name": "Ruined Tower Raiseroom [d,u]",
+                    "userData": {
+                        "num": "1677"
+                    }
                 },
                 {
                     "coordinates": [
@@ -3525,8 +3531,8 @@
                         }
                     ],
                     "coordinates": [
-                        54,
-                        9,
+                        48,
+                        17,
                         0
                     ],
                     "id": 15,
@@ -4136,7 +4142,7 @@
                 }
             ],
             "name": "Main",
-            "roomCount": 3667,
+            "roomCount": 3770,
             "rooms": [
                 {
                     "coordinates": [
@@ -10100,7 +10106,10 @@
                         }
                     ],
                     "id": 321,
-                    "name": "Swamp [s,w,e,tower]"
+                    "name": "Swamp [s,w,e,tower]",
+                    "userData": {
+                        "num": "10465"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10184,7 +10193,10 @@
                         }
                     ],
                     "id": 325,
-                    "name": "Swamp [s,w]"
+                    "name": "Swamp [s,w]",
+                    "userData": {
+                        "num": "10462"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10212,7 +10224,10 @@
                         }
                     ],
                     "id": 326,
-                    "name": "Swamp [n,s,e,w]"
+                    "name": "Swamp [n,s,e,w]",
+                    "userData": {
+                        "num": "10461"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10232,7 +10247,10 @@
                         }
                     ],
                     "id": 327,
-                    "name": "Cromm's Hold [e,w]"
+                    "name": "Cromm's Hold [e,w]",
+                    "userData": {
+                        "num": "10463"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10252,7 +10270,10 @@
                         }
                     ],
                     "id": 328,
-                    "name": "Road [n,w]"
+                    "name": "Road [n,w]",
+                    "userData": {
+                        "num": "10169"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10646,7 +10667,10 @@
                         }
                     ],
                     "id": 346,
-                    "name": "North-South Road [n,s,e,w]"
+                    "name": "North-South Road [n,s,e,w]",
+                    "userData": {
+                        "num": "10090"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10678,7 +10702,10 @@
                         }
                     ],
                     "id": 347,
-                    "name": "Liam's Hold [n,se,e,w,s]"
+                    "name": "Liam's Hold [n,se,e,w,s]",
+                    "userData": {
+                        "num": "10171"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10698,7 +10725,10 @@
                         }
                     ],
                     "id": 348,
-                    "name": "Liam Tavern [e,w]"
+                    "name": "Liam Tavern [e,w]",
+                    "userData": {
+                        "num": "10511"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10714,7 +10744,10 @@
                         }
                     ],
                     "id": 349,
-                    "name": "Liam's Tavern:  Quest Board Room [w]"
+                    "name": "Liam's Tavern:  Quest Board Room [w]",
+                    "userData": {
+                        "num": "10512"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10730,7 +10763,10 @@
                         }
                     ],
                     "id": 350,
-                    "name": "Ringmaker's Shop [n]"
+                    "name": "Ringmaker's Shop [n]",
+                    "userData": {
+                        "num": "90034"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10746,7 +10782,10 @@
                         }
                     ],
                     "id": 351,
-                    "name": "Liam Shop: Newly renowned Shop [s]"
+                    "name": "Liam Shop: Newly renowned Shop [s]",
+                    "userData": {
+                        "num": "1673"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10762,7 +10801,10 @@
                         }
                     ],
                     "id": 352,
-                    "name": "Newbie Wanderer's Vault [nw]"
+                    "name": "Newbie Wanderer's Vault [nw]",
+                    "userData": {
+                        "num": "2"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10782,7 +10824,10 @@
                         }
                     ],
                     "id": 353,
-                    "name": "North-South Road [n,s]"
+                    "name": "North-South Road [n,s]",
+                    "userData": {
+                        "num": "10170"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10806,7 +10851,10 @@
                         }
                     ],
                     "id": 354,
-                    "name": "North-South Road [n,s,e]"
+                    "name": "North-South Road [n,s,e]",
+                    "userData": {
+                        "num": "10173"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10830,7 +10878,10 @@
                         }
                     ],
                     "id": 355,
-                    "name": "North-South Road [n,s,w]"
+                    "name": "North-South Road [n,s,w]",
+                    "userData": {
+                        "num": "10174"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10858,7 +10909,10 @@
                         }
                     ],
                     "id": 356,
-                    "name": "North-South Road [n,s,e,w]"
+                    "name": "North-South Road [n,s,e,w]",
+                    "userData": {
+                        "num": "10089"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10878,7 +10932,10 @@
                         }
                     ],
                     "id": 357,
-                    "name": "North-South Road [n,s]"
+                    "name": "North-South Road [n,s]",
+                    "userData": {
+                        "num": "10086"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10902,7 +10959,10 @@
                         }
                     ],
                     "id": 358,
-                    "name": "North-South Road [e,n,s]"
+                    "name": "North-South Road [e,n,s]",
+                    "userData": {
+                        "num": "10084"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10922,7 +10982,10 @@
                         }
                     ],
                     "id": 359,
-                    "name": "Gillian's Hill [w,e]"
+                    "name": "Gillian's Hill [w,e]",
+                    "userData": {
+                        "num": "10085"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10942,7 +11005,10 @@
                         }
                     ],
                     "id": 360,
-                    "name": "Old Road [w,e]"
+                    "name": "Old Road [w,e]",
+                    "userData": {
+                        "num": "10087"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10962,7 +11028,10 @@
                         }
                     ],
                     "id": 361,
-                    "name": "Old Road [w,e]"
+                    "name": "Old Road [w,e]",
+                    "userData": {
+                        "num": "10088"
+                    }
                 },
                 {
                     "coordinates": [
@@ -10986,7 +11055,10 @@
                         }
                     ],
                     "id": 362,
-                    "name": "Old Road [w,e,s]"
+                    "name": "Old Road [w,e,s]",
+                    "userData": {
+                        "num": "10163"
+                    }
                 },
                 {
                     "coordinates": [
@@ -11026,7 +11098,10 @@
                         }
                     ],
                     "id": 364,
-                    "name": "North-South Road [sw,n,s]"
+                    "name": "North-South Road [sw,n,s]",
+                    "userData": {
+                        "num": "10059"
+                    }
                 },
                 {
                     "coordinates": [
@@ -11046,7 +11121,10 @@
                         }
                     ],
                     "id": 365,
-                    "name": "North-South Road [ne,s]"
+                    "name": "North-South Road [ne,s]",
+                    "userData": {
+                        "num": "10083"
+                    }
                 },
                 {
                     "coordinates": [
@@ -11517,7 +11595,10 @@
                         }
                     ],
                     "id": 385,
-                    "name": "Outside of Daggerford:  Large Field [n,e]"
+                    "name": "Outside of Daggerford:  Large Field [n,e]",
+                    "userData": {
+                        "num": "10015"
+                    }
                 },
                 {
                     "coordinates": [
@@ -11537,7 +11618,10 @@
                         }
                     ],
                     "id": 386,
-                    "name": "Outside of Daggerford:  Large Field [n,w,colosseum]"
+                    "name": "Outside of Daggerford:  Large Field [n,w,colosseum]",
+                    "userData": {
+                        "num": "10077"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12735,7 +12819,10 @@
                         }
                     ],
                     "id": 436,
-                    "name": "North-South Road [n,s]"
+                    "name": "North-South Road [n,s]",
+                    "userData": {
+                        "num": "10175"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12755,7 +12842,10 @@
                         }
                     ],
                     "id": 437,
-                    "name": "Swamp Path [n,s]"
+                    "name": "Swamp Path [n,s]",
+                    "userData": {
+                        "num": "10427"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12775,7 +12865,10 @@
                         }
                     ],
                     "id": 438,
-                    "name": "Swamp Path [n,s]"
+                    "name": "Swamp Path [n,s]",
+                    "userData": {
+                        "num": "10428"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12799,7 +12892,10 @@
                         }
                     ],
                     "id": 439,
-                    "name": "Swamp Path [n,se,sw]"
+                    "name": "Swamp Path [n,se,sw]",
+                    "userData": {
+                        "num": "10429"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12835,7 +12931,10 @@
                         }
                     ],
                     "id": 441,
-                    "name": "Swamp Path [nw,s]"
+                    "name": "Swamp Path [nw,s]",
+                    "userData": {
+                        "num": "10430"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12855,7 +12954,10 @@
                         }
                     ],
                     "id": 442,
-                    "name": "Swamp Path [n,s]"
+                    "name": "Swamp Path [n,s]",
+                    "userData": {
+                        "num": "10432"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12875,7 +12977,10 @@
                         }
                     ],
                     "id": 443,
-                    "name": "Swamp Path [n,se]"
+                    "name": "Swamp Path [n,se]",
+                    "userData": {
+                        "num": "10433"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12895,7 +13000,10 @@
                         }
                     ],
                     "id": 444,
-                    "name": "Swamp Path [nw,s]"
+                    "name": "Swamp Path [nw,s]",
+                    "userData": {
+                        "num": "10434"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12915,7 +13023,10 @@
                         }
                     ],
                     "id": 445,
-                    "name": "Swamp Path [n,s]"
+                    "name": "Swamp Path [n,s]",
+                    "userData": {
+                        "num": "10435"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12935,7 +13046,10 @@
                         }
                     ],
                     "id": 446,
-                    "name": "Swamp Path [n,e]"
+                    "name": "Swamp Path [n,e]",
+                    "userData": {
+                        "num": "10436"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12955,7 +13069,10 @@
                         }
                     ],
                     "id": 447,
-                    "name": "Swamp Path [w,e]"
+                    "name": "Swamp Path [w,e]",
+                    "userData": {
+                        "num": "10437"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12975,7 +13092,10 @@
                         }
                     ],
                     "id": 448,
-                    "name": "Swamp Path [w,e]"
+                    "name": "Swamp Path [w,e]",
+                    "userData": {
+                        "num": "10438"
+                    }
                 },
                 {
                     "coordinates": [
@@ -12995,7 +13115,10 @@
                         }
                     ],
                     "id": 449,
-                    "name": "Swamp Path [w,s]"
+                    "name": "Swamp Path [w,s]",
+                    "userData": {
+                        "num": "10439"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13015,7 +13138,10 @@
                         }
                     ],
                     "id": 450,
-                    "name": "Swamp Path [n,s]"
+                    "name": "Swamp Path [n,s]",
+                    "userData": {
+                        "num": "10440"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13035,7 +13161,10 @@
                         }
                     ],
                     "id": 451,
-                    "name": "Swamp Path [n,sw]"
+                    "name": "Swamp Path [n,sw]",
+                    "userData": {
+                        "num": "10441"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13055,7 +13184,10 @@
                         }
                     ],
                     "id": 452,
-                    "name": "Swamp Path [ne,s]"
+                    "name": "Swamp Path [ne,s]",
+                    "userData": {
+                        "num": "10442"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13075,7 +13207,10 @@
                         }
                     ],
                     "id": 453,
-                    "name": "Swamp Path [n,w]"
+                    "name": "Swamp Path [n,w]",
+                    "userData": {
+                        "num": "10443"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13095,7 +13230,10 @@
                         }
                     ],
                     "id": 454,
-                    "name": "Swamp Path [e,w]"
+                    "name": "Swamp Path [e,w]",
+                    "userData": {
+                        "num": "10444"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13115,7 +13253,10 @@
                         }
                     ],
                     "id": 455,
-                    "name": "Swamp Path [e,s]"
+                    "name": "Swamp Path [e,s]",
+                    "userData": {
+                        "num": "10445"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13135,7 +13276,10 @@
                         }
                     ],
                     "id": 456,
-                    "name": "Swamp Path [n,sw]"
+                    "name": "Swamp Path [n,sw]",
+                    "userData": {
+                        "num": "10446"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13155,7 +13299,10 @@
                         }
                     ],
                     "id": 457,
-                    "name": "Swamp Path [ne,s]"
+                    "name": "Swamp Path [ne,s]",
+                    "userData": {
+                        "num": "10447"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13175,7 +13322,10 @@
                         }
                     ],
                     "id": 458,
-                    "name": "Swamp Path [n,se]"
+                    "name": "Swamp Path [n,se]",
+                    "userData": {
+                        "num": "10448"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13195,7 +13345,10 @@
                         }
                     ],
                     "id": 459,
-                    "name": "Swamp Path [nw,se]"
+                    "name": "Swamp Path [nw,se]",
+                    "userData": {
+                        "num": "10449"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13215,7 +13368,10 @@
                         }
                     ],
                     "id": 460,
-                    "name": "Swamp Path [nw,s]"
+                    "name": "Swamp Path [nw,s]",
+                    "userData": {
+                        "num": "10450"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13235,7 +13391,10 @@
                         }
                     ],
                     "id": 461,
-                    "name": "Swamp Path [n,s]"
+                    "name": "Swamp Path [n,s]",
+                    "userData": {
+                        "num": "10451"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13255,7 +13414,10 @@
                         }
                     ],
                     "id": 462,
-                    "name": "Forest Entrance [n,se]"
+                    "name": "Forest Entrance [n,se]",
+                    "userData": {
+                        "num": "50060"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13279,7 +13441,10 @@
                         }
                     ],
                     "id": 463,
-                    "name": "Forest of Shangria : Forest Road [nw,s,w]"
+                    "name": "Forest of Shangria : Forest Road [nw,s,w]",
+                    "userData": {
+                        "num": "50061"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13299,7 +13464,10 @@
                         }
                     ],
                     "id": 464,
-                    "name": "Forest of Shangria : Forest Road [n,se]"
+                    "name": "Forest of Shangria : Forest Road [n,se]",
+                    "userData": {
+                        "num": "50062"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13323,7 +13491,10 @@
                         }
                     ],
                     "id": 465,
-                    "name": "Forest of Shangria : Forest Road [nw,s,sw]"
+                    "name": "Forest of Shangria : Forest Road [nw,s,sw]",
+                    "userData": {
+                        "num": "50064"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13343,7 +13514,10 @@
                         }
                     ],
                     "id": 466,
-                    "name": "Forest of Shangria : Forest Road [n,s]"
+                    "name": "Forest of Shangria : Forest Road [n,s]",
+                    "userData": {
+                        "num": "50065"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13367,7 +13541,10 @@
                         }
                     ],
                     "id": 467,
-                    "name": "Forest of Shangria : Forest Road [n,e,s]"
+                    "name": "Forest of Shangria : Forest Road [n,e,s]",
+                    "userData": {
+                        "num": "50067"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13387,7 +13564,10 @@
                         }
                     ],
                     "id": 468,
-                    "name": "Forest of Shangria : Forest Road [n,s]"
+                    "name": "Forest of Shangria : Forest Road [n,s]",
+                    "userData": {
+                        "num": "50069"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13411,7 +13591,10 @@
                         }
                     ],
                     "id": 469,
-                    "name": "Forest of Shangria : Silent Road [n,se,w]"
+                    "name": "Forest of Shangria : Silent Road [n,se,w]",
+                    "userData": {
+                        "num": "50070"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13431,7 +13614,10 @@
                         }
                     ],
                     "id": 470,
-                    "name": "Forest of Shangria : Silent Road [nw,se]"
+                    "name": "Forest of Shangria : Silent Road [nw,se]",
+                    "userData": {
+                        "num": "50071"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13451,7 +13637,10 @@
                         }
                     ],
                     "id": 471,
-                    "name": "Forest of Shangria : Silent Road [nw,s]"
+                    "name": "Forest of Shangria : Silent Road [nw,s]",
+                    "userData": {
+                        "num": "50073"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13471,7 +13660,10 @@
                         }
                     ],
                     "id": 472,
-                    "name": "Forest of Shangria : Silent Road [n,sw]"
+                    "name": "Forest of Shangria : Silent Road [n,sw]",
+                    "userData": {
+                        "num": "50074"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13491,7 +13683,10 @@
                         }
                     ],
                     "id": 473,
-                    "name": "Forest of Shangria : Silent Road [ne,sw]"
+                    "name": "Forest of Shangria : Silent Road [ne,sw]",
+                    "userData": {
+                        "num": "50075"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13511,7 +13706,10 @@
                         }
                     ],
                     "id": 474,
-                    "name": "Forest of Shangria : Silent Road [ne,s]"
+                    "name": "Forest of Shangria : Silent Road [ne,s]",
+                    "userData": {
+                        "num": "50076"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13531,7 +13729,10 @@
                         }
                     ],
                     "id": 475,
-                    "name": "Forest of Shangria : Forest Road [n,sw]"
+                    "name": "Forest of Shangria : Forest Road [n,sw]",
+                    "userData": {
+                        "num": "50077"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13555,7 +13756,10 @@
                         }
                     ],
                     "id": 476,
-                    "name": "Forest of Shangria : Forest Road [ne,s,nw]"
+                    "name": "Forest of Shangria : Forest Road [ne,s,nw]",
+                    "userData": {
+                        "num": "50078"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13575,7 +13779,10 @@
                         }
                     ],
                     "id": 477,
-                    "name": "Forest of Shangria : Forest Road [n,s]"
+                    "name": "Forest of Shangria : Forest Road [n,s]",
+                    "userData": {
+                        "num": "50079"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13599,7 +13806,10 @@
                         }
                     ],
                     "id": 478,
-                    "name": "Forest of Shangria : Forest Road [n,bridge,e]"
+                    "name": "Forest of Shangria : Forest Road [n,bridge,e]",
+                    "userData": {
+                        "num": "50081"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13619,7 +13829,10 @@
                         }
                     ],
                     "id": 479,
-                    "name": "Forest of Shangria : Forest Road [w,e]"
+                    "name": "Forest of Shangria : Forest Road [w,e]",
+                    "userData": {
+                        "num": "50083"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13639,7 +13852,10 @@
                         }
                     ],
                     "id": 480,
-                    "name": "Forest of Shangria : Forest Road [w,e]"
+                    "name": "Forest of Shangria : Forest Road [w,e]",
+                    "userData": {
+                        "num": "50335"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13659,7 +13875,10 @@
                         }
                     ],
                     "id": 481,
-                    "name": "Forest of Shangria : Hamilton Hold [w,e]"
+                    "name": "Forest of Shangria : Hamilton Hold [w,e]",
+                    "userData": {
+                        "num": "50336"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13679,7 +13898,10 @@
                         }
                     ],
                     "id": 482,
-                    "name": "Hamilton Hold [w,e]"
+                    "name": "Hamilton Hold [w,e]",
+                    "userData": {
+                        "num": "50337"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13703,7 +13925,10 @@
                         }
                     ],
                     "id": 483,
-                    "name": "Hamilton Hold [e,n,w]"
+                    "name": "Hamilton Hold [e,n,w]",
+                    "userData": {
+                        "num": "50338"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13727,7 +13952,10 @@
                         }
                     ],
                     "id": 484,
-                    "name": "Hamilton Hold [e,s,w]"
+                    "name": "Hamilton Hold [e,s,w]",
+                    "userData": {
+                        "num": "50339"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13751,7 +13979,10 @@
                         }
                     ],
                     "id": 485,
-                    "name": "Hamilton Hold [e,w,n]"
+                    "name": "Hamilton Hold [e,w,n]",
+                    "userData": {
+                        "num": "50341"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13787,7 +14018,10 @@
                         }
                     ],
                     "id": 487,
-                    "name": "Hamilton Hold : Trading Post [s]"
+                    "name": "Hamilton Hold : Trading Post [s]",
+                    "userData": {
+                        "num": "50345"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13803,7 +14037,10 @@
                         }
                     ],
                     "id": 488,
-                    "name": "The Broken Mug [n]"
+                    "name": "The Broken Mug [n]",
+                    "userData": {
+                        "num": "50342"
+                    }
                 },
                 {
                     "coordinates": [
@@ -13819,7 +14056,10 @@
                         }
                     ],
                     "id": 489,
-                    "name": "Hamilton Hold : Fairy Express [s]"
+                    "name": "Hamilton Hold : Fairy Express [s]",
+                    "userData": {
+                        "num": "50340"
+                    }
                 },
                 {
                     "coordinates": [
@@ -18730,7 +18970,10 @@
                         }
                     ],
                     "id": 716,
-                    "name": "Blocksberg [w]"
+                    "name": "Blocksberg [w]",
+                    "userData": {
+                        "num": "11534"
+                    }
                 },
                 {
                     "coordinates": [
@@ -18746,7 +18989,10 @@
                         }
                     ],
                     "id": 717,
-                    "name": "Dreamer's grave [w]"
+                    "name": "Dreamer's grave [w]",
+                    "userData": {
+                        "num": "10091"
+                    }
                 },
                 {
                     "coordinates": [
@@ -18762,7 +19008,10 @@
                         }
                     ],
                     "id": 718,
-                    "name": "North-South Road: By the Way [e]"
+                    "name": "North-South Road: By the Way [e]",
+                    "userData": {
+                        "num": "10092"
+                    }
                 },
                 {
                     "coordinates": [
@@ -19007,7 +19256,10 @@
                         }
                     ],
                     "id": 729,
-                    "name": "Path to Ducal Castle [e,w]"
+                    "name": "Path to Ducal Castle [e,w]",
+                    "userData": {
+                        "num": "10056"
+                    }
                 },
                 {
                     "coordinates": [
@@ -20416,7 +20668,10 @@
                         }
                     ],
                     "id": 793,
-                    "name": "Gorge Trail:   [e]"
+                    "name": "Gorge Trail:   [e]",
+                    "userData": {
+                        "num": "40397"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28100,7 +28355,10 @@
                         }
                     ],
                     "id": 1131,
-                    "name": "Old Road [w,e]"
+                    "name": "Old Road [w,e]",
+                    "userData": {
+                        "num": "10162"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28120,7 +28378,10 @@
                         }
                     ],
                     "id": 1132,
-                    "name": "Old Road [w,e]"
+                    "name": "Old Road [w,e]",
+                    "userData": {
+                        "num": "10161"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28140,7 +28401,10 @@
                         }
                     ],
                     "id": 1133,
-                    "name": "Old Road [w,ne]"
+                    "name": "Old Road [w,ne]",
+                    "userData": {
+                        "num": "10160"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28160,7 +28424,10 @@
                         }
                     ],
                     "id": 1134,
-                    "name": "Old Road [sw,ne]"
+                    "name": "Old Road [sw,ne]",
+                    "userData": {
+                        "num": "10158"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28188,7 +28455,10 @@
                         }
                     ],
                     "id": 1135,
-                    "name": "Old Road [sw,n,s,e]"
+                    "name": "Old Road [sw,n,s,e]",
+                    "userData": {
+                        "num": "10157"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28240,7 +28510,10 @@
                         }
                     ],
                     "id": 1138,
-                    "name": "Dark Forest Path [w,e]"
+                    "name": "Dark Forest Path [w,e]",
+                    "userData": {
+                        "num": "40237"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28260,7 +28533,10 @@
                         }
                     ],
                     "id": 1139,
-                    "name": "Dark Forest Path [w,se]"
+                    "name": "Dark Forest Path [w,se]",
+                    "userData": {
+                        "num": "40236"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28280,7 +28556,10 @@
                         }
                     ],
                     "id": 1140,
-                    "name": "Dark Forest Path [nw,e]"
+                    "name": "Dark Forest Path [nw,e]",
+                    "userData": {
+                        "num": "40235"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28300,7 +28579,10 @@
                         }
                     ],
                     "id": 1141,
-                    "name": "Dark Forest Path [w,se]"
+                    "name": "Dark Forest Path [w,se]",
+                    "userData": {
+                        "num": "40234"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28320,7 +28602,10 @@
                         }
                     ],
                     "id": 1142,
-                    "name": "Dark Forest Path [nw,sw]"
+                    "name": "Dark Forest Path [nw,sw]",
+                    "userData": {
+                        "num": "40233"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28340,7 +28625,10 @@
                         }
                     ],
                     "id": 1143,
-                    "name": "Dark Forest Path [se,ne]"
+                    "name": "Dark Forest Path [se,ne]",
+                    "userData": {
+                        "num": "40232"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28360,7 +28648,10 @@
                         }
                     ],
                     "id": 1144,
-                    "name": "Dark Forest Path [nw,e]"
+                    "name": "Dark Forest Path [nw,e]",
+                    "userData": {
+                        "num": "40231"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28380,7 +28671,10 @@
                         }
                     ],
                     "id": 1145,
-                    "name": "Dark Forest Path [w,se]"
+                    "name": "Dark Forest Path [w,se]",
+                    "userData": {
+                        "num": "40230"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28400,7 +28694,10 @@
                         }
                     ],
                     "id": 1146,
-                    "name": "Dark Forest Path [nw,e]"
+                    "name": "Dark Forest Path [nw,e]",
+                    "userData": {
+                        "num": "40228"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28428,7 +28725,10 @@
                         }
                     ],
                     "id": 1147,
-                    "name": "Dark Forest Path : Clearing [n,nw,s,w]"
+                    "name": "Dark Forest Path : Clearing [n,nw,s,w]",
+                    "userData": {
+                        "num": "40226"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28473,7 +28773,10 @@
                         }
                     ],
                     "id": 1149,
-                    "name": "Dark Forest Path [e,ne,se]"
+                    "name": "Dark Forest Path [e,ne,se]",
+                    "userData": {
+                        "num": "40224"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28497,7 +28800,10 @@
                         }
                     ],
                     "id": 1150,
-                    "name": "Dark Forest Path [n,s,w]"
+                    "name": "Dark Forest Path [n,s,w]",
+                    "userData": {
+                        "num": "40225"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28521,7 +28827,10 @@
                         }
                     ],
                     "id": 1151,
-                    "name": "Dark Forest Path [sw,s,e]"
+                    "name": "Dark Forest Path [sw,s,e]",
+                    "userData": {
+                        "num": "40171"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28545,7 +28854,10 @@
                         }
                     ],
                     "id": 1152,
-                    "name": "Dark Forest Path : Entrance [w,ne,se]"
+                    "name": "Dark Forest Path : Entrance [w,ne,se]",
+                    "userData": {
+                        "num": "40170"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28561,7 +28873,10 @@
                         }
                     ],
                     "id": 1153,
-                    "name": "Site of Devastation [nw]"
+                    "name": "Site of Devastation [nw]",
+                    "userData": {
+                        "num": "40172"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28581,7 +28896,10 @@
                         }
                     ],
                     "id": 1154,
-                    "name": "Very Bushy Road [n,sw]"
+                    "name": "Very Bushy Road [n,sw]",
+                    "userData": {
+                        "num": "40169"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28605,7 +28923,10 @@
                         }
                     ],
                     "id": 1155,
-                    "name": "Bushy Road [n,w,s]"
+                    "name": "Bushy Road [n,w,s]",
+                    "userData": {
+                        "num": "40168"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28625,7 +28946,10 @@
                         }
                     ],
                     "id": 1156,
-                    "name": "Small Hut, by Bushy Road [e,ne]"
+                    "name": "Small Hut, by Bushy Road [e,ne]",
+                    "userData": {
+                        "num": "40167"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28653,7 +28977,10 @@
                         }
                     ],
                     "id": 1157,
-                    "name": "Bushy Road [n,e,sw,s]"
+                    "name": "Bushy Road [n,e,sw,s]",
+                    "userData": {
+                        "num": "40165"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28677,7 +29004,10 @@
                         }
                     ],
                     "id": 1158,
-                    "name": "Bushy Road [ne,w,se]"
+                    "name": "Bushy Road [ne,w,se]",
+                    "userData": {
+                        "num": "40166"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28697,7 +29027,10 @@
                         }
                     ],
                     "id": 1159,
-                    "name": "Bushy Road, South of Haisk [n,s]"
+                    "name": "Bushy Road, South of Haisk [n,s]",
+                    "userData": {
+                        "num": "40164"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28717,7 +29050,10 @@
                         }
                     ],
                     "id": 1160,
-                    "name": "City of Haisk : Southern Drawbridge [n,s]"
+                    "name": "City of Haisk : Southern Drawbridge [n,s]",
+                    "userData": {
+                        "num": "40162"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28742,7 +29078,10 @@
                         {
                             "name": "southwest"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40113"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28774,7 +29113,10 @@
                         }
                     ],
                     "id": 1162,
-                    "name": "City of Haisk : Intersection of South and Central Street [ne,s,n,e,w]"
+                    "name": "City of Haisk : Intersection of South and Central Street [ne,s,n,e,w]",
+                    "userData": {
+                        "num": "40111"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28794,7 +29136,10 @@
                         }
                     ],
                     "id": 1163,
-                    "name": "City of Haisk : Central Street [n,s]"
+                    "name": "City of Haisk : Central Street [n,s]",
+                    "userData": {
+                        "num": "40114"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28814,7 +29159,10 @@
                         }
                     ],
                     "id": 1164,
-                    "name": "City of Haisk : Central Street [n,s]"
+                    "name": "City of Haisk : Central Street [n,s]",
+                    "userData": {
+                        "num": "40152"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28834,7 +29182,10 @@
                         }
                     ],
                     "id": 1165,
-                    "name": "City of Haisk : Central Street [n,s]"
+                    "name": "City of Haisk : Central Street [n,s]",
+                    "userData": {
+                        "num": "40151"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28854,7 +29205,10 @@
                         }
                     ],
                     "id": 1166,
-                    "name": "City of Haisk : Central Street [n,s]"
+                    "name": "City of Haisk : Central Street [n,s]",
+                    "userData": {
+                        "num": "40142"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28882,7 +29236,10 @@
                         }
                     ],
                     "id": 1167,
-                    "name": "City of Haisk : Intersection of Mystic and Central Streets [n,w,e,s]"
+                    "name": "City of Haisk : Intersection of Mystic and Central Streets [n,w,e,s]",
+                    "userData": {
+                        "num": "40139"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28906,7 +29263,10 @@
                         }
                     ],
                     "id": 1168,
-                    "name": "City of Haisk : Mystic Street [e,w,s]"
+                    "name": "City of Haisk : Mystic Street [e,w,s]",
+                    "userData": {
+                        "num": "40140"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28930,7 +29290,10 @@
                         }
                     ],
                     "id": 1169,
-                    "name": "City of Haisk : Mystic Street [n,e,w]"
+                    "name": "City of Haisk : Mystic Street [n,e,w]",
+                    "userData": {
+                        "num": "40091"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28958,7 +29321,10 @@
                         }
                     ],
                     "id": 1170,
-                    "name": "City of Haisk : Intersection of Mystic and Wisdom Streets [e,s,n,w]"
+                    "name": "City of Haisk : Intersection of Mystic and Wisdom Streets [e,s,n,w]",
+                    "userData": {
+                        "num": "40090"
+                    }
                 },
                 {
                     "coordinates": [
@@ -28978,7 +29344,10 @@
                         }
                     ],
                     "id": 1171,
-                    "name": "City of Haisk : Mystic Street [e,w]"
+                    "name": "City of Haisk : Mystic Street [e,w]",
+                    "userData": {
+                        "num": "40093"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29002,7 +29371,10 @@
                         }
                     ],
                     "id": 1172,
-                    "name": "City of Haisk : Mystic Street [e,s,w]"
+                    "name": "City of Haisk : Mystic Street [e,s,w]",
+                    "userData": {
+                        "num": "40095"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29194,7 +29566,10 @@
                         }
                     ],
                     "id": 1181,
-                    "name": "City of Haisk : South Street [w,e,n]"
+                    "name": "City of Haisk : South Street [w,e,n]",
+                    "userData": {
+                        "num": "40107"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29214,7 +29589,10 @@
                         }
                     ],
                     "id": 1182,
-                    "name": "City of Haisk : South Street [w,e]"
+                    "name": "City of Haisk : South Street [w,e]",
+                    "userData": {
+                        "num": "40108"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29234,7 +29612,10 @@
                         }
                     ],
                     "id": 1183,
-                    "name": "City of Haisk : South Street [w,e]"
+                    "name": "City of Haisk : South Street [w,e]",
+                    "userData": {
+                        "num": "40110"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29262,7 +29643,10 @@
                         }
                     ],
                     "id": 1184,
-                    "name": "City of Haisk : Garden Entrance [n,ne,e,s]"
+                    "name": "City of Haisk : Garden Entrance [n,ne,e,s]",
+                    "userData": {
+                        "num": "40109"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29286,7 +29670,10 @@
                         }
                     ],
                     "id": 1185,
-                    "name": "City of Haisk : Gardens [e,w,sw]"
+                    "name": "City of Haisk : Gardens [e,w,sw]",
+                    "userData": {
+                        "num": "40154"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29330,7 +29717,10 @@
                         }
                     ],
                     "id": 1187,
-                    "name": "City of Haisk : Gardens [n,s,e,se]"
+                    "name": "City of Haisk : Gardens [n,s,e,se]",
+                    "userData": {
+                        "num": "40153"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29374,7 +29764,10 @@
                         }
                     ],
                     "id": 1189,
-                    "name": "City of Haisk : Garden Street [n,nw,s]"
+                    "name": "City of Haisk : Garden Street [n,nw,s]",
+                    "userData": {
+                        "num": "40094"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29394,7 +29787,10 @@
                         }
                     ],
                     "id": 1190,
-                    "name": "City of Haisk : Garden Street [n,s]"
+                    "name": "City of Haisk : Garden Street [n,s]",
+                    "userData": {
+                        "num": "40092"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29519,7 +29915,10 @@
                         }
                     ],
                     "id": 1196,
-                    "name": "City of Haisk : North Street [w,e]"
+                    "name": "City of Haisk : North Street [w,e]",
+                    "userData": {
+                        "num": "40082"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29547,7 +29946,10 @@
                         }
                     ],
                     "id": 1197,
-                    "name": "City of Haisk : Intersection of North and Central Streets [w,e,s,n]"
+                    "name": "City of Haisk : Intersection of North and Central Streets [w,e,s,n]",
+                    "userData": {
+                        "num": "40021"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29575,7 +29977,10 @@
                         }
                     ],
                     "id": 1198,
-                    "name": "City of Haisk : Northern Gate [n,s,w,nw]"
+                    "name": "City of Haisk : Northern Gate [n,s,w,nw]",
+                    "userData": {
+                        "num": "40020"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29595,7 +30000,10 @@
                         }
                     ],
                     "id": 1199,
-                    "name": "City of Haisk : Northern Drawbridge [n,s]"
+                    "name": "City of Haisk : Northern Drawbridge [n,s]",
+                    "userData": {
+                        "num": "40019"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29619,7 +30027,10 @@
                         }
                     ],
                     "id": 1200,
-                    "name": "Wilderness Road : North of Haisk [n,e,s]"
+                    "name": "Wilderness Road : North of Haisk [n,e,s]",
+                    "userData": {
+                        "num": "40017"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29639,7 +30050,10 @@
                         }
                     ],
                     "id": 1201,
-                    "name": "Wilderness Road : North of Haisk [nw,s]"
+                    "name": "Wilderness Road : North of Haisk [nw,s]",
+                    "userData": {
+                        "num": "40016"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29659,7 +30073,10 @@
                         }
                     ],
                     "id": 1202,
-                    "name": "Wilderness Road : North of Haisk [n,se]"
+                    "name": "Wilderness Road : North of Haisk [n,se]",
+                    "userData": {
+                        "num": "40015"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29675,7 +30092,10 @@
                         }
                     ],
                     "id": 1203,
-                    "name": "City of Haisk :  North Gatehouse [se]"
+                    "name": "City of Haisk :  North Gatehouse [se]",
+                    "userData": {
+                        "num": "40022"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29695,7 +30115,10 @@
                         }
                     ],
                     "id": 1204,
-                    "name": "Legion of Haisk : Common room [w,n,e]"
+                    "name": "Legion of Haisk : Common room [w,n,e]",
+                    "userData": {
+                        "num": "1511"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29711,7 +30134,10 @@
                         }
                     ],
                     "id": 1205,
-                    "name": "Legion Knights Shop [e]"
+                    "name": "Legion Knights Shop [e]",
+                    "userData": {
+                        "num": "1512"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29731,7 +30157,10 @@
                         }
                     ],
                     "id": 1206,
-                    "name": "City of Haisk : North Street [w,e]"
+                    "name": "City of Haisk : North Street [w,e]",
+                    "userData": {
+                        "num": "40083"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29756,7 +30185,10 @@
                         {
                             "name": "south"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40134"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29781,7 +30213,10 @@
                         {
                             "name": "south"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40132"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29801,7 +30236,10 @@
                         }
                     ],
                     "id": 1209,
-                    "name": "City of Haisk : Intersection of East and North Streets [w,s]"
+                    "name": "City of Haisk : Intersection of East and North Streets [w,s]",
+                    "userData": {
+                        "num": "40131"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29821,7 +30259,10 @@
                         }
                     ],
                     "id": 1210,
-                    "name": "City of Haisk : East Street [n,s]"
+                    "name": "City of Haisk : East Street [n,s]",
+                    "userData": {
+                        "num": "40130"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29841,7 +30282,10 @@
                         }
                     ],
                     "id": 1211,
-                    "name": "City of Haisk : East Street [n,s]"
+                    "name": "City of Haisk : East Street [n,s]",
+                    "userData": {
+                        "num": "40128"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29866,7 +30310,10 @@
                         {
                             "name": "west"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40127"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29890,7 +30337,10 @@
                         }
                     ],
                     "id": 1213,
-                    "name": "City of Haisk : Intersection of East and Mystic Streets [s,w,n]"
+                    "name": "City of Haisk : Intersection of East and Mystic Streets [s,w,n]",
+                    "userData": {
+                        "num": "40124"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29914,7 +30364,10 @@
                         }
                     ],
                     "id": 1214,
-                    "name": "City of Haisk : East Street [n,s,w]"
+                    "name": "City of Haisk : East Street [n,s,w]",
+                    "userData": {
+                        "num": "40123"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29934,7 +30387,10 @@
                         }
                     ],
                     "id": 1215,
-                    "name": "City of Haisk : East Street [n,s]"
+                    "name": "City of Haisk : East Street [n,s]",
+                    "userData": {
+                        "num": "40122"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29954,7 +30410,10 @@
                         }
                     ],
                     "id": 1216,
-                    "name": "City of Haisk : East Street [n,s]"
+                    "name": "City of Haisk : East Street [n,s]",
+                    "userData": {
+                        "num": "40121"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29974,7 +30433,10 @@
                         }
                     ],
                     "id": 1217,
-                    "name": "City of Haisk : East Street [n,s]"
+                    "name": "City of Haisk : East Street [n,s]",
+                    "userData": {
+                        "num": "40120"
+                    }
                 },
                 {
                     "coordinates": [
@@ -29994,7 +30456,10 @@
                         }
                     ],
                     "id": 1218,
-                    "name": "City of Haisk : Intersection of East and South Streets [w,n]"
+                    "name": "City of Haisk : Intersection of East and South Streets [w,n]",
+                    "userData": {
+                        "num": "40117"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30018,7 +30483,10 @@
                         }
                     ],
                     "id": 1219,
-                    "name": "City of Haisk : South Street [w,e,n]"
+                    "name": "City of Haisk : South Street [w,e,n]",
+                    "userData": {
+                        "num": "40116"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30038,7 +30506,10 @@
                         }
                     ],
                     "id": 1220,
-                    "name": "City of Haisk : South Street [w,e]"
+                    "name": "City of Haisk : South Street [w,e]",
+                    "userData": {
+                        "num": "40115"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30166,7 +30637,10 @@
                         }
                     ],
                     "id": 1227,
-                    "name": "City of Haisk : The Crying Orc Tavern [e]"
+                    "name": "City of Haisk : The Crying Orc Tavern [e]",
+                    "userData": {
+                        "num": "40125"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30186,7 +30660,10 @@
                         }
                     ],
                     "id": 1228,
-                    "name": "City of Haisk : Mystic Street [e,w]"
+                    "name": "City of Haisk : Mystic Street [e,w]",
+                    "userData": {
+                        "num": "40126"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30206,7 +30683,10 @@
                         }
                     ],
                     "id": 1229,
-                    "name": "City of Haisk : Mystic Street [e,w]"
+                    "name": "City of Haisk : Mystic Street [e,w]",
+                    "userData": {
+                        "num": "40145"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30234,7 +30714,10 @@
                         }
                     ],
                     "id": 1230,
-                    "name": "City of Haisk : Mystic Street [e,n,ne,w]"
+                    "name": "City of Haisk : Mystic Street [e,n,ne,w]",
+                    "userData": {
+                        "num": "40141"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30254,7 +30737,10 @@
                         }
                     ],
                     "id": 1231,
-                    "name": "City of Haisk : Empty Building [d,s]"
+                    "name": "City of Haisk : Empty Building [d,s]",
+                    "userData": {
+                        "num": "40146"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30270,7 +30756,10 @@
                         }
                     ],
                     "id": 1232,
-                    "name": "City of Haisk : Ackbar's Basement [u]"
+                    "name": "City of Haisk : Ackbar's Basement [u]",
+                    "userData": {
+                        "num": "40150"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30374,7 +30863,10 @@
                         }
                     ],
                     "id": 1237,
-                    "name": "City of Haisk : Central Street [n,e,s]"
+                    "name": "City of Haisk : Central Street [n,e,s]",
+                    "userData": {
+                        "num": "40084"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30394,7 +30886,10 @@
                         }
                     ],
                     "id": 1238,
-                    "name": "City of Haisk : Central Street [n,s]"
+                    "name": "City of Haisk : Central Street [n,s]",
+                    "userData": {
+                        "num": "40137"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30414,7 +30909,10 @@
                         }
                     ],
                     "id": 1239,
-                    "name": "City of Haisk : Central Street [n,s]"
+                    "name": "City of Haisk : Central Street [n,s]",
+                    "userData": {
+                        "num": "40138"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30430,7 +30928,10 @@
                         }
                     ],
                     "id": 1240,
-                    "name": "Kirneh's Controversial Shop [n]"
+                    "name": "Kirneh's Controversial Shop [n]",
+                    "userData": {
+                        "num": "40143"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30482,7 +30983,10 @@
                         }
                     ],
                     "id": 1243,
-                    "name": "City of Haisk : Tapped Tankard [n,s]"
+                    "name": "City of Haisk : Tapped Tankard [n,s]",
+                    "userData": {
+                        "num": "40096"
+                    }
                 },
                 {
                     "coordinates": [
@@ -30498,7 +31002,10 @@
                         }
                     ],
                     "id": 1244,
-                    "name": "City of Haisk : Black Room [n]"
+                    "name": "City of Haisk : Black Room [n]",
+                    "userData": {
+                        "num": "40158"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32070,7 +32577,10 @@
                         }
                     ],
                     "id": 1320,
-                    "name": "Forest of Shangria : Dark Path [e,w]"
+                    "name": "Forest of Shangria : Dark Path [e,w]",
+                    "userData": {
+                        "num": "50068"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32086,7 +32596,10 @@
                         }
                     ],
                     "id": 1321,
-                    "name": "Forest of Shangria : Dark Clearing [w]"
+                    "name": "Forest of Shangria : Dark Clearing [w]",
+                    "userData": {
+                        "num": "50283"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32759,7 +33272,10 @@
                         }
                     ],
                     "id": 1355,
-                    "name": "Wilderness Road : North of Haisk [e,w]"
+                    "name": "Wilderness Road : North of Haisk [e,w]",
+                    "userData": {
+                        "num": "40018"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32779,7 +33295,10 @@
                         }
                     ],
                     "id": 1356,
-                    "name": "Wilderness Road : Northeast of Haisk [bridge,w]"
+                    "name": "Wilderness Road : Northeast of Haisk [bridge,w]",
+                    "userData": {
+                        "num": "40238"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32799,7 +33318,10 @@
                         }
                     ],
                     "id": 1357,
-                    "name": "Wilderness Road : Bridge, Northeast of Haisk [nw,se]"
+                    "name": "Wilderness Road : Bridge, Northeast of Haisk [nw,se]",
+                    "userData": {
+                        "num": "40180"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32819,7 +33341,10 @@
                         }
                     ],
                     "id": 1358,
-                    "name": "Wilderness Road : East of Haisk [bridge,s]"
+                    "name": "Wilderness Road : East of Haisk [bridge,s]",
+                    "userData": {
+                        "num": "40179"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32839,7 +33364,10 @@
                         }
                     ],
                     "id": 1359,
-                    "name": "Wilderness Road : East of Haisk [n,bridge]"
+                    "name": "Wilderness Road : East of Haisk [n,bridge]",
+                    "userData": {
+                        "num": "40178"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32859,7 +33387,10 @@
                         }
                     ],
                     "id": 1360,
-                    "name": "Wilderness Road : Bridge, Southeast of Haisk [n,sw]"
+                    "name": "Wilderness Road : Bridge, Southeast of Haisk [n,sw]",
+                    "userData": {
+                        "num": "40177"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32879,7 +33410,10 @@
                         }
                     ],
                     "id": 1361,
-                    "name": "Wilderness Road : Southeast of Haisk [bridge,sw]"
+                    "name": "Wilderness Road : Southeast of Haisk [bridge,sw]",
+                    "userData": {
+                        "num": "40173"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32903,7 +33437,10 @@
                         }
                     ],
                     "id": 1362,
-                    "name": "Forest Entrance, from Bushy Road [nw,s,w]"
+                    "name": "Forest Entrance, from Bushy Road [nw,s,w]",
+                    "userData": {
+                        "num": "40174"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32923,7 +33460,10 @@
                         }
                     ],
                     "id": 1363,
-                    "name": "Forest path [n,se]"
+                    "name": "Forest path [n,se]",
+                    "userData": {
+                        "num": "40175"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32939,7 +33479,10 @@
                         }
                     ],
                     "id": 1364,
-                    "name": "Small Creek Bed [e]"
+                    "name": "Small Creek Bed [e]",
+                    "userData": {
+                        "num": "90005"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32959,7 +33502,10 @@
                         }
                     ],
                     "id": 1365,
-                    "name": "Forest path [nw,se]"
+                    "name": "Forest path [nw,se]",
+                    "userData": {
+                        "num": "40176"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32983,7 +33529,10 @@
                         }
                     ],
                     "id": 1366,
-                    "name": "Forest path [nw,e,s]"
+                    "name": "Forest path [nw,e,s]",
+                    "userData": {
+                        "num": "40181"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45760,7 +46309,10 @@
                         }
                     ],
                     "id": 1949,
-                    "name": "Road : Between Shadowfall and Oceania [w,se]"
+                    "name": "Road : Between Shadowfall and Oceania [w,se]",
+                    "userData": {
+                        "num": "40038"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45780,7 +46332,10 @@
                         }
                     ],
                     "id": 1950,
-                    "name": "Road : Between Shadowfall and Oceania [nw,e]"
+                    "name": "Road : Between Shadowfall and Oceania [nw,e]",
+                    "userData": {
+                        "num": "40039"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45800,7 +46355,10 @@
                         }
                     ],
                     "id": 1951,
-                    "name": "Road : Between Shadowfall and Oceania [w,e]"
+                    "name": "Road : Between Shadowfall and Oceania [w,e]",
+                    "userData": {
+                        "num": "40040"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45820,7 +46378,10 @@
                         }
                     ],
                     "id": 1952,
-                    "name": "The Gates of Shadowfall [w,e]"
+                    "name": "The Gates of Shadowfall [w,e]",
+                    "userData": {
+                        "num": "40041"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45848,7 +46409,10 @@
                         }
                     ],
                     "id": 1953,
-                    "name": "Main street [w,e,n,s]"
+                    "name": "Main street [w,e,n,s]",
+                    "userData": {
+                        "num": "40042"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45876,7 +46440,10 @@
                         }
                     ],
                     "id": 1954,
-                    "name": "Main Street [w,e,n,s]"
+                    "name": "Main Street [w,e,n,s]",
+                    "userData": {
+                        "num": "40043"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45904,7 +46471,10 @@
                         }
                     ],
                     "id": 1955,
-                    "name": "Shadowfall Marketplace [w,e,n,s]"
+                    "name": "Shadowfall Marketplace [w,e,n,s]",
+                    "userData": {
+                        "num": "40051"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45932,7 +46502,10 @@
                         }
                     ],
                     "id": 1956,
-                    "name": "Shadowfall Slums [w,s,e,n]"
+                    "name": "Shadowfall Slums [w,s,e,n]",
+                    "userData": {
+                        "num": "40048"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45953,7 +46526,10 @@
                         {
                             "name": "down"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40052"
+                    }
                 },
                 {
                     "coordinates": [
@@ -45977,7 +46553,10 @@
                         }
                     ],
                     "id": 1958,
-                    "name": "Main Street [w,e,s]"
+                    "name": "Main Street [w,e,s]",
+                    "userData": {
+                        "num": "40053"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46005,7 +46584,10 @@
                         }
                     ],
                     "id": 1959,
-                    "name": "Main Street [w,e,s,n]"
+                    "name": "Main Street [w,e,s,n]",
+                    "userData": {
+                        "num": "40055"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46025,7 +46607,10 @@
                         }
                     ],
                     "id": 1960,
-                    "name": "Main Street [cottage,w,e]"
+                    "name": "Main Street [cottage,w,e]",
+                    "userData": {
+                        "num": "40057"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46049,7 +46634,10 @@
                         }
                     ],
                     "id": 1961,
-                    "name": "Shadowfall Ruins [w,e,s]"
+                    "name": "Shadowfall Ruins [w,e,s]",
+                    "userData": {
+                        "num": "40060"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46059,6 +46647,10 @@
                     ],
                     "environment": 12632256,
                     "exits": [
+                        {
+                            "exitId": 4684,
+                            "name": "east"
+                        },
                         {
                             "exitId": 1961,
                             "name": "west"
@@ -46070,12 +46662,15 @@
                         {
                             "name": "north"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40061"
+                    }
                 },
                 {
                     "coordinates": [
                         47,
-                        12,
+                        9,
                         0
                     ],
                     "environment": 12632256,
@@ -46090,12 +46685,15 @@
                         }
                     ],
                     "id": 1963,
-                    "name": "Shadowfall Ruins [n,s]"
+                    "name": "Shadowfall Ruins [n,s]",
+                    "userData": {
+                        "num": "40062"
+                    }
                 },
                 {
                     "coordinates": [
                         47,
-                        11,
+                        8,
                         0
                     ],
                     "environment": 12632256,
@@ -46110,12 +46708,15 @@
                         }
                     ],
                     "id": 1964,
-                    "name": "Shadowfall Ruins [n,e]"
+                    "name": "Shadowfall Ruins [n,e]",
+                    "userData": {
+                        "num": "40064"
+                    }
                 },
                 {
                     "coordinates": [
                         48,
-                        11,
+                        8,
                         0
                     ],
                     "environment": 12632256,
@@ -46130,12 +46731,15 @@
                         }
                     ],
                     "id": 1965,
-                    "name": "Old Shadowfall: Primitive Bridge [w,e]"
+                    "name": "Old Shadowfall: Primitive Bridge [w,e]",
+                    "userData": {
+                        "num": "40065"
+                    }
                 },
                 {
                     "coordinates": [
                         49,
-                        11,
+                        8,
                         0
                     ],
                     "environment": 12632256,
@@ -46150,12 +46754,15 @@
                         }
                     ],
                     "id": 1966,
-                    "name": "Old Shadowfall: Ruins [w,s]"
+                    "name": "Old Shadowfall: Ruins [w,s]",
+                    "userData": {
+                        "num": "40066"
+                    }
                 },
                 {
                     "coordinates": [
                         49,
-                        10,
+                        7,
                         0
                     ],
                     "environment": 12632256,
@@ -46174,12 +46781,15 @@
                         }
                     ],
                     "id": 1967,
-                    "name": "Old Shadowfall: Ruins [n,s,e]"
+                    "name": "Old Shadowfall: Ruins [n,s,e]",
+                    "userData": {
+                        "num": "40067"
+                    }
                 },
                 {
                     "coordinates": [
                         49,
-                        9,
+                        6,
                         0
                     ],
                     "environment": 12632256,
@@ -46198,12 +46808,15 @@
                         }
                     ],
                     "id": 1968,
-                    "name": "Old Shadowfall: Ruins [n,e,w]"
+                    "name": "Old Shadowfall: Ruins [n,e,w]",
+                    "userData": {
+                        "num": "40068"
+                    }
                 },
                 {
                     "coordinates": [
                         48,
-                        9,
+                        6,
                         0
                     ],
                     "environment": 12632256,
@@ -46214,12 +46827,15 @@
                         }
                     ],
                     "id": 1969,
-                    "name": "Old Shadowfall: Ruins [e]"
+                    "name": "Old Shadowfall: Ruins [e]",
+                    "userData": {
+                        "num": "40278"
+                    }
                 },
                 {
                     "coordinates": [
                         50,
-                        9,
+                        6,
                         0
                     ],
                     "environment": 12632256,
@@ -46247,7 +46863,7 @@
                 {
                     "coordinates": [
                         50,
-                        8,
+                        5,
                         0
                     ],
                     "environment": 12632256,
@@ -46267,7 +46883,7 @@
                 {
                     "coordinates": [
                         51,
-                        8,
+                        5,
                         0
                     ],
                     "environment": 12632256,
@@ -46291,7 +46907,7 @@
                 {
                     "coordinates": [
                         52,
-                        8,
+                        5,
                         0
                     ],
                     "environment": 12632256,
@@ -46306,12 +46922,15 @@
                         }
                     ],
                     "id": 1973,
-                    "name": "Old Shadowfall: Ruins [w,n]"
+                    "name": "Old Shadowfall: Ruins [w,n]",
+                    "userData": {
+                        "num": "40281"
+                    }
                 },
                 {
                     "coordinates": [
                         52,
-                        9,
+                        6,
                         0
                     ],
                     "environment": 12632256,
@@ -46330,12 +46949,15 @@
                         }
                     ],
                     "id": 1974,
-                    "name": "Old Shadowfall: Ruins [n,s,w]"
+                    "name": "Old Shadowfall: Ruins [n,s,w]",
+                    "userData": {
+                        "num": "40267"
+                    }
                 },
                 {
                     "coordinates": [
                         52,
-                        10,
+                        7,
                         0
                     ],
                     "environment": 12632256,
@@ -46358,12 +46980,15 @@
                         }
                     ],
                     "id": 1975,
-                    "name": "Old Shadowfall: Ruins [n,s,e,w]"
+                    "name": "Old Shadowfall: Ruins [n,s,e,w]",
+                    "userData": {
+                        "num": "40264"
+                    }
                 },
                 {
                     "coordinates": [
                         52,
-                        11,
+                        8,
                         0
                     ],
                     "environment": 12632256,
@@ -46393,7 +47018,7 @@
                 {
                     "coordinates": [
                         52,
-                        12,
+                        9,
                         0
                     ],
                     "environment": 12632256,
@@ -46416,7 +47041,7 @@
                 {
                     "coordinates": [
                         53,
-                        12,
+                        9,
                         0
                     ],
                     "environment": 12632256,
@@ -46440,7 +47065,7 @@
                 {
                     "coordinates": [
                         53,
-                        11,
+                        8,
                         0
                     ],
                     "environment": 12632256,
@@ -46463,12 +47088,15 @@
                         }
                     ],
                     "id": 1979,
-                    "name": "Old Shadowfall: Ruins [n,s,e,w]"
+                    "name": "Old Shadowfall: Ruins [n,s,e,w]",
+                    "userData": {
+                        "num": "40269"
+                    }
                 },
                 {
                     "coordinates": [
                         53,
-                        10,
+                        7,
                         0
                     ],
                     "environment": 12632256,
@@ -46483,12 +47111,15 @@
                         }
                     ],
                     "id": 1980,
-                    "name": "Old Shadowfall: Ruins [n,w]"
+                    "name": "Old Shadowfall: Ruins [n,w]",
+                    "userData": {
+                        "num": "40268"
+                    }
                 },
                 {
                     "coordinates": [
                         54,
-                        11,
+                        8,
                         0
                     ],
                     "environment": 12632256,
@@ -46503,12 +47134,15 @@
                         }
                     ],
                     "id": 1981,
-                    "name": "Old Shadowfall: Ruins [w,n]"
+                    "name": "Old Shadowfall: Ruins [w,n]",
+                    "userData": {
+                        "num": "40271"
+                    }
                 },
                 {
                     "coordinates": [
                         54,
-                        12,
+                        9,
                         0
                     ],
                     "environment": 12632256,
@@ -46527,12 +47161,15 @@
                         }
                     ],
                     "id": 1982,
-                    "name": "Old Shadowfall: Ruins [s,w,n]"
+                    "name": "Old Shadowfall: Ruins [s,w,n]",
+                    "userData": {
+                        "num": "40272"
+                    }
                 },
                 {
                     "coordinates": [
                         54,
-                        13,
+                        10,
                         0
                     ],
                     "environment": 12632256,
@@ -46547,12 +47184,15 @@
                         }
                     ],
                     "id": 1983,
-                    "name": "Ruined Temple: Entrance [s]"
+                    "name": "Ruined Temple: Entrance [s]",
+                    "userData": {
+                        "num": "40274"
+                    }
                 },
                 {
                     "coordinates": [
                         51,
-                        10,
+                        7,
                         0
                     ],
                     "environment": 12632256,
@@ -46571,12 +47211,15 @@
                         }
                     ],
                     "id": 1984,
-                    "name": "Old Shadowfall: Ruins [w,e,s]"
+                    "name": "Old Shadowfall: Ruins [w,e,s]",
+                    "userData": {
+                        "num": "40262"
+                    }
                 },
                 {
                     "coordinates": [
                         50,
-                        10,
+                        7,
                         0
                     ],
                     "environment": 12632256,
@@ -46595,12 +47238,15 @@
                         }
                     ],
                     "id": 1985,
-                    "name": "Old Shadowfall: Ruins [w,e,s]"
+                    "name": "Old Shadowfall: Ruins [w,e,s]",
+                    "userData": {
+                        "num": "40069"
+                    }
                 },
                 {
                     "coordinates": [
                         51,
-                        9,
+                        6,
                         0
                     ],
                     "environment": 12632256,
@@ -46643,7 +47289,10 @@
                         }
                     ],
                     "id": 1987,
-                    "name": "Ruins [s]"
+                    "name": "Ruins [s]",
+                    "userData": {
+                        "num": "40059"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46671,7 +47320,10 @@
                         }
                     ],
                     "id": 1988,
-                    "name": "Shadowfall Slums [w,n,s,e]"
+                    "name": "Shadowfall Slums [w,n,s,e]",
+                    "userData": {
+                        "num": "40056"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46695,7 +47347,10 @@
                         }
                     ],
                     "id": 1989,
-                    "name": "Shadowfall Slums [n,e,s]"
+                    "name": "Shadowfall Slums [n,e,s]",
+                    "userData": {
+                        "num": "40367"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46723,7 +47378,10 @@
                         }
                     ],
                     "id": 1990,
-                    "name": "Shadowfall Slums [n,s,w,e]"
+                    "name": "Shadowfall Slums [n,s,w,e]",
+                    "userData": {
+                        "num": "40369"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46743,7 +47401,10 @@
                         }
                     ],
                     "id": 1991,
-                    "name": "Run-down House [n,u]"
+                    "name": "Run-down House [n,u]",
+                    "userData": {
+                        "num": "40370"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46789,7 +47450,10 @@
                         }
                     ],
                     "id": 1993,
-                    "name": "Ruined Warehouse [e]"
+                    "name": "Ruined Warehouse [e]",
+                    "userData": {
+                        "num": "40371"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46921,7 +47585,10 @@
                         }
                     ],
                     "id": 2000,
-                    "name": "Shadowfall Slums [w,n]"
+                    "name": "Shadowfall Slums [w,n]",
+                    "userData": {
+                        "num": "40058"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46945,7 +47612,10 @@
                         }
                     ],
                     "id": 2001,
-                    "name": "Shadowfall Slums [n,s,e]"
+                    "name": "Shadowfall Slums [n,s,e]",
+                    "userData": {
+                        "num": "40054"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46961,7 +47631,10 @@
                         }
                     ],
                     "id": 2002,
-                    "name": "Ruined Shop [n]"
+                    "name": "Ruined Shop [n]",
+                    "userData": {
+                        "num": "40366"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46981,7 +47654,10 @@
                         }
                     ],
                     "id": 2003,
-                    "name": "Shadowfall Slums [s,w]"
+                    "name": "Shadowfall Slums [s,w]",
+                    "userData": {
+                        "num": "40049"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46997,7 +47673,10 @@
                         }
                     ],
                     "id": 2004,
-                    "name": "The Manorhouse Yard [s,in]"
+                    "name": "The Manorhouse Yard [s,in]",
+                    "userData": {
+                        "num": "40050"
+                    }
                 },
                 {
                     "coordinates": [
@@ -47017,7 +47696,10 @@
                         }
                     ],
                     "id": 2005,
-                    "name": "Shadowfall Slums [s,e]"
+                    "name": "Shadowfall Slums [s,e]",
+                    "userData": {
+                        "num": "40044"
+                    }
                 },
                 {
                     "coordinates": [
@@ -47037,7 +47719,10 @@
                         }
                     ],
                     "id": 2006,
-                    "name": "Shadowfall Slums [n,s]"
+                    "name": "Shadowfall Slums [n,s]",
+                    "userData": {
+                        "num": "40045"
+                    }
                 },
                 {
                     "coordinates": [
@@ -47057,7 +47742,10 @@
                         }
                     ],
                     "id": 2007,
-                    "name": "Drowned Rat Tavern [n,d]"
+                    "name": "Drowned Rat Tavern [n,d]",
+                    "userData": {
+                        "num": "40046"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58084,7 +58772,10 @@
                         }
                     ],
                     "id": 2632,
-                    "name": "Forest path [ne,w]"
+                    "name": "Forest path [ne,w]",
+                    "userData": {
+                        "num": "40182"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58108,7 +58799,10 @@
                         }
                     ],
                     "id": 2633,
-                    "name": "Forest path [sw,n,e]"
+                    "name": "Forest path [sw,n,e]",
+                    "userData": {
+                        "num": "40184"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58148,7 +58842,10 @@
                         }
                     ],
                     "id": 2635,
-                    "name": "Forest of Silence : Foggy Path [n,s]"
+                    "name": "Forest of Silence : Foggy Path [n,s]",
+                    "userData": {
+                        "num": "40185"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58168,7 +58865,10 @@
                         }
                     ],
                     "id": 2636,
-                    "name": "Forest of Silence : Foggy Path [ne,s]"
+                    "name": "Forest of Silence : Foggy Path [ne,s]",
+                    "userData": {
+                        "num": "40187"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58193,7 +58893,10 @@
                         {
                             "name": "northwest"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40188"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58218,7 +58921,10 @@
                         {
                             "name": "northwest"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40520"
+                    }
                 },
                 {
                     "coordinates": [
@@ -58243,7 +58949,10 @@
                         {
                             "name": "southeast"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40523"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70335,7 +71044,10 @@
                         }
                     ],
                     "id": 3289,
-                    "name": "Lakeshore Way [n,gate,door]"
+                    "name": "Lakeshore Way [n,gate,door]",
+                    "userData": {
+                        "num": "40244"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70355,7 +71067,10 @@
                         }
                     ],
                     "id": 3290,
-                    "name": "Lakeshore Way [n,s,stairs]"
+                    "name": "Lakeshore Way [n,s,stairs]",
+                    "userData": {
+                        "num": "40245"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70379,7 +71094,10 @@
                         }
                     ],
                     "id": 3291,
-                    "name": "Lakeshore Way [n,gate,s]"
+                    "name": "Lakeshore Way [n,gate,s]",
+                    "userData": {
+                        "num": "40251"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70399,7 +71117,10 @@
                         }
                     ],
                     "id": 3292,
-                    "name": "Lakeshore Way [n,s]"
+                    "name": "Lakeshore Way [n,s]",
+                    "userData": {
+                        "num": "40252"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70428,7 +71149,10 @@
                         {
                             "name": "east"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40255"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70452,7 +71176,10 @@
                         }
                     ],
                     "id": 3294,
-                    "name": "Pier [n,s,door]"
+                    "name": "Pier [n,s,door]",
+                    "userData": {
+                        "num": "40256"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70472,7 +71199,10 @@
                         }
                     ],
                     "id": 3295,
-                    "name": "Pier [n,s]"
+                    "name": "Pier [n,s]",
+                    "userData": {
+                        "num": "40259"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70488,7 +71218,10 @@
                         }
                     ],
                     "id": 3296,
-                    "name": "Pier [s]"
+                    "name": "Pier [s]",
+                    "userData": {
+                        "num": "40261"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70520,7 +71253,10 @@
                         }
                     ],
                     "id": 3298,
-                    "name": "Gloomy Forest [e]"
+                    "name": "Gloomy Forest [e]",
+                    "userData": {
+                        "num": "40258"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70621,7 +71357,7 @@
                 {
                     "coordinates": [
                         54,
-                        14,
+                        11,
                         0
                     ],
                     "environment": 12632256,
@@ -70645,7 +71381,7 @@
                 {
                     "coordinates": [
                         55,
-                        14,
+                        11,
                         0
                     ],
                     "environment": 12632256,
@@ -70661,7 +71397,7 @@
                 {
                     "coordinates": [
                         53,
-                        14,
+                        11,
                         0
                     ],
                     "environment": 12632256,
@@ -70820,7 +71556,10 @@
                         }
                     ],
                     "id": 3608,
-                    "name": "Gorge Trail:   [se]"
+                    "name": "Gorge Trail:   [se]",
+                    "userData": {
+                        "num": "41130"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70836,7 +71575,10 @@
                         }
                     ],
                     "id": 3609,
-                    "name": "Gorge Trail: [s]"
+                    "name": "Gorge Trail: [s]",
+                    "userData": {
+                        "num": "41131"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70852,7 +71594,10 @@
                         }
                     ],
                     "id": 3610,
-                    "name": "Gorge Trail:   [s]"
+                    "name": "Gorge Trail:   [s]",
+                    "userData": {
+                        "num": "41132"
+                    }
                 },
                 {
                     "coordinates": [
@@ -70864,7 +71609,10 @@
                     "exits": [
                     ],
                     "id": 3611,
-                    "name": "Gorge Trail:   [none]"
+                    "name": "Gorge Trail:   [none]",
+                    "userData": {
+                        "num": "41133"
+                    }
                 },
                 {
                     "coordinates": [
@@ -87813,6 +88561,2430 @@
                     "userData": {
                         "num": "11125"
                     }
+                },
+                {
+                    "coordinates": [
+                        49,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4685,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 1962,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4684,
+                    "name": "Shadowfall Bridge",
+                    "userData": {
+                        "num": "40063"
+                    }
+                },
+                {
+                    "coordinates": [
+                        50,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4686,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4684,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4685,
+                    "name": "Old Shadowfall",
+                    "stubExits": [
+                        {
+                            "name": "north"
+                        },
+                        {
+                            "name": "south"
+                        }
+                    ],
+                    "userData": {
+                        "num": "40070"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4687,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4685,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4686,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40073"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4688,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4686,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4687,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40076"
+                    }
+                },
+                {
+                    "coordinates": [
+                        53,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4689,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4687,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4688,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40077"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4690,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4688,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4692,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4689,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40078"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4691,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4689,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4690,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40282"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4690,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4691,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40314"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4689,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4693,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4692,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40283"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4694,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4692,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4693,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40284"
+                    }
+                },
+                {
+                    "coordinates": [
+                        57,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4695,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4693,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4694,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40285"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4696,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4694,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4748,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4695,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40286"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4697,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4695,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4696,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40288"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4712,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4698,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4696,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4697,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40306"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4699,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4697,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4698,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40307"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4702,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4700,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4698,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4699,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40309"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4701,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4699,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4700,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40315"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4700,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4701,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40317"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4703,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4699,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4702,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40316"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4704,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4702,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4703,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40318"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4705,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4703,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4704,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40319"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4706,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4704,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4705,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40320"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4705,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4707,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4706,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40321"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4706,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4708,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4710,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4707,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40322"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4709,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4707,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4708,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40324"
+                    }
+                },
+                {
+                    "coordinates": [
+                        70,
+                        13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4708,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4709,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40326"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4707,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4711,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4710,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40323"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4710,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4711,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40325"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4713,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4697,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4712,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40308"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4714,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4712,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4713,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40310"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        15,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4715,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4713,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4714,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40311"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        16,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4716,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4714,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4715,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40312"
+                    }
+                },
+                {
+                    "coordinates": [
+                        62,
+                        17,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4718,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4717,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4715,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4716,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40313"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        18,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4726,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4716,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4717,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40327"
+                    }
+                },
+                {
+                    "coordinates": [
+                        63,
+                        18,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4719,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4716,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4718,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40328"
+                    }
+                },
+                {
+                    "coordinates": [
+                        64,
+                        19,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4720,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4718,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4719,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40329"
+                    }
+                },
+                {
+                    "coordinates": [
+                        65,
+                        19,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4721,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4719,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4720,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40330"
+                    }
+                },
+                {
+                    "coordinates": [
+                        66,
+                        20,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4722,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4720,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4721,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40331"
+                    }
+                },
+                {
+                    "coordinates": [
+                        67,
+                        21,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4723,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4721,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4722,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40332"
+                    }
+                },
+                {
+                    "coordinates": [
+                        68,
+                        22,
+                        0
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4724,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4722,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4723,
+                    "name": "Mountain Trail",
+                    "userData": {
+                        "num": "40333"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        23,
+                        0
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4725,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4723,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4724,
+                    "name": "Mountain Trail",
+                    "userData": {
+                        "num": "40334"
+                    }
+                },
+                {
+                    "coordinates": [
+                        69,
+                        24,
+                        0
+                    ],
+                    "environment": 8421504,
+                    "exits": [
+                        {
+                            "exitId": 4724,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4725,
+                    "name": "Mountain Trail",
+                    "stubExits": [
+                        {
+                            "name": "northeast"
+                        },
+                        {
+                            "name": "northwest"
+                        }
+                    ],
+                    "userData": {
+                        "num": "40335"
+                    }
+                },
+                {
+                    "coordinates": [
+                        61,
+                        19,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4727,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4717,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4726,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40343"
+                    }
+                },
+                {
+                    "coordinates": [
+                        60,
+                        20,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4728,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4726,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4727,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40344"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        21,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4729,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4727,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4728,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40345"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        22,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4730,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4728,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4729,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40346"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        23,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4731,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4729,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4730,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40347"
+                    }
+                },
+                {
+                    "coordinates": [
+                        59,
+                        24,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4732,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4730,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4731,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40348"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        25,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4739,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4733,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4731,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4732,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40349"
+                    }
+                },
+                {
+                    "coordinates": [
+                        57,
+                        25,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4732,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4734,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4733,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40350"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        25,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4733,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4735,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4734,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40352"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        25,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4734,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4736,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4735,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40353"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        24,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4735,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4737,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4736,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40354"
+                    }
+                },
+                {
+                    "coordinates": [
+                        53,
+                        24,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4736,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4738,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4737,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40355"
+                    }
+                },
+                {
+                    "coordinates": [
+                        53,
+                        23,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4737,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4738,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40356"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        26,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4740,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4732,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4739,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40351"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        27,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4741,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4739,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4740,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40357"
+                    }
+                },
+                {
+                    "coordinates": [
+                        57,
+                        28,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4742,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4740,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4741,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40358"
+                    }
+                },
+                {
+                    "coordinates": [
+                        57,
+                        29,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4743,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4741,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4742,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40359"
+                    }
+                },
+                {
+                    "coordinates": [
+                        57,
+                        30,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4744,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4742,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4743,
+                    "name": "Gloomy Forest Road",
+                    "userData": {
+                        "num": "40360"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        31,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4745,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4743,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4744,
+                    "name": "Overgrown Road : South of Perelan",
+                    "userData": {
+                        "num": "40361"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        32,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4746,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4744,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4745,
+                    "name": "Overgrown Road : South of Perelan",
+                    "userData": {
+                        "num": "40362"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        33,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4747,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4745,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4746,
+                    "name": "Overgrown Road : South of Perelan",
+                    "userData": {
+                        "num": "40363"
+                    }
+                },
+                {
+                    "coordinates": [
+                        58,
+                        34,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4746,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4747,
+                    "name": "Entrance to City",
+                    "stubExits": [
+                        {
+                            "name": "in"
+                        }
+                    ],
+                    "userData": {
+                        "num": "40364"
+                    }
+                },
+                {
+                    "coordinates": [
+                        57,
+                        12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4695,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4749,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4748,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40287"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        11,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4748,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4750,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4749,
+                    "name": "Overgrown Road : East of Shadowfall",
+                    "userData": {
+                        "num": "40289"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        10,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4749,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4751,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4750,
+                    "name": "East of Shadowfall : Seldom Used Path",
+                    "userData": {
+                        "num": "40290"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        9,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4750,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4752,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4751,
+                    "name": "East of Shadowfall : Seldom Used Path",
+                    "userData": {
+                        "num": "40291"
+                    }
+                },
+                {
+                    "coordinates": [
+                        56,
+                        8,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4751,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4753,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4752,
+                    "name": "East of Shadowfall : Seldom Used Path",
+                    "userData": {
+                        "num": "40292"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        7,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4752,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4754,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4753,
+                    "name": "East of Shadowfall : Seldom Used Path",
+                    "userData": {
+                        "num": "40293"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        6,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4753,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4755,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4754,
+                    "name": "East of Shadowfall : Seldom Used Path",
+                    "userData": {
+                        "num": "40294"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        5,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4754,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4756,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4755,
+                    "name": "East of Shadowfall : Seldom Used Path",
+                    "userData": {
+                        "num": "40295"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        4,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4755,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4757,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4756,
+                    "name": "Mithril Mountains  :  Entrance to Tunnel",
+                    "userData": {
+                        "num": "40296"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4756,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4758,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4757,
+                    "name": "Mithril Mountains  :  Underground Tunnel",
+                    "userData": {
+                        "num": "40297"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4757,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4759,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4758,
+                    "name": "Mithril Mountains  :  Underground Tunnel",
+                    "userData": {
+                        "num": "40298"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        1,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4758,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4760,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4759,
+                    "name": "Mithril Mountains  :  Underground Tunnel",
+                    "userData": {
+                        "num": "40299"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        0,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4759,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4761,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4760,
+                    "name": "Mithril Mountains  :  Underground Tunnel",
+                    "userData": {
+                        "num": "40300"
+                    }
+                },
+                {
+                    "coordinates": [
+                        55,
+                        -1,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4760,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4762,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4761,
+                    "name": "Mithril Mountains  :  Underground Tunnel",
+                    "userData": {
+                        "num": "40301"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        -2,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4761,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4763,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4762,
+                    "name": "Mithril Mountains  :  Underground Tunnel",
+                    "userData": {
+                        "num": "40302"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        -3,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4762,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4764,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4763,
+                    "name": "Mithril Mountains  :  Warmer Tunnel",
+                    "userData": {
+                        "num": "40303"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        -4,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4763,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4765,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4764,
+                    "name": "Mithril Mountains  :  Warmer Tunnel",
+                    "userData": {
+                        "num": "40304"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        -5,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4764,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4766,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4765,
+                    "name": "Mithril Mountains  :  Cool Tunnel",
+                    "userData": {
+                        "num": "40305"
+                    }
+                },
+                {
+                    "coordinates": [
+                        54,
+                        -6,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4765,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4767,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4766,
+                    "name": "Dark Tunnel",
+                    "stubExits": [
+                        {
+                            "name": "southeast"
+                        }
+                    ],
+                    "userData": {
+                        "num": "50000"
+                    }
+                },
+                {
+                    "coordinates": [
+                        53,
+                        -7,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4766,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4768,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4767,
+                    "name": "tunnel",
+                    "stubExits": [
+                        {
+                            "name": "southeast"
+                        }
+                    ],
+                    "userData": {
+                        "num": "50002"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -8,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4767,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4769,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4768,
+                    "name": "Dark Tunnel",
+                    "userData": {
+                        "num": "50014"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -9,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4768,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4770,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4769,
+                    "name": "Dark Tunnel",
+                    "stubExits": [
+                        {
+                            "name": "east"
+                        }
+                    ],
+                    "userData": {
+                        "num": "50013"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -10,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4769,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4771,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4770,
+                    "name": "Dark Tunnel",
+                    "userData": {
+                        "num": "50015"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        -11,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4770,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4772,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4771,
+                    "name": "Dark Tunnel",
+                    "userData": {
+                        "num": "50016"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        -12,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4771,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4773,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4772,
+                    "name": "Dark Tunnel",
+                    "userData": {
+                        "num": "50017"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        -13,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4772,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4774,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4773,
+                    "name": "Dark Tunnel",
+                    "userData": {
+                        "num": "50018"
+                    }
+                },
+                {
+                    "coordinates": [
+                        50,
+                        -14,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4773,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4775,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4774,
+                    "name": "Dark Tunnel",
+                    "userData": {
+                        "num": "50019"
+                    }
+                },
+                {
+                    "coordinates": [
+                        50,
+                        -15,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4774,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4779,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 4776,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4782,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4775,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50020"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        -16,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4775,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4777,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4776,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50021"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        -17,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4776,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4778,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4777,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50024"
+                    }
+                },
+                {
+                    "coordinates": [
+                        51,
+                        -18,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4777,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4783,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4778,
+                    "name": "tunnel",
+                    "stubExits": [
+                        {
+                            "name": "south"
+                        }
+                    ],
+                    "userData": {
+                        "num": "50025"
+                    }
+                },
+                {
+                    "coordinates": [
+                        50,
+                        -16,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4775,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4780,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4779,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50023"
+                    }
+                },
+                {
+                    "coordinates": [
+                        50,
+                        -17,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4779,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4781,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4780,
+                    "name": "tunnel",
+                    "stubExits": [
+                        {
+                            "name": "south"
+                        }
+                    ],
+                    "userData": {
+                        "num": "50192"
+                    }
+                },
+                {
+                    "coordinates": [
+                        49,
+                        -17,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4782,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4780,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4781,
+                    "name": "tunnel",
+                    "stubExits": [
+                        {
+                            "name": "southwest"
+                        }
+                    ],
+                    "userData": {
+                        "num": "50193"
+                    }
+                },
+                {
+                    "coordinates": [
+                        49,
+                        -16,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4775,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4781,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4782,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50022"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -19,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4784,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4778,
+                            "name": "northwest"
+                        }
+                    ],
+                    "id": 4783,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50026"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -18,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4785,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4783,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4784,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50028"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -17,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4786,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4784,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4785,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50029"
+                    }
+                },
+                {
+                    "coordinates": [
+                        52,
+                        -16,
+                        0
+                    ],
+                    "environment": 65535,
+                    "exits": [
+                        {
+                            "exitId": 4785,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4786,
+                    "name": "tunnel",
+                    "userData": {
+                        "num": "50030"
+                    }
                 }
             ]
         },
@@ -94073,7 +97245,10 @@
                         }
                     ],
                     "id": 3444,
-                    "name": "Umbris Passage [w,n,s,ne]"
+                    "name": "Umbris Passage [w,n,s,ne]",
+                    "userData": {
+                        "num": "100113"
+                    }
                 },
                 {
                     "coordinates": [
@@ -94195,7 +97370,10 @@
                         }
                     ],
                     "id": 3449,
-                    "name": "Umbris Passage [e,w,n,s]"
+                    "name": "Umbris Passage [e,w,n,s]",
+                    "userData": {
+                        "num": "100108"
+                    }
                 },
                 {
                     "coordinates": [
@@ -94223,7 +97401,10 @@
                         }
                     ],
                     "id": 3450,
-                    "name": "Umbris Passage [e,w,n,s]"
+                    "name": "Umbris Passage [e,w,n,s]",
+                    "userData": {
+                        "num": "100111"
+                    }
                 },
                 {
                     "coordinates": [
@@ -109329,11 +112510,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 4616,
+        "Final Realms Alena": 488,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4683
+    "roomCount": 4786
 }
