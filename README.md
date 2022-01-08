@@ -3,11 +3,21 @@ Mudlet module for the Final Realms mud.
 
 Some features are
 * Auto mapper with an included map.json containing some areas (surface)
-* Auto casting offensive spells/buffs for some situations and only some guilds, easy to add new guilds
+* Basic auto casting offensive spells/refreshing buffs for some situations for some guilds, easy to add new guilds
 * Visual bars for hp/gp/xp, current profile and multis
+* Stats for damage/xp
 * Auto xp bot, ok ok
 
+## Installation
+
+In Mudlet go to Toolbox > Module Manager. Click "Install" and browse to the FinalReals.xml file.
+To load up the map (overwriting any previous profile map) do click "Load map" in the toolbar.
+
 ## The map
+
+Main surface area zoomed out.
+
+![Main area zoomed out](main.png)
 
 After installing the module press the "Load map" button in the FR toolbar provided by the module, this loads the map.json from the module. Beware that it overwrites the profiles map. Anytime the map has changed the "Load map" needs to be pressed again. To change the map of the module use the "Save map" button, this is to allow several profiles to share the same installed module without them overwriting the map for each other.
 
