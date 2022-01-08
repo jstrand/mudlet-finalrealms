@@ -141,7 +141,7 @@ function updateGauges()
                    "<p style='font-size:12pt;margin-left:10px'><b>" ..
                        (gp or "?") .. " GP</b></p>")
     local xp_bar_max = max_xp
-    if xp_helper or xp_health_pause then xp_bar_max = xp_goal end
+    -- if xp_helper or xp_health_pause then xp_bar_max = xp_goal end
 
     xpbar:setValue(cap(xp, xp_bar_max), xp_bar_max,
                    "<p style='font-size:12pt;margin-left:10px'><b>" ..
@@ -152,9 +152,9 @@ end
 function showXpRate()
     local rate = ""
     if xp_stats and xp_stats.xp_per_hour() > 10000 then
-        local time_left = xp_stats.time_to(xp_goal)
+        local time_left = xp_stats.time_to(max_xp)
         if time_left then
-            time_left = " " .. time_left .. " kvar"
+            time_left = " " .. time_left .. " left"
         else
             time_left = ""
         end

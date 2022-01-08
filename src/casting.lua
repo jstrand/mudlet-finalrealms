@@ -14,7 +14,6 @@ function refreshLockoutGauge()
     if lockout <= 0 then
         lockoutGauge:hide()
     else
-        -- echo("lockout: " .. lockout .. " max: " .. max_lockout .. "\n")
         lockoutGauge:show()
         lockoutGauge:setValue(lockout, max_lockout, "")
     end
@@ -41,9 +40,7 @@ function doCasts()
         return
     end
 
-    gp = gp or 0
-
-    if gp < max_gp * gp_needed then return end
+    if gp == nil or max_gp == nil or gp < max_gp * gp_needed then return end
 
     local buffLockout = refreshBuffs()
     if buffLockout > 0 then
@@ -61,7 +58,7 @@ function doCasts()
         castOnMultiple()
         setLockout(8)
     else
-        -- castOnSingle()
+        castOnSingle()
         setLockout(4)
     end
 end

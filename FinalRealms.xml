@@ -17,30 +17,9 @@
 			<colorTriggerBgColor>#000000</colorTriggerBgColor>
 			<regexCodeList />
 			<regexCodePropertyList />
-			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Attacked</name>
-				<script>addFight(matches[2])
-</script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList>
-					<string>^[ &gt;]*You are attacked by (.*).$</string>
-				</regexCodeList>
-				<regexCodePropertyList>
-					<integer>1</integer>
-				</regexCodePropertyList>
-			</Trigger>
 			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
 				<name>Death blow</name>
-				<script>removeFight(matches[2])
+				<script>removeFight()
 </script>
 				<triggerType>0</triggerType>
 				<conditonLineDelta>0</conditonLineDelta>
@@ -60,98 +39,6 @@
 				<regexCodePropertyList>
 					<integer>0</integer>
 					<integer>1</integer>
-					<integer>1</integer>
-				</regexCodePropertyList>
-			</Trigger>
-			<Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Entered room</name>
-				<script>if xp_helper then
-	display("Entered a room")
-	xp_timer = tempTimer(1, [[xpWalk()]])
-end
-</script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList>
-					<string>^(.* \[([a-z,]+)\])\.$</string>
-				</regexCodeList>
-				<regexCodePropertyList>
-					<integer>0</integer>
-				</regexCodePropertyList>
-			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>Party attack</name>
-				<script>--display(matches[1])
---display(matches[2])
-fighting = 0
-local targets = matches[2]
-local comma_separated = targets:gsub(" and ", ",")
-local splitted = string.split(comma_separated, ",")
---display(splitted)
---display(#splitted)
-for i = 1,#splitted do
-	addFight(splitted[i]:trim())
-end
-
-display(fighting)</script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList>
-					<string>^[ &gt;]*You lead your party into battle against (.*)\.$</string>
-					<string>.* leads h.. party consisting .* you into battle against (.*)\.$</string>
-				</regexCodeList>
-				<regexCodePropertyList>
-					<integer>1</integer>
-					<integer>1</integer>
-				</regexCodePropertyList>
-			</Trigger>
-			<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-				<name>You attack</name>
-				<script>--display(matches[1])
---display(matches[2])
-
-local targets = matches[2]
-local comma_separated = targets:gsub(" and ", ",")
-local splitted = string.split(comma_separated, ",")
---display(splitted)
---display(#splitted)
-for i = 1,#splitted do
-	addFight(splitted[i]:trim())
-end
-
-
---addFight(matches[2])
-</script>
-				<triggerType>0</triggerType>
-				<conditonLineDelta>0</conditonLineDelta>
-				<mStayOpen>0</mStayOpen>
-				<mCommand></mCommand>
-				<packageName></packageName>
-				<mFgColor>#ff0000</mFgColor>
-				<mBgColor>#ffff00</mBgColor>
-				<mSoundFile></mSoundFile>
-				<colorTriggerFgColor>#000000</colorTriggerFgColor>
-				<colorTriggerBgColor>#000000</colorTriggerBgColor>
-				<regexCodeList>
-					<string>^[ &gt;]*Ok\.  Fight with (.*) starts.$</string>
-				</regexCodeList>
-				<regexCodePropertyList>
 					<integer>1</integer>
 				</regexCodePropertyList>
 			</Trigger>
@@ -1256,25 +1143,6 @@ end
 			<buttonColumn>1</buttonColumn>
 			<buttonRotation>0</buttonRotation>
 			<buttonColor>#ffffff</buttonColor>
-			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
-				<name>Layout</name>
-				<packageName></packageName>
-				<script>initLayout()</script>
-				<css></css>
-				<commandButtonUp></commandButtonUp>
-				<commandButtonDown></commandButtonDown>
-				<icon></icon>
-				<orientation>1</orientation>
-				<location>0</location>
-				<posX>0</posX>
-				<posY>0</posY>
-				<mButtonState>1</mButtonState>
-				<sizeX>692060416</sizeX>
-				<sizeY>0</sizeY>
-				<buttonColumn>1</buttonColumn>
-				<buttonRotation>0</buttonRotation>
-				<buttonColor>#ffffff</buttonColor>
-			</Action>
 			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="yes" useCustomLayout="no">
 				<name>zoom</name>
 				<packageName></packageName>
@@ -1389,6 +1257,7 @@ if guild_name then
   setupGuild(guild_name)
 end
 
+initLayout()
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -1431,6 +1300,29 @@ echo("Room: " .. num .. "\n")
 				<name>Set current room number</name>
 				<packageName></packageName>
 				<script>setRoomUserData(current_room, "num", gmcp.Room.Info.num)
+</script>
+				<css></css>
+				<commandButtonUp></commandButtonUp>
+				<commandButtonDown></commandButtonDown>
+				<icon></icon>
+				<orientation>1</orientation>
+				<location>0</location>
+				<posX>0</posX>
+				<posY>0</posY>
+				<mButtonState>1</mButtonState>
+				<sizeX>0</sizeX>
+				<sizeY>0</sizeY>
+				<buttonColumn>1</buttonColumn>
+				<buttonRotation>0</buttonRotation>
+				<buttonColor>#ffffff</buttonColor>
+			</Action>
+			<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
+				<name>Restart XP stats</name>
+				<packageName></packageName>
+				<script>if xp_stats then
+  xp_stats.restart()
+  updateGauges()
+end
 </script>
 				<css></css>
 				<commandButtonUp></commandButtonUp>
@@ -1624,261 +1516,7 @@ end
 		<ScriptGroup isActive="yes" isFolder="yes">
 			<name>XP</name>
 			<packageName></packageName>
-			<script>
-flee_limit = 0.6
-health_limit_percent = 0.8
-heal_limit_percent = 0.65
-gp_limit = 0.26
-repop_delta = 600
-
-fleeing = fleeing or false
-
---xp_goal = max_xp*1.3
-xp_goal=30000000
-function goalReached()
-  return false
-	--return xp &gt;= xp_goal
-end
-
-function checkHealth()
-	if not xp_helper and not xp_health_pause then
-		return
-	end
-
-	if hp &lt; max_hp * flee_limit and current_room ~= xp_area.waiting_room then
-		-- run to waiting room
-		if not fleeing and xp_area.waiting_room and getPath(current_room, xp_area.waiting_room) then
-			echo("\nBrave sir robin...\n")
-			refreshButtons()
-			xp_path = copySpeedWalkDir()
-			fighting = 0
-			fleeing = true
-			stepXp()
-		end
-	else
-		fleeing = false
-	end
-
-	if hp &lt; max_hp * heal_limit_percent then
-		send("cast cure large wounds at me")
-	end
-
-	if hp &lt; max_hp * health_limit_percent then
-		if not xp_health_pause then
-			xp_helper = false
-			xp_health_pause = true
-			echo("\nPauseing XP, too little HP\n")
-			refreshButtons()
-		end
-
---		if xp_health_timer then
---			killTimer(xp_health_timer)
---		end
---		xp_health_timer = tempTimer(60, [[send("sc")]])
-	elseif xp_health_pause then
-		xp_helper = true
-		xp_health_pause = false
-		echo("\nHealth regained, resuming XP\n")
-		--refreshButtons()
-		stepXp()
-	end
-end
-
-function checkGuildPoints()
-	if not xp_helper and not xp_gp_pause then
-		return
-	end
-   
-	gp_disabled = true
-	if gp_disabled then
-		return
-	end
-  
-	if gp &lt;= 30 then  --gp_limit * max_gp then
-		if not xp_gp_pause then
-			xp_helper = false
-			xp_gp_pause = true
-			echo("\nPauseing XP, regenerating GP\n")
-		end
-	elseif xp_gp_pause and gp &gt;= max_gp then
-		xp_helper = true
-		xp_gp_pause = false
-		echo("\nGP regained, resuming XP\n")
-		stepXp()
-	end
-
-	if xp_gp_pause then
-		if xp_gp_timer then
-			killTimer(xp_gp_timer)
-		end
-		xp_gp_timer = tempTimer(60, [[send("sc")]])
-	end
-end
-
-function addFight(with)
-	if fighting == nil then
-		fighting = 0
-	end
-
-	if string.starts(with, "two") then
-		fighting = fighting + 2
-	elseif string.starts(with, "three") then
-		fighting = fighting + 3
-	elseif string.starts(with, "four") then
-		fighting = fighting + 4
-	elseif string.starts(with, "five") then
-		fighting = fighting + 5
-	elseif string.starts(with, "six") then
-		fighting = fighting + 6
-	else
-		fighting = fighting + 1
-	end
-end
-
-function removeFight(with)
-	if fighting ~= nil and fighting &gt; 0 then
-		fighting = fighting -1
-	else
-		fighting = 0
-	end
-
-	if not xp_helper and not xp_health_pause and not xp_gp_pause then
-		return
-	end
-
-	if fighting == 0 then
-		send("loot_bury")
-		send("xpk")
-	end
-end
-
-xp_area = xp_area or {}
-
-function repopped(room_id)
-	if xp_visit_time[room_id] then
-		return xp_visit_time[room_id] &lt;= (os.time() - repop_delta)
-	else
-		return false
-	end
-end
-
-function stepXp()
-	if not xp_helper and not fleeing then
-		return
-	end
-
-	if xp_movement_timer then
-		killTimer(xp_movement_timer)
-		xp_movement_timer = nil
-	end
-
-	-- If a movement has been set wait for a new room before doing anything else
-	if movement ~= nil then
-		return
-	end
-
-	--checkHealth()
-	--checkGuildPoints()
-
-	if fighting &gt; 0 and not fleeing then
-		return
-	end
-
-	-- test if the goal is reached, if so return to waiting room and stop
-	if goalReached() and current_room == xp_area.waiting_room then
-		toggleXp() -- stop working
-		--send("q")
-		auto_buff = false
-		refreshButtons()
-		return
-	elseif goalReached() then
-		-- reuse fleeing to get back
-		if not fleeing and xp_area.waiting_room and getPath(current_room, xp_area.waiting_room) then
-			echo("\nGoal reached, going to waiting room...\n")
-			xp_path = copySpeedWalkDir()
-			fighting = 0
-			fleeing = true
-		end
-	end
-
-	if (moving and not fleeing) and repopped(current_room) then
-		-- Attack targets, but only if this is a room where we expect to find monsters
-		send("xpk")
-		moving = false
-		return
-	end
-
-	if 	fleeing and current_room == xp_area.waiting_room then
-		fleeing = false
-	else
-		-- not fighting or moving, move
-		movement = nextXpDir()
-		if movement == nil then
-			echo("\nWaiting for a room to repop.\n")
-			xp_restart_timer = tempTimer(60, stepXp)
-		else
-			moving = true
-			xp_movement_timer = tempTimer(60, [[send("gl")]])
-			--send("party move " .. movement)
-      send(movement)
-		end
-	end
-end
-
-function nextXpDir()
-	xp_path = xp_path or {}
-
-   -- check if there are saved directions for us
-	if #xp_path == 0 then
-		-- no saved directions, calculate path to next room
-    local bestWeight = nil
-		for room_id,_ in pairs(xp_visit_time) do
-    local hasPath, routeWeight = getPath(current_room, room_id)
-			if repopped(room_id) and hasPath then
-				--local route_length = tablelength(speedWalkDir)
-     --local routeWeight = totalWeight
-				if bestWeight == nil or routeWeight &lt; bestWeight or #xp_path == 0 then
-					bestWeight = routeWeight
-					xp_path = copySpeedWalkDir()
-				end
-			end
-		end
-
-		-- no more directions, return to waiting room
-		if #xp_path == 0 and xp_area.waiting_room and getPath(current_room, xp_area.waiting_room) then
-			xp_path = copySpeedWalkDir()
-		end
-	end
-
-	if #xp_path &gt; 0 then
-		next_dir = xp_path[1]
-		table.remove(xp_path, 1)
-		return next_dir
-	end
-
-	return nil
-end
-
-function visitRoom()
-	if xp_helper or xp_health_pause then
-		-- make sure the current room shows as visited
-		unHighlightRoom(current_room)
-
-		if xp_visit_time[current_room] then
-		 	-- record the time this room was visited last
-			xp_visit_time[current_room] = os.time()
-		end
-	end
-end
-
-function copySpeedWalkDir()
-	local result = {}
-	for i,d in pairs(speedWalkDir) do
-		result[i] = d
-	end
-	return result
-end
-</script>
+			<script></script>
 			<eventHandlerList />
 			<Script isActive="yes" isFolder="no">
 				<name>add2XpArea</name>
@@ -1948,139 +1586,6 @@ end
 				<eventHandlerList>
 					<string>removeFromXpArea</string>
 				</eventHandlerList>
-			</Script>
-			<Script isActive="yes" isFolder="no">
-				<name>mirkwood</name>
-				<packageName></packageName>
-				<script>mirkwood = 
-{
-  [964] = true,
-  [972] = true,
-  [980] = true,
-  [988] = true,
-  [996] = true,
-  [1004] = true,
-  [1012] = true,
-  [1113] = true,
-  [1093] = true,
-  [1080] = true,
-  [1096] = true,
-  [1112] = true,
-  [1128] = true,
-  [1129] = true,
-  [965] = true,
-  [973] = true,
-  [981] = true,
-  [989] = true,
-  [997] = true,
-  [1005] = true,
-  [1013] = true,
-  [1127] = true,
-  [982] = true,
-  [1125] = true,
-  [1083] = true,
-  [1082] = true,
-  [1098] = true,
-  [1114] = true,
-  [1130] = true,
-  [958] = true,
-  [966] = true,
-  [974] = true,
-  [1067] = true,
-  [990] = true,
-  [998] = true,
-  [1006] = true,
-  [1014] = true,
-  [1095] = true,
-  [1121] = true,
-  [1097] = true,
-  [1068] = true,
-  [1084] = true,
-  [1100] = true,
-  [1116] = true,
-  [1119] = true,
-  [959] = true,
-  [967] = true,
-  [975] = true,
-  [983] = true,
-  [991] = true,
-  [999] = true,
-  [1007] = true,
-  [1015] = true,
-  [1111] = true,
-  [1117] = true,
-  [1115] = true,
-  [1070] = true,
-  [1086] = true,
-  [1102] = true,
-  [1118] = true,
-  [1071] = true,
-  [960] = true,
-  [968] = true,
-  [976] = true,
-  [984] = true,
-  [992] = true,
-  [1000] = true,
-  [1008] = true,
-  [1016] = true,
-  [1109] = true,
-  [1085] = true,
-  [1107] = true,
-  [1072] = true,
-  [1088] = true,
-  [1104] = true,
-  [1120] = true,
-  [1105] = true,
-  [961] = true,
-  [969] = true,
-  [977] = true,
-  [985] = true,
-  [993] = true,
-  [1001] = true,
-  [1009] = true,
-  [1017] = true,
-  [1101] = true,
-  [1099] = true,
-  [1074] = true,
-  [1090] = true,
-  [1106] = true,
-  [1122] = true,
-  [1073] = true,
-  [962] = true,
-  [970] = true,
-  [978] = true,
-  [986] = true,
-  [994] = true,
-  [1002] = true,
-  [1123] = true,
-  [1018] = true,
-  [1087] = true,
-  [1091] = true,
-  [1089] = true,
-  [1076] = true,
-  [1092] = true,
-  [1108] = true,
-  [1124] = true,
-  [1081] = true,
-  [963] = true,
-  [971] = true,
-  [979] = true,
-  [987] = true,
-  [995] = true,
-  [1003] = true,
-  [1011] = true,
-  [1019] = true,
-  [1079] = true,
-  [1075] = true,
-  [1077] = true,
-  [1078] = true,
-  [1094] = true,
-  [1110] = true,
-  [1126] = true,
-  [1069] = true
-}
-</script>
-				<eventHandlerList />
 			</Script>
 			<Script isActive="yes" isFolder="no">
 				<name>loadXpData</name>
@@ -2296,6 +1801,17 @@ function XpStats()
 end
 </script>
 				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>onRoundEventHandler</name>
+				<packageName></packageName>
+				<script>function onRoundEventHandler()
+  fighting = #gmcp.Action.Round.Fighting
+end
+</script>
+				<eventHandlerList>
+					<string>gmcp.Action.Round</string>
+				</eventHandlerList>
 			</Script>
 		</ScriptGroup>
 		<ScriptGroup isActive="yes" isFolder="yes">
