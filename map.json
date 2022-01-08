@@ -4139,10 +4139,67 @@
                         0.67633056640625
                     ],
                     "text": "p - pry drain (having a crowbar from villager)"
+                },
+                {
+                    "colors": [
+                        {
+                            "color24RGB": [
+                                170,
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "color24RGB": [
+                                50,
+                                50,
+                                150
+                            ]
+                        }
+                    ],
+                    "coordinates": [
+                        42.81223678588867,
+                        -6.573060989379883,
+                        0
+                    ],
+                    "id": 27,
+                    "image": [
+                        "iVBORw0KGgoAAAANSUhEUgAAAaEAAAA3CAIAAAAqgmJ/AAAACXBIWXMAAA7EAAAO",
+                        "xAGVKw4bAAAEIElEQVR42u3aPUgjaRyA8f8eB4MEcrCJTvaQIOKdwhTCdEpgId0W",
+                        "sUmqdCnSpE6RbrGzsE6Tws5qbExx3UAgmG4gHAPuLhwhhLuMGu9WSDHdFZOPmXyZ",
+                        "XT12zT2/QnScvJl30If3HX2l62UBgBX1A7cAAI0DABoHADQOAGgcANA4AKBxAGgc",
+                        "ANA4AKBxAEDjAIDGAQCNAwAaB4DGAQCNAwAaBwA0DgBoHADQOACgcQBoHADQOHz3",
+                        "XDP/wVSffs5/OsLTLwCY40duwYum3pzmOn94n/c2jysb689WxpZcbslRSy53k87i",
+                        "0xacMO9VthEZfvVpp3yhfNUVTgwS5scBNG71Ave3fqYXHRGR27ft31X5wtzMoyQr",
+                        "uyIi3sfnF8qceWV0zXzLVLeePIhdSJM50LjVYic60tBGUVuvxZPBld12QyvWZqz4",
+                        "thtasaYEl0KhjLco+7hmHNwlqlrs0LeOk9FrR1nxqtoyIn3JWUYv9k4ktNcu5O58",
+                        "q6rx+MN3nLEc60bW9h1xJleFo8+XGURJVjTJt0xVkaPRFPTs3WNTPguMn6jqWXt8",
+                        "E1ge0jh8W67zOqTXp37nnY3iyYaIiDyclxy7ps45Hpe0bdzvlCvhQVBERPpG9E35",
+                        "JC7imoe+XeFR5+eqXrRFtPZ5VGRc1a3Mr6MSdYevfTgv/WWqYTVhd6/0sj1crF37",
+                        "t7R9I2cZw/pkx0NOdTy9YJBA5tT7fjMqsfEUROTxKdujI+rNaa5t26rvJgwm8kxL",
+                        "Y9A4fK3btx/eH/SnFyYioZjqS1XguCuvQ5nL8OTurx6elQ8xUpaInrXj2QU7x8Fr",
+                        "lVjPS7DUU1Y9Nfh2IuovWXCver01v+MLBll8GctM2XVGR5yf9F6nqamxyYmAxuHb",
+                        "UNT7/m97btJR1mu75Zq3MHHNvG191MqDfVnL/9s+6/hStAu9LGKnrULK29B96fOy",
+                        "R2bRjErsSYMMahW7CxyZmrLbjSx4I6wo/nfk5dLqm3LQmvqXi5B+rYiIqJ+tyILj",
+                        "inrft/bcWWdO5sNM39yKaBf6cSP0Z9QNfrffjc6Nl5F4eGwSD81f/G0ajua7yCUG",
+                        "8bacb6ZSODHl8P6n4ZSnL1L9bEWi+zY/Vqzj8P1wNopncjp8sCW9zWNHWb9aK3hH",
+                        "etHEeKulJKeOaxc7zZJdOJg4c1atpPO+1Bm8RcX/BFBJXkULKat+GHsnEppc/WmZ",
+                        "vF0ozVyOjZ/HJap60nFNb7TLzdOcVUj5L3KpQbYbg/Va8NrmT9kbLTh+oqpr4vLw",
+                        "bdW80vUydwH/Ow/npX/2T+Iad4J1HLBC2/t2ITXYGCeqOoFjHQcALxx/cwBA4wCA",
+                        "xgEAjQMAGgcANA4AaBwAGgcANA4AaBwA0DgAoHEAQOMAgMYBoHEAQOMAgMYBAI0D",
+                        "ABoHADQOAIL+BbUbMtXog9lEAAAAAElFTkSuQmCC"
+                    ],
+                    "scaledels": true,
+                    "showOnTop": false,
+                    "size": [
+                        5.701133728027344,
+                        0.7519478797912598
+                    ],
+                    "text": "Galadriis the Blue Dragon"
                 }
             ],
             "name": "Main",
-            "roomCount": 3770,
+            "roomCount": 3788,
             "rooms": [
                 {
                     "coordinates": [
@@ -20848,10 +20905,6 @@
                     "exits": [
                         {
                             "exitId": 802,
-                            "name": "north"
-                        },
-                        {
-                            "exitId": 802,
                             "name": "northeast"
                         },
                         {
@@ -30963,7 +31016,10 @@
                         }
                     ],
                     "id": 1242,
-                    "name": "City of Haisk : Glaboffen's Smithy [se]"
+                    "name": "City of Haisk : Glaboffen's Smithy [se]",
+                    "userData": {
+                        "num": "40157"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32193,7 +32249,10 @@
                         }
                     ],
                     "id": 1302,
-                    "name": "Forest of Shangria : Forest Trail [e,s]"
+                    "name": "Forest of Shangria : Forest Trail [e,s]",
+                    "userData": {
+                        "num": "50063"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32213,7 +32272,10 @@
                         }
                     ],
                     "id": 1303,
-                    "name": "Forest of Shangria : Forest Trail [n,sw]"
+                    "name": "Forest of Shangria : Forest Trail [n,sw]",
+                    "userData": {
+                        "num": "50287"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32233,7 +32295,10 @@
                         }
                     ],
                     "id": 1304,
-                    "name": "Forest of Shangria : Forest Trail [ne,sw]"
+                    "name": "Forest of Shangria : Forest Trail [ne,sw]",
+                    "userData": {
+                        "num": "50288"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32257,7 +32322,10 @@
                         }
                     ],
                     "id": 1305,
-                    "name": "Forest of Shangria : Forest Trail [ne,se,w]"
+                    "name": "Forest of Shangria : Forest Trail [ne,se,w]",
+                    "userData": {
+                        "num": "50289"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32277,7 +32345,10 @@
                         }
                     ],
                     "id": 1306,
-                    "name": "Forest of Shangria : Forest Trail [e,w]"
+                    "name": "Forest of Shangria : Forest Trail [e,w]",
+                    "userData": {
+                        "num": "50291"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32297,7 +32368,10 @@
                         }
                     ],
                     "id": 1307,
-                    "name": "Forest of Shangria : Forest Trail [e,sw]"
+                    "name": "Forest of Shangria : Forest Trail [e,sw]",
+                    "userData": {
+                        "num": "50292"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32317,7 +32391,10 @@
                         }
                     ],
                     "id": 1308,
-                    "name": "Forest of Shangria : Forest Trail [ne,s]"
+                    "name": "Forest of Shangria : Forest Trail [ne,s]",
+                    "userData": {
+                        "num": "50293"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32445,7 +32522,10 @@
                         }
                     ],
                     "id": 1314,
-                    "name": "Forest of Shangria : Forest Trail [n,se,s]"
+                    "name": "Forest of Shangria : Forest Trail [n,se,s]",
+                    "userData": {
+                        "num": "50299"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32473,7 +32553,10 @@
                         }
                     ],
                     "id": 1315,
-                    "name": "Forest of Shangria : Forest Trail [e,s,w,nw]"
+                    "name": "Forest of Shangria : Forest Trail [e,s,w,nw]",
+                    "userData": {
+                        "num": "50300"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32517,7 +32600,10 @@
                         }
                     ],
                     "id": 1317,
-                    "name": "Forest of Shangria : Forest Trail [nw,s,e]"
+                    "name": "Forest of Shangria : Forest Trail [nw,s,e]",
+                    "userData": {
+                        "num": "50290"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32619,7 +32705,10 @@
                         }
                     ],
                     "id": 1322,
-                    "name": "Forest of Shangria : Forest Trail [nw,se]"
+                    "name": "Forest of Shangria : Forest Trail [nw,se]",
+                    "userData": {
+                        "num": "50080"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32643,7 +32732,10 @@
                         }
                     ],
                     "id": 1323,
-                    "name": "Forest of Shangria : Forest Trail [n,w,se]"
+                    "name": "Forest of Shangria : Forest Trail [n,w,se]",
+                    "userData": {
+                        "num": "50306"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32663,7 +32755,10 @@
                         }
                     ],
                     "id": 1324,
-                    "name": "Forest of Shangria : Forest Trail [n,s]"
+                    "name": "Forest of Shangria : Forest Trail [n,s]",
+                    "userData": {
+                        "num": "50305"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32683,7 +32778,10 @@
                         }
                     ],
                     "id": 1325,
-                    "name": "Forest of Shangria : Forest Trail [n,s]"
+                    "name": "Forest of Shangria : Forest Trail [n,s]",
+                    "userData": {
+                        "num": "50304"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32703,7 +32801,10 @@
                         }
                     ],
                     "id": 1326,
-                    "name": "Forest of Shangria : Forest Trail [ne,s]"
+                    "name": "Forest of Shangria : Forest Trail [ne,s]",
+                    "userData": {
+                        "num": "50303"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32723,7 +32824,10 @@
                         }
                     ],
                     "id": 1327,
-                    "name": "Forest of Shangria : Forest Trail [n,sw]"
+                    "name": "Forest of Shangria : Forest Trail [n,sw]",
+                    "userData": {
+                        "num": "50302"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32743,7 +32847,10 @@
                         }
                     ],
                     "id": 1328,
-                    "name": "Forest of Shangria : Forest Trail [w,e]"
+                    "name": "Forest of Shangria : Forest Trail [w,e]",
+                    "userData": {
+                        "num": "50307"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32763,7 +32870,10 @@
                         }
                     ],
                     "id": 1329,
-                    "name": "Forest of Shangria : Forest Trail [w,e]"
+                    "name": "Forest of Shangria : Forest Trail [w,e]",
+                    "userData": {
+                        "num": "50308"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32783,7 +32893,10 @@
                         }
                     ],
                     "id": 1330,
-                    "name": "Forest of Shangria : Forest Trail [w,e]"
+                    "name": "Forest of Shangria : Forest Trail [w,e]",
+                    "userData": {
+                        "num": "50309"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32803,7 +32916,10 @@
                         }
                     ],
                     "id": 1331,
-                    "name": "Forest of Shangria : Forest Trail [w,e]"
+                    "name": "Forest of Shangria : Forest Trail [w,e]",
+                    "userData": {
+                        "num": "50310"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32823,7 +32939,10 @@
                         }
                     ],
                     "id": 1332,
-                    "name": "Forest of Shangria : Forest Trail [e,w]"
+                    "name": "Forest of Shangria : Forest Trail [e,w]",
+                    "userData": {
+                        "num": "50311"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32843,7 +32962,10 @@
                         }
                     ],
                     "id": 1333,
-                    "name": "Forest of Shangria : Forest Trail [e,s]"
+                    "name": "Forest of Shangria : Forest Trail [e,s]",
+                    "userData": {
+                        "num": "50312"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32863,7 +32985,10 @@
                         }
                     ],
                     "id": 1334,
-                    "name": "Forest of Shangria : Forest Trail [sw,n]"
+                    "name": "Forest of Shangria : Forest Trail [sw,n]",
+                    "userData": {
+                        "num": "50313"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32887,7 +33012,10 @@
                         }
                     ],
                     "id": 1335,
-                    "name": "Forest of Shangria : Forest Trail [w,ne,se]"
+                    "name": "Forest of Shangria : Forest Trail [w,ne,se]",
+                    "userData": {
+                        "num": "50314"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32907,7 +33035,10 @@
                         }
                     ],
                     "id": 1336,
-                    "name": "Forest of Shangria : Forest Trail [w,e]"
+                    "name": "Forest of Shangria : Forest Trail [w,e]",
+                    "userData": {
+                        "num": "50315"
+                    }
                 },
                 {
                     "coordinates": [
@@ -32932,7 +33063,10 @@
                         {
                             "name": "west"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "50317"
+                    }
                 },
                 {
                     "coordinates": [
@@ -33625,7 +33759,10 @@
                         }
                     ],
                     "id": 1370,
-                    "name": "Castle drawbridge [n,s]"
+                    "name": "Castle drawbridge [n,s]",
+                    "userData": {
+                        "num": "40191"
+                    }
                 },
                 {
                     "coordinates": [
@@ -33653,7 +33790,10 @@
                         }
                     ],
                     "id": 1371,
-                    "name": "Gate hall [n,e,s,w]"
+                    "name": "Gate hall [n,e,s,w]",
+                    "userData": {
+                        "num": "40192"
+                    }
                 },
                 {
                     "coordinates": [
@@ -33717,7 +33857,10 @@
                         }
                     ],
                     "id": 1374,
-                    "name": "Castle yard [n,e,s,w]"
+                    "name": "Castle yard [n,e,s,w]",
+                    "userData": {
+                        "num": "40194"
+                    }
                 },
                 {
                     "coordinates": [
@@ -33742,7 +33885,10 @@
                         {
                             "name": "west"
                         }
-                    ]
+                    ],
+                    "userData": {
+                        "num": "40197"
+                    }
                 },
                 {
                     "coordinates": [
@@ -46819,11 +46965,15 @@
                         6,
                         0
                     ],
-                    "environment": 12632256,
+                    "environment": 65535,
                     "exits": [
                         {
                             "exitId": 1968,
                             "name": "east"
+                        },
+                        {
+                            "exitId": 4802,
+                            "name": "climb wall"
                         }
                     ],
                     "id": 1969,
@@ -58883,17 +59033,16 @@
                             "name": "northeast"
                         },
                         {
+                            "exitId": 4787,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 2636,
                             "name": "southwest"
                         }
                     ],
                     "id": 2637,
                     "name": "Forest of Silence : Foggy Path [ne,nw,sw]",
-                    "stubExits": [
-                        {
-                            "name": "northwest"
-                        }
-                    ],
                     "userData": {
                         "num": "40188"
                     }
@@ -58907,6 +59056,10 @@
                     "environment": 65280,
                     "exits": [
                         {
+                            "exitId": 4788,
+                            "name": "northwest"
+                        },
+                        {
                             "exitId": 2639,
                             "name": "east"
                         },
@@ -58917,11 +59070,6 @@
                     ],
                     "id": 2638,
                     "name": "Forest of Silence : Foggy Path [e,sw,nw]",
-                    "stubExits": [
-                        {
-                            "name": "northwest"
-                        }
-                    ],
                     "userData": {
                         "num": "40520"
                     }
@@ -58941,15 +59089,14 @@
                         {
                             "exitId": 2638,
                             "name": "west"
+                        },
+                        {
+                            "exitId": 4789,
+                            "name": "southeast"
                         }
                     ],
                     "id": 2639,
                     "name": "Forest of Silence : Foggy Path [ne,se,w]",
-                    "stubExits": [
-                        {
-                            "name": "southeast"
-                        }
-                    ],
                     "userData": {
                         "num": "40523"
                     }
@@ -59041,7 +59188,10 @@
                         }
                     ],
                     "id": 2643,
-                    "name": "The Old Mansion [out,stairs,e,w]"
+                    "name": "The Old Mansion [out,stairs,e,w]",
+                    "userData": {
+                        "num": "40743"
+                    }
                 },
                 {
                     "coordinates": [
@@ -59133,7 +59283,10 @@
                         }
                     ],
                     "id": 2648,
-                    "name": "The Old Mansion [e]"
+                    "name": "The Old Mansion [e]",
+                    "userData": {
+                        "num": "40746"
+                    }
                 },
                 {
                     "coordinates": [
@@ -90985,6 +91138,430 @@
                     "userData": {
                         "num": "50030"
                     }
+                },
+                {
+                    "coordinates": [
+                        36,
+                        -4,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4788,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 2637,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4787,
+                    "name": "Forest of Silence : Foggy Path",
+                    "userData": {
+                        "num": "40521"
+                    }
+                },
+                {
+                    "coordinates": [
+                        37,
+                        -3,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 2638,
+                            "name": "southeast"
+                        },
+                        {
+                            "exitId": 4787,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4788,
+                    "name": "Forest of Silence : Foggy Path",
+                    "userData": {
+                        "num": "40522"
+                    }
+                },
+                {
+                    "coordinates": [
+                        40,
+                        -5,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4790,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 2639,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4803,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4789,
+                    "name": "Forest of Silence : Foggy Path",
+                    "userData": {
+                        "num": "40525"
+                    }
+                },
+                {
+                    "coordinates": [
+                        41,
+                        -4,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4791,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4794,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4789,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4790,
+                    "name": "Forest of Silence : Foggy Path",
+                    "stubExits": [
+                        {
+                            "name": "southeast"
+                        }
+                    ],
+                    "userData": {
+                        "num": "40526"
+                    }
+                },
+                {
+                    "coordinates": [
+                        40,
+                        -3,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4792,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4790,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4791,
+                    "name": "Forest of Silence : Foggy Path",
+                    "stubExits": [
+                        {
+                            "name": "southwest"
+                        }
+                    ],
+                    "userData": {
+                        "num": "40524"
+                    }
+                },
+                {
+                    "coordinates": [
+                        40,
+                        -2,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4793,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4791,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4792,
+                    "name": "Forest of Silence : Path to House",
+                    "userData": {
+                        "num": "40527"
+                    }
+                },
+                {
+                    "coordinates": [
+                        40,
+                        -1,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4792,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4793,
+                    "name": "Forest of Silence : Path to House",
+                    "userData": {
+                        "num": "40528"
+                    }
+                },
+                {
+                    "coordinates": [
+                        42,
+                        -4,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4795,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4790,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4794,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41103"
+                    }
+                },
+                {
+                    "coordinates": [
+                        43,
+                        -3,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4796,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4794,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4795,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41105"
+                    }
+                },
+                {
+                    "coordinates": [
+                        44,
+                        -3,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4797,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4795,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4796,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41158"
+                    }
+                },
+                {
+                    "coordinates": [
+                        45,
+                        -3,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4798,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4796,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4797,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41159"
+                    }
+                },
+                {
+                    "coordinates": [
+                        46,
+                        -3,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4797,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 4799,
+                            "name": "southeast"
+                        }
+                    ],
+                    "id": 4798,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41160"
+                    }
+                },
+                {
+                    "coordinates": [
+                        47,
+                        -4,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4798,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4800,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 4799,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41161"
+                    }
+                },
+                {
+                    "coordinates": [
+                        48,
+                        -4,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4801,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4799,
+                            "name": "west"
+                        }
+                    ],
+                    "id": 4800,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41162"
+                    }
+                },
+                {
+                    "coordinates": [
+                        49,
+                        -3,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4802,
+                            "name": "northeast"
+                        },
+                        {
+                            "exitId": 4800,
+                            "name": "southwest"
+                        }
+                    ],
+                    "id": 4801,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41163"
+                    }
+                },
+                {
+                    "coordinates": [
+                        50,
+                        -2,
+                        0
+                    ],
+                    "environment": 45824,
+                    "exits": [
+                        {
+                            "exitId": 4801,
+                            "name": "southwest"
+                        },
+                        {
+                            "exitId": 1969,
+                            "name": "climb wall"
+                        }
+                    ],
+                    "id": 4802,
+                    "name": "Forest Path:",
+                    "userData": {
+                        "num": "41164"
+                    }
+                },
+                {
+                    "coordinates": [
+                        41,
+                        -6,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4789,
+                            "name": "northwest"
+                        },
+                        {
+                            "exitId": 4804,
+                            "name": "bushes"
+                        }
+                    ],
+                    "id": 4803,
+                    "name": "Forest of Silence : Foggy Path",
+                    "userData": {
+                        "num": "41106"
+                    }
+                },
+                {
+                    "coordinates": [
+                        42,
+                        -7,
+                        0
+                    ],
+                    "environment": 65280,
+                    "exits": [
+                        {
+                            "exitId": 4803,
+                            "name": "bushes"
+                        }
+                    ],
+                    "id": 4804,
+                    "name": "Forest of Silence: Dragon's Nest",
+                    "userData": {
+                        "num": "41107"
+                    }
                 }
             ]
         },
@@ -112481,7 +113058,7 @@
     ],
     "defaultAreaName": "Default Area",
     "formatVersion": 1,
-    "labelCount": 29,
+    "labelCount": 30,
     "mapSymbolFontDetails": "Bitstream Vera Sans Mono,12,-1,5,50,0,0,0,0,0",
     "mapSymbolFontFudgeFactor": 1,
     "onlyMapSymbolFontToBeUsed": false,
@@ -112510,11 +113087,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 488,
+        "Final Realms Alena": 3506,
         "Final Realms Lowick": 3805,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4786
+    "roomCount": 4804
 }
