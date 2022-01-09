@@ -1,6 +1,6 @@
 {
     "anonymousAreaName": "Unnamed Area",
-    "areaCount": 20,
+    "areaCount": 21,
     "areas": [
         {
             "id": -1,
@@ -4199,7 +4199,7 @@
                 }
             ],
             "name": "Main",
-            "roomCount": 3788,
+            "roomCount": 3785,
             "rooms": [
                 {
                     "coordinates": [
@@ -11932,43 +11932,6 @@
                     ],
                     "id": 396,
                     "name": "Southwest of Daggerford:  Forest [n,s,w,e]"
-                },
-                {
-                    "coordinates": [
-                        -3,
-                        0,
-                        0
-                    ],
-                    "environment": 45824,
-                    "exits": [
-                        {
-                            "exitId": 398,
-                            "name": "west"
-                        }
-                    ],
-                    "id": 397,
-                    "name": "Road : East of Daggerford [w,e,shop]",
-                    "stubExits": [
-                        {
-                            "name": "east"
-                        }
-                    ]
-                },
-                {
-                    "coordinates": [
-                        -4,
-                        0,
-                        0
-                    ],
-                    "environment": 45824,
-                    "exits": [
-                        {
-                            "exitId": 397,
-                            "name": "east"
-                        }
-                    ],
-                    "id": 398,
-                    "name": "Road : East of Daggerford [w,e]"
                 },
                 {
                     "coordinates": [
@@ -36332,7 +36295,10 @@
                         }
                     ],
                     "id": 1495,
-                    "name": "City of Oceania: Southern Gate [n,e,s,w]"
+                    "name": "City of Oceania: Southern Gate [n,e,s,w]",
+                    "userData": {
+                        "num": "30021"
+                    }
                 },
                 {
                     "coordinates": [
@@ -36988,7 +36954,10 @@
                         }
                     ],
                     "id": 1527,
-                    "name": "City of Oceania: Main Street [n,e,s,w]"
+                    "name": "City of Oceania: Main Street [n,e,s,w]",
+                    "userData": {
+                        "num": "30022"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39050,7 +39019,10 @@
                         }
                     ],
                     "id": 1612,
-                    "name": "City of Oceania: Main Street [n,e,s,w]"
+                    "name": "City of Oceania: Main Street [n,e,s,w]",
+                    "userData": {
+                        "num": "30050"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39069,7 +39041,7 @@
                             "name": "east"
                         },
                         {
-                            "exitId": 1615,
+                            "exitId": 397,
                             "name": "west"
                         },
                         {
@@ -39078,7 +39050,10 @@
                         }
                     ],
                     "id": 1613,
-                    "name": "City of Oceania: Main Street [n,e,s,w]"
+                    "name": "City of Oceania: Main Street [n,e,s,w]",
+                    "userData": {
+                        "num": "30025"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39102,23 +39077,18 @@
                         61,
                         0
                     ],
-                    "environment": 16777215,
+                    "environment": 255,
                     "exits": [
                         {
-                            "exitId": 1613,
-                            "name": "out"
+                            "exitId": 1617,
+                            "name": "north"
                         }
                     ],
                     "id": 1615,
-                    "name": "Circle of the New Moon: Entryway [w,out,u]",
-                    "stubExits": [
-                        {
-                            "name": "up"
-                        },
-                        {
-                            "name": "west"
-                        }
-                    ]
+                    "name": "City of Oceania: Garrison Headquarters",
+                    "userData": {
+                        "num": "30671"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39149,7 +39119,7 @@
                             "name": "east"
                         },
                         {
-                            "exitId": 1618,
+                            "exitId": 1615,
                             "name": "south"
                         },
                         {
@@ -39158,23 +39128,10 @@
                         }
                     ],
                     "id": 1617,
-                    "name": "City of Oceania: Watchtower [e,s,u]"
-                },
-                {
-                    "coordinates": [
-                        4,
-                        61,
-                        0
-                    ],
-                    "environment": 255,
-                    "exits": [
-                        {
-                            "exitId": 1617,
-                            "name": "north"
-                        }
-                    ],
-                    "id": 1618,
-                    "name": "City of Oceania: Garrison Headquarters [n]"
+                    "name": "City of Oceania: Watchtower [e,s,u]",
+                    "userData": {
+                        "num": "30364"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39194,7 +39151,10 @@
                         }
                     ],
                     "id": 1619,
-                    "name": "City of Oceania: Watchtower [u,d]"
+                    "name": "City of Oceania: Watchtower [u,d]",
+                    "userData": {
+                        "num": "30672"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39214,7 +39174,10 @@
                         }
                     ],
                     "id": 1620,
-                    "name": "City of Oceania: Watchtower [u,d]"
+                    "name": "City of Oceania: Watchtower [u,d]",
+                    "userData": {
+                        "num": "30673"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39234,7 +39197,10 @@
                         }
                     ],
                     "id": 1621,
-                    "name": "City of Oceania: Watchtower [u,d]"
+                    "name": "City of Oceania: Watchtower [u,d]",
+                    "userData": {
+                        "num": "30674"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39254,7 +39220,10 @@
                         }
                     ],
                     "id": 1622,
-                    "name": "City of Oceania: Watchtower [u,d]"
+                    "name": "City of Oceania: Watchtower [u,d]",
+                    "userData": {
+                        "num": "30675"
+                    }
                 },
                 {
                     "coordinates": [
@@ -39270,7 +39239,10 @@
                         }
                     ],
                     "id": 1623,
-                    "name": "City of Oceania: Watchtower [d]"
+                    "name": "City of Oceania: Watchtower [d]",
+                    "userData": {
+                        "num": "30676"
+                    }
                 },
                 {
                     "coordinates": [
@@ -112796,6 +112768,207 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 20,
+            "name": "Circle of the New Moon",
+            "roomCount": 8,
+            "rooms": [
+                {
+                    "coordinates": [
+                        4,
+                        61,
+                        0
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 4807,
+                            "name": "west"
+                        },
+                        {
+                            "exitId": 1618,
+                            "name": "up"
+                        },
+                        {
+                            "exitId": 1613,
+                            "name": "out"
+                        }
+                    ],
+                    "id": 397,
+                    "name": "Circle of the New Moon: Entryway",
+                    "userData": {
+                        "num": "1636"
+                    }
+                },
+                {
+                    "coordinates": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "environment": 255,
+                    "exits": [
+                        {
+                            "exitId": 1612,
+                            "name": "east"
+                        }
+                    ],
+                    "id": 398,
+                    "name": "City of Oceania: Watchtower",
+                    "stubExits": [
+                        {
+                            "name": "south"
+                        },
+                        {
+                            "name": "up"
+                        }
+                    ],
+                    "userData": {
+                        "num": "30364"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        61,
+                        1
+                    ],
+                    "environment": 12632256,
+                    "exits": [
+                        {
+                            "exitId": 4805,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4806,
+                            "name": "south"
+                        },
+                        {
+                            "exitId": 397,
+                            "name": "down"
+                        }
+                    ],
+                    "id": 1618,
+                    "name": "Circle of the New Moon: Apprentice's Balcony",
+                    "stubExits": [
+                        {
+                            "name": "up"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1819"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        62,
+                        1
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 1618,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4805,
+                    "name": "Circle of the New Moon: Treasury",
+                    "userData": {
+                        "num": "2406"
+                    }
+                },
+                {
+                    "coordinates": [
+                        4,
+                        60,
+                        1
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 1618,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4806,
+                    "name": "Circle of the New Moon: Shop",
+                    "userData": {
+                        "num": "2407"
+                    }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        61,
+                        0
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 397,
+                            "name": "east"
+                        },
+                        {
+                            "exitId": 4808,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4807,
+                    "name": "Tower of The New Moon: Vault of New Beginnings",
+                    "stubExits": [
+                        {
+                            "name": "up"
+                        }
+                    ],
+                    "userData": {
+                        "num": "1818"
+                    }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        60,
+                        0
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 4807,
+                            "name": "north"
+                        },
+                        {
+                            "exitId": 4809,
+                            "name": "south"
+                        }
+                    ],
+                    "id": 4808,
+                    "name": "Tower of The New Moon: Sparring Entrance",
+                    "userData": {
+                        "num": "2595"
+                    }
+                },
+                {
+                    "coordinates": [
+                        3,
+                        59,
+                        0
+                    ],
+                    "environment": 16777215,
+                    "exits": [
+                        {
+                            "exitId": 4808,
+                            "name": "north"
+                        }
+                    ],
+                    "id": 4809,
+                    "name": "Tower of The New Moon: Sparring Arena",
+                    "userData": {
+                        "num": "2596"
+                    }
+                }
+            ]
         }
     ],
     "customEnvColors": [
@@ -113087,11 +113260,11 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 3506,
-        "Final Realms Lowick": 3805,
+        "Final Realms Alena": 1368,
+        "Final Realms Lowick": 1618,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
         "Final Realms map experiments": 3890
     },
-    "roomCount": 4804
+    "roomCount": 4809
 }
