@@ -36107,6 +36107,7 @@
                         },
                         {
                             "exitId": 272,
+                            "locked": true,
                             "name": "south"
                         },
                         {
@@ -113260,7 +113261,7 @@
         "Final Realms": 2294,
         "Final Realms 2": 1977,
         "Final Realms 3": 1976,
-        "Final Realms Alena": 1368,
+        "Final Realms Alena": 885,
         "Final Realms Lowick": 1618,
         "Final Realms Magdar": 3672,
         "Final Realms Vigor": 2574,
